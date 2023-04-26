@@ -1,0 +1,10 @@
+.DS_Store
+
+.vscode
+
+site/
+
+local/
+
+
+scripts/template/*

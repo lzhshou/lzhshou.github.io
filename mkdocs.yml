@@ -1,0 +1,47 @@
+site_name: APAAM Lab
+repo_url: https://github.com/lzhshou/lzhshou_web
+site_url: https://lzhshou.github.io/lzhshou_web
+edit_uri: edit/main/docs/
+
+theme:
+  name: sandstone
+  navigation_depth: 4
+  nav_style: light
+  custom_dir: themes/mfem/
+  features:
+    - search.suggest
+    - search.highlight
+
+nav:
+  - Home: index.md
+  - People: people/index.md
+  - Research: research/index.md
+  - Publications: publications/index.md
+  - Resources: resources/index.md
+  - Teaching: teaching/index.md
+  - About: about/index.md
+
+markdown_extensions: 
+  - pymdownx.arithmatex
+  - attr_list
+  - extra
+  - fenced_code  
+  - footnotes
+
+plugins:
+  - search
+  - bibtex:
+      bib_file: "docs/refs.bib"
+      cite_style: "pandoc"
+      unescape_for_arithmatex: True
+  - mkdocs-video:
+      mark: "video-marker"
+      css_style:
+        width: "50vw"
+        height: "57vh"
+
+extra_javascript:
+  - mathjax-config.js
+  - https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML
+  - '//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js'
+
