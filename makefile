@@ -4,7 +4,7 @@ local:
 cv:
 	R < scripts/build_cv.R --no-save
 
-publish:
+deploy:
 	mkdocs gh-deploy
 
 .PHONY: local cv publish 

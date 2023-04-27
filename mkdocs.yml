@@ -1,6 +1,6 @@
 site_name: APAAM Lab
-repo_url: https://github.com/lzhshou/lzhshou_web
-site_url: https://lzhshou.github.io/lzhshou_web
+repo_url: https://github.com/lzhshou/lzhshou.github.io
+site_url: https://lzhshou.github.io
 edit_uri: edit/main/docs/
 
 theme:
