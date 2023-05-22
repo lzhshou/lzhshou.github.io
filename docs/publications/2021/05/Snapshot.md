@@ -14,41 +14,41 @@
 
 - 提出了一种基于polybezier的颗粒模型，该模型由一组bezier曲线组成，可描述光滑、不规则形状例子的DEM模型。（图1）
 
-<center> ![image text](https://github.com/lzhshou/lzhshou.github.io/blob/lichh53-test/docs/publications/2021/05/Fig-1.png)
+![image text](https://github.com/lzhshou/lzhshou.github.io/blob/lichh53-test/docs/publications/2021/05/Fig-1.png)
 
-图1 </center>
+<center> 图1 </center>
 
 - 通过GJK算法检测接触（图2），采用EPA算法求解接触几何特征（图3）。采用GJK和EPA组合丰富了polybezier颗粒模型与现有的其他颗粒模型在计算中的兼容性。
 
-<center>![image text](https://github.com/lzhshou/lzhshou.github.io/blob/lichh53-test/docs/publications/2021/05/Fig-2.png)
+![image text](https://github.com/lzhshou/lzhshou.github.io/blob/lichh53-test/docs/publications/2021/05/Fig-2.png)
 
-图2 
+<center>图2 </center>
 
 ![image text](https://github.com/lzhshou/lzhshou.github.io/blob/lichh53-test/docs/publications/2021/05/Fig-3.png)
 
-图3 </center>
+<center>图3 </center>
 
 - 基于上述所提出的颗粒模型，提出了一种基于粒子群（PSO）的几何拟合程序（图4），在不同形态的颗粒中均拟合效果较好（图5）。
 
-<center> ![image text](https://github.com/lzhshou/lzhshou.github.io/blob/lichh53-test/docs/publications/2021/05/Fig-4.png)
+![image text](https://github.com/lzhshou/lzhshou.github.io/blob/lichh53-test/docs/publications/2021/05/Fig-4.png)
 
-图4 
+<center>图4 </center>
 
 ![image text](https://github.com/lzhshou/lzhshou.github.io/blob/lichh53-test/docs/publications/2021/05/Fig-5.png)
 
-图5 </center>
+<center>图5 </center>
 
 - 上述算法在DEM中开展随机堆积和双轴压缩数值模拟实验，计算效果较好（图6）。
 
-<center> ![image text](https://github.com/lzhshou/lzhshou.github.io/blob/lichh53-test/docs/publications/2021/05/Fig-6.png)
+![image text](https://github.com/lzhshou/lzhshou.github.io/blob/lichh53-test/docs/publications/2021/05/Fig-6.png)
 
-图6 </center>
+<center>图6 </center>
 
 - 上述优化算法有从2D向3D推广的可行性。（图7）
 
-<center> ![image text](https://github.com/lzhshou/lzhshou.github.io/blob/lichh53-test/docs/publications/2021/05/Fig-7.png)
+![image text](https://github.com/lzhshou/lzhshou.github.io/blob/lichh53-test/docs/publications/2021/05/Fig-7.png)
 
-图7 </center>
+<center>图7 </center>
 
 #### 科学价值
 
