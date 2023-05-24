@@ -16,7 +16,7 @@
 
 <center>
 
-![workflow](https://github.com/lzhshou/lzhshou.github.io/blob/main/docs/publications/2021/Lai_CG/Fig-1.png){:style="width:70%"}
+![workflow](fig-1.png){:style="width:70%"}
 
 图 1 基于bezier曲线的粒子说明图
 
@@ -26,11 +26,11 @@
 
 <center>
 
-![workflow](https://github.com/lzhshou/lzhshou.github.io/blob/main/docs/publications/2021/Lai_CG/Fig-2.png){:style="width:70%"}
+![workflow](fig-2.png){:style="width:70%"}
 
 图 2 GJK 算法说明图
 
-![workflow](https://github.com/lzhshou/lzhshou.github.io/blob/main/docs/publications/2021/Lai_CG/Fig-3.png){:style="width:70%"}
+![workflow](fig-3.png){:style="width:70%"}
 
 图 3 EPA 算法说明图
 
@@ -40,11 +40,11 @@
 
 <center>
 
-![image text](https://github.com/lzhshou/lzhshou.github.io/blob/lichh53-test/docs/publications/2021/Lai_CG/Fig-4.png){:style="width:70%"}
+![image text](fig-4.png){:style="width:70%"}
 
 图 4 PSO 拟合程序示意图
 
-![image text](https://github.com/lzhshou/lzhshou.github.io/blob/lichh53-test/docs/publications/2021/Lai_CG/Fig-5.png){:style="width:70%"}
+![image text](fig-5.png){:style="width:70%"}
 
 图 5 具有不同圆度和球形特征的粒子形状的拟合示例
 
@@ -54,7 +54,7 @@
 
 <center>
 
-![image text](https://github.com/lzhshou/lzhshou.github.io/blob/lichh53-test/docs/publications/2021/Lai_CG/Fig-6.png){:style="width:70%"}
+![image text](fig-6.png){:style="width:70%"}
 
 图 6 压缩过程结束时粒子堆积的快照：（a）非圆形颗粒和（b）圆形颗粒。红色实线代表接触力链。 Fc和Fn分别表示接触力的大小和正常接触力的平均幅度。
 
@@ -64,7 +64,7 @@
 
 <center>
 
-![image text](https://github.com/lzhshou/lzhshou.github.io/blob/lichh53-test/docs/publications/2021/Lai_CG/Fig-7.png){:style="width:70%"}
+![image text](fig-7.png){:style="width:70%"}
 
 图 7 3D下粒子的示意图
 
