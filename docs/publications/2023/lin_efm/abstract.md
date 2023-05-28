@@ -2,7 +2,7 @@
 
 ### 一种使用新颖重建策略研究含有随机夹杂物岩土材料的力学性质与断裂特性的FDEM方法
 
-近日，*黄林冲教授* 团队在期刊***Engineering Fracture Mechanics***发表了题为**A FDEM approach to study mechanical and fracturing responses of geo-materials with stochastic inclusions using a novel reconstruction strategy**（*一种使用新颖重建策略研究含有随机夹杂物岩土材料的力学性质与断裂特性的FDEM方法*）的论文。*林越祥博士后*为第一作者，*马建军副教授*为通讯作者。该研究受到国家自然科学基金和中国基础研究项目等资助。
+近日，*黄林冲教授* 团队在期刊***Engineering Fracture Mechanics***发表了题为**A FDEM approach to study mechanical and fracturing responses of geo-materials with stochastic inclusions using a novel reconstruction strategy**（*一种使用新颖重建策略研究含有随机夹杂物岩土材料的力学性质与断裂特性的FDEM方法*）的论文。*林越翔副研究员*为第一作者，*马建军副教授*为通讯作者。该研究受到国家自然科学基金和中国基础研究项目等资助。
 
 #### 问题描述
 
