@@ -1,6 +1,6 @@
 ### 具有任意粒子形状的粒状介质统一DEM建模的符号距离场框架
 
-论文题为**Signed distance field framework for unified DEM modeling of granular media with arbitrary particle shapes**（*具有颗粒内空隙的珊瑚砂的形态特征和离散元建模*），发布于期刊***Computational Mechanics***。*赖正首副教授*为第一作者，香港科技大学*赵仕威助理研究教授*为通讯作者。该研究受到香港学者计划、香港研究资助局、国家自然科学基金、广东省基础与应用基础研究基金、深圳市可持续发展科技专项、深圳市自然科学基金、河套深港科技创新合作区项目等资助。
+论文题为**Signed distance field framework for unified DEM modeling of granular media with arbitrary particle shapes**（*具有颗粒内空隙的珊瑚砂的形态特征和离散元建模*），发表于期刊***Computational Mechanics***。*赖正首副教授*为第一作者，香港科技大学*赵仕威助理研究教授*为通讯作者。该研究受到香港学者计划、香港研究资助局、国家自然科学基金、广东省基础与应用基础研究基金、深圳市可持续发展科技专项、深圳市自然科学基金、河套深港科技创新合作区项目等资助。
 
 #### 问题描述
 
