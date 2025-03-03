@@ -1,0 +1,58 @@
+# APAAM Lab 知识库项目规则
+
+## 论文摘要生成工作流
+
+本仓库包含了自动生成论文摘要的工具脚本，位于`scripts/`目录下：
+
+1. `generate_abstracts.py`: 生成论文摘要
+   - 从publications页面提取论文信息
+   - 使用AI（Deepseek）生成中文摘要
+   - 自动创建摘要文件
+   - 更新论文链接
+
+2. `format_abstract.py`: 格式化摘要文件
+   - 统一摘要文件的格式
+   - 优化研究亮点的展示
+   - 保持文档结构的一致性
+
+使用方法：
+```bash
+# 初始化环境并获取API密钥（每次使用前都需要运行）
+zsh -i -c "init_gpt && python3 scripts/generate_abstracts.py papers/example.pdf"
+
+# 或者分步执行：
+# 1. 打开新的zsh终端
+# 2. 初始化环境
+init_gpt
+# 3. 生成论文摘要
+python3 scripts/generate_abstracts.py papers/example.pdf
+
+# 格式化摘要文件
+python3 scripts/format_abstract.py
+
+# 如果只需要处理单篇论文，可以修改generate_abstracts.py中的test_single_paper函数
+```
+
+注意事项：
+1. `init_gpt` 是一个环境初始化脚本，它会：
+   - 设置必要的环境变量（包括 DEEPSEEK_API_KEY）
+   - 配置API访问凭证
+   - 准备运行环境
+2. `init_gpt` 命令必须在 zsh 环境中运行
+3. 可以使用 `zsh -i -c "init_gpt && 其他命令"` 的方式在一行中完成初始化和执行
+4. 不要直接设置 DEEPSEEK_API_KEY 环境变量，应该始终通过 `init_gpt` 获取
+5. `init_gpt` 脚本不包含在代码仓库中，需要单独配置
+
+## 环境变量配置
+
+```bash
+# 在init_gpt脚本中添加以下环境变量
+export SCIENCEDIRECT_API_KEY="your_api_key_here"  # 用于从ScienceDirect获取论文图片
+```
+1. 使用python3
+
+2. 多语言支持
+   - 中文文件使用`.zh.md`后缀
+   - 英文文件使用`.en.md`后缀
+   - 保持中英文内容的同步更新
+   - 使用统一的术语翻译

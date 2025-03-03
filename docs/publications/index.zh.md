@@ -4,7 +4,7 @@
 
 #### 2023
 
-1. Lin, Y., Ma, J., **Lai, Z.**, Huang, L., & Lei, M. (2023). A FDEM approach to study mechanical and fracturing responses of geo-materials with stochastic inclusions using a novel reconstruction strategy. *Engineering Fracture Mechanics*, 109171. <https://doi.org/10.1016/j.engfracmech.2023.109171>. [[abstract](2023/lin_efm/abstract.md)]
+1. Lin, Y., Ma, J., **Lai, Z.**, Huang, L., & Lei, M. (2023). A FDEM approach to study mechanical and fracturing responses of geo-materials with stochastic inclusions using a novel reconstruction strategy. *Engineering Fracture Mechanics*, 109171. <https://doi.org/10.1016/j.engfracmech.2023.109171>. [[abstract](abstracts/2023_lin_engineeringfracturemechanics.md)]
 2. Huang, S., Huang, L., **Lai, Z.**#, & Zhao, J. (2023). Morphology characterization and discrete element modeling of coral sand with intraparticle voids. *Engineering Geology*, 315, 107023. <https://doi.org/10.1016/j.enggeo.2023.107023>. [[abstract](2023/huang_eg/abstract.md)]
 
 #### 2022
