@@ -1,0 +1,29 @@
+{% if config.extra.generator == false %}
+  <div class="md-copyright">
+    {% if config.copyright %}
+      <div class="md-copyright__highlight">
+        {{ config.copyright }}
+      </div>
+    {% endif %}
+    本网站由 AI 智能助手协助构建与维护 | 
+    {% if config.theme.language == "en" %}
+    <a href="/en/">APAAM Lab</a>
+    {% else %}
+    <a href="/">APAAM Lab</a>
+    {% endif %}
+  </div>
+{% else %}
+  <div class="md-copyright">
+    {% if config.copyright %}
+      <div class="md-copyright__highlight">
+        {{ config.copyright }}
+      </div>
+    {% endif %}
+    本网站由 AI 智能助手协助构建与维护 | 
+    {% if config.theme.language == "en" %}
+    <a href="/en/">APAAM Lab</a>
+    {% else %}
+    <a href="/">APAAM Lab</a>
+    {% endif %}
+  </div>
+{% endif %} 

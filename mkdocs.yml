@@ -29,6 +29,9 @@ theme:
       toggle:
         icon: material/brightness-4
         name: 切换到亮色模式
+  icon:
+    repo: fontawesome/brands/github
+  custom_dir: docs/overrides
 
 extra:
   alternate:
@@ -38,6 +41,9 @@ extra:
     - name: English 
       link: /en/
       lang: en
+  copyright: >
+    本网站由 AI 智能助手协助构建与维护 | 
+    <a href="https://github.com/lzhshou/lzhshou.github.io">APAAM Lab</a>
 
 plugins:
   - i18n:
@@ -86,6 +92,10 @@ extra_javascript:
   - mathjax-config.js
   - https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML
   - '//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js'
+  - javascripts/copy-button.js
+
+extra_css:
+  - stylesheets/copy-button.css
 
 markdown_extensions: 
   - pymdownx.arithmatex
