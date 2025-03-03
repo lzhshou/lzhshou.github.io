@@ -2,7 +2,7 @@
 
 ## Laboratory Overview
 
-The Advanced Physics-based Analysis and Modeling (APAAM) Laboratory at Sun Yat-sen University focuses on developing innovative computational methods and software tools for solving complex engineering problems. Our research spans across multiple disciplines including computational mechanics, geotechnical engineering, and materials science.
+The Applied Process Analysis And Modeling (APAAM) Laboratory at Sun Yat-sen University focuses on developing innovative computational methods and software tools for solving complex engineering problems. Our research spans across multiple disciplines including computational mechanics, geotechnical engineering, and materials science.
 
 Our main research areas include:
 - Computational Mechanics (FEM, DEM, MPM)
