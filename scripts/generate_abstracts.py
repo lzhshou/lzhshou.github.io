@@ -130,10 +130,18 @@ def clean_highlight(text: str) -> str:
         text = text[1:]
     return text.strip()
 
-def extract_highlights(abstract: str) -> List[str]:
+def extract_highlights(abstract: str, language: str = "zh") -> List[str]:
     """从摘要中提取研究亮点"""
     highlights = []
-    if "创新点" in abstract:
+    
+    # 根据语言选择关键词
+    innovation_keywords = {
+        "zh": ["创新点", "创新性", "贡献", "优势"],
+        "en": ["innovation", "contribution", "advantage", "highlight", "significance"]
+    }
+    
+    # 尝试提取亮点
+    if language == "zh":
         try:
             # 尝试不同的分隔标记
             for marker in ["创新点主要体现在以下几个方面：", "研究的创新点和应用价值", "创新点"]:
@@ -152,14 +160,39 @@ def extract_highlights(abstract: str) -> List[str]:
                         break
         except Exception as e:
             print(f"提取研究亮点时出错：{str(e)}")
+    else:  # 英文
+        try:
+            # 尝试从英文摘要中提取亮点
+            for marker in ["innovation", "contribution", "advantage", "highlight", "significance"]:
+                if marker in abstract.lower():
+                    parts = re.split(rf'(?i).*{marker}.*?:', abstract)
+                    if len(parts) > 1:
+                        innovation_text = parts[1].split(".")[0]
+                        for sep in [";", ".", ","]:
+                            if sep in innovation_text:
+                                points = [point.strip() for point in innovation_text.split(sep)]
+                                highlights = [point for point in points if point and len(point) > 5]
+                                if highlights:
+                                    break
+                        if highlights:
+                            break
+        except Exception as e:
+            print(f"Error extracting research highlights: {str(e)}")
     
     # 如果没有找到亮点，使用默认值
     if not highlights:
-        highlights = [
-            "提出了新的数值模拟方法",
-            "开发了创新的分析框架",
-            "取得了重要的研究发现"
-        ]
+        if language == "zh":
+            highlights = [
+                "提出了新的数值模拟方法",
+                "开发了创新的分析框架",
+                "取得了重要的研究发现"
+            ]
+        else:  # 英文
+            highlights = [
+                "Proposed a new numerical simulation method",
+                "Developed an innovative analytical framework",
+                "Achieved significant research findings"
+            ]
     
     # 清理每个亮点的格式
     highlights = [h.strip('* ') for h in highlights]
@@ -184,7 +217,7 @@ def create_abstract_file(paper_info, abstract, pdf_path=None, language="zh"):
     file_path = f"docs/publications/abstracts/{paper_info.year}_{first_author_surname}_{journal_abbr}{lang_suffix}.md"
     
     # 提取研究亮点
-    highlights = extract_highlights(abstract)
+    highlights = extract_highlights(abstract, language)
     
     # 处理作者列表
     authors_str = ', '.join(paper_info.authors) if isinstance(paper_info.authors, list) else paper_info.authors
@@ -212,7 +245,31 @@ def create_abstract_file(paper_info, abstract, pdf_path=None, language="zh"):
         
         # 根据语言设置链接文本
         pdf_link_text = "查看原文PDF" if language == "zh" else "View Original PDF"
-        pdf_link = f"\n\n## PDF链接\n\n[{pdf_link_text}]({relative_pdf_path})"
+        
+        # 使用标题映射获取PDF链接标题
+        section_titles = {
+            "zh": {
+                "basic_info": "基本信息",
+                "pdf_link": "PDF链接",
+                "intro": "论文介绍",
+                "highlights": "研究亮点",
+                "citation": "引用格式",
+                "bibtex": "BibTeX 格式",
+                "apa": "APA 格式"
+            },
+            "en": {
+                "basic_info": "Basic Information",
+                "pdf_link": "PDF Link",
+                "intro": "Abstract",
+                "highlights": "Research Highlights",
+                "citation": "Citation",
+                "bibtex": "BibTeX Format",
+                "apa": "APA Format"
+            }
+        }
+        
+        titles = section_titles[language]
+        pdf_link = f"\n\n## {titles['pdf_link']}\n\n[{pdf_link_text}]({relative_pdf_path})"
     
     # 移除论文介绍中的重复标题
     abstract = abstract.replace('**论文中文介绍**\n\n', '')
@@ -224,14 +281,18 @@ def create_abstract_file(paper_info, abstract, pdf_path=None, language="zh"):
             "pdf_link": "PDF链接",
             "intro": "论文介绍",
             "highlights": "研究亮点",
-            "citation": "引用格式"
+            "citation": "引用格式",
+            "bibtex": "BibTeX 格式",
+            "apa": "APA 格式"
         },
         "en": {
             "basic_info": "Basic Information",
             "pdf_link": "PDF Link",
             "intro": "Abstract",
             "highlights": "Research Highlights",
-            "citation": "Citation"
+            "citation": "Citation",
+            "bibtex": "BibTeX Format",
+            "apa": "APA Format"
         }
     }
     
@@ -265,7 +326,7 @@ doi: {paper_info.doi}
 
 ## {titles["citation"]}
 
-### BibTeX 格式
+### {titles["bibtex"]}
 
 <div class="highlight-and-copy">
 
@@ -281,7 +342,7 @@ doi: {paper_info.doi}
 
 </div>
 
-### APA 格式
+### {titles["apa"]}
 
 <div class="highlight-and-copy">
 
@@ -381,11 +442,11 @@ def test_single_paper(pdf_path: str = None):
         pdf_path: 可选，本地PDF文件路径
     """
     paper = PaperInfo(
-        title="A FDEM approach to study mechanical and fracturing responses of geo-materials with stochastic inclusions using a novel reconstruction strategy",
-        authors=["Lin, Y.", "Ma, J.", "Lai, Z.", "Huang, L.", "Lei, M."],
-        journal="Engineering Fracture Mechanics",
-        year="2023",
-        doi="https://doi.org/10.1016/j.engfracmech.2023.109171"
+        title="An extension of the Fourier series-based particle model to the GJK-based contact detection and resolution framework for DEM",
+        authors=["Huang", "S.", "Huang", "L.", " Lai", "Z."],
+        journal="Computational Particle Mechanics",
+        year="2021",
+        doi="https://doi.org/10.1007/s40571-021-00446-6"
     )
     
     try:
