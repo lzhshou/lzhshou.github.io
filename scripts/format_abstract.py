@@ -2,6 +2,7 @@ import os
 import re
 import yaml
 from pathlib import Path
+import argparse
 
 def extract_front_matter(content: str):
     """提取YAML front matter"""
@@ -298,7 +299,7 @@ file_path: {file_path}
     
     return formatted_content
 
-def format_abstract_file(file_path: str):
+def format_abstract_file(file_path: str, keep_backup=False):
     """格式化指定的摘要文件"""
     print(f"正在处理文件：{file_path}")
     
@@ -328,7 +329,13 @@ def format_abstract_file(file_path: str):
             f.write(formatted_content)
         
         print(f"成功格式化文件：{file_path}")
-        print(f"原文件已备份为：{backup_path}")
+        
+        # 根据参数决定是否保留备份文件
+        if keep_backup:
+            print(f"原文件已备份为：{backup_path}")
+        else:
+            os.remove(backup_path)
+            print(f"格式化成功，备份文件已删除")
         
     except Exception as e:
         print(f"处理文件时出错：{str(e)}")
@@ -336,6 +343,11 @@ def format_abstract_file(file_path: str):
         print(traceback.format_exc())
 
 def main():
+    # 解析命令行参数
+    parser = argparse.ArgumentParser(description='格式化论文摘要文件')
+    parser.add_argument('--keep-backup', action='store_true', help='保留备份文件')
+    args = parser.parse_args()
+    
     # 处理abstracts目录下的所有.md文件
     abstracts_dir = "docs/publications/abstracts"
     if not os.path.exists(abstracts_dir):
@@ -343,9 +355,19 @@ def main():
         return
     
     for file_name in os.listdir(abstracts_dir):
-        if file_name.endswith('.md'):
+        if file_name.endswith('.md') and not file_name.endswith('.bak'):
             file_path = os.path.join(abstracts_dir, file_name)
-            format_abstract_file(file_path)
+            format_abstract_file(file_path, args.keep_backup)
+    
+    # 如果不保留备份文件，清理所有可能存在的.bak文件
+    if not args.keep_backup:
+        for file_name in os.listdir(abstracts_dir):
+            if file_name.endswith('.bak'):
+                try:
+                    os.remove(os.path.join(abstracts_dir, file_name))
+                    print(f"删除遗留的备份文件：{file_name}")
+                except Exception as e:
+                    print(f"删除备份文件失败：{file_name}，错误：{str(e)}")
 
 if __name__ == "__main__":
     main() 
