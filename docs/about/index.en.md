@@ -20,13 +20,9 @@ Guangzhou, China
 
 ### Contact
 - **Email**: laizhengsh@mail.sysu.edu.cn
-- **Office**: [Room Number TBD]
-- **Phone**: [Phone Number TBD]
 
 ### Social Media
-- [Research Gate]
-- [Google Scholar]
-- [ORCID]
+
 
 ## Join Us
 

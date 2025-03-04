@@ -20,13 +20,9 @@
 
 ### 联系方式
 - **邮箱**: laizhengsh@mail.sysu.edu.cn
-- **办公室**: [待定]
-- **电话**: [待定]
 
 ### 社交媒体
-- [Research Gate]
-- [Google Scholar]
-- [ORCID]
+
 
 ## 加入我们
 
