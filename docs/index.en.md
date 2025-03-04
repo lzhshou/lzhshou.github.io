@@ -14,7 +14,6 @@ Welcome to the Applied Process Analysis And Modeling Laboratory. We focus on dev
 ## Latest News
 
 - **Mar 2024**: Laboratory website launched
-- **Nov 2023**: Prof. Lai won the National Finals Award in the 2nd National Postdoctoral Innovation and Entrepreneurship Competition
 - **Mar 2023**: Prof. Lai joined the School of Civil Engineering at Sun Yat-sen University
 
 ## Student Recruitment

@@ -8,11 +8,12 @@ theme:
   language: zh
   features:
     - navigation.tabs
-    - navigation.sections
-    - navigation.expand
     - navigation.top
     - search.suggest
     - search.highlight
+    - navigation.sections
+    - header.autohide
+    - toc.integrate
   palette:
     # 自动亮/暗模式
     - media: "(prefers-color-scheme: light)"
@@ -96,6 +97,7 @@ extra_javascript:
 
 extra_css:
   - stylesheets/copy-button.css
+  - stylesheets/text-justify.css
 
 markdown_extensions: 
   - pymdownx.arithmatex

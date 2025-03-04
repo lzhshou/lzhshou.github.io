@@ -1,49 +1,20 @@
 # Teaching
 
-## Current Courses
+## Courses Taught
 
 ### Undergraduate Courses
-- **[Course Code] Course Name**
-  - Semester: [Semester]
-  - Schedule: [Day and Time]
-  - Location: [Building and Room]
-  - Description: Brief course description
-  - [Course Website]
+- **Marine Engineering Survey**
+    - This course introduces the basic principles and methods of marine engineering survey, including seafloor topography measurement, marine geological survey, marine environmental investigation, etc., to develop students' survey capabilities in the field of marine engineering.
+
+- **Engineering Drawing and CAD**
+    - This course teaches the basic principles and methods of engineering drawing, as well as the application of CAD software, to develop students' spatial imagination ability and engineering drawing skills.
+
+- **Linear Algebra**
+    - This course introduces the basic concepts and theories of linear algebra, including vector spaces, linear transformations, eigenvalues and eigenvectors, etc., laying the foundation for students' subsequent study of engineering mathematics and computational mechanics.
 
 ### Graduate Courses
-- **[Course Code] Course Name**
-  - Semester: [Semester]
-  - Schedule: [Day and Time]
-  - Location: [Building and Room]
-  - Description: Brief course description
-  - [Course Website]
+- **Advanced Computational Mechanics**
+    - This course delves into advanced theories and methods of computational mechanics, including finite element methods, boundary element methods, meshless methods, etc., to develop students' ability to solve complex mechanical problems.
 
-## Previous Courses
-
-### [Academic Year]
-- **[Course Code] Course Name**
-  - Brief description
-  - [Course Materials]
-
-## Teaching Philosophy
-
-Our teaching philosophy emphasizes:
-- Hands-on experience with computational tools
-- Integration of research and education
-- Interactive learning environment
-- Real-world applications
-
-## Student Resources
-
-### Academic Support
-- Office hours
-- Tutorial sessions
-- Study groups
-
-### Computing Resources
-- Software licenses
-- Computing facilities
-- Online resources
-
-#### Under Construction
-More teaching information will be added soon. 
+- **Computational Methods for Discrete Media**
+    - This course introduces the basic theories and computational methods of discrete media mechanics, including discrete element method, molecular dynamics, etc., to develop students' research capabilities in the fields of particulate materials, geotechnical engineering, etc. 
