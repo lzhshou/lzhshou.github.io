@@ -1,4 +1,4 @@
-# APAAM Lab 知识库
+# APAAM Lab
 
 这是APAAM Lab的课题组网站。网站使用[MkDocs](https://www.mkdocs.org/)构建，采用[Material for MkDocs](https://squidfunk.github.io/mkdocs-material/)主题。
 
