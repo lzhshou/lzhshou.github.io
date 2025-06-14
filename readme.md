@@ -1,91 +1,124 @@
-# APAAM Lab
+# APAAM Lab Website
 
-这是APAAM Lab的课题组网站。网站使用[MkDocs](https://www.mkdocs.org/)构建，采用[Material for MkDocs](https://squidfunk.github.io/mkdocs-material/)主题。
+这是APAAM Lab（应用过程分析与模拟实验室）的官方网站。网站使用[Docusaurus](https://docusaurus.io/)构建，支持多语言（中文/英文）和现代化的用户体验。
+
+## 技术栈
+
+- **框架**: Docusaurus v3 (React-based)
+- **语言**: TypeScript
+- **样式**: CSS Modules
+- **数学公式**: KaTeX
+- **多语言**: Docusaurus i18n
+- **部署**: GitHub Pages
 
 ## 环境配置
 
-1. 安装Python3包管理工具[pip](https://pip.pypa.io/en/stable/installing/)或[pip3](https://pip.pypa.io/en/stable/installing/)。
+### 前置要求
+- Node.js (版本 18 或更高)
+- npm 或 yarn
 
-2. 安装必要的Python包：
+### 安装依赖
 ```bash
-# 基础包
-pip3 install mkdocs
-pip3 install mkdocs-material
+npm install
+```
 
-# 扩展包
-pip3 install mkdocs-bootswatch
-pip3 install pymdown-extensions
-pip3 install attr
-pip3 install mkdocs-bibtex
-pip3 install mkdocs-video
+### 本地开发
+```bash
+# 启动开发服务器（中文版）
+npm start
 
-# 论文摘要生成工具依赖
-pip3 install requests
-pip3 install pyyaml
-pip3 install urllib3
-pip3 install beautifulsoup4  # 用于解析HTML
-pip3 install PyMuPDF  # 用于处理PDF文件
-pip3 install pdf2image
+# 启动英文版开发服务器
+npm run start -- --locale en
+```
 
-# macOS用户需要安装
-brew install poppler  # 用于从PDF提取图片
+### 构建和部署
+```bash
+# 构建生产版本
+npm run build
+
+# 本地预览构建结果
+npm run serve
+
+# 部署到 GitHub Pages
+npm run deploy
 ```
 
 ## 目录结构
 
 ```
 .
-├── docs/                    # 网站内容目录
-│   ├── images/             # 图片资源
-│   │   ├── publications/       # 论文相关
-│   │   │   ├── abstracts/     # 论文摘要
-│   │   │   ├── index.en.md    # 英文论文列表
-│   │   │   └── index.zh.md    # 中文论文列表
-│   │   └── ...                # 其他内容
-│   ├── scripts/                # 工具脚本
-│   │   ├── generate_abstracts.py  # 生成论文摘要
-│   │   ├── generate_all_abstracts.py  # 批量生成论文摘要
-│   │   └── format_abstract.py     # 格式化摘要文件
-│   ├── mkdocs.yml             # MkDocs配置文件
-│   └── README.md              # 本文件
+├── docs/                    # 中文文档内容
+│   ├── people/             # 人员页面
+│   ├── research/           # 研究方向
+│   ├── publications/       # 学术发表
+│   ├── resources/          # 资源页面
+│   ├── teaching/           # 教学页面
+│   └── about/              # 关于页面
+├── i18n/                   # 多语言配置
+│   ├── zh/                 # 中文翻译
+│   └── en/                 # 英文翻译
+├── src/                    # React 组件和页面
+│   ├── components/         # 自定义组件
+│   ├── css/               # 全局样式
+│   └── pages/             # 自定义页面
+├── static/                 # 静态资源
+│   └── img/               # 图片资源
+├── docusaurus.config.ts    # Docusaurus 配置
+├── sidebars.ts            # 侧边栏配置
+└── package.json           # 项目依赖
 ```
 
-- 在abort页面的最后，有一个News章节，所有的News放在这里。更新时，主页同步更新为显式近5条。
+## 内容更新
 
-## 网站更新流程
+### 添加新页面
+1. 在 `docs/` 目录下创建新的 Markdown 文件
+2. 在 `sidebars.ts` 中添加相应的导航配置
+3. 如需英文版本，在 `i18n/en/docusaurus-plugin-content-docs/current/` 下创建对应文件
 
-1. 内容修改
-   - 所有内容都在`docs/`目录下
-   - 新增页面时需要在`mkdocs.yml`的`nav`部分添加索引
-   - 支持中英双语，分别编辑`.zh.md`和`.en.md`文件
-   - 图片资源统一放在`docs/images`目录下
+### 更新多语言内容
+1. 中文内容直接在 `docs/` 目录下编辑
+2. 英文内容在 `i18n/en/docusaurus-plugin-content-docs/current/` 目录下编辑
+3. UI 翻译在 `i18n/zh/code.json` 和 `i18n/en/code.json` 中配置
 
-2. 本地预览
-   ```bash
-   # 启动本地服务器
-   mkdocs serve
+### 添加图片资源
+将图片文件放在 `static/img/` 目录下，然后在 Markdown 中使用相对路径引用：
+```markdown
+![描述](/img/your-image.png)
+```
 
-   # 如果8000端口被占用，可以指定其他端口
-   mkdocs serve -a localhost:8001
-   ```
-   然后在浏览器访问 http://127.0.0.1:8000 或指定的其他地址
+## 功能特性
 
-3. 部署到GitHub Pages
-   ```bash
-   # 构建并部署
-   mkdocs gh-deploy
+- ✅ 多语言支持（中文/英文）
+- ✅ 响应式设计
+- ✅ 暗色/亮色主题切换
+- ✅ 数学公式支持（KaTeX）
+- ✅ 搜索功能
+- ✅ SEO 优化
+- ✅ 移动端适配
 
-   # 如果需要清理缓存重新构建
-   mkdocs gh-deploy --clean
-   ```
+## 部署
 
-4. 提交源代码更改
-   ```bash
-   git add .
-   git commit -m "更新说明"
-   git push
-   ```
+网站自动部署到 GitHub Pages：
+- 主站点：https://lzhshou.github.io
+- 开发分支会自动触发构建和部署
 
-## 项目规则
+## 贡献指南
 
-项目相关规则（包括init_gpt相关规则、论文摘要生成工作流等）已移至`.cursorrules`文件，请参考该文件获取详细信息。
+1. Fork 本仓库
+2. 创建特性分支 (`git checkout -b feature/AmazingFeature`)
+3. 提交更改 (`git commit -m 'Add some AmazingFeature'`)
+4. 推送到分支 (`git push origin feature/AmazingFeature`)
+5. 开启 Pull Request
+
+## 许可证
+
+本项目采用 MIT 许可证 - 查看 [LICENSE](LICENSE) 文件了解详情。
+
+## 联系我们
+
+- 邮箱：laizhengsh@mail.sysu.edu.cn
+- GitHub：https://github.com/lzhshou/lzhshou.github.io
+
+---
+
+*本网站由 AI 智能助手协助构建与维护*

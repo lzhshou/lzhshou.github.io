@@ -1,0 +1,54 @@
+{
+  "homepage.tagline": {
+    "message": "应用过程分析与模拟实验室",
+    "description": "The homepage tagline"
+  },
+  "homepage.getStarted": {
+    "message": "了解我们 →",
+    "description": "Get started button text"
+  },
+  "homepage.title": {
+    "message": "APAAM Lab - 应用过程分析与模拟实验室",
+    "description": "The homepage title"
+  },
+  "homepage.description": {
+    "message": "应用过程分析与模拟实验室 - 专注于计算力学和材料科学领域的创新解决方案",
+    "description": "The homepage description"
+  },
+  "homepage.feature1.title": {
+    "message": "计算力学",
+    "description": "Feature 1 title"
+  },
+  "homepage.feature1.description": {
+    "message": "有限元、离散元、物质点法等数值计算方法的研究与应用，解决复杂工程问题。",
+    "description": "Feature 1 description"
+  },
+  "homepage.feature2.title": {
+    "message": "颗粒材料建模",
+    "description": "Feature 2 title"
+  },
+  "homepage.feature2.description": {
+    "message": "基于CT图像的颗粒重建、形状表征、接触检测等先进建模技术。",
+    "description": "Feature 2 description"
+  },
+  "homepage.feature3.title": {
+    "message": "机器学习应用",
+    "description": "Feature 3 title"
+  },
+  "homepage.feature3.description": {
+    "message": "基于深度学习的材料参数识别、结构健康监测等智能化解决方案。",
+    "description": "Feature 3 description"
+  },
+  "homepage.news.title": {
+    "message": "最新动态",
+    "description": "News section title"
+  },
+  "homepage.news.item1": {
+    "message": "实验室网站正式上线",
+    "description": "News item 1"
+  },
+  "homepage.news.item2": {
+    "message": "赖正首老师加入中山大学土木工程学院",
+    "description": "News item 2"
+  }
+} 

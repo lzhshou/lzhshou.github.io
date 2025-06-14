@@ -1,0 +1,54 @@
+{
+  "homepage.tagline": {
+    "message": "Applied Process Analysis And Modeling Laboratory",
+    "description": "The homepage tagline"
+  },
+  "homepage.getStarted": {
+    "message": "Learn More →",
+    "description": "Get started button text"
+  },
+  "homepage.title": {
+    "message": "APAAM Lab - Applied Process Analysis And Modeling Laboratory",
+    "description": "The homepage title"
+  },
+  "homepage.description": {
+    "message": "Applied Process Analysis And Modeling Laboratory - Focus on innovative solutions in computational mechanics and materials science",
+    "description": "The homepage description"
+  },
+  "homepage.feature1.title": {
+    "message": "Computational Mechanics",
+    "description": "Feature 1 title"
+  },
+  "homepage.feature1.description": {
+    "message": "Research and application of numerical methods such as FEM, DEM, MPM to solve complex engineering problems.",
+    "description": "Feature 1 description"
+  },
+  "homepage.feature2.title": {
+    "message": "Granular Materials Modeling",
+    "description": "Feature 2 title"
+  },
+  "homepage.feature2.description": {
+    "message": "Advanced modeling techniques including CT-based particle reconstruction, shape characterization, and contact detection.",
+    "description": "Feature 2 description"
+  },
+  "homepage.feature3.title": {
+    "message": "Machine Learning Applications",
+    "description": "Feature 3 title"
+  },
+  "homepage.feature3.description": {
+    "message": "Intelligent solutions based on deep learning for material parameter identification and structural health monitoring.",
+    "description": "Feature 3 description"
+  },
+  "homepage.news.title": {
+    "message": "Latest News",
+    "description": "News section title"
+  },
+  "homepage.news.item1": {
+    "message": "Laboratory website launched",
+    "description": "News item 1"
+  },
+  "homepage.news.item2": {
+    "message": "Prof. Lai joined the School of Civil Engineering at Sun Yat-sen University",
+    "description": "News item 2"
+  }
+} 
