@@ -296,14 +296,6 @@ export default function Home(): ReactNode {
           </div>
         </div>
 
-        {/* Footer */}
-        <footer className={styles.footer}>
-          <div className={styles.container}>
-            <p className={styles.footerText}>
-              © {new Date().getFullYear()} {personalInfo.name}
-            </p>
-          </div>
-        </footer>
       </main>
     </Layout>
   );
