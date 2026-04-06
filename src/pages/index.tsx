@@ -10,10 +10,10 @@ import styles from './index.module.css';
 
 // 研究数据展示
 const researchStats = [
-  { number: '100+', label: '学术论文', suffix: '篇' },
-  { number: '50+', label: '科研项目', suffix: '项' },
-  { number: '20+', label: '发明专利', suffix: '项' },
-  { number: '10+', label: '国际合作', suffix: '个' },
+  { number: '', label: '学术论文', suffix: '' },
+  { number: '', label: '科研项目', suffix: '' },
+  { number: '', label: '发明专利', suffix: '' },
+  { number: '', label: '学术合作', suffix: '' },
 ];
 
 // 研究方向
@@ -170,9 +170,9 @@ function StatsSection() {
               viewport={{ once: true }}
               transition={{ delay: index * 0.1, duration: 0.6 }}
             >
-              <div className={styles.statNumber}>{stat.number}</div>
+              {stat.number && <div className={styles.statNumber}>{stat.number}</div>}
               <div className={styles.statLabel}>{stat.label}</div>
-              <div className={styles.statSuffix}>{stat.suffix}</div>
+              {stat.suffix && <div className={styles.statSuffix}>{stat.suffix}</div>}
             </motion.div>
           ))}
         </motion.div>
