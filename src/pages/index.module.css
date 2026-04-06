@@ -147,9 +147,15 @@
    ============================================================================ */
 
 .statsBar {
-  background: var(--color-text);
-  color: var(--color-bg);
+  background: #2c2c2c;
+  color: #ffffff;
   padding: 1.5rem 0;
+}
+
+@media (prefers-color-scheme: dark) {
+  .statsBar {
+    background: #1a1a1a;
+  }
 }
 
 .statsGrid {
@@ -410,6 +416,68 @@
 }
 
 /* ============================================================================
+   Dark Mode Support
+   ============================================================================ */
+
+[data-theme='dark'] {
+  --color-bg: #0a0a0a;
+  --color-bg-elevated: #141414;
+  --color-text: #f5f5f7;
+  --color-text-secondary: #a1a1a6;
+  --color-text-tertiary: #6e6e73;
+  --color-border: #2c2c2e;
+}
+
+[data-theme='dark'] .main {
+  background: var(--color-bg);
+  color: var(--color-text);
+}
+
+[data-theme='dark'] .header {
+  background: var(--color-bg-elevated);
+  border-bottom-color: var(--color-border);
+}
+
+[data-theme='dark'] .name {
+  color: var(--color-text);
+}
+
+[data-theme='dark'] .statsBar {
+  background: #1a1a1a;
+}
+
+[data-theme='dark'] .sectionTitle {
+  color: var(--color-text);
+  border-bottom-color: var(--color-text);
+}
+
+[data-theme='dark'] .researchItem {
+  color: var(--color-text);
+}
+
+[data-theme='dark'] .timelineTitle {
+  color: var(--color-text);
+}
+
+[data-theme='dark'] .pubTitle {
+  color: var(--color-text);
+}
+
+[data-theme='dark'] .project {
+  background: var(--color-bg-elevated);
+  border-color: var(--color-border);
+}
+
+[data-theme='dark'] .projectTitle {
+  color: var(--color-text);
+}
+
+[data-theme='dark'] .footer {
+  background: var(--color-bg-elevated);
+  border-top-color: var(--color-border);
+}
+
+/* ============================================================================
    Print Styles
    ============================================================================ */
 
@@ -419,7 +487,7 @@
   }
 
   .statsBar {
-    background: var(--color-text);
+    background: #2c2c2c;
     -webkit-print-color-adjust: exact;
     print-color-adjust: exact;
   }
