@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkapaam_lab_website=self.webpackChunkapaam_lab_website||[]).push([[782],{6004:a=>{a.exports=JSON.parse('{"metadata":{"permalink":"/en/blog","page":1,"postsPerPage":10,"totalPages":1,"totalCount":4,"blogDescription":"Blog","blogTitle":"Blog"}}')}}]);
