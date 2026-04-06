@@ -1,30 +1,500 @@
 /**
- * Any CSS included here will be global. The classic template
- * bundles Infima by default. Infima is a CSS framework designed to
- * work well for content-centric websites.
+ * APAAM Lab - Global Styles
+ * Apple-inspired dark theme design
  */
 
-/* You can override the default Infima variables here. */
+/* ============================================================================
+   CSS Variables - Dark Theme
+   ============================================================================ */
+
 :root {
-  --ifm-color-primary: #2e8555;
-  --ifm-color-primary-dark: #29784c;
-  --ifm-color-primary-darker: #277148;
-  --ifm-color-primary-darkest: #205d3b;
-  --ifm-color-primary-light: #33925d;
-  --ifm-color-primary-lighter: #359962;
-  --ifm-color-primary-lightest: #3cad6e;
-  --ifm-code-font-size: 95%;
-  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
+  --ifm-color-primary: #2997ff;
+  --ifm-color-primary-dark: #0077ed;
+  --ifm-color-primary-darker: #005bb5;
+  --ifm-color-primary-darkest: #004494;
+  --ifm-color-primary-light: #5ac8fa;
+  --ifm-color-primary-lighter: #7dd3fc;
+  --ifm-color-primary-lightest: #bae6fd;
+
+  /* Dark theme colors */
+  --ifm-background-color: #000000;
+  --ifm-background-surface-color: #0d0d0d;
+  --ifm-font-color-base: #ffffff;
+  --ifm-font-color-secondary: rgba(255, 255, 255, 0.7);
+  --ifm-font-color-tertiary: rgba(255, 255, 255, 0.5);
+
+  /* Code blocks */
+  --ifm-code-font-size: 90%;
+  --ifm-code-background: #1a1a2e;
+  --docusaurus-highlighted-code-line-bg: rgba(41, 151, 255, 0.15);
+
+  /* Links */
+  --ifm-link-color: #2997ff;
+  --ifm-link-hover-color: #5ac8fa;
+
+  /* Navbar */
+  --ifm-navbar-background-color: rgba(0, 0, 0, 0.8);
+  --ifm-navbar-height: 70px;
+  --ifm-navbar-padding-horizontal: 2rem;
+  --ifm-navbar-shadow: none;
+
+  /* Sidebar */
+  --ifm-menu-color: rgba(255, 255, 255, 0.7);
+  --ifm-menu-color-active: #ffffff;
+  --ifm-menu-color-background-active: rgba(41, 151, 255, 0.1);
+
+  /* Typography */
+  --ifm-font-family-base: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', sans-serif;
+  --ifm-font-family-monospace: 'SF Mono', 'Fira Code', 'JetBrains Mono', monospace;
+  --ifm-heading-font-family: -apple-system, BlinkMacSystemFont, 'SF Pro Display', sans-serif;
+  --ifm-heading-font-weight: 600;
+  --ifm-heading-line-height: 1.2;
+  --ifm-h1-font-size: 2.5rem;
+  --ifm-h2-font-size: 2rem;
+  --ifm-h3-font-size: 1.5rem;
+
+  /* Spacing */
+  --ifm-leading-desktop: 1.8;
+  --ifm-leading-mobile: 1.6;
 }
 
-/* For readability concerns, you should choose a lighter palette in dark mode. */
-[data-theme='dark'] {
-  --ifm-color-primary: #25c2a0;
-  --ifm-color-primary-dark: #21af90;
-  --ifm-color-primary-darker: #1fa588;
-  --ifm-color-primary-darkest: #1a8870;
-  --ifm-color-primary-light: #29d5b0;
-  --ifm-color-primary-lighter: #32d8b4;
-  --ifm-color-primary-lightest: #4fddbf;
-  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
+/* ============================================================================
+   Global Styles
+   ============================================================================ */
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: var(--ifm-background-color);
+  color: var(--ifm-font-color-base);
+  font-family: var(--ifm-font-family-base);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Selection */
+::selection {
+  background: rgba(41, 151, 255, 0.3);
+  color: #ffffff;
+}
+
+/* ============================================================================
+   Navbar Styles
+   ============================================================================ */
+
+.navbar {
+  background: rgba(0, 0, 0, 0.8) !important;
+  backdrop-filter: blur(20px) saturate(180%);
+  -webkit-backdrop-filter: blur(20px) saturate(180%);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+.navbar__brand {
+  font-weight: 600;
+  font-size: 1.25rem;
+}
+
+.navbar__brand:hover {
+  color: var(--ifm-color-primary);
+}
+
+.navbar__logo {
+  height: 32px;
+  margin-right: 0.75rem;
+}
+
+.navbar__link {
+  font-weight: 500;
+  color: var(--ifm-font-color-secondary);
+  padding: 0.5rem 1rem;
+  border-radius: 8px;
+  transition: all 0.3s ease;
+}
+
+.navbar__link:hover {
+  color: var(--ifm-font-color-base);
+  background: rgba(255, 255, 255, 0.05);
+}
+
+.navbar__link--active {
+  color: var(--ifm-color-primary);
+}
+
+/* Locale dropdown */
+.dropdown > .navbar__link:after {
+  border-color: currentColor transparent;
+}
+
+.dropdown__menu {
+  background: rgba(20, 20, 20, 0.95);
+  backdrop-filter: blur(20px);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 12px;
+  box-shadow: 0 20px 60px rgba(0, 0, 0, 0.5);
+}
+
+.dropdown__link {
+  color: var(--ifm-font-color-secondary);
+  border-radius: 8px;
+  margin: 0 0.5rem;
+  padding: 0.5rem 1rem;
+}
+
+.dropdown__link:hover {
+  background: rgba(255, 255, 255, 0.05);
+  color: var(--ifm-font-color-base);
+}
+
+/* Color mode toggle */
+.toggleButton_node_modules-\@docusaurus-theme-classic-lib-theme-ColorModeToggle-styles-module {
+  color: var(--ifm-font-color-secondary);
+}
+
+/* ============================================================================
+   Sidebar Styles
+   ============================================================================ */
+
+.theme-doc-sidebar-container {
+  background: transparent;
+}
+
+.theme-doc-sidebar-menu {
+  padding: 1rem;
+}
+
+.theme-doc-sidebar-item-link {
+  border-radius: 8px;
+  margin: 0.25rem 0;
+  padding: 0.625rem 1rem;
+  font-size: 0.9375rem;
+  transition: all 0.2s ease;
+}
+
+.theme-doc-sidebar-item-link:hover {
+  background: rgba(255, 255, 255, 0.03);
+  color: var(--ifm-font-color-base);
+}
+
+.theme-doc-sidebar-item-link--active {
+  background: rgba(41, 151, 255, 0.1) !important;
+  color: var(--ifm-color-primary) !important;
+  font-weight: 500;
+}
+
+.theme-doc-sidebar-item-category {
+  margin: 0.5rem 0;
+}
+
+.theme-doc-sidebar-item-category > .menu__list-item-collapsible {
+  border-radius: 8px;
+  font-weight: 500;
+}
+
+.theme-doc-sidebar-item-category > .menu__list-item-collapsible:hover {
+  background: rgba(255, 255, 255, 0.03);
+}
+
+.menu__caret {
+  border-radius: 4px;
+}
+
+.menu__caret:hover {
+  background: rgba(255, 255, 255, 0.05);
+}
+
+/* ============================================================================
+   Content Styles
+   ============================================================================ */
+
+.theme-doc-markdown {
+  font-size: 1.0625rem;
+  line-height: 1.8;
+}
+
+.theme-doc-markdown h1 {
+  font-size: 2.5rem;
+  font-weight: 700;
+  letter-spacing: -0.02em;
+  margin-bottom: 1.5rem;
+}
+
+.theme-doc-markdown h2 {
+  font-size: 1.75rem;
+  font-weight: 600;
+  letter-spacing: -0.01em;
+  margin-top: 3rem;
+  margin-bottom: 1rem;
+  padding-bottom: 0.5rem;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.theme-doc-markdown h3 {
+  font-size: 1.375rem;
+  font-weight: 600;
+  margin-top: 2rem;
+  margin-bottom: 0.75rem;
+}
+
+.theme-doc-markdown p {
+  margin-bottom: 1.25rem;
+}
+
+.theme-doc-markdown a {
+  color: var(--ifm-color-primary);
+  text-decoration: none;
+  border-bottom: 1px solid transparent;
+  transition: border-color 0.2s ease;
+}
+
+.theme-doc-markdown a:hover {
+  border-bottom-color: var(--ifm-color-primary);
+}
+
+.theme-doc-markdown ul,
+.theme-doc-markdown ol {
+  padding-left: 1.5rem;
+  margin-bottom: 1.25rem;
+}
+
+.theme-doc-markdown li {
+  margin-bottom: 0.5rem;
+}
+
+.theme-doc-markdown blockquote {
+  border-left: 4px solid var(--ifm-color-primary);
+  background: rgba(41, 151, 255, 0.05);
+  padding: 1rem 1.5rem;
+  border-radius: 0 8px 8px 0;
+  margin: 1.5rem 0;
+}
+
+.theme-doc-markdown code {
+  background: var(--ifm-code-background);
+  border-radius: 6px;
+  padding: 0.2rem 0.4rem;
+  font-size: 0.875em;
+}
+
+.theme-doc-markdown pre {
+  background: var(--ifm-code-background);
+  border-radius: 12px;
+  padding: 1.5rem;
+  margin: 1.5rem 0;
+  overflow-x: auto;
+}
+
+.theme-doc-markdown pre code {
+  background: transparent;
+  padding: 0;
+}
+
+/* ============================================================================
+   Table Styles
+   ============================================================================ */
+
+table {
+  border-collapse: separate;
+  border-spacing: 0;
+  border-radius: 12px;
+  overflow: hidden;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  margin: 1.5rem 0;
+}
+
+table thead {
+  background: rgba(255, 255, 255, 0.03);
+}
+
+table th {
+  font-weight: 600;
+  padding: 1rem;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+table td {
+  padding: 1rem;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+table tr:last-child td {
+  border-bottom: none;
+}
+
+table tr:hover td {
+  background: rgba(255, 255, 255, 0.02);
+}
+
+/* ============================================================================
+   Footer Styles
+   ============================================================================ */
+
+.footer {
+  background: var(--ifm-background-surface-color) !important;
+  border-top: 1px solid rgba(255, 255, 255, 0.05);
+  padding: 3rem 0;
+}
+
+.footer__title {
+  color: var(--ifm-font-color-base);
+  font-weight: 600;
+  font-size: 1rem;
+  margin-bottom: 1rem;
+}
+
+.footer__item {
+  margin-bottom: 0.5rem;
+}
+
+.footer__link-item {
+  color: var(--ifm-font-color-secondary);
+  transition: color 0.2s ease;
+}
+
+.footer__link-item:hover {
+  color: var(--ifm-font-color-base);
+  text-decoration: none;
+}
+
+.footer__copyright {
+  color: var(--ifm-font-color-tertiary);
+  font-size: 0.875rem;
+  margin-top: 2rem;
+}
+
+/* ============================================================================
+   Button Styles
+   ============================================================================ */
+
+.button {
+  border-radius: 100px;
+  font-weight: 500;
+  padding: 0.75rem 1.5rem;
+  transition: all 0.3s ease;
+}
+
+.button--primary {
+  background: var(--ifm-color-primary);
+  border: none;
+}
+
+.button--primary:hover {
+  background: var(--ifm-color-primary-dark);
+  transform: translateY(-2px);
+  box-shadow: 0 10px 40px rgba(41, 151, 255, 0.3);
+}
+
+.button--secondary {
+  background: rgba(255, 255, 255, 0.1);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  color: var(--ifm-font-color-base);
+}
+
+.button--secondary:hover {
+  background: rgba(255, 255, 255, 0.15);
+}
+
+/* ============================================================================
+   Pagination Styles
+   ============================================================================ */
+
+.pagination-nav__link {
+  background: rgba(255, 255, 255, 0.03);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 16px;
+  padding: 1.5rem;
+  transition: all 0.3s ease;
+}
+
+.pagination-nav__link:hover {
+  background: rgba(255, 255, 255, 0.05);
+  border-color: rgba(255, 255, 255, 0.15);
+  transform: translateY(-2px);
+}
+
+.pagination-nav__label {
+  font-weight: 600;
+  color: var(--ifm-font-color-base);
+}
+
+.pagination-nav__sublabel {
+  color: var(--ifm-font-color-tertiary);
+}
+
+/* ============================================================================
+   Scrollbar Styles
+   ============================================================================ */
+
+::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--ifm-background-color);
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgba(255, 255, 255, 0.15);
+  border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(255, 255, 255, 0.25);
+}
+
+/* ============================================================================
+   Mobile Responsive
+   ============================================================================ */
+
+@media screen and (max-width: 996px) {
+  .navbar {
+    padding: 0 1rem;
+  }
+
+  .navbar-sidebar {
+    background: rgba(10, 10, 10, 0.98);
+    backdrop-filter: blur(20px);
+  }
+
+  .theme-doc-markdown h1 {
+    font-size: 2rem;
+  }
+
+  .theme-doc-markdown h2 {
+    font-size: 1.5rem;
+  }
+
+  table {
+    font-size: 0.875rem;
+  }
+
+  table th,
+  table td {
+    padding: 0.75rem;
+  }
+}
+
+/* ============================================================================
+   Print Styles
+   ============================================================================ */
+
+@media print {
+  .navbar,
+  .theme-doc-sidebar-container,
+  .pagination-nav,
+  .footer {
+    display: none !important;
+  }
+
+  .theme-doc-markdown {
+    font-size: 12pt;
+    line-height: 1.5;
+  }
+
+  .theme-doc-markdown pre {
+    background: #f5f5f5 !important;
+    border: 1px solid #ddd;
+  }
 }

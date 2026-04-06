@@ -1,23 +1,671 @@
-/**
- * CSS files with the .module.css suffix will be treated as CSS modules
- * and scoped locally.
- */
+/* ============================================================================
+   APAAM Lab Homepage - Apple-inspired Design
+   ============================================================================ */
+
+/* CSS Variables */
+:root {
+  --color-bg-primary: #000000;
+  --color-bg-secondary: #0d0d0d;
+  --color-bg-card: rgba(255, 255, 255, 0.03);
+  --color-bg-card-hover: rgba(255, 255, 255, 0.06);
+  --color-text-primary: #ffffff;
+  --color-text-secondary: rgba(255, 255, 255, 0.7);
+  --color-text-tertiary: rgba(255, 255, 255, 0.5);
+  --color-accent-blue: #2997ff;
+  --color-accent-purple: #bf5af2;
+  --color-accent-cyan: #5ac8fa;
+  --color-gradient-start: #1a1a2e;
+  --color-gradient-end: #16213e;
+  --font-display: 'SF Pro Display', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  --font-text: 'SF Pro Text', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  --transition-smooth: cubic-bezier(0.22, 1, 0.36, 1);
+}
+
+/* ============================================================================
+   Hero Section
+   ============================================================================ */
 
 .heroBanner {
-  padding: 4rem 0;
+  position: relative;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(180deg, var(--color-bg-primary) 0%, var(--color-bg-secondary) 100%);
+  overflow: hidden;
+  padding: 0;
+}
+
+.heroBackground {
+  position: absolute;
+  inset: 0;
+  overflow: hidden;
+  pointer-events: none;
+}
+
+/* 网格背景图案 */
+.gridPattern {
+  position: absolute;
+  inset: 0;
+  background-image:
+    linear-gradient(rgba(255, 255, 255, 0.03) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(255, 255, 255, 0.03) 1px, transparent 1px);
+  background-size: 60px 60px;
+  mask-image: radial-gradient(ellipse at center, black 0%, transparent 70%);
+  animation: gridFloat 20s ease-in-out infinite;
+}
+
+@keyframes gridFloat {
+  0%, 100% { transform: translateY(0) scale(1); opacity: 0.5; }
+  50% { transform: translateY(-20px) scale(1.05); opacity: 0.8; }
+}
+
+/* 渐变光球 */
+.gradientOrb1,
+.gradientOrb2 {
+  position: absolute;
+  border-radius: 50%;
+  filter: blur(100px);
+  opacity: 0.4;
+}
+
+.gradientOrb1 {
+  width: 600px;
+  height: 600px;
+  background: radial-gradient(circle, var(--color-accent-purple) 0%, transparent 70%);
+  top: -200px;
+  right: -100px;
+  animation: orbFloat1 15s ease-in-out infinite;
+}
+
+.gradientOrb2 {
+  width: 500px;
+  height: 500px;
+  background: radial-gradient(circle, var(--color-accent-blue) 0%, transparent 70%);
+  bottom: -150px;
+  left: -100px;
+  animation: orbFloat2 18s ease-in-out infinite;
+}
+
+@keyframes orbFloat1 {
+  0%, 100% { transform: translate(0, 0) scale(1); }
+  50% { transform: translate(-50px, 50px) scale(1.1); }
+}
+
+@keyframes orbFloat2 {
+  0%, 100% { transform: translate(0, 0) scale(1); }
+  50% { transform: translate(50px, -30px) scale(0.95); }
+}
+
+.heroContainer {
+  position: relative;
+  z-index: 10;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   text-align: center;
+  padding: 4rem 2rem;
+}
+
+.heroContent {
+  max-width: 900px;
+}
+
+/* 实验室徽章 */
+.labBadge {
+  display: inline-flex;
+  align-items: center;
+  padding: 0.5rem 1rem;
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 100px;
+  margin-bottom: 2rem;
+  backdrop-filter: blur(10px);
+}
+
+.badgeText {
+  font-size: 0.875rem;
+  font-weight: 500;
+  color: var(--color-text-secondary);
+  letter-spacing: 0.05em;
+}
+
+/* 主标题 */
+.heroTitle {
+  font-family: var(--font-display);
+  font-size: clamp(3rem, 8vw, 6rem);
+  font-weight: 700;
+  line-height: 1.05;
+  letter-spacing: -0.03em;
+  margin-bottom: 1.5rem;
+}
+
+.titleGradient {
+  background: linear-gradient(
+    135deg,
+    #ffffff 0%,
+    #a5a5a5 50%,
+    #ffffff 100%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+/* 副标题 */
+.heroSubtitle {
+  font-family: var(--font-display);
+  font-size: clamp(1.25rem, 3vw, 1.75rem);
+  font-weight: 500;
+  color: var(--color-text-primary);
+  margin-bottom: 1rem;
+  letter-spacing: -0.01em;
+}
+
+/* 描述 */
+.heroDescription {
+  font-size: 1.125rem;
+  color: var(--color-text-secondary);
+  line-height: 1.7;
+  max-width: 600px;
+  margin: 0 auto 2.5rem;
+}
+
+/* 按钮组 */
+.buttonGroup {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  justify-content: center;
+}
+
+.button {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 1rem 2rem;
+  font-size: 1rem;
+  font-weight: 500;
+  text-decoration: none;
+  border-radius: 100px;
+  transition: all 0.3s var(--transition-smooth);
+  cursor: pointer;
+}
+
+.buttonPrimary {
+  background: var(--color-accent-blue);
+  color: white;
+  border: none;
+}
+
+.buttonPrimary:hover {
+  background: #0077ed;
+  transform: translateY(-2px);
+  box-shadow: 0 10px 40px rgba(41, 151, 255, 0.3);
+}
+
+.buttonSecondary {
+  background: rgba(255, 255, 255, 0.1);
+  color: var(--color-text-primary);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.buttonSecondary:hover {
+  background: rgba(255, 255, 255, 0.15);
+  transform: translateY(-2px);
+}
+
+.buttonIcon {
+  width: 18px;
+  height: 18px;
+  transition: transform 0.3s var(--transition-smooth);
+}
+
+.button:hover .buttonIcon {
+  transform: translateX(4px);
+}
+
+/* 滚动指示器 */
+.scrollIndicator {
+  position: absolute;
+  bottom: 3rem;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.75rem;
+}
+
+.scrollMouse {
+  width: 24px;
+  height: 40px;
+  border: 2px solid rgba(255, 255, 255, 0.3);
+  border-radius: 12px;
+  position: relative;
+}
+
+.scrollWheel {
+  position: absolute;
+  width: 4px;
+  height: 8px;
+  background: rgba(255, 255, 255, 0.6);
+  border-radius: 2px;
+  left: 50%;
+  top: 8px;
+  transform: translateX(-50%);
+  animation: scrollWheel 2s ease-in-out infinite;
+}
+
+@keyframes scrollWheel {
+  0%, 100% { opacity: 1; transform: translateX(-50%) translateY(0); }
+  50% { opacity: 0.5; transform: translateX(-50%) translateY(8px); }
+}
+
+.scrollText {
+  font-size: 0.75rem;
+  color: var(--color-text-tertiary);
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+}
+
+/* ============================================================================
+   Stats Section
+   ============================================================================ */
+
+.statsSection {
+  padding: 8rem 2rem;
+  background: var(--color-bg-secondary);
+  position: relative;
+}
+
+.statsGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 2rem;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.statCard {
+  text-align: center;
+  padding: 2.5rem 1.5rem;
+  background: var(--color-bg-card);
+  border-radius: 24px;
+  border: 1px solid rgba(255, 255, 255, 0.05);
+  transition: all 0.4s var(--transition-smooth);
+}
+
+.statCard:hover {
+  background: var(--color-bg-card-hover);
+  transform: translateY(-4px);
+  border-color: rgba(255, 255, 255, 0.1);
+}
+
+.statNumber {
+  font-family: var(--font-display);
+  font-size: 3.5rem;
+  font-weight: 700;
+  background: linear-gradient(135deg, var(--color-accent-blue), var(--color-accent-purple));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  line-height: 1;
+  margin-bottom: 0.5rem;
+}
+
+.statLabel {
+  font-size: 1.125rem;
+  font-weight: 600;
+  color: var(--color-text-primary);
+  margin-bottom: 0.25rem;
+}
+
+.statSuffix {
+  font-size: 0.875rem;
+  color: var(--color-text-tertiary);
+}
+
+/* ============================================================================
+   Research Section
+   ============================================================================ */
+
+.researchSection {
+  padding: 8rem 2rem;
+  background: var(--color-bg-primary);
+  position: relative;
+}
+
+.sectionHeader {
+  text-align: center;
+  margin-bottom: 4rem;
+}
+
+.sectionTitle {
+  font-family: var(--font-display);
+  font-size: clamp(2rem, 5vw, 3rem);
+  font-weight: 700;
+  color: var(--color-text-primary);
+  margin-bottom: 1rem;
+  letter-spacing: -0.02em;
+}
+
+.sectionSubtitle {
+  font-size: 1.25rem;
+  color: var(--color-text-secondary);
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.researchGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 2rem;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.researchCard {
+  padding: 2.5rem;
+  background: var(--color-bg-card);
+  border-radius: 24px;
+  border: 1px solid rgba(255, 255, 255, 0.05);
+  transition: all 0.4s var(--transition-smooth);
+  cursor: pointer;
+}
+
+.researchCard:hover {
+  background: var(--color-bg-card-hover);
+  border-color: rgba(255, 255, 255, 0.1);
+  box-shadow: 0 20px 60px rgba(0, 0, 0, 0.5);
+}
+
+.researchIcon {
+  font-size: 3rem;
+  margin-bottom: 1.5rem;
+  display: block;
+}
+
+.researchTitle {
+  font-family: var(--font-display);
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: var(--color-text-primary);
+  margin-bottom: 0.75rem;
+  letter-spacing: -0.01em;
+}
+
+.researchDescription {
+  font-size: 1rem;
+  color: var(--color-text-secondary);
+  line-height: 1.6;
+}
+
+/* ============================================================================
+   Showcase Section (NetDEM)
+   ============================================================================ */
+
+.showcaseSection {
+  padding: 8rem 2rem;
+  background: linear-gradient(180deg, var(--color-bg-secondary) 0%, #0a0a1a 100%);
   position: relative;
   overflow: hidden;
 }
 
-@media screen and (max-width: 996px) {
-  .heroBanner {
-    padding: 2rem;
+.showcaseBackground {
+  position: absolute;
+  inset: 0;
+  background: radial-gradient(ellipse at 30% 50%, rgba(41, 151, 255, 0.08) 0%, transparent 50%),
+              radial-gradient(ellipse at 70% 50%, rgba(191, 90, 242, 0.08) 0%, transparent 50%);
+  pointer-events: none;
+}
+
+.showcaseGrid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 4rem;
+  align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
+  position: relative;
+  z-index: 1;
+}
+
+@media (max-width: 968px) {
+  .showcaseGrid {
+    grid-template-columns: 1fr;
+    gap: 3rem;
   }
 }
 
-.buttons {
-  display: flex;
+.showcaseLabel {
+  display: inline-block;
+  font-size: 0.875rem;
+  font-weight: 600;
+  color: var(--color-accent-blue);
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  margin-bottom: 1rem;
+}
+
+.showcaseTitle {
+  font-family: var(--font-display);
+  font-size: clamp(2.5rem, 5vw, 3.5rem);
+  font-weight: 700;
+  color: var(--color-text-primary);
+  margin-bottom: 1.5rem;
+  letter-spacing: -0.02em;
+}
+
+.showcaseDescription {
+  font-size: 1.125rem;
+  color: var(--color-text-secondary);
+  line-height: 1.7;
+  margin-bottom: 2rem;
+}
+
+.showcaseLink {
+  display: inline-flex;
   align-items: center;
+  gap: 0.5rem;
+  font-size: 1.125rem;
+  font-weight: 500;
+  color: var(--color-accent-blue);
+  text-decoration: none;
+  transition: gap 0.3s var(--transition-smooth);
+}
+
+.showcaseLink:hover {
+  gap: 0.75rem;
+}
+
+/* 代码展示 */
+.showcaseVisual {
+  display: flex;
   justify-content: center;
+}
+
+.codeBlock {
+  width: 100%;
+  max-width: 480px;
+  background: #1a1a2e;
+  border-radius: 16px;
+  overflow: hidden;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  box-shadow: 0 25px 80px rgba(0, 0, 0, 0.5);
+}
+
+.codeHeader {
+  display: flex;
+  gap: 8px;
+  padding: 16px;
+  background: rgba(0, 0, 0, 0.3);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+.codeDot {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background: #ff5f56;
+}
+
+.codeDot:nth-child(2) {
+  background: #ffbd2e;
+}
+
+.codeDot:nth-child(3) {
+  background: #27c93f;
+}
+
+.codeContent {
+  padding: 1.5rem;
+  margin: 0;
+  font-family: 'SF Mono', 'Fira Code', 'JetBrains Mono', monospace;
+  font-size: 0.85rem;
+  line-height: 1.6;
+  color: #a5b3ce;
+  background: transparent;
+  overflow-x: auto;
+}
+
+/* ============================================================================
+   CTA Section
+   ============================================================================ */
+
+.ctaSection {
+  padding: 10rem 2rem;
+  background: var(--color-bg-primary);
+  position: relative;
+  overflow: hidden;
+}
+
+.ctaBackground {
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+}
+
+.ctaGradient {
+  position: absolute;
+  width: 800px;
+  height: 800px;
+  background: radial-gradient(circle, rgba(41, 151, 255, 0.15) 0%, transparent 70%);
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.ctaContent {
+  position: relative;
+  z-index: 1;
+  text-align: center;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.ctaTitle {
+  font-family: var(--font-display);
+  font-size: clamp(2.5rem, 6vw, 4rem);
+  font-weight: 700;
+  color: var(--color-text-primary);
+  margin-bottom: 1.5rem;
+  letter-spacing: -0.02em;
+}
+
+.ctaDescription {
+  font-size: 1.25rem;
+  color: var(--color-text-secondary);
+  line-height: 1.7;
+  margin-bottom: 2.5rem;
+}
+
+.ctaButtons {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+}
+
+/* ============================================================================
+   Responsive Design
+   ============================================================================ */
+
+@media screen and (max-width: 768px) {
+  .heroBanner {
+    min-height: auto;
+    padding: 6rem 0 4rem;
+  }
+
+  .heroContainer {
+    padding: 2rem 1.5rem;
+  }
+
+  .buttonGroup {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .button {
+    justify-content: center;
+  }
+
+  .statsSection,
+  .researchSection,
+  .showcaseSection,
+  .ctaSection {
+    padding: 4rem 1.5rem;
+  }
+
+  .statsGrid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
+  }
+
+  .statCard {
+    padding: 1.5rem 1rem;
+  }
+
+  .statNumber {
+    font-size: 2.5rem;
+  }
+
+  .researchGrid {
+    grid-template-columns: 1fr;
+  }
+
+  .codeBlock {
+    max-width: 100%;
+  }
+
+  .scrollIndicator {
+    display: none;
+  }
+}
+
+/* ============================================================================
+   Dark Theme Overrides for Docusaurus
+   ============================================================================ */
+
+:global(.navbar) {
+  background: rgba(0, 0, 0, 0.8) !important;
+  backdrop-filter: blur(20px);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+:global(.footer) {
+  background: var(--color-bg-secondary) !important;
+  border-top: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+:global(.footer__title) {
+  color: var(--color-text-primary);
+}
+
+:global(.footer__link-item) {
+  color: var(--color-text-secondary);
+  transition: color 0.3s;
+}
+
+:global(.footer__link-item:hover) {
+  color: var(--color-text-primary);
 }
