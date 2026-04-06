@@ -7,8 +7,8 @@ import rehypeKatex from 'rehype-katex';
 // This runs in Node.js - Don't use client-side code here (browser APIs, JSX...)
 
 const config: Config = {
-  title: 'APAAM Lab',
-  tagline: 'Applied Process Analysis and Modeling Laboratory',
+  title: 'Zhengshou Lai',
+  tagline: 'Associate Professor, School of Civil Engineering, Sun Yat-sen University',
   favicon: 'img/favicon.ico',
 
   // Future flags, see https://docusaurus.io/docs/api/docusaurus-config#future
@@ -101,108 +101,69 @@ const config: Config = {
     // Replace with your project's social card
     image: 'img/docusaurus-social-card.jpg',
     colorMode: {
-      defaultMode: 'dark',
+      defaultMode: 'light',
       disableSwitch: false,
-      respectPrefersColorScheme: true,
+      respectPrefersColorScheme: false,
     },
     navbar: {
-      title: 'APAAM Lab',
-      logo: {
-        alt: 'APAAM Lab Logo',
-        src: 'img/logo.svg',
-      },
+      title: 'Zhengshou Lai',
       items: [
         {
-          type: 'docSidebar',
-          sidebarId: 'peopleSidebar',
+          to: '/docs/publications',
           position: 'left',
-          label: '人员',
+          label: 'Publications',
         },
         {
-          type: 'docSidebar',
-          sidebarId: 'researchSidebar',
+          to: '/docs/teaching',
           position: 'left',
-          label: '研究',
+          label: 'Teaching',
         },
         {
-          type: 'docSidebar',
-          sidebarId: 'publicationsSidebar',
+          to: '/docs/about',
           position: 'left',
-          label: '发表',
-        },
-        {
-          type: 'docSidebar',
-          sidebarId: 'resourcesSidebar',
-          position: 'left',
-          label: '资源',
-        },
-        {
-          type: 'docSidebar',
-          sidebarId: 'teachingSidebar',
-          position: 'left',
-          label: '教学',
-        },
-        {
-          type: 'docSidebar',
-          sidebarId: 'aboutSidebar',
-          position: 'left',
-          label: '关于',
+          label: 'About',
         },
         {
           type: 'localeDropdown',
           position: 'right',
         },
-        {
-          href: 'https://github.com/lzhshou/lzhshou.github.io',
-          label: 'GitHub',
-          position: 'right',
-        },
       ],
     },
     footer: {
-      style: 'dark',
+      style: 'light',
       links: [
         {
-          title: '导航',
+          title: 'Navigation',
           items: [
             {
-              label: '人员',
-              to: '/docs/people',
-            },
-            {
-              label: '研究',
-              to: '/docs/research',
-            },
-            {
-              label: '发表',
+              label: 'Publications',
               to: '/docs/publications',
             },
-          ],
-        },
-        {
-          title: '资源',
-          items: [
             {
-              label: '教学',
+              label: 'Teaching',
               to: '/docs/teaching',
             },
             {
-              label: '关于',
+              label: 'About',
               to: '/docs/about',
             },
           ],
         },
         {
-          title: '更多',
+          title: 'External',
           items: [
             {
-              label: 'GitHub',
-              href: 'https://github.com/lzhshou/lzhshou.github.io',
+              label: 'Google Scholar',
+              href: 'https://scholar.google.com/citations?user=iiK6e1cAAAAJ',
+            },
+            {
+              label: 'ORCID',
+              href: 'https://orcid.org/0000-0002-2378-9193',
             },
           ],
         },
       ],
-      copyright: `本网站由 AI 智能助手协助构建与维护 | APAAM Lab © ${new Date().getFullYear()}`,
+      copyright: `© ${new Date().getFullYear()} Zhengshou Lai`,
     },
     prism: {
       theme: prismThemes.github,

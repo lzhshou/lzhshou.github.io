@@ -1,338 +1,264 @@
 import type {ReactNode} from 'react';
-import clsx from 'clsx';
-import Link from '@docusaurus/Link';
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import Layout from '@theme/Layout';
-import Translate, {translate} from '@docusaurus/Translate';
-import { motion } from 'framer-motion';
+import { translate } from '@docusaurus/Translate';
 
 import styles from './index.module.css';
 
-// 研究数据展示
-const researchStats = [
-  { number: '', label: '学术论文', suffix: '' },
-  { number: '', label: '科研项目', suffix: '' },
-  { number: '', label: '发明专利', suffix: '' },
-  { number: '', label: '学术合作', suffix: '' },
+// 客观数据
+const personalInfo = {
+  name: '赖正首',
+  nameEn: 'Zhengshou Lai',
+  title: '副教授、博士生导师',
+  department: '中山大学 土木工程学院',
+  email: 'laizhengsh@mail.sysu.edu.cn',
+  orcid: '0000-0002-2378-9193',
+  hIndex: 19,
+  worksCount: 53,
+};
+
+const education = [
+  { degree: '博士', field: '土木工程', school: '美国克莱姆森大学', period: '2015–2018' },
+  { degree: '直博生', field: '工程力学', school: '中山大学', period: '2012–2014' },
+  { degree: '学士', field: '交通工程', school: '中山大学', period: '2008–2012' },
 ];
 
-// 研究方向
+const positions = [
+  { title: '副教授', institution: '中山大学 土木工程学院', period: '2023–至今' },
+  { title: '双聘教师', institution: '中山大学 香港高等研究院 应用数学研究中心', period: '2025–至今' },
+  { title: '博士后（香江学者）', institution: '香港科技大学 / 中山大学', period: '2021–2023' },
+  { title: '博士后', institution: '中山大学 智能工程学院', period: '2019–2021' },
+];
+
 const researchAreas = [
+  '计算岩土力学',
+  '离散元方法（DEM）',
+  '多尺度模拟',
+  '机器学习',
+];
+
+const selectedPublications = [
   {
-    title: '离散元方法',
-    description: '基于符号距离场的任意形状颗粒建模与多尺度模拟',
-    icon: '🔬',
+    authors: 'Lai, Z., Huang, S., Kong, Y., Zhao, S., Zhao, J., & Huang, L.',
+    year: '2026',
+    title: 'Hybrid resolved-unresolved CFD-DEM framework for multiscale fluid-particle systems',
+    journal: 'Journal of Computational Physics',
+    volume: '554',
+    pages: '114759',
   },
   {
-    title: '计算岩土力学',
-    description: 'CFD-DEM耦合方法与多相流数值模拟',
-    icon: '🏗️',
+    authors: 'Lai, Z., Zhao, J., Zhao, S., & Huang, L.',
+    year: '2023',
+    title: 'Signed distance field enhanced fully resolved CFD-DEM',
+    journal: 'Computer Methods in Applied Mechanics and Engineering',
+    volume: '414',
+    pages: '116195',
   },
   {
-    title: '机器学习',
-    description: 'AI赋能的材料力学性能预测与优化',
-    icon: '🤖',
-  },
-  {
-    title: '多尺度模拟',
-    description: '从微观到宏观的跨尺度力学行为研究',
-    icon: '⚛️',
+    authors: 'Lai, Z., Chen, Q., & Huang, L.',
+    year: '2021',
+    title: 'Machine-learning-enabled discrete element method',
+    journal: 'International Journal for Numerical and Analytical Methods in Geomechanics',
   },
 ];
 
-function HomepageHeader() {
-  const {siteConfig} = useDocusaurusContext();
-
-  return (
-    <header className={styles.heroBanner}>
-      {/* 背景动画网格 */}
-      <div className={styles.heroBackground}>
-        <div className={styles.gridPattern} />
-        <div className={styles.gradientOrb1} />
-        <div className={styles.gradientOrb2} />
-      </div>
-
-      <div className={clsx('container', styles.heroContainer)}>
-        <motion.div
-          initial={{ opacity: 0, y: 40 }}
-          animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.8, ease: [0.22, 1, 0.36, 1] }}
-          className={styles.heroContent}
-        >
-          {/* 实验室徽章 */}
-          <motion.div
-            className={styles.labBadge}
-            initial={{ opacity: 0, scale: 0.9 }}
-            animate={{ opacity: 1, scale: 1 }}
-            transition={{ delay: 0.2, duration: 0.6 }}
-          >
-            <span className={styles.badgeText}>中山大学 · 智能工程学院</span>
-          </motion.div>
-
-          {/* 主标题 */}
-          <motion.h1
-            className={styles.heroTitle}
-            initial={{ opacity: 0, y: 20 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ delay: 0.3, duration: 0.7 }}
-          >
-            <span className={styles.titleGradient}>APAAM Lab</span>
-          </motion.h1>
-
-          {/* 副标题 */}
-          <motion.p
-            className={styles.heroSubtitle}
-            initial={{ opacity: 0, y: 20 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ delay: 0.4, duration: 0.7 }}
-          >
-            <Translate
-              id="homepage.tagline"
-              description="The homepage tagline">
-              应用过程分析与模拟实验室
-            </Translate>
-          </motion.p>
-
-          {/* 描述 */}
-          <motion.p
-            className={styles.heroDescription}
-            initial={{ opacity: 0, y: 20 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ delay: 0.5, duration: 0.7 }}
-          >
-            专注于计算力学、离散元方法与机器学习在岩土工程中的创新应用
-          </motion.p>
-
-          {/* CTA 按钮组 */}
-          <motion.div
-            className={styles.buttonGroup}
-            initial={{ opacity: 0, y: 20 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ delay: 0.6, duration: 0.7 }}
-          >
-            <Link
-              className={clsx(styles.buttonPrimary, styles.button)}
-              to="/docs/people">
-              <Translate id="homepage.getStarted" description="Get started button text">
-                探索研究
-              </Translate>
-              <svg className={styles.buttonIcon} viewBox="0 0 24 24" fill="none" stroke="currentColor">
-                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
-              </svg>
-            </Link>
-            <Link
-              className={clsx(styles.buttonSecondary, styles.button)}
-              to="/docs/publications">
-              <Translate id="homepage.publications" description="Publications button text">
-                学术成果
-              </Translate>
-            </Link>
-          </motion.div>
-        </motion.div>
-
-        {/* 滚动指示器 */}
-        <motion.div
-          className={styles.scrollIndicator}
-          initial={{ opacity: 0 }}
-          animate={{ opacity: 1 }}
-          transition={{ delay: 1, duration: 0.8 }}
-        >
-          <div className={styles.scrollMouse}>
-            <div className={styles.scrollWheel} />
-          </div>
-          <span className={styles.scrollText}>向下滚动</span>
-        </motion.div>
-      </div>
-    </header>
-  );
-}
-
-// 数据统计区域
-function StatsSection() {
-  return (
-    <section className={styles.statsSection}>
-      <div className="container">
-        <motion.div
-          className={styles.statsGrid}
-          initial={{ opacity: 0, y: 40 }}
-          whileInView={{ opacity: 1, y: 0 }}
-          viewport={{ once: true, margin: "-100px" }}
-          transition={{ duration: 0.8 }}
-        >
-          {researchStats.map((stat, index) => (
-            <motion.div
-              key={stat.label}
-              className={styles.statCard}
-              initial={{ opacity: 0, y: 30 }}
-              whileInView={{ opacity: 1, y: 0 }}
-              viewport={{ once: true }}
-              transition={{ delay: index * 0.1, duration: 0.6 }}
-            >
-              {stat.number && <div className={styles.statNumber}>{stat.number}</div>}
-              <div className={styles.statLabel}>{stat.label}</div>
-              {stat.suffix && <div className={styles.statSuffix}>{stat.suffix}</div>}
-            </motion.div>
-          ))}
-        </motion.div>
-      </div>
-    </section>
-  );
-}
-
-// 研究方向展示
-function ResearchSection() {
-  return (
-    <section className={styles.researchSection}>
-      <div className="container">
-        <motion.div
-          className={styles.sectionHeader}
-          initial={{ opacity: 0, y: 30 }}
-          whileInView={{ opacity: 1, y: 0 }}
-          viewport={{ once: true }}
-          transition={{ duration: 0.7 }}
-        >
-          <h2 className={styles.sectionTitle}>研究方向</h2>
-          <p className={styles.sectionSubtitle}>
-            我们在计算力学与人工智能交叉领域开展前沿研究
-          </p>
-        </motion.div>
-
-        <div className={styles.researchGrid}>
-          {researchAreas.map((area, index) => (
-            <motion.div
-              key={area.title}
-              className={styles.researchCard}
-              initial={{ opacity: 0, y: 40 }}
-              whileInView={{ opacity: 1, y: 0 }}
-              viewport={{ once: true }}
-              transition={{ delay: index * 0.15, duration: 0.6 }}
-              whileHover={{ y: -8, transition: { duration: 0.3 } }}
-            >
-              <div className={styles.researchIcon}>{area.icon}</div>
-              <h3 className={styles.researchTitle}>{area.title}</h3>
-              <p className={styles.researchDescription}>{area.description}</p>
-            </motion.div>
-          ))}
-        </div>
-      </div>
-    </section>
-  );
-}
-
-// 特色展示区域
-function FeatureShowcase() {
-  return (
-    <section className={styles.showcaseSection}>
-      <div className={styles.showcaseBackground} />
-      <div className="container">
-        <div className={styles.showcaseGrid}>
-          <motion.div
-            className={styles.showcaseText}
-            initial={{ opacity: 0, x: -40 }}
-            whileInView={{ opacity: 1, x: 0 }}
-            viewport={{ once: true }}
-            transition={{ duration: 0.8 }}
-          >
-            <span className={styles.showcaseLabel}>开源软件</span>
-            <h2 className={styles.showcaseTitle}>NetDEM</h2>
-            <p className={styles.showcaseDescription}>
-              我们开发了开源离散元模拟软件 NetDEM，支持任意形状颗粒建模、
-              多尺度模拟和机器学习集成，为岩土工程研究提供强大的数值工具。
-            </p>
-            <Link className={styles.showcaseLink} to="/docs/resources">
-              了解 NetDEM →
-            </Link>
-          </motion.div>
-
-          <motion.div
-            className={styles.showcaseVisual}
-            initial={{ opacity: 0, x: 40 }}
-            whileInView={{ opacity: 1, x: 0 }}
-            viewport={{ once: true }}
-            transition={{ duration: 0.8, delay: 0.2 }}
-          >
-            <div className={styles.codeBlock}>
-              <div className={styles.codeHeader}>
-                <span className={styles.codeDot} />
-                <span className={styles.codeDot} />
-                <span className={styles.codeDot} />
-              </div>
-              <pre className={styles.codeContent}>
-{`// NetDEM 示例代码
-simulation.Initialize();
-
-// 创建颗粒形状
-auto shape = ShapeFactory::Create("polyhedron");
-shape->Load("particle.stl");
-
-// 设置材料参数
-auto mat = new Material();
-mat->SetYoungsModulus(1e8);
-mat->SetPoissonsRatio(0.25);
-
-// 运行模拟
-simulation.Run();`}
-              </pre>
-            </div>
-          </motion.div>
-        </div>
-      </div>
-    </section>
-  );
-}
-
-// CTA 区域
-function CTASection() {
-  return (
-    <section className={styles.ctaSection}>
-      <div className={styles.ctaBackground}>
-        <div className={styles.ctaGradient} />
-      </div>
-      <div className="container">
-        <motion.div
-          className={styles.ctaContent}
-          initial={{ opacity: 0, y: 40 }}
-          whileInView={{ opacity: 1, y: 0 }}
-          viewport={{ once: true }}
-          transition={{ duration: 0.8 }}
-        >
-          <h2 className={styles.ctaTitle}>加入我们</h2>
-          <p className={styles.ctaDescription}>
-            我们欢迎对计算力学、离散元方法和人工智能感兴趣的学生和研究人员
-            <br />
-            加入 APAAM Lab 开展前沿研究
-          </p>
-          <div className={styles.ctaButtons}>
-            <Link className={clsx(styles.buttonPrimary, styles.button)} to="/docs/about">
-              联系我们
-            </Link>
-          </div>
-        </motion.div>
-      </div>
-    </section>
-  );
-}
+const projects = [
+  {
+    role: '主持',
+    agency: '广东省科学技术厅',
+    type: '面上项目',
+    title: '水合物固态流化开采中气—液—固三相流动机理与耦合数值方法研究',
+    period: '2026–',
+  },
+  {
+    role: '参与',
+    agency: '广东省科学技术厅',
+    type: '基础研究重大项目',
+    title: '极端海洋环境下海上风电平台多场多尺度动力耦合灾变机理与减灾机制',
+    period: '2025–',
+  },
+];
 
 export default function Home(): ReactNode {
   const {siteConfig} = useDocusaurusContext();
+
   return (
     <Layout
       title={translate({
         id: 'homepage.title',
-        message: 'APAAM Lab - 应用过程分析与模拟实验室',
+        message: `${personalInfo.name} | ${personalInfo.department}`,
         description: 'The homepage title'
       })}
       description={translate({
         id: 'homepage.description',
-        message: '应用过程分析与模拟实验室 - 专注于计算力学和材料科学领域的创新解决方案',
+        message: `${personalInfo.title}，${personalInfo.department}`,
         description: 'The homepage description'
-      })}>
-      <HomepageHeader />
-      <main>
-        <StatsSection />
-        <ResearchSection />
-        <FeatureShowcase />
-        <CTASection />
+      })}
+    >
+      <main className={styles.main}>
+        {/* Header Section */}
+        <header className={styles.header}>
+          <div className={styles.container}>
+            <div className={styles.headerGrid}>
+              <div className={styles.nameSection}>
+                <h1 className={styles.name}>{personalInfo.name}</h1>
+                <p className={styles.nameEn}>{personalInfo.nameEn}</p>
+                <p className={styles.title}>{personalInfo.title}</p>
+                <p className={styles.department}>{personalInfo.department}</p>
+              </div>
+              <div className={styles.contactSection}>
+                <div className={styles.contactItem}>
+                  <span className={styles.contactLabel}>Email</span>
+                  <a href={`mailto:${personalInfo.email}`} className={styles.contactValue}>
+                    {personalInfo.email}
+                  </a>
+                </div>
+                <div className={styles.contactItem}>
+                  <span className={styles.contactLabel}>ORCID</span>
+                  <a
+                    href={`https://orcid.org/${personalInfo.orcid}`}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className={styles.contactValue}
+                  >
+                    {personalInfo.orcid}
+                  </a>
+                </div>
+                <div className={styles.contactItem}>
+                  <span className={styles.contactLabel}>Google Scholar</span>
+                  <a
+                    href="https://scholar.google.com/citations?user=iiK6e1cAAAAJ"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className={styles.contactValue}
+                  >
+                    View Profile
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </header>
+
+        {/* Stats Bar */}
+        <div className={styles.statsBar}>
+          <div className={styles.container}>
+            <div className={styles.statsGrid}>
+              <div className={styles.statItem}>
+                <span className={styles.statNumber}>{personalInfo.hIndex}</span>
+                <span className={styles.statLabel}>h-index</span>
+              </div>
+              <div className={styles.statItem}>
+                <span className={styles.statNumber}>{personalInfo.worksCount}</span>
+                <span className={styles.statLabel}>Publications</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        {/* Content Grid */}
+        <div className={styles.content}>
+          <div className={styles.container}>
+            <div className={styles.grid}>
+              {/* Left Column */}
+              <div className={styles.leftColumn}>
+                {/* Research Areas */}
+                <section className={styles.section}>
+                  <h2 className={styles.sectionTitle}>Research Areas</h2>
+                  <ul className={styles.researchList}>
+                    {researchAreas.map((area) => (
+                      <li key={area} className={styles.researchItem}>{area}</li>
+                    ))}
+                  </ul>
+                </section>
+
+                {/* Education */}
+                <section className={styles.section}>
+                  <h2 className={styles.sectionTitle}>Education</h2>
+                  <div className={styles.timeline}>
+                    {education.map((edu, index) => (
+                      <div key={index} className={styles.timelineItem}>
+                        <div className={styles.timelinePeriod}>{edu.period}</div>
+                        <div className={styles.timelineContent}>
+                          <div className={styles.timelineTitle}>
+                            {edu.degree}，{edu.field}
+                          </div>
+                          <div className={styles.timelineSubtitle}>{edu.school}</div>
+                        </div>
+                      </div>
+                    ))}
+                  </div>
+                </section>
+
+                {/* Positions */}
+                <section className={styles.section}>
+                  <h2 className={styles.sectionTitle}>Academic Positions</h2>
+                  <div className={styles.timeline}>
+                    {positions.map((pos, index) => (
+                      <div key={index} className={styles.timelineItem}>
+                        <div className={styles.timelinePeriod}>{pos.period}</div>
+                        <div className={styles.timelineContent}>
+                          <div className={styles.timelineTitle}>{pos.title}</div>
+                          <div className={styles.timelineSubtitle}>{pos.institution}</div>
+                        </div>
+                      </div>
+                    ))}
+                  </div>
+                </section>
+              </div>
+
+              {/* Right Column */}
+              <div className={styles.rightColumn}>
+                {/* Selected Publications */}
+                <section className={styles.section}>
+                  <h2 className={styles.sectionTitle}>Selected Publications</h2>
+                  <div className={styles.publications}>
+                    {selectedPublications.map((pub, index) => (
+                      <div key={index} className={styles.publication}>
+                        <div className={styles.pubAuthors}>{pub.authors}</div>
+                        <div className={styles.pubYear}>{pub.year}</div>
+                        <div className={styles.pubTitle}>{pub.title}</div>
+                        <div className={styles.pubJournal}>
+                          {pub.journal}
+                          {pub.volume && `, ${pub.volume}`}
+                          {pub.pages && `, ${pub.pages}`}
+                        </div>
+                      </div>
+                    ))}
+                  </div>
+                </section>
+
+                {/* Research Projects */}
+                <section className={styles.section}>
+                  <h2 className={styles.sectionTitle}>Research Projects</h2>
+                  <div className={styles.projects}>
+                    {projects.map((proj, index) => (
+                      <div key={index} className={styles.project}>
+                        <div className={styles.projectMeta}>
+                          <span className={styles.projectRole}>{proj.role}</span>
+                          <span className={styles.projectPeriod}>{proj.period}</span>
+                        </div>
+                        <div className={styles.projectTitle}>{proj.title}</div>
+                        <div className={styles.projectAgency}>
+                          {proj.agency} · {proj.type}
+                        </div>
+                      </div>
+                    ))}
+                  </div>
+                </section>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        {/* Footer */}
+        <footer className={styles.footer}>
+          <div className={styles.container}>
+            <p className={styles.footerText}>
+              © {new Date().getFullYear()} {personalInfo.name}
+            </p>
+          </div>
+        </footer>
       </main>
     </Layout>
   );
