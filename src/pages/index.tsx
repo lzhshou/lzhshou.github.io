@@ -1,97 +1,34 @@
 import type {ReactNode} from 'react';
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import Layout from '@theme/Layout';
-import { translate } from '@docusaurus/Translate';
+import Translate, {translate} from '@docusaurus/Translate';
 
 import styles from './index.module.css';
 
-// 客观数据
+// Personal info (same in both languages)
 const personalInfo = {
   name: '赖正首',
   nameEn: 'Zhengshou Lai',
-  title: '副教授、博士生导师',
-  department: '中山大学 土木工程学院',
   email: 'laizhengsh@mail.sysu.edu.cn',
   orcid: '0000-0002-2378-9193',
   hIndex: 19,
   worksCount: 53,
 };
 
-const education = [
-  { degree: '博士', field: '土木工程', school: '美国克莱姆森大学', period: '2015–2018' },
-  { degree: '直博生', field: '工程力学', school: '中山大学', period: '2012–2014' },
-  { degree: '学士', field: '交通工程', school: '中山大学', period: '2008–2012' },
-];
-
-const positions = [
-  { title: '副教授', institution: '中山大学 土木工程学院', period: '2023–至今' },
-  { title: '双聘教师', institution: '中山大学 香港高等研究院 应用数学研究中心', period: '2025–至今' },
-  { title: '博士后（香江学者）', institution: '香港科技大学 / 中山大学', period: '2021–2023' },
-  { title: '博士后', institution: '中山大学 智能工程学院', period: '2019–2021' },
-];
-
-const researchAreas = [
-  '计算岩土力学',
-  '离散元方法（DEM）',
-  '多尺度模拟',
-  '机器学习',
-];
-
-const selectedPublications = [
-  {
-    authors: 'Lai, Z., Huang, S., Kong, Y., Zhao, S., Zhao, J., & Huang, L.',
-    year: '2026',
-    title: 'Hybrid resolved-unresolved CFD-DEM framework for multiscale fluid-particle systems',
-    journal: 'Journal of Computational Physics',
-    volume: '554',
-    pages: '114759',
-  },
-  {
-    authors: 'Lai, Z., Zhao, J., Zhao, S., & Huang, L.',
-    year: '2023',
-    title: 'Signed distance field enhanced fully resolved CFD-DEM',
-    journal: 'Computer Methods in Applied Mechanics and Engineering',
-    volume: '414',
-    pages: '116195',
-  },
-  {
-    authors: 'Lai, Z., Chen, Q., & Huang, L.',
-    year: '2021',
-    title: 'Machine-learning-enabled discrete element method',
-    journal: 'International Journal for Numerical and Analytical Methods in Geomechanics',
-  },
-];
-
-const projects = [
-  {
-    role: '主持',
-    agency: '广东省科学技术厅',
-    type: '面上项目',
-    title: '水合物固态流化开采中气—液—固三相流动机理与耦合数值方法研究',
-    period: '2026–',
-  },
-  {
-    role: '参与',
-    agency: '广东省科学技术厅',
-    type: '基础研究重大项目',
-    title: '极端海洋环境下海上风电平台多场多尺度动力耦合灾变机理与减灾机制',
-    period: '2025–',
-  },
-];
-
 export default function Home(): ReactNode {
-  const {siteConfig} = useDocusaurusContext();
+  const {siteConfig, i18n} = useDocusaurusContext();
+  const isZh = i18n.currentLocale === 'zh';
 
   return (
     <Layout
       title={translate({
         id: 'homepage.title',
-        message: `${personalInfo.name} | ${personalInfo.department}`,
+        message: 'Zhengshou Lai | School of Civil Engineering, SYSU',
         description: 'The homepage title'
       })}
       description={translate({
         id: 'homepage.description',
-        message: `${personalInfo.title}，${personalInfo.department}`,
+        message: 'Associate Professor, School of Civil Engineering, Sun Yat-sen University',
         description: 'The homepage description'
       })}
     >
@@ -103,8 +40,16 @@ export default function Home(): ReactNode {
               <div className={styles.nameSection}>
                 <h1 className={styles.name}>{personalInfo.name}</h1>
                 <p className={styles.nameEn}>{personalInfo.nameEn}</p>
-                <p className={styles.title}>{personalInfo.title}</p>
-                <p className={styles.department}>{personalInfo.department}</p>
+                <p className={styles.title}>
+                  <Translate id="homepage.position">
+                    副教授、博士生导师
+                  </Translate>
+                </p>
+                <p className={styles.department}>
+                  <Translate id="homepage.department">
+                    中山大学 土木工程学院
+                  </Translate>
+                </p>
               </div>
               <div className={styles.contactSection}>
                 <div className={styles.contactItem}>
@@ -132,7 +77,7 @@ export default function Home(): ReactNode {
                     rel="noopener noreferrer"
                     className={styles.contactValue}
                   >
-                    View Profile
+                    <Translate id="homepage.viewProfile">View Profile</Translate>
                   </a>
                 </div>
               </div>
@@ -150,7 +95,9 @@ export default function Home(): ReactNode {
               </div>
               <div className={styles.statItem}>
                 <span className={styles.statNumber}>{personalInfo.worksCount}</span>
-                <span className={styles.statLabel}>Publications</span>
+                <span className={styles.statLabel}>
+                  <Translate id="homepage.publications">Publications</Translate>
+                </span>
               </div>
             </div>
           </div>
@@ -164,45 +111,117 @@ export default function Home(): ReactNode {
               <div className={styles.leftColumn}>
                 {/* Research Areas */}
                 <section className={styles.section}>
-                  <h2 className={styles.sectionTitle}>Research Areas</h2>
+                  <h2 className={styles.sectionTitle}>
+                    <Translate id="homepage.researchAreas">Research Areas</Translate>
+                  </h2>
                   <ul className={styles.researchList}>
-                    {researchAreas.map((area) => (
-                      <li key={area} className={styles.researchItem}>{area}</li>
-                    ))}
+                    <li className={styles.researchItem}>
+                      <Translate id="research.area1">计算岩土力学</Translate>
+                    </li>
+                    <li className={styles.researchItem}>
+                      <Translate id="research.area2">离散元方法（DEM）</Translate>
+                    </li>
+                    <li className={styles.researchItem}>
+                      <Translate id="research.area3">多尺度模拟</Translate>
+                    </li>
+                    <li className={styles.researchItem}>
+                      <Translate id="research.area4">机器学习</Translate>
+                    </li>
                   </ul>
                 </section>
 
                 {/* Education */}
                 <section className={styles.section}>
-                  <h2 className={styles.sectionTitle}>Education</h2>
+                  <h2 className={styles.sectionTitle}>
+                    <Translate id="homepage.education">Education</Translate>
+                  </h2>
                   <div className={styles.timeline}>
-                    {education.map((edu, index) => (
-                      <div key={index} className={styles.timelineItem}>
-                        <div className={styles.timelinePeriod}>{edu.period}</div>
-                        <div className={styles.timelineContent}>
-                          <div className={styles.timelineTitle}>
-                            {edu.degree}，{edu.field}
-                          </div>
-                          <div className={styles.timelineSubtitle}>{edu.school}</div>
+                    <div className={styles.timelineItem}>
+                      <div className={styles.timelinePeriod}>2015–2018</div>
+                      <div className={styles.timelineContent}>
+                        <div className={styles.timelineTitle}>
+                          <Translate id="edu.phd">博士，土木工程</Translate>
+                        </div>
+                        <div className={styles.timelineSubtitle}>
+                          <Translate id="edu.clemson">美国克莱姆森大学</Translate>
                         </div>
                       </div>
-                    ))}
+                    </div>
+                    <div className={styles.timelineItem}>
+                      <div className={styles.timelinePeriod}>2012–2014</div>
+                      <div className={styles.timelineContent}>
+                        <div className={styles.timelineTitle}>
+                          <Translate id="edu.phdStudent">直博生，工程力学</Translate>
+                        </div>
+                        <div className={styles.timelineSubtitle}>
+                          <Translate id="edu.sysu1">中山大学</Translate>
+                        </div>
+                      </div>
+                    </div>
+                    <div className={styles.timelineItem}>
+                      <div className={styles.timelinePeriod}>2008–2012</div>
+                      <div className={styles.timelineContent}>
+                        <div className={styles.timelineTitle}>
+                          <Translate id="edu.bachelor">学士，交通工程</Translate>
+                        </div>
+                        <div className={styles.timelineSubtitle}>
+                          <Translate id="edu.sysu2">中山大学</Translate>
+                        </div>
+                      </div>
+                    </div>
                   </div>
                 </section>
 
                 {/* Positions */}
                 <section className={styles.section}>
-                  <h2 className={styles.sectionTitle}>Academic Positions</h2>
+                  <h2 className={styles.sectionTitle}>
+                    <Translate id="homepage.positions">Academic Positions</Translate>
+                  </h2>
                   <div className={styles.timeline}>
-                    {positions.map((pos, index) => (
-                      <div key={index} className={styles.timelineItem}>
-                        <div className={styles.timelinePeriod}>{pos.period}</div>
-                        <div className={styles.timelineContent}>
-                          <div className={styles.timelineTitle}>{pos.title}</div>
-                          <div className={styles.timelineSubtitle}>{pos.institution}</div>
+                    <div className={styles.timelineItem}>
+                      <div className={styles.timelinePeriod}>2023–<Translate id="time.present">至今</Translate></div>
+                      <div className={styles.timelineContent}>
+                        <div className={styles.timelineTitle}>
+                          <Translate id="position.professor">副教授</Translate>
+                        </div>
+                        <div className={styles.timelineSubtitle}>
+                          <Translate id="institution.civil">中山大学 土木工程学院</Translate>
                         </div>
                       </div>
-                    ))}
+                    </div>
+                    <div className={styles.timelineItem}>
+                      <div className={styles.timelinePeriod}>2025–<Translate id="time.present">至今</Translate></div>
+                      <div className={styles.timelineContent}>
+                        <div className={styles.timelineTitle}>
+                          <Translate id="position.affiliated">双聘教师</Translate>
+                        </div>
+                        <div className={styles.timelineSubtitle}>
+                          <Translate id="institution.hkias">中山大学 香港高等研究院 应用数学研究中心</Translate>
+                        </div>
+                      </div>
+                    </div>
+                    <div className={styles.timelineItem}>
+                      <div className={styles.timelinePeriod}>2021–2023</div>
+                      <div className={styles.timelineContent}>
+                        <div className={styles.timelineTitle}>
+                          <Translate id="position.postdoc1">博士后（香江学者）</Translate>
+                        </div>
+                        <div className={styles.timelineSubtitle}>
+                          <Translate id="institution.hkusysu">香港科技大学 / 中山大学</Translate>
+                        </div>
+                      </div>
+                    </div>
+                    <div className={styles.timelineItem}>
+                      <div className={styles.timelinePeriod}>2019–2021</div>
+                      <div className={styles.timelineContent}>
+                        <div className={styles.timelineTitle}>
+                          <Translate id="position.postdoc2">博士后</Translate>
+                        </div>
+                        <div className={styles.timelineSubtitle}>
+                          <Translate id="institution.intelligent">中山大学 智能工程学院</Translate>
+                        </div>
+                      </div>
+                    </div>
                   </div>
                 </section>
               </div>
@@ -211,39 +230,65 @@ export default function Home(): ReactNode {
               <div className={styles.rightColumn}>
                 {/* Selected Publications */}
                 <section className={styles.section}>
-                  <h2 className={styles.sectionTitle}>Selected Publications</h2>
+                  <h2 className={styles.sectionTitle}>
+                    <Translate id="homepage.publicationsTitle">Selected Publications</Translate>
+                  </h2>
                   <div className={styles.publications}>
-                    {selectedPublications.map((pub, index) => (
-                      <div key={index} className={styles.publication}>
-                        <div className={styles.pubAuthors}>{pub.authors}</div>
-                        <div className={styles.pubYear}>{pub.year}</div>
-                        <div className={styles.pubTitle}>{pub.title}</div>
-                        <div className={styles.pubJournal}>
-                          {pub.journal}
-                          {pub.volume && `, ${pub.volume}`}
-                          {pub.pages && `, ${pub.pages}`}
-                        </div>
-                      </div>
-                    ))}
+                    <div className={styles.publication}>
+                      <div className={styles.pubAuthors}>Lai, Z., Huang, S., Kong, Y., Zhao, S., Zhao, J., & Huang, L.</div>
+                      <div className={styles.pubYear}>2026</div>
+                      <div className={styles.pubTitle}>Hybrid resolved-unresolved CFD-DEM framework for multiscale fluid-particle systems</div>
+                      <div className={styles.pubJournal}>Journal of Computational Physics, 554, 114759</div>
+                    </div>
+                    <div className={styles.publication}>
+                      <div className={styles.pubAuthors}>Lai, Z., Zhao, J., Zhao, S., & Huang, L.</div>
+                      <div className={styles.pubYear}>2023</div>
+                      <div className={styles.pubTitle}>Signed distance field enhanced fully resolved CFD-DEM</div>
+                      <div className={styles.pubJournal}>Computer Methods in Applied Mechanics and Engineering, 414, 116195</div>
+                    </div>
+                    <div className={styles.publication}>
+                      <div className={styles.pubAuthors}>Lai, Z., Chen, Q., & Huang, L.</div>
+                      <div className={styles.pubYear}>2021</div>
+                      <div className={styles.pubTitle}>Machine-learning-enabled discrete element method</div>
+                      <div className={styles.pubJournal}>International Journal for Numerical and Analytical Methods in Geomechanics</div>
+                    </div>
                   </div>
                 </section>
 
                 {/* Research Projects */}
                 <section className={styles.section}>
-                  <h2 className={styles.sectionTitle}>Research Projects</h2>
+                  <h2 className={styles.sectionTitle}>
+                    <Translate id="homepage.projects">Research Projects</Translate>
+                  </h2>
                   <div className={styles.projects}>
-                    {projects.map((proj, index) => (
-                      <div key={index} className={styles.project}>
-                        <div className={styles.projectMeta}>
-                          <span className={styles.projectRole}>{proj.role}</span>
-                          <span className={styles.projectPeriod}>{proj.period}</span>
-                        </div>
-                        <div className={styles.projectTitle}>{proj.title}</div>
-                        <div className={styles.projectAgency}>
-                          {proj.agency} · {proj.type}
-                        </div>
+                    <div className={styles.project}>
+                      <div className={styles.projectMeta}>
+                        <span className={styles.projectRole}>
+                          <Translate id="project.pi">主持</Translate>
+                        </span>
+                        <span className={styles.projectPeriod}>2026–</span>
                       </div>
-                    ))}
+                      <div className={styles.projectTitle}>
+                        <Translate id="project.title1">水合物固态流化开采中气—液—固三相流动机理与耦合数值方法研究</Translate>
+                      </div>
+                      <div className={styles.projectAgency}>
+                        <Translate id="project.gdst">广东省科学技术厅</Translate> · <Translate id="project.general">面上项目</Translate>
+                      </div>
+                    </div>
+                    <div className={styles.project}>
+                      <div className={styles.projectMeta}>
+                        <span className={styles.projectRole}>
+                          <Translate id="project.coPI">参与</Translate>
+                        </span>
+                        <span className={styles.projectPeriod}>2025–</span>
+                      </div>
+                      <div className={styles.projectTitle}>
+                        <Translate id="project.title2">极端海洋环境下海上风电平台多场多尺度动力耦合灾变机理与减灾机制</Translate>
+                      </div>
+                      <div className={styles.projectAgency}>
+                        <Translate id="project.gdst">广东省科学技术厅</Translate> · <Translate id="project.major">基础研究重大项目</Translate>
+                      </div>
+                    </div>
                   </div>
                 </section>
               </div>

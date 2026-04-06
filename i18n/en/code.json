@@ -1,54 +1,150 @@
 {
-  "homepage.tagline": {
-    "message": "Applied Process Analysis And Modeling Laboratory",
-    "description": "The homepage tagline"
-  },
-  "homepage.getStarted": {
-    "message": "Learn More →",
-    "description": "Get started button text"
-  },
   "homepage.title": {
-    "message": "APAAM Lab - Applied Process Analysis And Modeling Laboratory",
+    "message": "Zhengshou Lai | School of Civil Engineering, SYSU",
     "description": "The homepage title"
   },
   "homepage.description": {
-    "message": "Applied Process Analysis And Modeling Laboratory - Focus on innovative solutions in computational mechanics and materials science",
+    "message": "Associate Professor, School of Civil Engineering, Sun Yat-sen University",
     "description": "The homepage description"
   },
-  "homepage.feature1.title": {
-    "message": "Computational Mechanics",
-    "description": "Feature 1 title"
+  "homepage.position": {
+    "message": "Associate Professor, Ph.D. Supervisor",
+    "description": "Position title"
   },
-  "homepage.feature1.description": {
-    "message": "Research and application of numerical methods such as FEM, DEM, MPM to solve complex engineering problems.",
-    "description": "Feature 1 description"
+  "homepage.department": {
+    "message": "School of Civil Engineering, Sun Yat-sen University",
+    "description": "Department name"
   },
-  "homepage.feature2.title": {
-    "message": "Granular Materials Modeling",
-    "description": "Feature 2 title"
+  "homepage.viewProfile": {
+    "message": "View Profile",
+    "description": "View Profile link"
   },
-  "homepage.feature2.description": {
-    "message": "Advanced modeling techniques including CT-based particle reconstruction, shape characterization, and contact detection.",
-    "description": "Feature 2 description"
+  "homepage.publications": {
+    "message": "Publications",
+    "description": "Publications count label"
   },
-  "homepage.feature3.title": {
-    "message": "Machine Learning Applications",
-    "description": "Feature 3 title"
+  "homepage.researchAreas": {
+    "message": "Research Areas",
+    "description": "Research Areas section title"
   },
-  "homepage.feature3.description": {
-    "message": "Intelligent solutions based on deep learning for material parameter identification and structural health monitoring.",
-    "description": "Feature 3 description"
+  "homepage.education": {
+    "message": "Education",
+    "description": "Education section title"
   },
-  "homepage.news.title": {
-    "message": "Latest News",
-    "description": "News section title"
+  "homepage.positions": {
+    "message": "Academic Positions",
+    "description": "Academic Positions section title"
   },
-  "homepage.news.item1": {
-    "message": "Laboratory website launched",
-    "description": "News item 1"
+  "homepage.publicationsTitle": {
+    "message": "Selected Publications",
+    "description": "Selected Publications section title"
   },
-  "homepage.news.item2": {
-    "message": "Prof. Lai joined the School of Civil Engineering at Sun Yat-sen University",
-    "description": "News item 2"
+  "homepage.projects": {
+    "message": "Research Projects",
+    "description": "Research Projects section title"
+  },
+  "research.area1": {
+    "message": "Computational Geomechanics",
+    "description": "Research area 1"
+  },
+  "research.area2": {
+    "message": "Discrete Element Method (DEM)",
+    "description": "Research area 2"
+  },
+  "research.area3": {
+    "message": "Multiscale Simulation",
+    "description": "Research area 3"
+  },
+  "research.area4": {
+    "message": "Machine Learning",
+    "description": "Research area 4"
+  },
+  "edu.phd": {
+    "message": "Ph.D., Civil Engineering",
+    "description": "PhD education"
+  },
+  "edu.clemson": {
+    "message": "Clemson University, USA",
+    "description": "Clemson University"
+  },
+  "edu.phdStudent": {
+    "message": "Ph.D. Student, Engineering Mechanics",
+    "description": "PhD student"
+  },
+  "edu.sysu1": {
+    "message": "Sun Yat-sen University",
+    "description": "Sun Yat-sen University"
+  },
+  "edu.bachelor": {
+    "message": "B.Eng., Traffic Engineering",
+    "description": "Bachelor degree"
+  },
+  "edu.sysu2": {
+    "message": "Sun Yat-sen University",
+    "description": "Sun Yat-sen University"
+  },
+  "time.present": {
+    "message": "Present",
+    "description": "Present time"
+  },
+  "position.professor": {
+    "message": "Associate Professor",
+    "description": "Associate Professor"
+  },
+  "position.affiliated": {
+    "message": "Affiliated Faculty",
+    "description": "Affiliated faculty"
+  },
+  "position.postdoc1": {
+    "message": "Postdoc (Xiangjiang Scholar)",
+    "description": "Postdoc with Xiangjiang scholarship"
+  },
+  "position.postdoc2": {
+    "message": "Postdoc",
+    "description": "Postdoc"
+  },
+  "institution.civil": {
+    "message": "School of Civil Engineering, SYSU",
+    "description": "School of Civil Engineering"
+  },
+  "institution.hkias": {
+    "message": "HK Institute for Advanced Study, SYSU",
+    "description": "HKIAS"
+  },
+  "institution.hkusysu": {
+    "message": "HKUST / SYSU",
+    "description": "HKUST and SYSU"
+  },
+  "institution.intelligent": {
+    "message": "School of Intelligent Engineering, SYSU",
+    "description": "School of Intelligent Engineering"
+  },
+  "project.pi": {
+    "message": "PI",
+    "description": "Principal Investigator"
+  },
+  "project.coPI": {
+    "message": "Co-PI",
+    "description": "Co-Investigator"
+  },
+  "project.gdst": {
+    "message": "GDST",
+    "description": "Guangdong Science and Technology Department"
+  },
+  "project.general": {
+    "message": "General Program",
+    "description": "General project"
+  },
+  "project.major": {
+    "message": "Major Basic Research",
+    "description": "Major basic research project"
+  },
+  "project.title1": {
+    "message": "Multiphase Flow and Coupled Numerical Methods for Hydrate Solid Fluidization",
+    "description": "Project 1 title"
+  },
+  "project.title2": {
+    "message": "Multi-field and Multi-scale Dynamic Coupling Disaster Mechanisms for Offshore Wind Platforms",
+    "description": "Project 2 title"
   }
-} 
+}
