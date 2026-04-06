@@ -8,7 +8,7 @@ import rehypeKatex from 'rehype-katex';
 
 const config: Config = {
   title: 'APAAM Lab',
-  tagline: 'Advanced Pattern Analysis and Machine Learning Laboratory',
+  tagline: 'Applied Process Analysis and Modeling Laboratory',
   favicon: 'img/favicon.ico',
 
   // Future flags, see https://docusaurus.io/docs/api/docusaurus-config#future

@@ -100,9 +100,7 @@ function HomepageHeader() {
             animate={{ opacity: 1, y: 0 }}
             transition={{ delay: 0.5, duration: 0.7 }}
           >
-            Advanced Pattern Analysis and Machine Learning Laboratory
-            <br />
-            专注于计算力学、离散元方法与人工智能在岩土工程中的创新应用
+            专注于计算力学、离散元方法与机器学习在岩土工程中的创新应用
           </motion.p>
 
           {/* CTA 按钮组 */}
