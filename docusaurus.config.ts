@@ -110,19 +110,29 @@ const config: Config = {
       title: 'Zhengshou Lai',
       items: [
         {
+          to: '/docs/people',
+          position: 'left',
+          label: '成员',
+        },
+        {
+          to: '/docs/research',
+          position: 'left',
+          label: '研究',
+        },
+        {
           to: '/docs/publications',
           position: 'left',
-          label: 'Publications',
+          label: '论文',
         },
         {
           to: '/docs/teaching',
           position: 'left',
-          label: 'Teaching',
+          label: '教学',
         },
         {
           to: '/docs/about',
           position: 'left',
-          label: 'About',
+          label: '联系',
         },
         {
           type: 'localeDropdown',
