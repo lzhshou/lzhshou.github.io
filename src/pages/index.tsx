@@ -38,8 +38,7 @@ export default function Home(): ReactNode {
           <div className={styles.container}>
             <div className={styles.headerGrid}>
               <div className={styles.nameSection}>
-                <h1 className={styles.name}>{personalInfo.name}</h1>
-                <p className={styles.nameEn}>{personalInfo.nameEn}</p>
+                <h1 className={styles.name}>{isZh ? personalInfo.name : personalInfo.nameEn}</h1>
                 <p className={styles.title}>
                   <Translate id="homepage.position">
                     副教授、博士生导师

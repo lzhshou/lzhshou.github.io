@@ -2,6 +2,16 @@
 
 ## 期刊论文
 
+### 2026
+
+1. **Lai, Z.**, Huang, S., Kong, Y., Zhao, S., Zhao, J., & Huang, L. (2026). Hybrid resolved-unresolved CFD-DEM framework for multiscale fluid-particle systems with irregular-shaped and polydisperse particles. *Journal of Computational Physics*, 554, 114759.
+
+2. Li, C., Huang, L., **Lai, Z.**#, Huang, S., & Lin, Y. (2026). A diffusion-based generative framework for virtual porous granular media generation. *Powder Technology*, 473, 122230.
+
+3. Li, C., **Lai, Z.**#, Huang, S., & Huang, L. (2026). Neural network-driven shape representation and computational particle mechanics via signed distance fields. *Engineering Applications of Artificial Intelligence*, 167, 113913.
+
+4. Xu, C., **Lai, Z.**#, Wang, P., & Huang, S. (2026). Hybrid SDF-CFD-DEM analysis of suffusion behavior in coral sand incorporating irregular particle morphology and intraparticle voids. *Computers and Geotechnics* (In press).
+
 ### 2024
 
 1. **Lai, Z.**, Feng, Y. T., Zhao, J., & Huang, L. (2024). Unifying the contact in signed distance field-based and conventional discrete element methods. *Computers and Geotechnics*. [DOI](https://doi.org/10.1016/j.compgeo.2024.106764) | [PDF](pdf/first_or_correspondance/Lai2024%20Unifying%20the%20contact%20in%20signed%20distance%20field-based%20and%20conventional%20discrete.pdf)
@@ -16,9 +26,15 @@
 
 ### 2023
 
-1. Lin, Y., Ma, J., **Lai, Z.**, Huang, L., & Lei, M. (2023). A FDEM approach to study mechanical and fracturing responses of geo-materials with stochastic inclusions using a novel reconstruction strategy. *Engineering Fracture Mechanics*, 109171. [DOI](https://doi.org/10.1016/j.engfracmech.2023.109171) | [PDF](pdf/coauthored/Lin2023%20A%20FDEM%20approach%20to%20study%20mechanical%20and%20fracturing%20responses%20of%20geo-materials.pdf)
+1. **Lai, Z.**, Zhao, J., Zhao, S., & Huang, L. (2023). Signed distance field enhanced fully resolved CFD-DEM for simulation of granular flows involving multiphase fluids and irregularly shaped particles. *Computer Methods in Applied Mechanics and Engineering*, 414, 116195.
 
-2. Huang, S., Huang, L., **Lai, Z.**, & Zhao, J. (2023). Morphology characterization and discrete element modeling of coral sand with intraparticle voids. *Engineering Geology*, 315, 107023. [DOI](https://doi.org/10.1016/j.enggeo.2023.107023) | [PDF](pdf/first_or_correspondance/Huang2023%20Morphology%20characterization%20and%20discrete%20element%20modeling%20of%20coral%20sand%20with.pdf)
+2. **Lai, Z.**, Xia, Y., & Chen, Q. (2023). Discrete element modeling of granular hopper flow of irregular-shaped deformable particles. *Advanced Powder Technology*.
+
+3. Lin, Y., Ma, J., **Lai, Z.**, Huang, L., & Lei, M. (2023). A FDEM approach to study mechanical and fracturing responses of geo-materials with stochastic inclusions using a novel reconstruction strategy. *Engineering Fracture Mechanics*, 282, 109171. [DOI](https://doi.org/10.1016/j.engfracmech.2023.109171) | [PDF](pdf/coauthored/Lin2023%20A%20FDEM%20approach%20to%20study%20mechanical%20and%20fracturing%20responses%20of%20geo-materials.pdf)
+
+4. Huang, S.†, Huang, L., **Lai, Z.**#, & Zhao, J. (2023). Morphology characterization and discrete element modeling of coral sand with intraparticle voids. *Engineering Geology*, 315, 107023. [DOI](https://doi.org/10.1016/j.enggeo.2023.107023) | [PDF](pdf/first_or_correspondance/Huang2023%20Morphology%20characterization%20and%20discrete%20element%20modeling%20of%20coral%20sand%20with.pdf)
+
+5. Zhu, B., Liu, J., **Lai, Z.**, & Qian, T. (2023). Sampling Gaussian stationary random fields: A stochastic realization approach. *ISA Transactions*, 142, 386-398.
 
 ### 2022
 
@@ -32,7 +48,11 @@
 
 ### 2021
 
-1. **Lai, Z.**, Zhao, S., Zhao, J., & Huang, L. (2021). Revisiting the GJK and shape erosion method for contact resolution in DEM. *Powder Technology*, 394, 363-371. [DOI](https://doi.org/10.1016/j.powtec.2021.08.068) | [PDF](pdf/first_or_correspondance/Lai2021%20Revisiting%20the%20GJK%20and%20shape%20erosion%20method%20for%20contact%20resolution%20in%20DEM.pdf)
+1. Chen, Q., & **Lai, Z.** (2021). Hydromechanical modelling of CO2 sequestration using a component-based multiphysics code. *Environmental Geotechnics*, 8(1), 38-54.
+
+2. Gleaton, J., **Lai, Z.**, Xiao, R., Zhang, K., Chen, Q., & Zheng, Y. (2021). Optimization of mechanical strength of biocemented Martian regolith simulant soil columns. *Construction and Building Materials*, 125741.
+
+3. **Lai, Z.**, Zhao, S., Zhao, J., & Huang, L. (2021). Revisiting the GJK and shape erosion method for contact resolution in DEM. *Powder Technology*, 394, 363-371. [DOI](https://doi.org/10.1016/j.powtec.2021.08.068) | [PDF](pdf/first_or_correspondance/Lai2021%20Revisiting%20the%20GJK%20and%20shape%20erosion%20method%20for%20contact%20resolution%20in%20DEM.pdf)
 
 2. **Lai, Z.**, Chen, Q., & Huang, L. (2021). Machine‐learning‐enabled discrete element method: Contact detection and resolution of irregular‐shaped particles. *International Journal for Numerical and Analytical Methods in Geomechanics*, 46(1), 113-140. [DOI](https://doi.org/10.1002/nag.3293) | [PDF](pdf/first_or_correspondance/Lai2021%20Machine‐learning‐enabled%20discrete%20element%20method%20-%20Contact%20detection%20and.pdf)
 
@@ -51,6 +71,8 @@
 2. Huang, L., Huang, S., & **Lai, Z.**<sup>#</sup> (2020). On the optimization of site investigation programs using centroidal Voronoi tessellation and random field theory. *Computers and Geotechnics*, 118, 103331. [DOI](https://doi.org/10.1016/j.compgeo.2019.103331) | [PDF](pdf/first_or_correspondance/Huang2020%20On%20the%20optimization%20of%20site%20investigation%20programs%20using%20centroidal%20Voronoi.pdf)
 
 3. Gleaton, J., **Lai, Z.**, Xiao, R., Chen, Q., & Zheng, Y. (2020). Microalga-induced biocementation of martian regolith simulant: Effects of biogrouting methods and calcium sources. *Construction and Building Materials*, 339, 1--12. [DOI](https://doi.org/10.1016/j.conbuildmat.2019.116885) | [PDF](pdf/coauthored/Gleaton2019%20Microalga-induced%20biocementation%20of%20martian%20regolith%20simulant%20-%20Effects%20of.pdf)
+
+4. 黄林冲, 叶文, **赖正首**. (2020). 考虑形态及含水率的颗粒材料尺寸效应室内三轴试验研究. *铁道科学与工程学报*, 17(9), 2262-2270.
 
 ### 2019
 
@@ -72,12 +94,17 @@
 
 4. **Lai, Z.** & Chen, Q. (2017). Particle swarm optimization for numerical bifurcation analysis in computational inelasticity. *International Journal for Numerical and Analytical Methods in Geomechanics*, 41(3), 442--468. [DOI](https://doi.org/10.1002/nag.2657) | [PDF](pdf/first_or_correspondance/Lai2017%20Particle%20swarm%20optimization%20for%20numerical%20bifurcation%20analysis%20in%20computational.pdf)
 
-5. Mota, A., Chen, Q., Foulk, J., Ostien, J., & **Lai, Z.** (2016). A Cartesian parametrization for the numerical analysis of material instability. *International Journal for Numerical Methods in Engineering*, 108(2), 156--180. [DOI](https://doi.org/10.1002/nme.5228) | [PDF](pdf/coauthored/Mota2016%20A%20Cartesian%20parametrization%20for%20the%20numerical%20analysis%20of%20material%20instability.pdf)
+5. Liang, Y., Zhang, J., **Lai, Z.**, Huang, Q. Y., & Huang, L. C. (2017). Temporal and spatial distribution of the grout pressure and its effects on lining segments during synchronous grouting in shield tunnelling. *European Journal of Environmental and Civil Engineering*, 24(1), 79-96.
+
+### 2016
+
+1. Mota, A., Chen, Q., Foulk, J., Ostien, J., & **Lai, Z.** (2016). A Cartesian parametrization for the numerical analysis of material instability. *International Journal for Numerical Methods in Engineering*, 108(2), 156--180. [DOI](https://doi.org/10.1002/nme.5228) | [PDF](pdf/coauthored/Mota2016%20A%20Cartesian%20parametrization%20for%20the%20numerical%20analysis%20of%20material%20instability.pdf)
 
 ---
 
 **注释**：
 - **粗体**表示第一作者或通讯作者
+- <sup>†</sup> 表示学生一作
 - <sup>#</sup> 表示通讯作者
 - 完整的论文列表和PDF文件正在整理中
 

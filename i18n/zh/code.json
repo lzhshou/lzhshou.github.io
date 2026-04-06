@@ -1,4 +1,16 @@
 {
+  "theme.navbar.nav.link.Publications": {
+    "message": "学术发表",
+    "description": "Navigation link to publications"
+  },
+  "theme.navbar.nav.link.Teaching": {
+    "message": "教学工作",
+    "description": "Navigation link to teaching"
+  },
+  "theme.navbar.nav.link.About": {
+    "message": "关于我",
+    "description": "Navigation link to about"
+  },
   "homepage.title": {
     "message": "赖正首 | 中山大学土木工程学院",
     "description": "The homepage title"
