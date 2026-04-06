@@ -2,8 +2,27 @@
    APAAM Lab Homepage - Apple-inspired Design
    ============================================================================ */
 
-/* CSS Variables */
+/* CSS Variables - Light Mode (Default) */
 :root {
+  --color-bg-primary: #f5f5f7;
+  --color-bg-secondary: #ffffff;
+  --color-bg-card: rgba(0, 0, 0, 0.03);
+  --color-bg-card-hover: rgba(0, 0, 0, 0.06);
+  --color-text-primary: #1d1d1f;
+  --color-text-secondary: #86868b;
+  --color-text-tertiary: #a1a1a6;
+  --color-accent-blue: #0071e3;
+  --color-accent-purple: #af52de;
+  --color-accent-cyan: #0095ff;
+  --color-gradient-start: #e8e8ed;
+  --color-gradient-end: #f5f5f7;
+  --font-display: 'SF Pro Display', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  --font-text: 'SF Pro Text', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  --transition-smooth: cubic-bezier(0.22, 1, 0.36, 1);
+}
+
+/* CSS Variables - Dark Mode */
+[data-theme='dark'] {
   --color-bg-primary: #000000;
   --color-bg-secondary: #0d0d0d;
   --color-bg-card: rgba(255, 255, 255, 0.03);
@@ -16,9 +35,6 @@
   --color-accent-cyan: #5ac8fa;
   --color-gradient-start: #1a1a2e;
   --color-gradient-end: #16213e;
-  --font-display: 'SF Pro Display', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
-  --font-text: 'SF Pro Text', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
-  --transition-smooth: cubic-bezier(0.22, 1, 0.36, 1);
 }
 
 /* ============================================================================
@@ -43,16 +59,23 @@
   pointer-events: none;
 }
 
-/* 网格背景图案 */
+/* 网格背景图案 - Light mode */
 .gridPattern {
   position: absolute;
   inset: 0;
   background-image:
-    linear-gradient(rgba(255, 255, 255, 0.03) 1px, transparent 1px),
-    linear-gradient(90deg, rgba(255, 255, 255, 0.03) 1px, transparent 1px);
+    linear-gradient(rgba(0, 0, 0, 0.05) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(0, 0, 0, 0.05) 1px, transparent 1px);
   background-size: 60px 60px;
   mask-image: radial-gradient(ellipse at center, black 0%, transparent 70%);
   animation: gridFloat 20s ease-in-out infinite;
+}
+
+/* 网格背景图案 - Dark mode */
+[data-theme='dark'] .gridPattern {
+  background-image:
+    linear-gradient(rgba(255, 255, 255, 0.03) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(255, 255, 255, 0.03) 1px, transparent 1px);
 }
 
 @keyframes gridFloat {
@@ -116,11 +139,16 @@
   display: inline-flex;
   align-items: center;
   padding: 0.5rem 1rem;
-  background: rgba(255, 255, 255, 0.05);
-  border: 1px solid rgba(255, 255, 255, 0.1);
+  background: rgba(0, 0, 0, 0.05);
+  border: 1px solid rgba(0, 0, 0, 0.1);
   border-radius: 100px;
   margin-bottom: 2rem;
   backdrop-filter: blur(10px);
+}
+
+[data-theme='dark'] .labBadge {
+  background: rgba(255, 255, 255, 0.05);
+  border-color: rgba(255, 255, 255, 0.1);
 }
 
 .badgeText {
@@ -141,6 +169,18 @@
 }
 
 .titleGradient {
+  background: linear-gradient(
+    135deg,
+    #1d1d1f 0%,
+    #86868b 50%,
+    #1d1d1f 100%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+[data-theme='dark'] .titleGradient {
   background: linear-gradient(
     135deg,
     #ffffff 0%,
@@ -205,14 +245,23 @@
 }
 
 .buttonSecondary {
-  background: rgba(255, 255, 255, 0.1);
+  background: rgba(0, 0, 0, 0.05);
   color: var(--color-text-primary);
-  border: 1px solid rgba(255, 255, 255, 0.2);
+  border: 1px solid rgba(0, 0, 0, 0.2);
 }
 
 .buttonSecondary:hover {
-  background: rgba(255, 255, 255, 0.15);
+  background: rgba(0, 0, 0, 0.08);
   transform: translateY(-2px);
+}
+
+[data-theme='dark'] .buttonSecondary {
+  background: rgba(255, 255, 255, 0.1);
+  border-color: rgba(255, 255, 255, 0.2);
+}
+
+[data-theme='dark'] .buttonSecondary:hover {
+  background: rgba(255, 255, 255, 0.15);
 }
 
 .buttonIcon {
@@ -240,7 +289,7 @@
 .scrollMouse {
   width: 24px;
   height: 40px;
-  border: 2px solid rgba(255, 255, 255, 0.3);
+  border: 2px solid rgba(0, 0, 0, 0.2);
   border-radius: 12px;
   position: relative;
 }
@@ -249,12 +298,20 @@
   position: absolute;
   width: 4px;
   height: 8px;
-  background: rgba(255, 255, 255, 0.6);
+  background: rgba(0, 0, 0, 0.4);
   border-radius: 2px;
   left: 50%;
   top: 8px;
   transform: translateX(-50%);
   animation: scrollWheel 2s ease-in-out infinite;
+}
+
+[data-theme='dark'] .scrollMouse {
+  border-color: rgba(255, 255, 255, 0.3);
+}
+
+[data-theme='dark'] .scrollWheel {
+  background: rgba(255, 255, 255, 0.6);
 }
 
 @keyframes scrollWheel {
@@ -292,13 +349,21 @@
   padding: 2.5rem 1.5rem;
   background: var(--color-bg-card);
   border-radius: 24px;
-  border: 1px solid rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(0, 0, 0, 0.05);
   transition: all 0.4s var(--transition-smooth);
 }
 
 .statCard:hover {
   background: var(--color-bg-card-hover);
   transform: translateY(-4px);
+  border-color: rgba(0, 0, 0, 0.1);
+}
+
+[data-theme='dark'] .statCard {
+  border-color: rgba(255, 255, 255, 0.05);
+}
+
+[data-theme='dark'] .statCard:hover {
   border-color: rgba(255, 255, 255, 0.1);
 }
 
@@ -369,13 +434,22 @@
   padding: 2.5rem;
   background: var(--color-bg-card);
   border-radius: 24px;
-  border: 1px solid rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(0, 0, 0, 0.05);
   transition: all 0.4s var(--transition-smooth);
   cursor: pointer;
 }
 
 .researchCard:hover {
   background: var(--color-bg-card-hover);
+  border-color: rgba(0, 0, 0, 0.1);
+  box-shadow: 0 20px 60px rgba(0, 0, 0, 0.15);
+}
+
+[data-theme='dark'] .researchCard {
+  border-color: rgba(255, 255, 255, 0.05);
+}
+
+[data-theme='dark'] .researchCard:hover {
   border-color: rgba(255, 255, 255, 0.1);
   box-shadow: 0 20px 60px rgba(0, 0, 0, 0.5);
 }
@@ -488,19 +562,30 @@
 .codeBlock {
   width: 100%;
   max-width: 480px;
-  background: #1a1a2e;
+  background: #f0f0f3;
   border-radius: 16px;
   overflow: hidden;
-  border: 1px solid rgba(255, 255, 255, 0.1);
-  box-shadow: 0 25px 80px rgba(0, 0, 0, 0.5);
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  box-shadow: 0 25px 80px rgba(0, 0, 0, 0.1);
 }
 
 .codeHeader {
   display: flex;
   gap: 8px;
   padding: 16px;
+  background: rgba(0, 0, 0, 0.05);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+}
+
+[data-theme='dark'] .codeBlock {
+  background: #1a1a2e;
+  border-color: rgba(255, 255, 255, 0.1);
+  box-shadow: 0 25px 80px rgba(0, 0, 0, 0.5);
+}
+
+[data-theme='dark'] .codeHeader {
   background: rgba(0, 0, 0, 0.3);
-  border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+  border-color: rgba(255, 255, 255, 0.05);
 }
 
 .codeDot {
@@ -524,9 +609,13 @@
   font-family: 'SF Mono', 'Fira Code', 'JetBrains Mono', monospace;
   font-size: 0.85rem;
   line-height: 1.6;
-  color: #a5b3ce;
+  color: #333344;
   background: transparent;
   overflow-x: auto;
+}
+
+[data-theme='dark'] .codeContent {
+  color: #a5b3ce;
 }
 
 /* ============================================================================
