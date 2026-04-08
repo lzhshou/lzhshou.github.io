@@ -4,7 +4,7 @@
 # zsh (~/.zshrc): set once, use for PATH and fpath (must be before compinit):
 #   MYWEBPAGE_BIN="/Users/.../myWebpage/bin"
 #   export PATH="$MYWEBPAGE_BIN:$PATH"
-#   fpath=("$MYWEBPAGE_BIN" $fpath)
+#   fpath=("$MYWEBPAGE_BIN/completions" $fpath)
 #   autoload -Uz compinit && compinit
 
 set -euo pipefail
@@ -19,7 +19,7 @@ DEFAULT_PORT=3000
 usage() {
   echo "Usage: mywebpage {build|deploy [args...]|start [port]|stop|status}" >&2
   echo "  start   optional port or MYWEBPAGE_PORT (default ${DEFAULT_PORT})" >&2
-  echo "  deploy  runs npm run deploy; extra args pass through (e.g. --skip-build)" >&2
+  echo "  deploy  npm run deploy; sets GIT_USER via gh (PATH includes brew bins) or from git origin github.com owner" >&2
   exit 1
 }
 
@@ -54,6 +54,26 @@ cmd_build() {
 
 cmd_deploy() {
   shift
+  if [[ -z "${GIT_USER:-}" ]]; then
+    local use_ssh_lc login origin
+    use_ssh_lc="$(printf '%s' "${USE_SSH:-}" | tr '[:upper:]' '[:lower:]')"
+    if [[ "$use_ssh_lc" != "true" ]]; then
+      # gh is often missing from PATH when the script is not started from a login shell.
+      PATH="/opt/homebrew/bin:/usr/local/bin:$PATH"
+      if command -v gh >/dev/null 2>&1; then
+        login="$(gh api user --jq .login 2>/dev/null)" || true
+      fi
+      if [[ -z "$login" ]]; then
+        origin="$(git -C "$ROOT" remote get-url origin 2>/dev/null || true)"
+        if [[ "$origin" =~ github\.com:([^/]+)/ ]]; then
+          login="${BASH_REMATCH[1]}"
+        elif [[ "$origin" =~ github\.com/([^/]+)/ ]]; then
+          login="${BASH_REMATCH[1]}"
+        fi
+      fi
+      [[ -n "$login" ]] && export GIT_USER="$login"
+    fi
+  fi
   (cd "$ROOT" && npm run deploy -- "$@")
 }
 
