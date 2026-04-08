@@ -9,7 +9,7 @@ import rehypeKatex from 'rehype-katex';
 const config: Config = {
   title: 'Zhengshou Lai',
   tagline: 'Associate Professor, School of Civil Engineering, Sun Yat-sen University',
-  favicon: 'img/favicon.ico',
+  favicon: 'img/logo.svg',
 
   // Future flags, see https://docusaurus.io/docs/api/docusaurus-config#future
   future: {
@@ -110,6 +110,10 @@ const config: Config = {
     },
     navbar: {
       title: 'APAAM',
+      logo: {
+        alt: 'APAAM Lab',
+        src: 'img/logo.svg',
+      },
       items: [
         {
           to: '/docs/people',
