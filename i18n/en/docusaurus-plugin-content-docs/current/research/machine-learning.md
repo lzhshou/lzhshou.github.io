@@ -60,9 +60,9 @@ Provides new paradigms for intelligent characterization and performance predicti
 
 1. Li, C., **Lai, Z.**#, Huang, S., & Huang, L. (2026). Neural network-driven shape representation and computational particle mechanics via signed distance fields. *Engineering Applications of Artificial Intelligence*, 167, 113913. [DOI](https://doi.org/10.1016/j.engappai.2026.113913) | [PDF](/pdf/first_or_correspondence/Li2026_neural_shape_representation.pdf)
 
-2. Huang, S., Wang, P., **Lai, Z.**#, Yin, Z., Huang, L., & Xu, C. (2024). Machine-learning-enabled discrete element method: The extension to three dimensions and computational issues. *Computer Methods in Applied Mechanics and Engineering*, 432, 117445. [DOI](https://doi.org/10.1016/j.cma.2024.117445) | [PDF](/pdf/first_or_correspondence/Huang2024%20Machine-learning-enabled%20discrete%20element%20method%20-%20The%20extension%20to%20three.pdf)
+2. Huang, S., Wang, P., **Lai, Z.**#, Yin, Z., Huang, L., & Xu, C. (2024). Machine-learning-enabled discrete element method: The extension to three dimensions and computational issues. *Computer Methods in Applied Mechanics and Engineering*, 432, 117445. [DOI](https://doi.org/10.1016/j.cma.2024.117445) | [PDF](/pdf/first_or_correspondence/Huang2024_machine_learning_enabled_discrete_element_method_the_extension.pdf)
 
-3. **Lai, Z.**, Chen, Q., & Huang, L. (2021). Machine-learning-enabled discrete element method: Contact detection and resolution of irregular-shaped particles. *International Journal for Numerical and Analytical Methods in Geomechanics*, 46(1), 113-140. [DOI](https://doi.org/10.1002/nag.3293) | [PDF](/pdf/first_or_correspondence/Lai2021%20Machine%E2%80%90learning%E2%80%90enabled%20discrete%20element%20method%20-%20Contact%20detection%20and.pdf)
+3. **Lai, Z.**, Chen, Q., & Huang, L. (2021). Machine-learning-enabled discrete element method: Contact detection and resolution of irregular-shaped particles. *International Journal for Numerical and Analytical Methods in Geomechanics*, 46(1), 113-140. [DOI](https://doi.org/10.1002/nag.3293) | [PDF](/pdf/first_or_correspondence/Lai2021_machine_learning_enabled_discrete_element_method_contact.pdf)
 
 ### Virtual Particle Generation and Diffusion Models
 
@@ -70,6 +70,6 @@ Provides new paradigms for intelligent characterization and performance predicti
 
 ### Particle Morphology Characterization and CT Image Reconstruction
 
-5. Huang, S., Huang, L., **Lai, Z.**#, & Zhao, J. (2023). Morphology characterization and discrete element modeling of coral sand with intraparticle voids. *Engineering Geology*, 315, 107023. [DOI](https://doi.org/10.1016/j.enggeo.2023.107023) | [PDF](/pdf/first_or_correspondence/Huang2023%20Morphology%20characterization%20and%20discrete%20element%20modeling%20of%20coral%20sand%20with.pdf)
+5. Huang, S., Huang, L., **Lai, Z.**#, & Zhao, J. (2023). Morphology characterization and discrete element modeling of coral sand with intraparticle voids. *Engineering Geology*, 315, 107023. [DOI](https://doi.org/10.1016/j.enggeo.2023.107023) | [PDF](/pdf/first_or_correspondence/Huang2023_morphology_characterization_and_discrete_element_modeling_of.pdf)
 
-6. **Lai, Z.**, Chen, Q., & Huang, L. (2019). Reconstructing granular particles from X-ray computed tomography using the TWS machine learning tool and the level set method. *Acta Geotechnica*, 14(1), 1-18. [DOI](https://doi.org/10.1007/s11440-018-0759-x) | [PDF](/pdf/first_or_correspondence/Lai2019%20Reconstructing%20granular%20particles%20from%20X-ray%20computed%20tomography%20using%20the%20TWS.pdf)
+6. **Lai, Z.**, Chen, Q., & Huang, L. (2019). Reconstructing granular particles from X-ray computed tomography using the TWS machine learning tool and the level set method. *Acta Geotechnica*, 14(1), 1-18. [DOI](https://doi.org/10.1007/s11440-018-0759-x) | [PDF](/pdf/first_or_correspondence/Lai2019_reconstructing_granular_particles_from_x_ray_computed_tomography.pdf)

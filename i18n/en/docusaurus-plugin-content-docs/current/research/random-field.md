@@ -57,20 +57,20 @@ Provides theoretical framework for engineering characterization and disaster ris
 
 ### Random Field Modeling and Investigation Optimization
 
-1. Huang, L., Huang, S., & **Lai, Z.**# (2020). On the optimization of site investigation programs using centroidal Voronoi tessellation and random field theory. *Computers and Geotechnics*, 118, 103331. [DOI](https://doi.org/10.1016/j.compgeo.2019.103331) | [PDF](/pdf/first_or_correspondence/Huang2020%20On%20the%20optimization%20of%20site%20investigation%20programs%20using%20centroidal%20Voronoi.pdf)
+1. Huang, L., Huang, S., & **Lai, Z.**# (2020). On the optimization of site investigation programs using centroidal Voronoi tessellation and random field theory. *Computers and Geotechnics*, 118, 103331. [DOI](https://doi.org/10.1016/j.compgeo.2019.103331) | [PDF](/pdf/first_or_correspondence/Huang2020_on_the_optimization_of_site_investigation_programs_using.pdf)
 
-2. Zhu, B., Liu, J., **Lai, Z.**, & Qian, T. (2023). Sampling Gaussian stationary random fields: A stochastic realization approach. *ISA Transactions*, 142, 386-398. [DOI](https://doi.org/10.1016/j.isatra.2023.08.007) | [PDF](/pdf/coauthored/Zhu2023%20Sampling%20Gaussian%20stationary%20random%20fields%20-%20A%20stochastic%20realization%20approach.pdf)
+2. Zhu, B., Liu, J., **Lai, Z.**, & Qian, T. (2023). Sampling Gaussian stationary random fields: A stochastic realization approach. *ISA Transactions*, 142, 386-398. [DOI](https://doi.org/10.1016/j.isatra.2023.08.007) | [PDF](/pdf/coauthored/Zhu2023_sampling_gaussian_stationary_random_fields_a_stochastic.pdf)
 
 ### Seabed-Pipeline Systems and Reliability Analysis
 
-3. **Lai, Z.**, Chen, Q., & Huang, L. (2021). Evaluating the hydromechanical responses of seabed–pipelines with rotated anisotropic heterogeneous seabed properties. *Ocean Engineering*, 234, 109226. [DOI](https://doi.org/10.1016/j.oceaneng.2021.109226) | [PDF](/pdf/first_or_correspondence/Lai2021%20Evaluating%20the%20hydromechanical%20responses%20of%20seabed–pipelines%20with%20rotated.pdf)
+3. **Lai, Z.**, Chen, Q., & Huang, L. (2021). Evaluating the hydromechanical responses of seabed–pipelines with rotated anisotropic heterogeneous seabed properties. *Ocean Engineering*, 234, 109226. [DOI](https://doi.org/10.1016/j.oceaneng.2021.109226) | [PDF](/pdf/first_or_correspondence/Lai2021_evaluating_the_hydromechanical_responses_of_seabed_pipelines.pdf)
 
-4. **Lai, Z.**, Chen, Q., Wang, C., & Zhou, X. (2019). Modeling dynamic responses of heterogeneous seabed with embedded pipeline through multiresolution random field and coupled hydromechanical simulations. *Ocean Engineering*, 173, 556-570. [DOI](https://doi.org/10.1016/j.oceaneng.2019.01.015) | [PDF](/pdf/first_or_correspondence/Lai2019%20Modeling%20dynamic%20responses%20of%20heterogeneous%20seabed%20with%20embedded%20pipeline.pdf)
+4. **Lai, Z.**, Chen, Q., Wang, C., & Zhou, X. (2019). Modeling dynamic responses of heterogeneous seabed with embedded pipeline through multiresolution random field and coupled hydromechanical simulations. *Ocean Engineering*, 173, 556-570. [DOI](https://doi.org/10.1016/j.oceaneng.2019.01.015) | [PDF](/pdf/first_or_correspondence/Lai2019_modeling_dynamic_responses_of_heterogeneous_seabed_with_embedded.pdf)
 
 ### Slope Stability and Energy Criteria
 
-5. Huang, L., Huang, S., & **Lai, Z.**# (2019). On an energy-based criterion for defining slope failure considering spatially varying soil properties. *Engineering Geology*, 264, 105323. [DOI](https://doi.org/10.1016/j.enggeo.2019.105323) | [PDF](/pdf/first_or_correspondence/Huang2020%20On%20an%20energy-based%20criterion%20for%20defining%20slope%20failure%20considering%20spatially.pdf)
+5. Huang, L., Huang, S., & **Lai, Z.**# (2019). On an energy-based criterion for defining slope failure considering spatially varying soil properties. *Engineering Geology*, 264, 105323. [DOI](https://doi.org/10.1016/j.enggeo.2019.105323) | [PDF](/pdf/first_or_correspondence/Huang2020_on_an_energy_based_criterion_for_defining_slope_failure.pdf)
 
 ### Multiscale Geotechnical Material Modeling
 
-6. Lin, Y., **Lai, Z.**, Ma, J., & Huang, L. (2024). A combined weighted Voronoi tessellation and random field approach for modeling heterogeneous rocks with correlated grain structure. *Construction and Building Materials*, 416, 135228. [DOI](https://doi.org/10.1016/j.conbuildmat.2024.135228) | [PDF](/pdf/coauthored/Lin2024%20A%20combined%20weighted%20Voronoi%20tessellation%20and%20random%20field%20approach%20for%20modeling.pdf)
+6. Lin, Y., **Lai, Z.**, Ma, J., & Huang, L. (2024). A combined weighted Voronoi tessellation and random field approach for modeling heterogeneous rocks with correlated grain structure. *Construction and Building Materials*, 416, 135228. [DOI](https://doi.org/10.1016/j.conbuildmat.2024.135228) | [PDF](/pdf/coauthored/Lin2024_a_combined_weighted_voronoi_tessellation_and_random_field.pdf)
