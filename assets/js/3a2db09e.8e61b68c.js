@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkapaam_lab_website=self.webpackChunkapaam_lab_website||[]).push([[121],{8070:e=>{e.exports=JSON.parse('{"tags":[{"label":"News","permalink":"/blog/tags/news","description":"Lab news and announcements","count":1}]}')}}]);
