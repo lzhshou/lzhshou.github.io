@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-# CLI for this Docusaurus site: build, start (background), stop, status.
+# CLI for this Docusaurus site: build, deploy, start (background), stop, status.
 # Stop uses both recorded PID and listen port to clear orphans / hung listeners.
 # zsh (~/.zshrc): set once, use for PATH and fpath (must be before compinit):
 #   MYWEBPAGE_BIN="/Users/.../myWebpage/bin"
@@ -17,8 +17,9 @@ LOG_FILE="${STATE_DIR}/serve.log"
 DEFAULT_PORT=3000
 
 usage() {
-  echo "Usage: mywebpage {build|start [port]|stop|status}" >&2
+  echo "Usage: mywebpage {build|deploy [args...]|start [port]|stop|status}" >&2
   echo "  start   optional port or MYWEBPAGE_PORT (default ${DEFAULT_PORT})" >&2
+  echo "  deploy  runs npm run deploy; extra args pass through (e.g. --skip-build)" >&2
   exit 1
 }
 
@@ -49,6 +50,11 @@ collect_stop_pids() {
 
 cmd_build() {
   (cd "$ROOT" && npm run build)
+}
+
+cmd_deploy() {
+  shift
+  (cd "$ROOT" && npm run deploy -- "$@")
 }
 
 cmd_start() {
@@ -182,6 +188,7 @@ cmd_status() {
 
 case "${1:-}" in
   build) cmd_build ;;
+  deploy) cmd_deploy "$@" ;;
   start) cmd_start "$@" ;;
   stop) cmd_stop ;;
   status) cmd_status ;;
