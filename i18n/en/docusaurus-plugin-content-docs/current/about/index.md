@@ -1,45 +1,34 @@
-# About Us
+
+# About
 
 ## Laboratory Overview
 
-The Applied Process Analysis And Modeling Laboratory (APAAM) is located at Sun Yat-sen University, dedicated to developing innovative computational methods and software tools for solving complex engineering problems. Our research spans multiple disciplines, including computational mechanics, geotechnical engineering, and materials science.
+The **Applied Process Analysis and Modeling Laboratory (APAAM)** is located at Sun Yat-sen University, dedicated to computational geomechanics and multiscale numerical simulation research. Our research spans multiple disciplines including computational mechanics, geotechnical engineering, and materials science.
 
-Our main research areas include:
-- Computational Mechanics (FEM, DEM, MPM)
-- Granular Materials Modeling
-- Machine Learning Applications in Engineering
-- High-Performance Computing
-- Infrastructure Health Monitoring
+**Research Areas**:
+- Computational methods: FEM, DEM, MPM, etc.
+- Random fields, computational fluid dynamics
+- Multiscale simulation methods
+- Advanced numerical algorithms and software development
 
-## Contact Information
-
-### Address
-School of Civil Engineering  
-Sun Yat-sen University  
-Guangzhou, Guangdong, China
-
-### Contact
-- **Email**: laizhengsh@mail.sysu.edu.cn
-
-### Social Media
+Applied to process simulation analysis and infrastructure disaster prevention and mitigation research.
 
 
-## Join Us
+## Honors and Awards
 
-We always welcome outstanding students interested in computational mechanics and materials science to join us. If you are interested in joining our laboratory, please check the [People](../people/) page for current recruitment information.
+| Year | Award | Organization |
+|------|-------|--------------|
+| 2023.11 | Outstanding Award and Outstanding Postdoc, 2nd National Postdoctoral Innovation and Entrepreneurship Competition | Ministry of Human Resources and Social Security |
+| 2022.10 | Excellent Youth Report Award, 6th National Conference on Computational Mechanics of Granular Materials | Chinese Society of Theoretical and Applied Mechanics |
+| 2022.06 | Best Poster Award, Xiangjiang Scholars Program Annual Academic Exchange | Hong Kong Scholars Association |
+| 2020.12 | Excellent Paper Award, Guangdong-Hong Kong-Macao Greater Bay Area High-Performance Computing Postdoctoral Forum | China Postdoctoral Science Foundation |
+| 2020.02 | Second Prize, Guangdong Provincial Science and Technology Progress Award | Guangdong Provincial People's Government |
+| 2020.01 | First Prize, Technical Invention Award, Guangdong Society of Theoretical and Applied Mechanics | Guangdong Society of Theoretical and Applied Mechanics |
 
-## Latest News
 
-- **Mar 2024**: Laboratory website launched
-- **Mar 2023**: Prof. Lai joined the School of Civil Engineering at Sun Yat-sen University
+## Recruitment and Collaboration
 
-## Acknowledgments
+**Recruiting Master's students** in Geotechnical Engineering/Engineering Mechanics. Welcome students interested in computational mechanics!
 
-We thank all institutions and partners that support our research:
-- National Natural Science Foundation of China
-- Sun Yat-sen University
-- Collaborating universities and research institutions
+**Contact**: laizhengsh@mail.sysu.edu.cn
 
----
-
-*This website is built and maintained with the assistance of AI* 

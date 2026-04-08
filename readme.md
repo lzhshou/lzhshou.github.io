@@ -22,25 +22,35 @@
 npm install
 ```
 
-### 本地开发
-```bash
-# 启动开发服务器（中文版）
-npm start
+### 本地预览
 
-# 启动英文版开发服务器
-npm run start -- --locale en
+`npm start` 会先执行生产构建（包含中文、英文两个语言包），再启动静态预览服务。同一端口下可同时访问默认语言与英文路径，例如 `/docs/...` 与 `/en/docs/...`，避免与 Docusaurus 开发模式「单语言 SPA」的行为混淆。
+
+```bash
+npm start
 ```
+
+预览服务默认地址为 [http://localhost:3000](http://localhost:3000)（若端口被占用，终端会提示实际端口）。例如：首页 `http://localhost:3000/`，中文文档 `http://localhost:3000/docs/...`，英文文档 `http://localhost:3000/en/docs/...`。
 
 ### 构建和部署
 ```bash
-# 构建生产版本
+# 仅构建（不启动服务）
 npm run build
 
-# 本地预览构建结果
+# 在已有 build 输出时，仅启动预览服务
 npm run serve
 
 # 部署到 GitHub Pages
 npm run deploy
+```
+
+### 热更新开发（可选）
+
+若需要 Webpack 开发服务器与热重载，可直接调用 CLI，并指定语言（每次只跑一种语言）：
+
+```bash
+npx docusaurus start --locale zh
+npx docusaurus start --locale en
 ```
 
 ## 目录结构
@@ -117,7 +127,7 @@ npm run deploy
 ## 联系我们
 
 - 邮箱：laizhengsh@mail.sysu.edu.cn
-- GitHub：https://github.com/lzhshou/lzhshou.github.io
+- GitHub：https://github.com/apaam/apaam.github.io
 
 ---
 

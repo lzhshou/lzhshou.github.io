@@ -10,6 +10,7 @@
 
 # Misc
 .DS_Store
+.mywebpage/
 .env.local
 .env.development.local
 .env.test.local

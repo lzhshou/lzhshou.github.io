@@ -1,0 +1,30 @@
+#compdef mywebpage
+
+_mywebpage() {
+  local context state line
+  typeset -A opt_args
+
+  _arguments -C \
+    '1: :->cmds' \
+    '*:: :->args' && return 0
+
+  case "$state" in
+    cmds)
+      local -a cmds
+      cmds=(
+        'build:Build static site (docusaurus build)'
+        'start:Background serve with fixed port (optional port arg)'
+        'stop:Stop using recorded pid and listen port'
+        'status:Show pid, port, listeners, and health state'
+      )
+      _describe -t commands 'mywebpage command' cmds
+      ;;
+    args)
+      case $line[1] in
+        start) _message -e 'port' 'optional TCP port (default 3000)' ;;
+      esac
+      ;;
+  esac
+}
+
+_mywebpage "$@"

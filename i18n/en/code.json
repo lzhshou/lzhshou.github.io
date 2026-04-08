@@ -1,150 +1,122 @@
 {
   "homepage.title": {
-    "message": "Zhengshou Lai | School of Civil Engineering, SYSU",
+    "message": "APAAM Lab | Sun Yat-sen University",
     "description": "The homepage title"
   },
   "homepage.description": {
-    "message": "Associate Professor, School of Civil Engineering, Sun Yat-sen University",
+    "message": "Applied Process Analysis and Modeling Laboratory at Sun Yat-sen University",
     "description": "The homepage description"
   },
-  "homepage.position": {
-    "message": "Associate Professor, M.S. Supervisor",
-    "description": "Position title"
+  "homepage.labName": {
+    "message": "Applied Process Analysis and Modeling Laboratory",
+    "description": "Lab name in Chinese"
   },
-  "homepage.department": {
+  "homepage.affiliation": {
     "message": "School of Civil Engineering, Sun Yat-sen University",
-    "description": "Department name"
+    "description": "Lab affiliation"
   },
-  "homepage.viewProfile": {
-    "message": "View Profile",
-    "description": "View Profile link"
-  },
-  "homepage.publications": {
-    "message": "Publications",
-    "description": "Publications count label"
+  "homepage.intro": {
+    "message": "The APAAM Laboratory is dedicated to computational geomechanics and multiscale numerical simulation research. We develop advanced computational methods and software tools for process simulation analysis and infrastructure disaster prevention and mitigation.",
+    "description": "Lab introduction"
   },
   "homepage.researchAreas": {
     "message": "Research Areas",
     "description": "Research Areas section title"
   },
-  "homepage.education": {
-    "message": "Education",
-    "description": "Education section title"
-  },
-  "homepage.positions": {
-    "message": "Academic Positions",
-    "description": "Academic Positions section title"
-  },
-  "homepage.publicationsTitle": {
-    "message": "Selected Publications",
-    "description": "Selected Publications section title"
-  },
-  "homepage.projects": {
-    "message": "Research Projects",
-    "description": "Research Projects section title"
-  },
   "research.area1": {
-    "message": "Computational Geomechanics",
+    "message": "Discrete Element Method",
     "description": "Research area 1"
   },
+  "research.area1.desc": {
+    "message": "SDF framework, Fourier series particle model, machine learning acceleration, GPU parallel computing",
+    "description": "Research area 1 description"
+  },
   "research.area2": {
-    "message": "Discrete Element Method (DEM)",
+    "message": "Multiscale Simulation",
     "description": "Research area 2"
   },
+  "research.area2.desc": {
+    "message": "CFD-DEM coupling, multiphase flow, porous media flow, fluid-structure coupling",
+    "description": "Research area 2 description"
+  },
   "research.area3": {
-    "message": "Multiscale Simulation",
+    "message": "Machine Learning",
     "description": "Research area 3"
   },
+  "research.area3.desc": {
+    "message": "Generative AI, shape characterization, constitutive modeling, computational acceleration",
+    "description": "Research area 3 description"
+  },
   "research.area4": {
-    "message": "Machine Learning",
+    "message": "Granular Materials",
     "description": "Research area 4"
   },
-  "edu.phd": {
-    "message": "Ph.D., Civil Engineering",
-    "description": "PhD education"
+  "research.area4.desc": {
+    "message": "CT image reconstruction, morphology characterization, biocementation, multiscale modeling",
+    "description": "Research area 4 description"
   },
-  "edu.clemson": {
-    "message": "Clemson University, USA",
-    "description": "Clemson University"
+  "homepage.link.research": {
+    "message": "Research",
+    "description": "Research link"
   },
-  "edu.phdStudent": {
-    "message": "Ph.D. Student, Engineering Mechanics",
-    "description": "PhD student"
+  "homepage.link.publications": {
+    "message": "Publications",
+    "description": "Publications link"
   },
-  "edu.sysu1": {
-    "message": "Sun Yat-sen University",
-    "description": "Sun Yat-sen University"
+  "homepage.link.people": {
+    "message": "Team",
+    "description": "Team link"
   },
-  "edu.bachelor": {
-    "message": "B.Eng., Traffic Engineering",
-    "description": "Bachelor degree"
+  "homepage.link.teaching": {
+    "message": "Admissions",
+    "description": "Admissions link"
   },
-  "edu.sysu2": {
-    "message": "Sun Yat-sen University",
-    "description": "Sun Yat-sen University"
+  "homepage.contact": {
+    "message": "Contact Us",
+    "description": "Contact section title"
   },
-  "time.present": {
-    "message": "Present",
-    "description": "Present time"
+  "homepage.address": {
+    "message": "Haiqin Building 1, Sun Yat-sen University Zhuhai Campus, Tangjiawan, Xiangzhou District, Zhuhai, Guangdong, China",
+    "description": "Lab address"
   },
-  "position.professor": {
-    "message": "Associate Professor",
-    "description": "Associate Professor"
+  "nav.people": {
+    "message": "People",
+    "description": "Navigation - People"
   },
-  "position.affiliated": {
-    "message": "Affiliated Faculty",
-    "description": "Affiliated faculty"
+  "nav.research": {
+    "message": "Research",
+    "description": "Navigation - Research"
   },
-  "position.postdoc1": {
-    "message": "Postdoc (Xiangjiang Scholar)",
-    "description": "Postdoc with Xiangjiang scholarship"
+  "nav.publications": {
+    "message": "Publications",
+    "description": "Navigation - Publications"
   },
-  "position.postdoc2": {
-    "message": "Postdoc",
-    "description": "Postdoc"
+  "nav.teaching": {
+    "message": "Admissions",
+    "description": "Navigation - Admissions"
   },
-  "institution.civil": {
-    "message": "School of Civil Engineering, SYSU",
-    "description": "School of Civil Engineering"
+  "nav.about": {
+    "message": "Contact",
+    "description": "Navigation - Contact"
   },
-  "institution.hkias": {
-    "message": "HK Institute for Advanced Study, SYSU",
-    "description": "HKIAS"
+  "footer.navigation": {
+    "message": "Navigation",
+    "description": "Footer - Navigation"
   },
-  "institution.hkusysu": {
-    "message": "HKUST / SYSU",
-    "description": "HKUST and SYSU"
+  "footer.links": {
+    "message": "Links",
+    "description": "Footer - Links"
   },
-  "institution.intelligent": {
-    "message": "School of Intelligent Engineering, SYSU",
-    "description": "School of Intelligent Engineering"
+  "footer.contact": {
+    "message": "Contact",
+    "description": "Footer - Contact"
   },
-  "project.pi": {
-    "message": "PI",
-    "description": "Principal Investigator"
+  "footer.email": {
+    "message": "Email",
+    "description": "Footer - Email"
   },
-  "project.coPI": {
-    "message": "Co-PI",
-    "description": "Co-Investigator"
-  },
-  "project.gdst": {
-    "message": "GDST",
-    "description": "Guangdong Science and Technology Department"
-  },
-  "project.general": {
-    "message": "General Program",
-    "description": "General project"
-  },
-  "project.major": {
-    "message": "Major Basic Research",
-    "description": "Major basic research project"
-  },
-  "project.title1": {
-    "message": "Multiphase Flow and Coupled Numerical Methods for Hydrate Solid Fluidization",
-    "description": "Project 1 title"
-  },
-  "project.title2": {
-    "message": "Multi-field and Multi-scale Dynamic Coupling Disaster Mechanisms for Offshore Wind Platforms",
-    "description": "Project 2 title"
+  "footer.address": {
+    "message": "Address",
+    "description": "Footer - Address"
   }
 }

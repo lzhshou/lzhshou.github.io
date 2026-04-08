@@ -11,6 +11,38 @@
     "message": "关于我",
     "description": "Navigation link to about"
   },
+  "nav.people": {
+    "message": "成员",
+    "description": "Navigation - People"
+  },
+  "nav.research": {
+    "message": "研究",
+    "description": "Navigation - Research"
+  },
+  "nav.publications": {
+    "message": "论文",
+    "description": "Navigation - Publications"
+  },
+  "nav.teaching": {
+    "message": "教学",
+    "description": "Navigation - Teaching"
+  },
+  "nav.about": {
+    "message": "联系",
+    "description": "Navigation - Contact"
+  },
+  "footer.navigation": {
+    "message": "导航",
+    "description": "Footer - Navigation"
+  },
+  "footer.links": {
+    "message": "学术链接",
+    "description": "Footer - Links"
+  },
+  "footer.contact": {
+    "message": "联系",
+    "description": "Footer - Contact"
+  },
   "homepage.title": {
     "message": "赖正首 | 中山大学土木工程学院",
     "description": "The homepage title"
@@ -18,6 +50,18 @@
   "homepage.description": {
     "message": "中山大学土木工程学院副教授、博士生导师",
     "description": "The homepage description"
+  },
+  "homepage.labName": {
+    "message": "应用过程分析与模拟实验室",
+    "description": "Lab name"
+  },
+  "homepage.affiliation": {
+    "message": "中山大学 土木工程学院",
+    "description": "Lab affiliation"
+  },
+  "homepage.intro": {
+    "message": "APAAM实验室致力于计算岩土力学与多尺度数值模拟研究，开发先进的计算方法与软件工具，应用于过程仿真分析及基础设施防灾减灾研究。",
+    "description": "Lab introduction"
   },
   "homepage.position": {
     "message": "副教授、硕士生导师",
@@ -55,21 +99,61 @@
     "message": "科研项目",
     "description": "Research Projects section title"
   },
+  "homepage.link.research": {
+    "message": "研究详情",
+    "description": "Research link"
+  },
+  "homepage.link.publications": {
+    "message": "学术发表",
+    "description": "Publications link"
+  },
+  "homepage.link.people": {
+    "message": "团队成员",
+    "description": "Team link"
+  },
+  "homepage.link.teaching": {
+    "message": "招生信息",
+    "description": "Admissions link"
+  },
+  "homepage.contact": {
+    "message": "联系我们",
+    "description": "Contact section title"
+  },
+  "homepage.address": {
+    "message": "珠海市香洲区唐家湾中山大学珠海校区海琴1号",
+    "description": "Lab address"
+  },
   "research.area1": {
     "message": "计算岩土力学",
     "description": "Research area 1"
   },
+  "research.area1.desc": {
+    "message": "SDF框架、傅里叶级数颗粒模型、机器学习加速、GPU并行计算",
+    "description": "Research area 1 description"
+  },
   "research.area2": {
-    "message": "离散元方法（DEM）",
+    "message": "多尺度模拟",
     "description": "Research area 2"
   },
+  "research.area2.desc": {
+    "message": "CFD-DEM耦合、多相流、孔隙介质流动、流固耦合",
+    "description": "Research area 2 description"
+  },
   "research.area3": {
-    "message": "多尺度模拟",
+    "message": "机器学习",
     "description": "Research area 3"
   },
+  "research.area3.desc": {
+    "message": "生成式AI、形状表征、本构建模、计算加速",
+    "description": "Research area 3 description"
+  },
   "research.area4": {
-    "message": "机器学习",
+    "message": "颗粒材料",
     "description": "Research area 4"
+  },
+  "research.area4.desc": {
+    "message": "CT图像重建、形态表征、生物胶结、多尺度建模",
+    "description": "Research area 4 description"
   },
   "edu.phd": {
     "message": "博士，土木工程",

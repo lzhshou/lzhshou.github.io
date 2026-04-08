@@ -1,0 +1,190 @@
+#!/usr/bin/env bash
+# CLI for this Docusaurus site: build, start (background), stop, status.
+# Stop uses both recorded PID and listen port to clear orphans / hung listeners.
+# zsh (~/.zshrc): set once, use for PATH and fpath (must be before compinit):
+#   MYWEBPAGE_BIN="/Users/.../myWebpage/bin"
+#   export PATH="$MYWEBPAGE_BIN:$PATH"
+#   fpath=("$MYWEBPAGE_BIN" $fpath)
+#   autoload -Uz compinit && compinit
+
+set -euo pipefail
+
+ROOT="$(cd "$(dirname "${BASH_SOURCE[0]}")/.." && pwd)"
+STATE_DIR="${ROOT}/.mywebpage"
+PID_FILE="${STATE_DIR}/serve.pid"
+PORT_FILE="${STATE_DIR}/serve.port"
+LOG_FILE="${STATE_DIR}/serve.log"
+DEFAULT_PORT=3000
+
+usage() {
+  echo "Usage: mywebpage {build|start [port]|stop|status}" >&2
+  echo "  start   optional port or MYWEBPAGE_PORT (default ${DEFAULT_PORT})" >&2
+  exit 1
+}
+
+# PIDs with TCP listen on port (one per line).
+pids_on_port() {
+  local port="$1" out
+  out="$(lsof -nP -iTCP:"$port" -sTCP:LISTEN -t 2>/dev/null || true)"
+  if [[ -z "$out" ]]; then
+    out="$(lsof -ti:"$port" -sTCP:LISTEN 2>/dev/null || true)"
+  fi
+  if [[ -z "$out" ]]; then
+    out="$(lsof -ti:"$port" 2>/dev/null || true)"
+  fi
+  echo "$out" | tr ' ' '\n' | grep -E '^[0-9]+$' | sort -nu
+}
+
+# Unique PIDs: recorded npm wrapper + anything listening on port.
+collect_stop_pids() {
+  local port="$1"
+  {
+    if [[ -f "$PID_FILE" ]]; then
+      tr -d '[:space:]' <"$PID_FILE"
+      echo
+    fi
+    pids_on_port "$port"
+  } | grep -E '^[0-9]+$' | sort -nu
+}
+
+cmd_build() {
+  (cd "$ROOT" && npm run build)
+}
+
+cmd_start() {
+  local port="${2:-}"
+  [[ -z "$port" ]] && port="${MYWEBPAGE_PORT:-}"
+  [[ -z "$port" ]] && port="$DEFAULT_PORT"
+
+  if ! [[ "$port" =~ ^[0-9]+$ ]] || [[ "$port" -lt 1 ]] || [[ "$port" -gt 65535 ]]; then
+    echo "mywebpage: invalid port: $port" >&2
+    exit 1
+  fi
+
+  mkdir -p "$STATE_DIR"
+
+  if [[ -f "$PID_FILE" ]]; then
+    local oldpid
+    oldpid="$(tr -d '[:space:]' <"$PID_FILE")"
+    if [[ -n "$oldpid" ]] && kill -0 "$oldpid" 2>/dev/null; then
+      echo "mywebpage: server already running (pid $oldpid)" >&2
+      exit 1
+    fi
+    rm -f "$PID_FILE" "$PORT_FILE"
+  fi
+
+  if [[ -n "$(pids_on_port "$port")" ]]; then
+    echo "mywebpage: port $port is in use; run: mywebpage stop" >&2
+    exit 1
+  fi
+
+  echo "mywebpage: starting (build + serve on port $port), log: $LOG_FILE" >&2
+  cd "$ROOT"
+  # Single docusaurus process tree; --port is authoritative for state file + stop.
+  nohup npx docusaurus serve --build --port "$port" --no-open >>"$LOG_FILE" 2>&1 &
+  echo $! >"$PID_FILE"
+  echo "$port" >"$PORT_FILE"
+  echo "mywebpage: pid $(cat "$PID_FILE") port $port" >&2
+}
+
+cmd_stop() {
+  local port="$DEFAULT_PORT"
+  [[ -f "$PORT_FILE" ]] && port="$(tr -d '[:space:]' <"$PORT_FILE")"
+
+  if [[ ! -f "$PID_FILE" ]] && [[ ! -f "$PORT_FILE" ]]; then
+    echo "mywebpage: no state (.mywebpage/serve.pid / serve.port); nothing to stop" >&2
+    exit 1
+  fi
+
+  if ! [[ "$port" =~ ^[0-9]+$ ]]; then
+    port="$DEFAULT_PORT"
+  fi
+
+  local pid
+  local any=no
+  while IFS= read -r pid; do
+    [[ -z "$pid" ]] && continue
+    any=yes
+    kill -TERM "$pid" 2>/dev/null || true
+  done < <(collect_stop_pids "$port")
+
+  if [[ "$any" == "no" ]]; then
+    rm -f "$PID_FILE" "$PORT_FILE"
+    echo "mywebpage: no running processes matched pid/port; cleared state files" >&2
+    exit 0
+  fi
+
+  local i
+  for i in {1..40}; do
+    [[ -z "$(pids_on_port "$port")" ]] && break
+    sleep 0.2
+  done
+
+  while IFS= read -r pid; do
+    [[ -z "$pid" ]] && continue
+    kill -KILL "$pid" 2>/dev/null || true
+  done < <(pids_on_port "$port")
+
+  if [[ -f "$PID_FILE" ]]; then
+    pid="$(tr -d '[:space:]' <"$PID_FILE")"
+    if [[ -n "$pid" ]] && kill -0 "$pid" 2>/dev/null; then
+      kill -KILL "$pid" 2>/dev/null || true
+    fi
+  fi
+
+  rm -f "$PID_FILE" "$PORT_FILE"
+  echo "mywebpage: stopped (pid + port $port)" >&2
+}
+
+cmd_status() {
+  local port="" pid="" pid_alive=no port_busy=no port_pids="" has_state=no
+  [[ -f "$PORT_FILE" ]] && has_state=yes
+  [[ -f "$PID_FILE" ]] && has_state=yes
+
+  [[ -f "$PORT_FILE" ]] && port="$(tr -d '[:space:]' <"$PORT_FILE")"
+  [[ -f "$PID_FILE" ]] && pid="$(tr -d '[:space:]' <"$PID_FILE")"
+
+  if [[ "$has_state" == "no" ]]; then
+    echo "log:     $LOG_FILE"
+    echo "pid:     —"
+    echo "port:    —  (no mywebpage session; start uses port ${DEFAULT_PORT} by default)"
+    echo "state:   stopped"
+    return 0
+  fi
+
+  if ! [[ "$port" =~ ^[0-9]+$ ]]; then
+    port="$DEFAULT_PORT"
+  fi
+
+  if [[ -n "$pid" ]] && kill -0 "$pid" 2>/dev/null; then
+    pid_alive=yes
+  fi
+
+  port_pids="$(pids_on_port "$port" | tr '\n' ' ' | sed 's/[[:space:]]*$//')"
+  [[ -n "$port_pids" ]] && port_busy=yes
+
+  echo "log:     $LOG_FILE"
+  echo "pid:     ${pid:-—}  (alive: $pid_alive)"
+  echo "port:    $port  (listening: $port_busy${port_pids:+  pids: $port_pids})"
+
+  if [[ "$pid_alive" == "yes" ]] && [[ "$port_busy" == "yes" ]]; then
+    echo "state:   running"
+  elif [[ "$pid_alive" == "no" ]] && [[ "$port_busy" == "yes" ]]; then
+    echo "state:   hung/orphan (port still in use — run: mywebpage stop)"
+  elif [[ "$pid_alive" == "yes" ]] && [[ "$port_busy" == "no" ]]; then
+    echo "state:   abnormal (pid alive but port not listening)"
+  elif [[ "$pid_alive" == "no" ]] && [[ "$port_busy" == "no" ]]; then
+    echo "state:   stopped (stale state files — run: mywebpage stop to clear)"
+  else
+    echo "state:   unknown (check $STATE_DIR)"
+  fi
+}
+
+case "${1:-}" in
+  build) cmd_build ;;
+  start) cmd_start "$@" ;;
+  stop) cmd_stop ;;
+  status) cmd_status ;;
+  -h | --help | help) usage ;;
+  *) usage ;;
+esac

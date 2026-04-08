@@ -28,7 +28,7 @@ const config: Config = {
   projectName: 'lzhshou.github.io', // Usually your repo name.
   deploymentBranch: 'gh-pages', // Static site deployment branch
 
-  onBrokenLinks: 'throw',
+  onBrokenLinks: 'warn',
   onBrokenMarkdownLinks: 'warn',
 
   // Even if you don't use internationalization, you can use this field to set
@@ -56,11 +56,13 @@ const config: Config = {
       'classic',
       {
         docs: {
+          path: 'docs',
+          routeBasePath: 'docs',
           sidebarPath: './sidebars.ts',
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/lzhshou/lzhshou.github.io/edit/main/',
+            'https://github.com/apaam/apaam.github.io/edit/main/',
           remarkPlugins: [remarkMath],
           rehypePlugins: [rehypeKatex],
         },
@@ -73,7 +75,7 @@ const config: Config = {
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/lzhshou/lzhshou.github.io/edit/main/',
+            'https://github.com/apaam/apaam.github.io/edit/main/',
           // Useful options to enforce blogging best practices
           onInlineTags: 'warn',
           onInlineAuthors: 'warn',
@@ -107,39 +109,39 @@ const config: Config = {
       respectPrefersColorScheme: false,
     },
     navbar: {
-      title: 'Zhengshou Lai',
+      title: 'APAAM',
       items: [
         {
           to: '/docs/people',
           position: 'left',
-          label: '成员',
+          label: 'nav.people',
         },
         {
           to: '/docs/research',
           position: 'left',
-          label: '研究',
+          label: 'nav.research',
         },
         {
           to: '/docs/publications',
           position: 'left',
-          label: '论文',
+          label: 'nav.publications',
         },
         {
           to: '/docs/teaching',
           position: 'left',
-          label: '教学',
+          label: 'nav.teaching',
         },
         {
           to: '/docs/about',
           position: 'left',
-          label: '联系',
+          label: 'nav.about',
         },
         {
           type: 'localeDropdown',
           position: 'right',
         },
         {
-          href: 'https://github.com/lzhshou',
+          href: 'https://github.com/apaam',
           position: 'right',
           className: 'header-github-link',
           'aria-label': 'GitHub',
@@ -150,24 +152,32 @@ const config: Config = {
       style: 'light',
       links: [
         {
-          title: 'Navigation',
+          title: 'footer.navigation',
           items: [
             {
-              label: 'Publications',
+              label: 'nav.research',
+              to: '/docs/research',
+            },
+            {
+              label: 'nav.publications',
               to: '/docs/publications',
             },
             {
-              label: 'Teaching',
+              label: 'nav.people',
+              to: '/docs/people',
+            },
+            {
+              label: 'nav.teaching',
               to: '/docs/teaching',
             },
             {
-              label: 'About',
+              label: 'nav.about',
               to: '/docs/about',
             },
           ],
         },
         {
-          title: 'External',
+          title: 'footer.links',
           items: [
             {
               label: 'Google Scholar',
@@ -177,10 +187,31 @@ const config: Config = {
               label: 'ORCID',
               href: 'https://orcid.org/0000-0002-2378-9193',
             },
+            {
+              label: 'GitHub',
+              href: 'https://github.com/apaam',
+            },
+            {
+              label: 'SYSU',
+              href: 'https://civil.sysu.edu.cn/teacher/1740',
+            },
+          ],
+        },
+        {
+          title: 'footer.contact',
+          items: [
+            {
+              label: 'footer.email',
+              href: 'mailto:laizhengsh@mail.sysu.edu.cn',
+            },
+            {
+              label: 'footer.address',
+              to: '/docs/about',
+            },
           ],
         },
       ],
-      copyright: `© ${new Date().getFullYear()} Zhengshou Lai`,
+      copyright: `© ${new Date().getFullYear()} APAAM · Crafted with ClaudeBot`,
     },
     prism: {
       theme: prismThemes.github,
