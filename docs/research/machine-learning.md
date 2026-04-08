@@ -63,20 +63,20 @@
 
 ### 深度学习与智能计算
 
-1. Li, C., **Lai, Z.**#, Huang, S., & Huang, L. (2026). Neural network-driven shape representation and computational particle mechanics via signed distance fields. *Engineering Applications of Artificial Intelligence*, 167, 113913. [DOI](https://doi.org/10.1016/j.engappai.2026.113913) | [PDF](/pdf/first_or_correspondance/Li2026_neural_shape_representation.pdf)
+1. Li, C., **Lai, Z.**#, Huang, S., & Huang, L. (2026). Neural network-driven shape representation and computational particle mechanics via signed distance fields. *Engineering Applications of Artificial Intelligence*, 167, 113913. [DOI](https://doi.org/10.1016/j.engappai.2026.113913) | [PDF](/pdf/first_or_correspondence/Li2026_neural_shape_representation.pdf)
 
-2. Huang, S., Wang, P., **Lai, Z.**#, Yin, Z., Huang, L., & Xu, C. (2024). Machine-learning-enabled discrete element method: The extension to three dimensions and computational issues. *Computer Methods in Applied Mechanics and Engineering*, 432, 117445. [DOI](https://doi.org/10.1016/j.cma.2024.117445) | [PDF](/pdf/first_or_correspondance/Huang2024%20Machine-learning-enabled discrete element method - The extension to three.pdf)
+2. Huang, S., Wang, P., **Lai, Z.**#, Yin, Z., Huang, L., & Xu, C. (2024). Machine-learning-enabled discrete element method: The extension to three dimensions and computational issues. *Computer Methods in Applied Mechanics and Engineering*, 432, 117445. [DOI](https://doi.org/10.1016/j.cma.2024.117445) | [PDF](/pdf/first_or_correspondence/Huang2024%20Machine-learning-enabled discrete element method - The extension to three.pdf)
 
-3. **Lai, Z.**, Chen, Q., & Huang, L. (2021). Machine-learning-enabled discrete element method: Contact detection and resolution of irregular-shaped particles. *International Journal for Numerical and Analytical Methods in Geomechanics*, 46(1), 113-140. [DOI](https://doi.org/10.1002/nag.3293) | [PDF](/pdf/first_or_correspondance/Lai2021%20Machine‐learning‐enabled discrete element method - Contact detection and.pdf)
+3. **Lai, Z.**, Chen, Q., & Huang, L. (2021). Machine-learning-enabled discrete element method: Contact detection and resolution of irregular-shaped particles. *International Journal for Numerical and Analytical Methods in Geomechanics*, 46(1), 113-140. [DOI](https://doi.org/10.1002/nag.3293) | [PDF](/pdf/first_or_correspondence/Lai2021%20Machine‐learning‐enabled discrete element method - Contact detection and.pdf)
 
 ### 虚拟颗粒生成与扩散模型
 
-4. Li, C., Huang, L., **Lai, Z.**#, Huang, S., & Lin, Y. (2026). A diffusion-based generative framework for virtual porous granular media generation. *Powder Technology*, 473, 122230. [DOI](https://doi.org/10.1016/j.powtec.2026.122230) | [PDF](/pdf/first_or_correspondance/Li2026_diffusion_generative_framework.pdf)
+4. Li, C., Huang, L., **Lai, Z.**#, Huang, S., & Lin, Y. (2026). A diffusion-based generative framework for virtual porous granular media generation. *Powder Technology*, 473, 122230. [DOI](https://doi.org/10.1016/j.powtec.2026.122230) | [PDF](/pdf/first_or_correspondence/Li2026_diffusion_generative_framework.pdf)
 
 ### 颗粒形态表征与CT图像重建
 
-5. Huang, S., Huang, L., **Lai, Z.**#, & Zhao, J. (2023). Morphology characterization and discrete element modeling of coral sand with intraparticle voids. *Engineering Geology*, 315, 107023. [DOI](https://doi.org/10.1016/j.enggeo.2023.107023) | [PDF](/pdf/first_or_correspondance/Huang2023%20Morphology characterization and discrete element modeling of coral sand with.pdf)
+5. Huang, S., Huang, L., **Lai, Z.**#, & Zhao, J. (2023). Morphology characterization and discrete element modeling of coral sand with intraparticle voids. *Engineering Geology*, 315, 107023. [DOI](https://doi.org/10.1016/j.enggeo.2023.107023) | [PDF](/pdf/first_or_correspondence/Huang2023%20Morphology characterization and discrete element modeling of coral sand with.pdf)
 
-6. **Lai, Z.**, Chen, Q., & Huang, L. (2019). Reconstructing granular particles from X-ray computed tomography using the TWS machine learning tool and the level set method. *Acta Geotechnica*, 14(1), 1-18. [DOI](https://doi.org/10.1007/s11440-018-0759-x) | [PDF](/pdf/first_or_correspondance/Lai2019%20Reconstructing granular particles from X-ray computed tomography using the TWS.pdf)
+6. **Lai, Z.**, Chen, Q., & Huang, L. (2019). Reconstructing granular particles from X-ray computed tomography using the TWS machine learning tool and the level set method. *Acta Geotechnica*, 14(1), 1-18. [DOI](https://doi.org/10.1007/s11440-018-0759-x) | [PDF](/pdf/first_or_correspondence/Lai2019%20Reconstructing granular particles from X-ray computed tomography using the TWS.pdf)
 
-7. **Lai, Z.**, Chen, Q., & Huang, L. (2021). A polybézier-based particle model for the DEM modeling of granular media. *Computers and Geotechnics*, 134, 104052. [DOI](https://doi.org/10.1016/j.compgeo.2021.104052) | [PDF](/pdf/first_or_correspondance/Lai2021%20A%20polybézier-based particle model for the DEM modeling of granular media.pdf)
+7. **Lai, Z.**, Chen, Q., & Huang, L. (2021). A polybézier-based particle model for the DEM modeling of granular media. *Computers and Geotechnics*, 134, 104052. [DOI](https://doi.org/10.1016/j.compgeo.2021.104052) | [PDF](/pdf/first_or_correspondence/Lai2021%20A%20polybézier-based particle model for the DEM modeling of granular media.pdf)

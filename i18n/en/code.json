@@ -78,45 +78,5 @@
   "homepage.address": {
     "message": "Haiqin Building 1, Sun Yat-sen University Zhuhai Campus, Tangjiawan, Xiangzhou District, Zhuhai, Guangdong, China",
     "description": "Lab address"
-  },
-  "nav.people": {
-    "message": "People",
-    "description": "Navigation - People"
-  },
-  "nav.research": {
-    "message": "Research",
-    "description": "Navigation - Research"
-  },
-  "nav.publications": {
-    "message": "Publications",
-    "description": "Navigation - Publications"
-  },
-  "nav.teaching": {
-    "message": "Admissions",
-    "description": "Navigation - Admissions"
-  },
-  "nav.about": {
-    "message": "Contact",
-    "description": "Navigation - Contact"
-  },
-  "footer.navigation": {
-    "message": "Navigation",
-    "description": "Footer - Navigation"
-  },
-  "footer.links": {
-    "message": "Links",
-    "description": "Footer - Links"
-  },
-  "footer.contact": {
-    "message": "Contact",
-    "description": "Footer - Contact"
-  },
-  "footer.email": {
-    "message": "Email",
-    "description": "Footer - Email"
-  },
-  "footer.address": {
-    "message": "Address",
-    "description": "Footer - Address"
   }
 }

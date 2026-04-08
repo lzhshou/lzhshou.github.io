@@ -136,6 +136,11 @@ const config: Config = {
           label: 'nav.teaching',
         },
         {
+          to: '/blog',
+          position: 'left',
+          label: 'nav.blog',
+        },
+        {
           to: '/docs/about',
           position: 'left',
           label: 'nav.about',

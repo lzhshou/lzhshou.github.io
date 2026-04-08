@@ -72,19 +72,19 @@
 
 ### 随机场建模与勘察优化
 
-1. Huang, L., Huang, S., & **Lai, Z.**# (2020). On the optimization of site investigation programs using centroidal Voronoi tessellation and random field theory. *Computers and Geotechnics*, 118, 103331. [DOI](https://doi.org/10.1016/j.compgeo.2019.103331) | [PDF](/pdf/first_or_correspondance/Huang2020%20On the optimization of site investigation programs using centroidal Voronoi.pdf)
+1. Huang, L., Huang, S., & **Lai, Z.**# (2020). On the optimization of site investigation programs using centroidal Voronoi tessellation and random field theory. *Computers and Geotechnics*, 118, 103331. [DOI](https://doi.org/10.1016/j.compgeo.2019.103331) | [PDF](/pdf/first_or_correspondence/Huang2020%20On the optimization of site investigation programs using centroidal Voronoi.pdf)
 
 2. Zhu, B., Liu, J., **Lai, Z.**, & Qian, T. (2023). Sampling Gaussian stationary random fields: A stochastic realization approach. *ISA Transactions*, 142, 386-398. [DOI](https://doi.org/10.1016/j.isatra.2023.08.007) | [PDF](/pdf/coauthored/Zhu2023%20Sampling Gaussian stationary random fields - A stochastic realization approach.pdf)
 
 ### 海床-管线系统与可靠度分析
 
-3. **Lai, Z.**, Chen, Q., & Huang, L. (2021). Evaluating the hydromechanical responses of seabed–pipelines with rotated anisotropic heterogeneous seabed properties. *Ocean Engineering*, 234, 109226. [DOI](https://doi.org/10.1016/j.oceaneng.2021.109226) | [PDF](/pdf/first_or_correspondance/Lai2021%20Evaluating the hydromechanical responses of seabed–pipelines with rotated.pdf)
+3. **Lai, Z.**, Chen, Q., & Huang, L. (2021). Evaluating the hydromechanical responses of seabed–pipelines with rotated anisotropic heterogeneous seabed properties. *Ocean Engineering*, 234, 109226. [DOI](https://doi.org/10.1016/j.oceaneng.2021.109226) | [PDF](/pdf/first_or_correspondence/Lai2021%20Evaluating the hydromechanical responses of seabed–pipelines with rotated.pdf)
 
-4. **Lai, Z.**, Chen, Q., Wang, C., & Zhou, X. (2019). Modeling dynamic responses of heterogeneous seabed with embedded pipeline through multiresolution random field and coupled hydromechanical simulations. *Ocean Engineering*, 173, 556-570. [DOI](https://doi.org/10.1016/j.oceaneng.2019.01.015) | [PDF](/pdf/first_or_correspondance/Lai2019%20Modeling dynamic responses of heterogeneous seabed with embedded pipeline.pdf)
+4. **Lai, Z.**, Chen, Q., Wang, C., & Zhou, X. (2019). Modeling dynamic responses of heterogeneous seabed with embedded pipeline through multiresolution random field and coupled hydromechanical simulations. *Ocean Engineering*, 173, 556-570. [DOI](https://doi.org/10.1016/j.oceaneng.2019.01.015) | [PDF](/pdf/first_or_correspondence/Lai2019%20Modeling dynamic responses of heterogeneous seabed with embedded pipeline.pdf)
 
 ### 边坡稳定与能量判据
 
-5. Huang, L., Huang, S., & **Lai, Z.**# (2019). On an energy-based criterion for defining slope failure considering spatially varying soil properties. *Engineering Geology*, 264, 105323. [DOI](https://doi.org/10.1016/j.enggeo.2019.105323) | [PDF](/pdf/first_or_correspondance/Huang2020%20On an energy-based criterion for defining slope failure considering spatially.pdf)
+5. Huang, L., Huang, S., & **Lai, Z.**# (2019). On an energy-based criterion for defining slope failure considering spatially varying soil properties. *Engineering Geology*, 264, 105323. [DOI](https://doi.org/10.1016/j.enggeo.2019.105323) | [PDF](/pdf/first_or_correspondence/Huang2020%20On an energy-based criterion for defining slope failure considering spatially.pdf)
 
 ### 多尺度岩土材料建模
 

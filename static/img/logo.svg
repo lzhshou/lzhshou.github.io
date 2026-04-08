@@ -1,4 +1,14 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" role="img" aria-label="APAAM">
-  <rect width="48" height="48" rx="11" fill="#0d7377"/>
-  <path fill="#ffffff" d="M24 11 35 37h-5l-2.5-6h-11L14 37H9l11-26h4zm-2 11h4L24 17l-2 5z"/>
+  <rect width="48" height="48" rx="11" fill="#0d7377" />
+  <g fill="none" stroke="#ffffff" stroke-width="4.6" stroke-linecap="round" stroke-linejoin="round">
+    <!-- Center the transform around (24, 24) for true visual centering -->
+    <g transform="translate(24 24)">
+      <g transform="skewX(-10) scale(1.12)">
+        <g transform="translate(-24 -24)">
+          <path d="M16 35 L24 13 L32 35" />
+          <path d="M19.75 26 H28.25" />
+        </g>
+      </g>
+    </g>
+  </g>
 </svg>

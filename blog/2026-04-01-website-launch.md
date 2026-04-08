@@ -3,6 +3,7 @@ slug: website-launch
 title: 实验室网站正式上线
 authors: [lzhshou]
 tags: [news]
+date: 2026-04-01
 ---
 
 APAAM 实验室网站正式上线！

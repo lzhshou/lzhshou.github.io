@@ -80,16 +80,16 @@
 
 ### 多尺度 CFD-DEM 框架
 
-1. **Lai, Z.**, Huang, S., Kong, Y., Zhao, S., Zhao, J., & Huang, L. (2026). Hybrid resolved-unresolved CFD-DEM framework for multiscale fluid-particle systems with irregular-shaped and polydisperse particles. *Journal of Computational Physics*, 554, 114759. [DOI](https://doi.org/10.1016/j.jcp.2026.114759) | [PDF](/pdf/first_or_correspondance/Lai2026_Hybrid_resolved_unresolved_CFD_DEM.pdf)
+1. **Lai, Z.**, Huang, S., Kong, Y., Zhao, S., Zhao, J., & Huang, L. (2026). Hybrid resolved-unresolved CFD-DEM framework for multiscale fluid-particle systems with irregular-shaped and polydisperse particles. *Journal of Computational Physics*, 554, 114759. [DOI](https://doi.org/10.1016/j.jcp.2026.114759) | [PDF](/pdf/first_or_correspondence/Lai2026_Hybrid_resolved_unresolved_CFD_DEM.pdf)
 
-2. **Lai, Z.**, Zhao, J., Zhao, S., & Huang, L. (2023). Signed distance field enhanced fully resolved CFD-DEM for simulation of granular flows involving multiphase fluids and irregularly shaped particles. *Computer Methods in Applied Mechanics and Engineering*, 414, 116195. [DOI](https://doi.org/10.1016/j.cma.2023.116195) | [PDF](/pdf/first_or_correspondance/Lai2023%20Signed distance field enhanced fully resolved CFD-DEM for simulation of.pdf)
+2. **Lai, Z.**, Zhao, J., Zhao, S., & Huang, L. (2023). Signed distance field enhanced fully resolved CFD-DEM for simulation of granular flows involving multiphase fluids and irregularly shaped particles. *Computer Methods in Applied Mechanics and Engineering*, 414, 116195. [DOI](https://doi.org/10.1016/j.cma.2023.116195) | [PDF](/pdf/first_or_correspondence/Lai2023%20Signed distance field enhanced fully resolved CFD-DEM for simulation of.pdf)
 
 ### 渗流侵蚀与多相流应用
 
-3. Huang, S., Wang, P., **Lai, Z.**#, Yin, Z.-Y., Huang, L., & Xu, C. (2026). Hybrid SDF-CFD-DEM analysis of suffusion behavior in coral sand incorporating irregular particle morphology and intraparticle voids. *Engineering Geology*, 364, 108616. [DOI](https://doi.org/10.1016/j.enggeo.2026.108616) | [PDF](/pdf/first_or_correspondance/Huang2026 Hybrid SDF-CFD-DEM analysis of suffusion behavior in coral sand incorporating irregular particle morphology and intraparticle voids.pdf)
+3. Huang, S., Wang, P., **Lai, Z.**#, Yin, Z.-Y., Huang, L., & Xu, C. (2026). Hybrid SDF-CFD-DEM analysis of suffusion behavior in coral sand incorporating irregular particle morphology and intraparticle voids. *Engineering Geology*, 364, 108616. [DOI](https://doi.org/10.1016/j.enggeo.2026.108616) | [PDF](/pdf/first_or_correspondence/Huang2026 Hybrid SDF-CFD-DEM analysis of suffusion behavior in coral sand incorporating irregular particle morphology and intraparticle voids.pdf)
 
 4. Liu, Y., Yin, Z., Huang, S., **Lai, Z.**, & Zhou, C. (2024). Resolved CFD-DEM Modeling of Suffusion in Gap-Graded Shaped Granular Soils. *Journal of Geotechnical and Geoenvironmental Engineering*, 150(4), 04024008. [DOI](https://doi.org/10.1061/JGGEFK.GTENG-11891) | [PDF](/pdf/coauthored/Liu2024%20Resolved CFD-DEM Modeling of Suffusion in Gap-Graded Shaped Granular Soils.pdf)
 
 ### 颗粒流与工艺应用
 
-5. **Lai, Z.**, Xia, Y., & Chen, Q. (2023). Discrete element modeling of granular hopper flow of irregular-shaped deformable particles. *Advanced Powder Technology*, 34(9), 104106. [DOI](https://doi.org/10.1016/j.apt.2023.104106) | [PDF](/pdf/first_or_correspondance/Lai2023%20Discrete%20element%20modeling%20of%20granular%20hopper%20flow%20of%20irregular-shaped.pdf)
+5. **Lai, Z.**, Xia, Y., & Chen, Q. (2023). Discrete element modeling of granular hopper flow of irregular-shaped deformable particles. *Advanced Powder Technology*, 34(9), 104106. [DOI](https://doi.org/10.1016/j.apt.2023.104106) | [PDF](/pdf/first_or_correspondence/Lai2023%20Discrete%20element%20modeling%20of%20granular%20hopper%20flow%20of%20irregular-shaped.pdf)
