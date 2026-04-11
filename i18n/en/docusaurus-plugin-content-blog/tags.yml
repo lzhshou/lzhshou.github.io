@@ -2,3 +2,13 @@ news:
   label: News
   permalink: /news
   description: Lab news and announcements
+
+competition:
+  label: Competition
+  permalink: /competition
+  description: Academic competitions and contests
+
+award:
+  label: Award
+  permalink: /award
+  description: Awards and honors

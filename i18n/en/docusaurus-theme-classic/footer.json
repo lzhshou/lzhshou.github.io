@@ -48,11 +48,11 @@
     "description": "The label of footer link with label=SYSU linking to https://civil.sysu.edu.cn/teacher/1740"
   },
   "link.item.label.footer.email": {
-    "message": "Email",
+    "message": "laizhengsh@mail.sysu.edu.cn",
     "description": "The label of footer link with label=footer.email linking to mailto:laizhengsh@mail.sysu.edu.cn"
   },
   "link.item.label.footer.address": {
-    "message": "Address",
+    "message": "Haiqin Building 1, Zhuhai Campus, Sun Yat-sen University, Xiangzhou, Zhuhai, China",
     "description": "The label of footer link with label=footer.address linking to /docs/about"
   },
   "copyright": {

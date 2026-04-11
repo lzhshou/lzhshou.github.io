@@ -2,3 +2,13 @@ news:
   label: 动态
   permalink: /news
   description: 实验室新闻与公告
+
+competition:
+  label: 竞赛
+  permalink: /competition
+  description: 学术竞赛与比赛信息
+
+award:
+  label: 获奖
+  permalink: /award
+  description: 获奖信息

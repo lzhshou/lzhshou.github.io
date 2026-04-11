@@ -11,7 +11,7 @@
 
 3. Li, C., **Lai, Z.**#, Huang, S., & Huang, L. (2026). Neural network-driven shape representation and computational particle mechanics via signed distance fields. *Engineering Applications of Artificial Intelligence*, 167, 113913. [DOI](https://doi.org/10.1016/j.engappai.2026.113913) | [PDF](/pdf/first_or_correspondence/Li2026_neural_shape_representation.pdf)
 
-4. Huang, S., Wang, P., **Lai, Z.**#, Yin, Z.-Y., Huang, L., & Xu, C. (2026). Hybrid SDF-CFD-DEM analysis of suffusion behavior in coral sand incorporating irregular particle morphology and intraparticle voids. *Engineering Geology*, 364, 108616. [DOI](https://doi.org/10.1016/j.enggeo.2026.108616) | [PDF](/pdf/first_or_correspondence/Huang2026_hybrid_sdf_cfd_dem_analysis_of_suffusion_behavior_in_coral.pdf)
+4. Huang, S., Wang, P., **Lai, Z.**, Yin, Z.-Y., Huang, L., & Xu, C. (2026). Hybrid SDF-CFD-DEM analysis of suffusion behavior in coral sand incorporating irregular particle morphology and intraparticle voids. *Engineering Geology*, 364, 108616. [DOI](https://doi.org/10.1016/j.enggeo.2026.108616) | [PDF](/pdf/coauthored/Huang2026_hybrid_sdf_cfd_dem_analysis_of_suffusion_behavior_in_coral.pdf)
 
 ### 2024
 
