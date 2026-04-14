@@ -2,12 +2,14 @@
 # Bash completion for mywebpage
 
 _mywebpage_complete() {
-    local cur prev opts
+    local cur prev prev2 opts
     COMPREPLY=()
     cur="${COMP_WORDS[COMP_CWORD]}"
     prev="${COMP_WORDS[COMP_CWORD-1]}"
+    prev2="${COMP_WORDS[COMP_CWORD-2]}"
 
-    local cmds="build deploy start stop status"
+    local cmds="build deploy server update uninstall"
+    local server_subcmds="start stop status restart"
 
     case "$COMP_CWORD" in
         1)
@@ -15,11 +17,20 @@ _mywebpage_complete() {
             ;;
         2)
             case "$prev" in
-                start)
-                    # optional port
+                server)
+                    COMPREPLY=( $(compgen -W "$server_subcmds" -- "$cur") )
                     ;;
                 deploy)
-                    # extra args after --
+                    ;;
+            esac
+            ;;
+        3)
+            case "$prev2" in
+                server)
+                    case "$prev" in
+                        start|restart)
+                            ;;
+                    esac
                     ;;
             esac
             ;;

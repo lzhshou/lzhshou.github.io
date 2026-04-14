@@ -1,7 +1,7 @@
 PREFIX ?= $(HOME)/.local
 BINDIR = $(PREFIX)/bin
 ZSH_COMPLETIONSDIR = $(BINDIR)/completions
-BASH_COMPLETIONSDIR = $(PREFIX)/share/bash-completion/completions
+BASH_COMPLETIONSDIR = $(BINDIR)/completions
 
 INSTALL = install
 INSTALL_PROGRAM = $(INSTALL) -m 755
@@ -21,7 +21,8 @@ build:
 install:
 	@echo "Installing binaries to $(BINDIR)..."
 	@mkdir -p $(BINDIR)
-	$(INSTALL_PROGRAM) bin/mywebpage $(BINDIR)/
+	@sed 's|^ROOT=.*|ROOT=$(shell pwd)|' bin/mywebpage > $(BINDIR)/mywebpage
+	@chmod 755 $(BINDIR)/mywebpage
 	@echo "Installing zsh completions to $(ZSH_COMPLETIONSDIR)..."
 	@mkdir -p $(ZSH_COMPLETIONSDIR)
 	$(INSTALL_DATA) bin/completions/_mywebpage $(ZSH_COMPLETIONSDIR)/

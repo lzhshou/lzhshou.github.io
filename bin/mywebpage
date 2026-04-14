@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
-# CLI for this Docusaurus site: build, deploy, start (background), stop, status.
-# Stop uses both recorded PID and listen port to clear orphans / hung listeners.
+# CLI for this Docusaurus site: build, deploy, server (start/stop/status/restart), update, uninstall.
+# Stop uses listen port to find and clear the process.
 # zsh (~/.zshrc): set once, use for PATH and fpath (must be before compinit):
 #   MYWEBPAGE_BIN="/Users/.../myWebpage/bin"
 #   export PATH="$MYWEBPAGE_BIN:$PATH"
@@ -9,17 +9,26 @@
 
 set -euo pipefail
 
-ROOT="$(cd "$(dirname "${BASH_SOURCE[0]}")/.." && pwd)"
+ROOT=/Users/lzhshou/Documents/myWork/sysu/4-成果输出/mywebpage
 STATE_DIR="${ROOT}/.mywebpage"
-PID_FILE="${STATE_DIR}/serve.pid"
 PORT_FILE="${STATE_DIR}/serve.port"
 LOG_FILE="${STATE_DIR}/serve.log"
 DEFAULT_PORT=3000
 
 usage() {
-  echo "Usage: mywebpage {build|deploy [args...]|start [port]|stop|status}" >&2
-  echo "  start   optional port or MYWEBPAGE_PORT (default ${DEFAULT_PORT})" >&2
-  echo "  deploy  npm run deploy; sets GIT_USER via gh (PATH includes brew bins) or from git origin github.com owner" >&2
+  echo "Usage: mywebpage {build|deploy [args...]|server <subcmd>|update|uninstall}" >&2
+  echo "  server start [port]   background serve (default port ${DEFAULT_PORT})" >&2
+  echo "  server stop           stop background server" >&2
+  echo "  server status         show port and state" >&2
+  echo "  server restart [port] stop then start" >&2
+  echo "  deploy                npm run deploy; sets GIT_USER via gh or git origin" >&2
+  echo "  update                reinstall mywebpage from repository" >&2
+  echo "  uninstall             remove mywebpage from system" >&2
+  exit 1
+}
+
+server_usage() {
+  echo "Usage: mywebpage server {start [port]|stop|status|restart [port]}" >&2
   exit 1
 }
 
@@ -33,19 +42,7 @@ pids_on_port() {
   if [[ -z "$out" ]]; then
     out="$(lsof -ti:"$port" 2>/dev/null || true)"
   fi
-  echo "$out" | tr ' ' '\n' | grep -E '^[0-9]+$' | sort -nu
-}
-
-# Unique PIDs: recorded npm wrapper + anything listening on port.
-collect_stop_pids() {
-  local port="$1"
-  {
-    if [[ -f "$PID_FILE" ]]; then
-      tr -d '[:space:]' <"$PID_FILE"
-      echo
-    fi
-    pids_on_port "$port"
-  } | grep -E '^[0-9]+$' | sort -nu
+  echo "$out" | tr ' ' '\n' | grep -E '^[0-9]+$' | sort -nu || true
 }
 
 cmd_build() {
@@ -77,8 +74,8 @@ cmd_deploy() {
   (cd "$ROOT" && npm run deploy -- "$@")
 }
 
-cmd_start() {
-  local port="${2:-}"
+cmd_server_start() {
+  local port="${1:-}"
   [[ -z "$port" ]] && port="${MYWEBPAGE_PORT:-}"
   [[ -z "$port" ]] && port="$DEFAULT_PORT"
 
@@ -89,56 +86,40 @@ cmd_start() {
 
   mkdir -p "$STATE_DIR"
 
-  if [[ -f "$PID_FILE" ]]; then
-    local oldpid
-    oldpid="$(tr -d '[:space:]' <"$PID_FILE")"
-    if [[ -n "$oldpid" ]] && kill -0 "$oldpid" 2>/dev/null; then
-      echo "mywebpage: server already running (pid $oldpid)" >&2
-      exit 1
-    fi
-    rm -f "$PID_FILE" "$PORT_FILE"
-  fi
-
   if [[ -n "$(pids_on_port "$port")" ]]; then
-    echo "mywebpage: port $port is in use; run: mywebpage stop" >&2
+    echo "mywebpage: port $port is in use; run: mywebpage server stop" >&2
     exit 1
   fi
 
   echo "mywebpage: starting (build + serve on port $port), log: $LOG_FILE" >&2
   cd "$ROOT"
-  # Single docusaurus process tree; --port is authoritative for state file + stop.
   nohup npx docusaurus serve --build --port "$port" --no-open >>"$LOG_FILE" 2>&1 &
-  echo $! >"$PID_FILE"
   echo "$port" >"$PORT_FILE"
-  echo "mywebpage: pid $(cat "$PID_FILE") port $port" >&2
+  echo "mywebpage: port $port" >&2
 }
 
-cmd_stop() {
+cmd_server_stop() {
   local port="$DEFAULT_PORT"
   [[ -f "$PORT_FILE" ]] && port="$(tr -d '[:space:]' <"$PORT_FILE")"
-
-  if [[ ! -f "$PID_FILE" ]] && [[ ! -f "$PORT_FILE" ]]; then
-    echo "mywebpage: no state (.mywebpage/serve.pid / serve.port); nothing to stop" >&2
-    exit 1
-  fi
 
   if ! [[ "$port" =~ ^[0-9]+$ ]]; then
     port="$DEFAULT_PORT"
   fi
 
+  local port_pids
+  port_pids="$(pids_on_port "$port")"
+
+  if [[ -z "$port_pids" ]]; then
+    rm -f "$PORT_FILE"
+    echo "mywebpage: nothing listening on port $port" >&2
+    return 0
+  fi
+
   local pid
-  local any=no
   while IFS= read -r pid; do
     [[ -z "$pid" ]] && continue
-    any=yes
     kill -TERM "$pid" 2>/dev/null || true
-  done < <(collect_stop_pids "$port")
-
-  if [[ "$any" == "no" ]]; then
-    rm -f "$PID_FILE" "$PORT_FILE"
-    echo "mywebpage: no running processes matched pid/port; cleared state files" >&2
-    exit 0
-  fi
+  done < <(echo "$port_pids")
 
   local i
   for i in {1..40}; do
@@ -151,28 +132,18 @@ cmd_stop() {
     kill -KILL "$pid" 2>/dev/null || true
   done < <(pids_on_port "$port")
 
-  if [[ -f "$PID_FILE" ]]; then
-    pid="$(tr -d '[:space:]' <"$PID_FILE")"
-    if [[ -n "$pid" ]] && kill -0 "$pid" 2>/dev/null; then
-      kill -KILL "$pid" 2>/dev/null || true
-    fi
-  fi
-
-  rm -f "$PID_FILE" "$PORT_FILE"
-  echo "mywebpage: stopped (pid + port $port)" >&2
+  rm -f "$PORT_FILE"
+  echo "mywebpage: stopped (port $port)" >&2
 }
 
-cmd_status() {
-  local port="" pid="" pid_alive=no port_busy=no port_pids="" has_state=no
+cmd_server_status() {
+  local port="" port_busy=no has_state=no
   [[ -f "$PORT_FILE" ]] && has_state=yes
-  [[ -f "$PID_FILE" ]] && has_state=yes
 
   [[ -f "$PORT_FILE" ]] && port="$(tr -d '[:space:]' <"$PORT_FILE")"
-  [[ -f "$PID_FILE" ]] && pid="$(tr -d '[:space:]' <"$PID_FILE")"
 
   if [[ "$has_state" == "no" ]]; then
     echo "log:     $LOG_FILE"
-    echo "pid:     —"
     echo "port:    —  (no mywebpage session; start uses port ${DEFAULT_PORT} by default)"
     echo "state:   stopped"
     return 0
@@ -182,36 +153,67 @@ cmd_status() {
     port="$DEFAULT_PORT"
   fi
 
-  if [[ -n "$pid" ]] && kill -0 "$pid" 2>/dev/null; then
-    pid_alive=yes
-  fi
-
-  port_pids="$(pids_on_port "$port" | tr '\n' ' ' | sed 's/[[:space:]]*$//')"
-  [[ -n "$port_pids" ]] && port_busy=yes
+  [[ -n "$(pids_on_port "$port")" ]] && port_busy=yes
 
   echo "log:     $LOG_FILE"
-  echo "pid:     ${pid:-—}  (alive: $pid_alive)"
-  echo "port:    $port  (listening: $port_busy${port_pids:+  pids: $port_pids})"
+  echo "port:    $port  (listening: $port_busy)"
 
-  if [[ "$pid_alive" == "yes" ]] && [[ "$port_busy" == "yes" ]]; then
+  if [[ "$port_busy" == "yes" ]]; then
     echo "state:   running"
-  elif [[ "$pid_alive" == "no" ]] && [[ "$port_busy" == "yes" ]]; then
-    echo "state:   hung/orphan (port still in use — run: mywebpage stop)"
-  elif [[ "$pid_alive" == "yes" ]] && [[ "$port_busy" == "no" ]]; then
-    echo "state:   abnormal (pid alive but port not listening)"
-  elif [[ "$pid_alive" == "no" ]] && [[ "$port_busy" == "no" ]]; then
-    echo "state:   stopped (stale state files — run: mywebpage stop to clear)"
   else
-    echo "state:   unknown (check $STATE_DIR)"
+    echo "state:   stopped (stale state file — run: mywebpage server stop to clear)"
+  fi
+}
+
+cmd_server_restart() {
+  local port="${1:-}"
+  cmd_server_stop
+  sleep 0.5
+  cmd_server_start "$port"
+}
+
+cmd_server() {
+  local sub="${1:-}"
+  case "$sub" in
+    start) shift; cmd_server_start "$@" ;;
+    stop) cmd_server_stop ;;
+    status) cmd_server_status ;;
+    restart) shift; cmd_server_restart "$@" ;;
+    -h | --help | help) server_usage ;;
+    *) server_usage ;;
+  esac
+}
+
+cmd_update() {
+  echo "mywebpage: updating..." >&2
+  local repo_root
+  repo_root="$ROOT"
+  if [[ -f "${repo_root}/Makefile" ]]; then
+    (cd "$repo_root" && make install)
+  else
+    echo "Error: Makefile not found at ${repo_root}" >&2
+    exit 1
+  fi
+}
+
+cmd_uninstall() {
+  echo "mywebpage: uninstalling..." >&2
+  local repo_root
+  repo_root="$ROOT"
+  if [[ -f "${repo_root}/Makefile" ]]; then
+    (cd "$repo_root" && make uninstall)
+  else
+    echo "Error: Makefile not found at ${repo_root}" >&2
+    exit 1
   fi
 }
 
 case "${1:-}" in
   build) cmd_build ;;
   deploy) cmd_deploy "$@" ;;
-  start) cmd_start "$@" ;;
-  stop) cmd_stop ;;
-  status) cmd_status ;;
+  server) shift; cmd_server "$@" ;;
+  update) cmd_update ;;
+  uninstall) cmd_uninstall ;;
   -h | --help | help) usage ;;
   *) usage ;;
 esac

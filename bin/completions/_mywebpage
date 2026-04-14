@@ -6,6 +6,7 @@ _mywebpage() {
 
   _arguments -C \
     '1: :->cmds' \
+    '2: :->subcmds' \
     '*:: :->args' && return 0
 
   case "$state" in
@@ -14,15 +15,33 @@ _mywebpage() {
       cmds=(
         'build:Build static site (docusaurus build)'
         'deploy:Publish via docusaurus deploy (extra args after --)'
-        'start:Background serve with fixed port (optional port arg)'
-        'stop:Stop using recorded pid and listen port'
-        'status:Show pid, port, listeners, and health state'
+        'server:Manage background dev server'
+        'update:Reinstall mywebpage from repository'
+        'uninstall:Remove mywebpage from system'
       )
       _describe -t commands 'mywebpage command' cmds
       ;;
+    subcmds)
+      case "$line[1]" in
+        server)
+          local -a subcmds
+          subcmds=(
+            'start:Background serve with fixed port (optional port arg)'
+            'stop:Stop background server'
+            'status:Show port and health state'
+            'restart:Stop then start server (optional port arg)'
+          )
+          _describe -t commands 'mywebpage server subcommand' subcmds
+          ;;
+      esac
+      ;;
     args)
-      case $line[1] in
-        start) _message -e 'port' 'optional TCP port (default 3000)' ;;
+      case "$line[1]" in
+        server)
+          case "$line[2]" in
+            start|restart) _message -e 'port' 'optional TCP port (default 3000)' ;;
+          esac
+          ;;
       esac
       ;;
   esac
