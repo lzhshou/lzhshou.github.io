@@ -21,7 +21,7 @@ build:
 install:
 	@echo "Installing binaries to $(BINDIR)..."
 	@mkdir -p $(BINDIR)
-	@sed 's|^ROOT=.*|ROOT=$(shell pwd)|' bin/mywebpage > $(BINDIR)/mywebpage
+	@sed 's|^ROOT=.*|ROOT="$${MYWEBPAGE_ROOT:-$(shell pwd)}"|' bin/mywebpage > $(BINDIR)/mywebpage
 	@chmod 755 $(BINDIR)/mywebpage
 	@echo "Installing zsh completions to $(ZSH_COMPLETIONSDIR)..."
 	@mkdir -p $(ZSH_COMPLETIONSDIR)

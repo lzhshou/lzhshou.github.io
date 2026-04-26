@@ -245,8 +245,8 @@ body {
 }
 
 .theme-doc-sidebar-menu {
-  padding: 0.25rem 0;
-  font-size: 0.9375rem;
+  padding: 0.5rem 0;
+  font-size: 0.9rem;
 }
 
 /* Clean sidebar links - no background padding on hover */
@@ -254,9 +254,9 @@ body {
 .theme-doc-sidebar-item-link {
   border-radius: 0;
   margin: 0;
-  padding: 0.4rem 1rem;
-  font-size: 0.9375rem;
-  line-height: 1.4;
+  padding: 0.3rem 0.875rem;
+  font-size: 0.9rem;
+  line-height: 1.5;
   color: var(--ifm-font-color-secondary) !important;
   transition: color 0.15s ease;
   background: transparent !important;
@@ -274,7 +274,7 @@ body {
   color: var(--ifm-color-primary) !important;
   font-weight: 600;
   border-left: 3px solid var(--ifm-color-primary);
-  padding-left: calc(1rem - 3px);
+  padding-left: calc(0.875rem - 3px);
 }
 
 .menu__link--active:hover,
@@ -291,8 +291,8 @@ body {
 .menu__list-item-collapsible {
   border-radius: 0;
   font-weight: 500;
-  font-size: 0.9375rem;
-  padding: 0.4rem 1rem;
+  font-size: 0.9rem;
+  padding: 0.3rem 0.875rem;
   color: var(--ifm-font-color-secondary) !important;
   transition: color 0.15s ease;
   background: transparent !important;
@@ -308,11 +308,11 @@ body {
 .menu__list .menu__list {
   padding-left: 0.5rem;
   border-left: 2px solid var(--ifm-border-color-subtle);
-  margin-left: 1rem;
+  margin-left: 0.875rem;
 }
 
 .menu__list-item {
-  margin: 0;
+  margin: 0.15rem 0;
 }
 
 .menu__caret {
