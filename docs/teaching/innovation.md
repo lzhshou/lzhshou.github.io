@@ -10,7 +10,7 @@ sidebar: false
 
 ### 2026
 
-#### [地下大空间灾变应急疏散数字仿真模拟实验平台原型探索](./innovation-2026-underground-evacuation)
+#### [地下大空间灾变应急疏散数字仿真模拟实验平台原型探索](../innovation-2026-underground-evacuation)
 
 - **项目级别**：校级
 - **负责人**：龚达宣（24345015）
@@ -24,7 +24,7 @@ sidebar: false
 
 ### 2025
 
-#### [基于图形引擎的科学计算可视化与真实感渲染探索](./innovation-2025-scientific-visualization)
+#### [基于图形引擎的科学计算可视化与真实感渲染探索](../innovation-2025-scientific-visualization)
 
 - **项目级别**：校级/省级
 - **项目成员**：郑泽锋、龚达宣、张洛云、钟卓能、朱鑫盛
@@ -35,7 +35,7 @@ sidebar: false
 
 ### 2024
 
-#### [岛礁珊瑚砂在水流中的拖曳力模型研究与数值模拟分析](./innovation-2024-coral-sand-drag)
+#### [岛礁珊瑚砂在水流中的拖曳力模型研究与数值模拟分析](../innovation-2024-coral-sand-drag)
 
 - **项目级别**：校级/省级
 - **项目成员**：张皓钦、刘明靖
@@ -46,7 +46,7 @@ sidebar: false
 
 ### 2023
 
-#### [南海钙质砂拖曳力的数值模拟与实验模拟](./innovation-2023-calcareous-sand)
+#### [南海钙质砂拖曳力的数值模拟与实验模拟](../innovation-2023-calcareous-sand)
 
 - **项目级别**：校级/省级
 - **项目负责人**：刘明靖

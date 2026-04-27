@@ -10,7 +10,7 @@ Supervising national/provincial/university-level innovation training projects fo
 
 ### 2026
 
-#### [Digital Simulation Platform for Emergency Evacuation in Underground Large Spaces](./innovation-2026-underground-evacuation)
+#### [Digital Simulation Platform for Emergency Evacuation in Underground Large Spaces](../innovation-2026-underground-evacuation)
 
 - **Level**: University Level
 - **Principal Investigator**: Gong Daxuan (24345015)
@@ -24,7 +24,7 @@ Supervising national/provincial/university-level innovation training projects fo
 
 ### 2025
 
-#### [Scientific Computing Visualization and Photorealistic Rendering Based on Graphics Engine](./innovation-2025-scientific-visualization)
+#### [Scientific Computing Visualization and Photorealistic Rendering Based on Graphics Engine](../innovation-2025-scientific-visualization)
 
 - **Level**: University/Provincial Level
 - **Team Members**: Zheng Zefeng, Gong Daxuan, Zhang Luoyun, Zhong Zhuoneng, Zhu Xinsheng
@@ -35,7 +35,7 @@ Supervising national/provincial/university-level innovation training projects fo
 
 ### 2024
 
-#### [Drag Force Model and Numerical Simulation of Coral Sand in Water Flow](./innovation-2024-coral-sand-drag)
+#### [Drag Force Model and Numerical Simulation of Coral Sand in Water Flow](../innovation-2024-coral-sand-drag)
 
 - **Level**: University/Provincial Level
 - **Team Members**: Zhang Haoqin, Liu Mingjing
@@ -46,7 +46,7 @@ Supervising national/provincial/university-level innovation training projects fo
 
 ### 2023
 
-#### [Numerical and Experimental Study on Drag Force of Calcareous Sand in South China Sea](./innovation-2023-calcareous-sand)
+#### [Numerical and Experimental Study on Drag Force of Calcareous Sand in South China Sea](../innovation-2023-calcareous-sand)
 
 - **Level**: University/Provincial Level
 - **Principal Investigator**: Liu Mingjing
