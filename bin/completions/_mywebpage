@@ -13,7 +13,7 @@ _mywebpage() {
     cmds)
       local -a cmds
       cmds=(
-        'build:Build static site (docusaurus build)'
+        'build:Build static site (opts: -c --clean -s --serve)'
         'deploy:Publish via docusaurus deploy (extra args after --)'
         'server:Manage background dev server'
         'update:Reinstall mywebpage from repository'
@@ -23,6 +23,17 @@ _mywebpage() {
       ;;
     subcmds)
       case "$line[1]" in
+        build)
+          local -a bopts
+          bopts=(
+            '-c:Clear Docusaurus cache before build'
+            '--clean:Clear Docusaurus cache before build'
+            '-s:Serve the built site after successful build'
+            '--serve:Serve the built site after successful build'
+            '--help:Show build command help'
+          )
+          _describe -t options 'build option' bopts
+          ;;
         server)
           local -a subcmds
           subcmds=(
@@ -37,6 +48,11 @@ _mywebpage() {
       ;;
     args)
       case "$line[1]" in
+        build)
+          case "$line[2]" in
+            -s|--serve) _message -e 'port' 'optional TCP port (default 3000)' ;;
+          esac
+          ;;
         server)
           case "$line[2]" in
             start|restart) _message -e 'port' 'optional TCP port (default 3000)' ;;

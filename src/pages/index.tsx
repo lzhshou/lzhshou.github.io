@@ -7,8 +7,7 @@ import Link from '@docusaurus/Link';
 import styles from './index.module.css';
 
 export default function Home(): ReactNode {
-  const {siteConfig, i18n} = useDocusaurusContext();
-  const isZh = i18n.currentLocale === 'zh';
+  const {siteConfig} = useDocusaurusContext();
 
   return (
     <Layout
@@ -26,6 +25,7 @@ export default function Home(): ReactNode {
       <main className={styles.main}>
         {/* Hero Section */}
         <header className={styles.header}>
+          <div className={styles.heroBg} />
           <div className={styles.container}>
             <div className={styles.heroContent}>
               <p className={styles.labAcronym}>APAAM</p>
@@ -65,6 +65,9 @@ export default function Home(): ReactNode {
             </h2>
             <div className={styles.areasGrid}>
               <div className={styles.areaCard}>
+                <div className={styles.areaImage}>
+                  <img src="/img/research/card-dem.png" alt="DEM particles" />
+                </div>
                 <h3 className={styles.areaTitle}>
                   <Translate id="research.area1">离散元方法</Translate>
                 </h3>
@@ -75,6 +78,9 @@ export default function Home(): ReactNode {
                 </p>
               </div>
               <div className={styles.areaCard}>
+                <div className={styles.areaImage}>
+                  <img src="/img/research/card-cfd-dem.png" alt="CFD-DEM multiscale" />
+                </div>
                 <h3 className={styles.areaTitle}>
                   <Translate id="research.area2">多尺度模拟</Translate>
                 </h3>
@@ -85,6 +91,9 @@ export default function Home(): ReactNode {
                 </p>
               </div>
               <div className={styles.areaCard}>
+                <div className={styles.areaImage}>
+                  <img src="/img/research/card-ml.png" alt="Machine learning" />
+                </div>
                 <h3 className={styles.areaTitle}>
                   <Translate id="research.area3">机器学习</Translate>
                 </h3>
@@ -95,6 +104,9 @@ export default function Home(): ReactNode {
                 </p>
               </div>
               <div className={styles.areaCard}>
+                <div className={styles.areaImage}>
+                  <img src="/img/research/card-particle.png" alt="Granular materials" />
+                </div>
                 <h3 className={styles.areaTitle}>
                   <Translate id="research.area4">颗粒材料</Translate>
                 </h3>

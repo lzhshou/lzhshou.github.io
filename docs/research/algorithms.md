@@ -23,7 +23,7 @@
 **应用成果**：成功应用于火星模拟壤、深海珊瑚砂等极端环境颗粒表征。
 
 <div style={{textAlign: 'center', margin: '20px 0'}}>
-  <img src="/img/research/projects/fig2_digital_pipeline.jpeg" alt="颗粒形态全流程数字化" style={{maxWidth: '90%', height: 'auto'}} />
+  <img src="/img/research/projects/fig2-digital-pipeline.jpeg" alt="颗粒形态全流程数字化" style={{maxWidth: '90%', height: 'auto'}} />
   <p><em>颗粒"形态获取-形态重构-虚拟生成"全流程数字化技术体系</em></p>
 </div>
 
@@ -36,7 +36,7 @@
 - **粗细颗粒接触算法**：细颗粒采用点-球近似，粗颗粒保持完整SDF几何描述，显著降低多分散系统计算复杂度
 
 <div style={{textAlign: 'center', margin: '20px 0'}}>
-  <img src="/img/research/projects/fig3_sdf_framework.jpeg" alt="SDF接触理论框架" style={{maxWidth: '90%', height: 'auto'}} />
+  <img src="/img/research/projects/fig3-sdf-framework.jpeg" alt="SDF接触理论框架" style={{maxWidth: '90%', height: 'auto'}} />
   <p><em>基于有向距离场的接触理论框架创新</em></p>
 </div>
 
@@ -49,7 +49,7 @@
 - **误差控制策略**：揭示算法在静/动态场景下的误差传递规律，提出接触状态-能量耗散耦合修正策略
 
 <div style={{textAlign: 'center', margin: '20px 0'}}>
-  <img src="/img/research/projects/fig4_ml_acceleration.jpeg" alt="机器学习加速" style={{maxWidth: '90%', height: 'auto'}} />
+  <img src="/img/research/projects/fig4-ml-acceleration.jpeg" alt="机器学习加速" style={{maxWidth: '90%', height: 'auto'}} />
   <p><em>机器学习赋能的接触检测加速技术</em></p>
 </div>
 
@@ -58,7 +58,7 @@
 开发了具有完全自主知识产权的通用型离散元计算软件 **NetDEM**，支持OpenMP和MPI混合并行计算，适配国家超算平台（天河）部署，并行效率达80%。
 
 <div style={{textAlign: 'center', margin: '20px 0'}}>
-  <img src="/img/research/projects/fig5_netdem_software.jpeg" alt="NetDEM软件平台" style={{maxWidth: '90%', height: 'auto'}} />
+  <img src="/img/research/projects/fig5-netdem-software.jpeg" alt="NetDEM软件平台" style={{maxWidth: '90%', height: 'auto'}} />
   <p><em>自主开发的NetDEM离散元及流固耦合计算软件功能示意</em></p>
 </div>
 
@@ -74,44 +74,44 @@
 
 ### SDF-DEM 方法与流固耦合
 
-1. **Lai, Z.**, Huang, S., Kong, Y., Zhao, S., Zhao, J., & Huang, L. (2026). Hybrid resolved-unresolved CFD-DEM framework for multiscale fluid-particle systems with irregular-shaped and polydisperse particles. *Journal of Computational Physics*, 554, 114759. [DOI](https://doi.org/10.1016/j.jcp.2026.114759) | [PDF](/pdf/first_or_correspondence/Lai2026_Hybrid_resolved_unresolved_CFD_DEM.pdf)
+1. **Lai, Z.**, Huang, S., Kong, Y., Zhao, S., Zhao, J., & Huang, L. (2026). Hybrid resolved-unresolved CFD-DEM framework for multiscale fluid-particle systems with irregular-shaped and polydisperse particles. *Journal of Computational Physics*, 554, 114759. [DOI](https://doi.org/10.1016/j.jcp.2026.114759) | [PDF](/pdf/first-or-correspondence/lai2026-hybrid-resolved-unresolved-cfd-dem.pdf)
 
-2. **Lai, Z.**, Feng, Y., Zhao, J., & Huang, L. (2024). Unifying the contact in signed distance field-based and conventional discrete element methods. *Computers and Geotechnics*, 176, 106764. [DOI](https://doi.org/10.1016/j.compgeo.2024.106764) | [PDF](/pdf/first_or_correspondence/Lai2024_unifying_the_contact_in_signed_distance_field_based_and.pdf)
+2. **Lai, Z.**, Feng, Y., Zhao, J., & Huang, L. (2024). Unifying the contact in signed distance field-based and conventional discrete element methods. *Computers and Geotechnics*, 176, 106764. [DOI](https://doi.org/10.1016/j.compgeo.2024.106764) | [PDF](/pdf/first-or-correspondence/lai2024-unifying-the-contact-in-signed-distance-field-based-and.pdf)
 
-3. **Lai, Z.**, Zhao, J., Zhao, S., & Huang, L. (2023). Signed distance field enhanced fully resolved CFD-DEM for simulation of granular flows involving multiphase fluids and irregularly shaped particles. *Computer Methods in Applied Mechanics and Engineering*, 414, 116195. [DOI](https://doi.org/10.1016/j.cma.2023.116195) | [PDF](/pdf/first_or_correspondence/Lai2023_signed_distance_field_enhanced_fully_resolved_cfd_dem_for.pdf)
+3. **Lai, Z.**, Zhao, J., Zhao, S., & Huang, L. (2023). Signed distance field enhanced fully resolved CFD-DEM for simulation of granular flows involving multiphase fluids and irregularly shaped particles. *Computer Methods in Applied Mechanics and Engineering*, 414, 116195. [DOI](https://doi.org/10.1016/j.cma.2023.116195) | [PDF](/pdf/first-or-correspondence/lai2023-signed-distance-field-enhanced-fully-resolved-cfd-dem-for.pdf)
 
-4. **Lai, Z.**, Zhao, S., Zhao, J., & Huang, L. (2022). Signed distance field framework for unified DEM modeling of granular media with arbitrary particle shapes. *Computational Mechanics*, 70(4), 763-783. [DOI](https://doi.org/10.1007/s00466-022-02220-8) | [PDF](/pdf/first_or_correspondence/Lai2022_signed_distance_field_framework_for_unified_dem_modeling_of.pdf)
+4. **Lai, Z.**, Zhao, S., Zhao, J., & Huang, L. (2022). Signed distance field framework for unified DEM modeling of granular media with arbitrary particle shapes. *Computational Mechanics*, 70(4), 763-783. [DOI](https://doi.org/10.1007/s00466-022-02220-8) | [PDF](/pdf/first-or-correspondence/lai2022-signed-distance-field-framework-for-unified-dem-modeling-of.pdf)
 
-5. **Lai, Z.**, Chen, Q., & Huang, L. (2021). Revisiting the GJK and shape erosion method for contact resolution in DEM. *Powder Technology*, 394, 363-371. [DOI](https://doi.org/10.1016/j.powtec.2021.08.068) | [PDF](/pdf/first_or_correspondence/Lai2021_revisiting_the_gjk_and_shape_erosion_method_for_contact.pdf)
+5. **Lai, Z.**, Chen, Q., & Huang, L. (2021). Revisiting the GJK and shape erosion method for contact resolution in DEM. *Powder Technology*, 394, 363-371. [DOI](https://doi.org/10.1016/j.powtec.2021.08.068) | [PDF](/pdf/first-or-correspondence/lai2021-revisiting-the-gjk-and-shape-erosion-method-for-contact.pdf)
 
-6. Zhao, S., **Lai, Z.**, & Zhao, J. (2022). Leveraging ray tracing cores for particle-based simulations on GPUs. *International Journal for Numerical Methods in Engineering*, 123(4), 696-713. [DOI](https://doi.org/10.1002/nme.7139) | [PDF](/pdf/first_or_correspondence/Zhao2022_leveraging_ray_tracing_cores_for_particle_based_simulations_on.pdf)
+6. Zhao, S., **Lai, Z.**, & Zhao, J. (2022). Leveraging ray tracing cores for particle-based simulations on GPUs. *International Journal for Numerical Methods in Engineering*, 123(4), 696-713. [DOI](https://doi.org/10.1002/nme.7139) | [PDF](/pdf/first-or-correspondence/zhao2022-leveraging-ray-tracing-cores-for-particle-based-simulations-on.pdf)
 
 ### 机器学习与智能计算
 
-7. Li, C., **Lai, Z.**#, Huang, S., & Huang, L. (2026). Neural network-driven shape representation and computational particle mechanics via signed distance fields. *Engineering Applications of Artificial Intelligence*, 167, 113913. [DOI](https://doi.org/10.1016/j.engappai.2026.113913) | [PDF](/pdf/first_or_correspondence/Li2026_neural_shape_representation.pdf)
+7. Li, C., **Lai, Z.**#, Huang, S., & Huang, L. (2026). Neural network-driven shape representation and computational particle mechanics via signed distance fields. *Engineering Applications of Artificial Intelligence*, 167, 113913. [DOI](https://doi.org/10.1016/j.engappai.2026.113913) | [PDF](/pdf/first-or-correspondence/li2026-neural-shape-representation.pdf)
 
-8. Huang, S., Wang, P., **Lai, Z.**#, Yin, Z., Huang, L., & Xu, C. (2024). Machine-learning-enabled discrete element method: The extension to three dimensions and computational issues. *Computer Methods in Applied Mechanics and Engineering*, 432, 117445. [DOI](https://doi.org/10.1016/j.cma.2024.117445) | [PDF](/pdf/first_or_correspondence/Huang2024_machine_learning_enabled_discrete_element_method_the_extension.pdf)
+8. Huang, S., Wang, P., **Lai, Z.**#, Yin, Z., Huang, L., & Xu, C. (2024). Machine-learning-enabled discrete element method: The extension to three dimensions and computational issues. *Computer Methods in Applied Mechanics and Engineering*, 432, 117445. [DOI](https://doi.org/10.1016/j.cma.2024.117445) | [PDF](/pdf/first-or-correspondence/huang2024-machine-learning-enabled-discrete-element-method-the-extension.pdf)
 
-9. **Lai, Z.**, Chen, Q., & Huang, L. (2021). Machine-learning-enabled discrete element method: Contact detection and resolution of irregular-shaped particles. *International Journal for Numerical and Analytical Methods in Geomechanics*, 46(1), 113-140. [DOI](https://doi.org/10.1002/nag.3293) | [PDF](/pdf/first_or_correspondence/Lai2021_machine_learning_enabled_discrete_element_method_contact.pdf)
+9. **Lai, Z.**, Chen, Q., & Huang, L. (2021). Machine-learning-enabled discrete element method: Contact detection and resolution of irregular-shaped particles. *International Journal for Numerical and Analytical Methods in Geomechanics*, 46(1), 113-140. [DOI](https://doi.org/10.1002/nag.3293) | [PDF](/pdf/first-or-correspondence/lai2021-machine-learning-enabled-discrete-element-method-contact.pdf)
 
 ### 颗粒形态表征与建模
 
-10. Li, C., Huang, L., **Lai, Z.**#, Huang, S., & Lin, Y. (2026). A diffusion-based generative framework for virtual porous granular media generation. *Powder Technology*, 473, 122230. [DOI](https://doi.org/10.1016/j.powtec.2026.122230) | [PDF](/pdf/first_or_correspondence/Li2026_diffusion_generative_framework.pdf)
+10. Li, C., Huang, L., **Lai, Z.**#, Huang, S., & Lin, Y. (2026). A diffusion-based generative framework for virtual porous granular media generation. *Powder Technology*, 473, 122230. [DOI](https://doi.org/10.1016/j.powtec.2026.122230) | [PDF](/pdf/first-or-correspondence/li2026-diffusion-generative-framework.pdf)
 
-11. Huang, S., Huang, L., **Lai, Z.**#, & Zhao, J. (2023). Morphology characterization and discrete element modeling of coral sand with intraparticle voids. *Engineering Geology*, 315, 107023. [DOI](https://doi.org/10.1016/j.enggeo.2023.107023) | [PDF](/pdf/first_or_correspondence/Huang2023_morphology_characterization_and_discrete_element_modeling_of.pdf)
+11. Huang, S., Huang, L., **Lai, Z.**#, & Zhao, J. (2023). Morphology characterization and discrete element modeling of coral sand with intraparticle voids. *Engineering Geology*, 315, 107023. [DOI](https://doi.org/10.1016/j.enggeo.2023.107023) | [PDF](/pdf/first-or-correspondence/huang2023-morphology-characterization-and-discrete-element-modeling-of.pdf)
 
-12. 吴峰, 黄林冲, **赖正首** (2022). 基于球面沃罗诺伊的颗粒表面离散与重构方法. *工程力学*, 41(9), 245-256. [DOI](https://doi.org/10.6052/j.issn.1000-4750.2022.07.0614) | [PDF](/pdf/first_or_correspondence/Wu2022_spherical_voronoi_reconstruction_zh.pdf)
+12. 吴峰, 黄林冲, **赖正首** (2022). 基于球面沃罗诺伊的颗粒表面离散与重构方法. *工程力学*, 41(9), 245-256. [DOI](https://doi.org/10.6052/j.issn.1000-4750.2022.07.0614) | [PDF](/pdf/first-or-correspondence/wu2022-spherical-voronoi-reconstruction-zh.pdf)
 
-13. **Lai, Z.**, Chen, Q., & Huang, L. (2020). Reconstructing granular particles from X-ray computed tomography using the TWS machine learning tool and the level set method. *Acta Geotechnica*, 14(1), 1-18. [DOI](https://doi.org/10.1007/s11440-018-0759-x) | [PDF](/pdf/first_or_correspondence/Lai2019_reconstructing_granular_particles_from_x_ray_computed_tomography.pdf)
+13. **Lai, Z.**, Chen, Q., & Huang, L. (2020). Reconstructing granular particles from X-ray computed tomography using the TWS machine learning tool and the level set method. *Acta Geotechnica*, 14(1), 1-18. [DOI](https://doi.org/10.1007/s11440-018-0759-x) | [PDF](/pdf/first-or-correspondence/lai2019-reconstructing-granular-particles-from-x-ray-computed-tomography.pdf)
 
-14. **Lai, Z.**, Chen, Q., & Huang, L. (2021). A polybézier-based particle model for the DEM modeling of granular media. *Computers and Geotechnics*, 134, 104052. [DOI](https://doi.org/10.1016/j.compgeo.2021.104052) | [PDF](/pdf/first_or_correspondence/Lai2021_a_polybezier_based_particle_model_for_the_dem_modeling_of.pdf)
+14. **Lai, Z.**, Chen, Q., & Huang, L. (2021). A polybézier-based particle model for the DEM modeling of granular media. *Computers and Geotechnics*, 134, 104052. [DOI](https://doi.org/10.1016/j.compgeo.2021.104052) | [PDF](/pdf/first-or-correspondence/lai2021-a-polybezier-based-particle-model-for-the-dem-modeling-of.pdf)
 
-15. Huang, S., Huang, L., & **Lai, Z.** (2021). An extension of the Fourier series-based particle model to the GJK-based contact detection and resolution framework for DEM. *Computational Particle Mechanics*, 9(2), 381-391. [DOI](https://doi.org/10.1007/s40571-021-00446-6) | [PDF](/pdf/first_or_correspondence/Huang2021_an_extension_of_the_fourier_series_based_particle_model_to_the.pdf)
+15. Huang, S., Huang, L., & **Lai, Z.** (2021). An extension of the Fourier series-based particle model to the GJK-based contact detection and resolution framework for DEM. *Computational Particle Mechanics*, 9(2), 381-391. [DOI](https://doi.org/10.1007/s40571-021-00446-6) | [PDF](/pdf/first-or-correspondence/huang2021-an-extension-of-the-fourier-series-based-particle-model-to-the.pdf)
 
-16. **Lai, Z.**, Chen, Q., & Huang, L. (2020). Fourier series-based discrete element method for computational mechanics of irregular-shaped particles. *Computer Methods in Applied Mechanics and Engineering*, 362, 112873. [DOI](https://doi.org/10.1016/j.cma.2020.112873) | [PDF](/pdf/first_or_correspondence/Lai2020_fourier_series_based_discrete_element_method_for_computational.pdf)
+16. **Lai, Z.**, Chen, Q., & Huang, L. (2020). Fourier series-based discrete element method for computational mechanics of irregular-shaped particles. *Computer Methods in Applied Mechanics and Engineering*, 362, 112873. [DOI](https://doi.org/10.1016/j.cma.2020.112873) | [PDF](/pdf/first-or-correspondence/lai2020-fourier-series-based-discrete-element-method-for-computational.pdf)
 
 ### 特殊颗粒材料应用
 
-17. **Lai, Z.**, Chen, Q., & Huang, L. (2017). Characterization and discrete element simulation of grading and shape-dependent behavior of JSC-1A Martian regolith simulant. *Granular Matter*, 19(4), 69. [DOI](https://doi.org/10.1007/s10035-017-0754-1) | [PDF](/pdf/first_or_correspondence/Lai2017_characterization_and_discrete_element_simulation_of_grading_and.pdf)
+17. **Lai, Z.**, Chen, Q., & Huang, L. (2017). Characterization and discrete element simulation of grading and shape-dependent behavior of JSC-1A Martian regolith simulant. *Granular Matter*, 19(4), 69. [DOI](https://doi.org/10.1007/s10035-017-0754-1) | [PDF](/pdf/first-or-correspondence/lai2017-characterization-and-discrete-element-simulation-of-grading-and.pdf)
 
-18. Xiao, R., Liang, B., Wu, F., Huang, L., & **Lai, Z.** (2022). Biocementation of coral sand under seawater environment and an improved three-stage biogrouting approach. *Construction and Building Materials*, 362, 129758. [DOI](https://doi.org/10.1016/j.conbuildmat.2022.129758) | [PDF](/pdf/first_or_correspondence/Xiao2022_biocementation_of_coral_sand_under_seawater_environment_and_an.pdf)
+18. Xiao, R., Liang, B., Wu, F., Huang, L., & **Lai, Z.** (2022). Biocementation of coral sand under seawater environment and an improved three-stage biogrouting approach. *Construction and Building Materials*, 362, 129758. [DOI](https://doi.org/10.1016/j.conbuildmat.2022.129758) | [PDF](/pdf/first-or-correspondence/xiao2022-biocementation-of-coral-sand-under-seawater-environment-and-an.pdf)

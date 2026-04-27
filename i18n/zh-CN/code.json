@@ -1,0 +1,543 @@
+{
+  "homepage.title": {
+    "message": "赖正首 | 中山大学土木工程学院",
+    "description": "The homepage title"
+  },
+  "homepage.description": {
+    "message": "中山大学土木工程学院副教授、博士生导师",
+    "description": "The homepage description"
+  },
+  "homepage.labName": {
+    "message": "应用过程分析与模拟实验室"
+  },
+  "homepage.affiliation": {
+    "message": "中山大学 土木工程学院"
+  },
+  "homepage.intro": {
+    "message": "APAAM实验室致力于计算岩土力学与多尺度数值模拟研究，开发先进的计算方法与软件工具，应用于过程仿真分析及基础设施防灾减灾研究。"
+  },
+  "homepage.position": {
+    "message": "副教授、硕士生导师",
+    "description": "Position title"
+  },
+  "homepage.department": {
+    "message": "中山大学 土木工程学院",
+    "description": "Department name"
+  },
+  "homepage.viewProfile": {
+    "message": "查看主页",
+    "description": "View Profile link"
+  },
+  "homepage.publications": {
+    "message": "篇论文",
+    "description": "Publications count label"
+  },
+  "homepage.researchAreas": {
+    "message": "研究方向"
+  },
+  "homepage.education": {
+    "message": "教育背景",
+    "description": "Education section title"
+  },
+  "homepage.positions": {
+    "message": "工作经历",
+    "description": "Academic Positions section title"
+  },
+  "homepage.publicationsTitle": {
+    "message": "代表论文",
+    "description": "Selected Publications section title"
+  },
+  "homepage.projects": {
+    "message": "科研项目",
+    "description": "Research Projects section title"
+  },
+  "homepage.link.research": {
+    "message": "研究详情"
+  },
+  "homepage.link.publications": {
+    "message": "学术发表"
+  },
+  "homepage.link.people": {
+    "message": "团队成员"
+  },
+  "homepage.link.teaching": {
+    "message": "教学与指导"
+  },
+  "homepage.contact": {
+    "message": "联系我们"
+  },
+  "homepage.address": {
+    "message": "珠海市香洲区唐家湾中山大学珠海校区海琴1号"
+  },
+  "research.area1": {
+    "message": "计算岩土力学"
+  },
+  "research.area1.desc": {
+    "message": "SDF框架、傅里叶级数颗粒模型、机器学习加速、GPU并行计算"
+  },
+  "research.area2": {
+    "message": "多尺度模拟"
+  },
+  "research.area2.desc": {
+    "message": "CFD-DEM耦合、多相流、孔隙介质流动、流固耦合"
+  },
+  "research.area3": {
+    "message": "机器学习"
+  },
+  "research.area3.desc": {
+    "message": "生成式AI、形状表征、本构建模、计算加速"
+  },
+  "research.area4": {
+    "message": "颗粒材料"
+  },
+  "research.area4.desc": {
+    "message": "CT图像重建、形态表征、生物胶结、多尺度建模"
+  },
+  "edu.phd": {
+    "message": "博士，土木工程",
+    "description": "PhD education"
+  },
+  "edu.clemson": {
+    "message": "美国克莱姆森大学",
+    "description": "Clemson University"
+  },
+  "edu.phdStudent": {
+    "message": "直博生，工程力学",
+    "description": "PhD student"
+  },
+  "edu.sysu1": {
+    "message": "中山大学",
+    "description": "Sun Yat-sen University"
+  },
+  "edu.bachelor": {
+    "message": "学士，交通工程",
+    "description": "Bachelor degree"
+  },
+  "edu.sysu2": {
+    "message": "中山大学",
+    "description": "Sun Yat-sen University"
+  },
+  "time.present": {
+    "message": "至今",
+    "description": "Present time"
+  },
+  "position.professor": {
+    "message": "副教授",
+    "description": "Associate Professor"
+  },
+  "position.affiliated": {
+    "message": "双聘教师",
+    "description": "Affiliated faculty"
+  },
+  "position.postdoc1": {
+    "message": "博士后（香江学者）",
+    "description": "Postdoc with Xiangjiang scholarship"
+  },
+  "position.postdoc2": {
+    "message": "博士后",
+    "description": "Postdoc"
+  },
+  "institution.civil": {
+    "message": "中山大学 土木工程学院",
+    "description": "School of Civil Engineering"
+  },
+  "institution.hkias": {
+    "message": "中山大学 香港高等研究院 应用数学研究中心",
+    "description": "HKIAS"
+  },
+  "institution.hkusysu": {
+    "message": "香港科技大学 / 中山大学",
+    "description": "HKUST and SYSU"
+  },
+  "institution.intelligent": {
+    "message": "中山大学 智能工程学院",
+    "description": "School of Intelligent Engineering"
+  },
+  "project.pi": {
+    "message": "主持",
+    "description": "Principal Investigator"
+  },
+  "project.coPI": {
+    "message": "参与",
+    "description": "Co-Investigator"
+  },
+  "project.gdst": {
+    "message": "广东省科学技术厅",
+    "description": "Guangdong Science and Technology Department"
+  },
+  "project.general": {
+    "message": "面上项目",
+    "description": "General project"
+  },
+  "project.major": {
+    "message": "基础研究重大项目",
+    "description": "Major basic research project"
+  },
+  "project.title1": {
+    "message": "水合物固态流化开采中气—液—固三相流动机理与耦合数值方法研究",
+    "description": "Project 1 title"
+  },
+  "project.title2": {
+    "message": "极端海洋环境下海上风电平台多场多尺度动力耦合灾变机理与减灾机制",
+    "description": "Project 2 title"
+  },
+  "homepage.feature1.title": {
+    "message": "计算力学",
+    "description": "Feature 1 title"
+  },
+  "homepage.feature1.description": {
+    "message": "有限元、离散元、物质点法等数值计算方法的研究与应用，解决复杂工程问题。",
+    "description": "Feature 1 description"
+  },
+  "homepage.feature2.title": {
+    "message": "颗粒材料建模",
+    "description": "Feature 2 title"
+  },
+  "homepage.feature2.description": {
+    "message": "基于CT图像的颗粒重建、形状表征、接触检测等先进建模技术。",
+    "description": "Feature 2 description"
+  },
+  "homepage.feature3.title": {
+    "message": "机器学习应用",
+    "description": "Feature 3 title"
+  },
+  "homepage.feature3.description": {
+    "message": "基于深度学习的材料参数识别、结构健康监测等智能化解决方案。",
+    "description": "Feature 3 description"
+  },
+  "homepage.news.title": {
+    "message": "最新动态",
+    "description": "News section title"
+  },
+  "homepage.news.item1": {
+    "message": "实验室网站正式上线",
+    "description": "News item 1"
+  },
+  "homepage.news.item2": {
+    "message": "赖正首老师加入中山大学土木工程学院",
+    "description": "News item 2"
+  },
+  "theme.ErrorPageContent.title": {
+    "message": "页面已崩溃。",
+    "description": "The title of the fallback page when the page crashed"
+  },
+  "theme.BackToTopButton.buttonAriaLabel": {
+    "message": "回到顶部",
+    "description": "The ARIA label for the back to top button"
+  },
+  "theme.blog.archive.title": {
+    "message": "历史博文",
+    "description": "The page & hero title of the blog archive page"
+  },
+  "theme.blog.archive.description": {
+    "message": "历史博文",
+    "description": "The page & hero description of the blog archive page"
+  },
+  "theme.blog.paginator.navAriaLabel": {
+    "message": "博文列表分页导航",
+    "description": "The ARIA label for the blog pagination"
+  },
+  "theme.blog.paginator.newerEntries": {
+    "message": "较新的博文",
+    "description": "The label used to navigate to the newer blog posts page (previous page)"
+  },
+  "theme.blog.paginator.olderEntries": {
+    "message": "较旧的博文",
+    "description": "The label used to navigate to the older blog posts page (next page)"
+  },
+  "theme.blog.post.paginator.navAriaLabel": {
+    "message": "博文分页导航",
+    "description": "The ARIA label for the blog posts pagination"
+  },
+  "theme.blog.post.paginator.newerPost": {
+    "message": "较新一篇",
+    "description": "The blog post button label to navigate to the newer/previous post"
+  },
+  "theme.blog.post.paginator.olderPost": {
+    "message": "较旧一篇",
+    "description": "The blog post button label to navigate to the older/next post"
+  },
+  "theme.tags.tagsPageLink": {
+    "message": "查看所有标签",
+    "description": "The label of the link targeting the tag list page"
+  },
+  "theme.colorToggle.ariaLabel.mode.system": {
+    "message": "system mode",
+    "description": "The name for the system color mode"
+  },
+  "theme.colorToggle.ariaLabel.mode.light": {
+    "message": "浅色模式",
+    "description": "The name for the light color mode"
+  },
+  "theme.colorToggle.ariaLabel.mode.dark": {
+    "message": "暗黑模式",
+    "description": "The name for the dark color mode"
+  },
+  "theme.colorToggle.ariaLabel": {
+    "message": "切换浅色/暗黑模式（当前为{mode}）",
+    "description": "The ARIA label for the color mode toggle"
+  },
+  "theme.docs.breadcrumbs.navAriaLabel": {
+    "message": "页面路径",
+    "description": "The ARIA label for the breadcrumbs"
+  },
+  "theme.docs.DocCard.categoryDescription.plurals": {
+    "message": "{count} 个项目",
+    "description": "The default description for a category card in the generated index about how many items this category includes"
+  },
+  "theme.docs.paginator.navAriaLabel": {
+    "message": "文件选项卡",
+    "description": "The ARIA label for the docs pagination"
+  },
+  "theme.docs.paginator.previous": {
+    "message": "上一页",
+    "description": "The label used to navigate to the previous doc"
+  },
+  "theme.docs.paginator.next": {
+    "message": "下一页",
+    "description": "The label used to navigate to the next doc"
+  },
+  "theme.docs.tagDocListPageTitle.nDocsTagged": {
+    "message": "{count} 篇文档带有标签",
+    "description": "Pluralized label for \"{count} docs tagged\". Use as much plural forms (separated by \"|\") as your language support (see https://www.unicode.org/cldr/cldr-aux/charts/34/supplemental/language_plural_rules.html)"
+  },
+  "theme.docs.tagDocListPageTitle": {
+    "message": "{nDocsTagged}「{tagName}」",
+    "description": "The title of the page for a docs tag"
+  },
+  "theme.docs.versionBadge.label": {
+    "message": "版本：{versionLabel}"
+  },
+  "theme.docs.versions.unreleasedVersionLabel": {
+    "message": "此为 {siteTitle} {versionLabel} 版尚未发行的文档。",
+    "description": "The label used to tell the user that he's browsing an unreleased doc version"
+  },
+  "theme.docs.versions.unmaintainedVersionLabel": {
+    "message": "此为 {siteTitle} {versionLabel} 版的文档，现已不再积极维护。",
+    "description": "The label used to tell the user that he's browsing an unmaintained doc version"
+  },
+  "theme.docs.versions.latestVersionSuggestionLabel": {
+    "message": "最新的文档请参阅 {latestVersionLink} ({versionLabel})。",
+    "description": "The label used to tell the user to check the latest version"
+  },
+  "theme.docs.versions.latestVersionLinkLabel": {
+    "message": "最新版本",
+    "description": "The label used for the latest version suggestion link label"
+  },
+  "theme.common.editThisPage": {
+    "message": "编辑此页",
+    "description": "The link label to edit the current page"
+  },
+  "theme.common.headingLinkTitle": {
+    "message": "{heading}的直接链接",
+    "description": "Title for link to heading"
+  },
+  "theme.lastUpdated.atDate": {
+    "message": "于 {date} ",
+    "description": "The words used to describe on which date a page has been last updated"
+  },
+  "theme.lastUpdated.byUser": {
+    "message": "由 {user} ",
+    "description": "The words used to describe by who the page has been last updated"
+  },
+  "theme.lastUpdated.lastUpdatedAtBy": {
+    "message": "最后{byUser}{atDate}更新",
+    "description": "The sentence used to display when a page has been last updated, and by who"
+  },
+  "theme.navbar.mobileVersionsDropdown.label": {
+    "message": "选择版本",
+    "description": "The label for the navbar versions dropdown on mobile view"
+  },
+  "theme.NotFound.title": {
+    "message": "找不到页面",
+    "description": "The title of the 404 page"
+  },
+  "theme.tags.tagsListLabel": {
+    "message": "标签：",
+    "description": "The label alongside a tag list"
+  },
+  "theme.AnnouncementBar.closeButtonAriaLabel": {
+    "message": "关闭",
+    "description": "The ARIA label for close button of announcement bar"
+  },
+  "theme.admonition.caution": {
+    "message": "警告",
+    "description": "The default label used for the Caution admonition (:::caution)"
+  },
+  "theme.admonition.danger": {
+    "message": "危险",
+    "description": "The default label used for the Danger admonition (:::danger)"
+  },
+  "theme.admonition.info": {
+    "message": "信息",
+    "description": "The default label used for the Info admonition (:::info)"
+  },
+  "theme.admonition.note": {
+    "message": "备注",
+    "description": "The default label used for the Note admonition (:::note)"
+  },
+  "theme.admonition.tip": {
+    "message": "提示",
+    "description": "The default label used for the Tip admonition (:::tip)"
+  },
+  "theme.admonition.warning": {
+    "message": "注意",
+    "description": "The default label used for the Warning admonition (:::warning)"
+  },
+  "theme.blog.sidebar.navAriaLabel": {
+    "message": "最近博文导航",
+    "description": "The ARIA label for recent posts in the blog sidebar"
+  },
+  "theme.DocSidebarItem.expandCategoryAriaLabel": {
+    "message": "展开侧边栏分类 '{label}'",
+    "description": "The ARIA label to expand the sidebar category"
+  },
+  "theme.DocSidebarItem.collapseCategoryAriaLabel": {
+    "message": "折叠侧边栏分类 '{label}'",
+    "description": "The ARIA label to collapse the sidebar category"
+  },
+  "theme.NavBar.navAriaLabel": {
+    "message": "主导航",
+    "description": "The ARIA label for the main navigation"
+  },
+  "theme.NotFound.p1": {
+    "message": "我们找不到您要找的页面。",
+    "description": "The first paragraph of the 404 page"
+  },
+  "theme.NotFound.p2": {
+    "message": "请联系原始链接来源网站的所有者，并告知他们链接已损坏。",
+    "description": "The 2nd paragraph of the 404 page"
+  },
+  "theme.TOCCollapsible.toggleButtonLabel": {
+    "message": "本页总览",
+    "description": "The label used by the button on the collapsible TOC component"
+  },
+  "theme.navbar.mobileLanguageDropdown.label": {
+    "message": "选择语言",
+    "description": "The label for the mobile language switcher dropdown"
+  },
+  "theme.blog.post.readingTime.plurals": {
+    "message": "阅读需 {readingTime} 分钟",
+    "description": "Pluralized label for \"{readingTime} min read\". Use as much plural forms (separated by \"|\") as your language support (see https://www.unicode.org/cldr/cldr-aux/charts/34/supplemental/language_plural_rules.html)"
+  },
+  "theme.blog.post.readMore": {
+    "message": "阅读更多",
+    "description": "The label used in blog post item excerpts to link to full blog posts"
+  },
+  "theme.blog.post.readMoreLabel": {
+    "message": "阅读 {title} 的全文",
+    "description": "The ARIA label for the link to full blog posts from excerpts"
+  },
+  "theme.CodeBlock.copy": {
+    "message": "复制",
+    "description": "The copy button label on code blocks"
+  },
+  "theme.CodeBlock.copied": {
+    "message": "复制成功",
+    "description": "The copied button label on code blocks"
+  },
+  "theme.CodeBlock.copyButtonAriaLabel": {
+    "message": "复制代码到剪贴板",
+    "description": "The ARIA label for copy code blocks button"
+  },
+  "theme.CodeBlock.wordWrapToggle": {
+    "message": "切换自动换行",
+    "description": "The title attribute for toggle word wrapping button of code block lines"
+  },
+  "theme.docs.breadcrumbs.home": {
+    "message": "主页面",
+    "description": "The ARIA label for the home page in the breadcrumbs"
+  },
+  "theme.docs.sidebar.navAriaLabel": {
+    "message": "文档侧边栏",
+    "description": "The ARIA label for the sidebar navigation"
+  },
+  "theme.docs.sidebar.collapseButtonTitle": {
+    "message": "收起侧边栏",
+    "description": "The title attribute for collapse button of doc sidebar"
+  },
+  "theme.docs.sidebar.collapseButtonAriaLabel": {
+    "message": "收起侧边栏",
+    "description": "The title attribute for collapse button of doc sidebar"
+  },
+  "theme.docs.sidebar.closeSidebarButtonAriaLabel": {
+    "message": "关闭导航栏",
+    "description": "The ARIA label for close button of mobile sidebar"
+  },
+  "theme.docs.sidebar.toggleSidebarButtonAriaLabel": {
+    "message": "切换导航栏",
+    "description": "The ARIA label for hamburger menu button of mobile navigation"
+  },
+  "theme.navbar.mobileSidebarSecondaryMenu.backButtonLabel": {
+    "message": "← 回到主菜单",
+    "description": "The label of the back button to return to main menu, inside the mobile navbar sidebar secondary menu (notably used to display the docs sidebar)"
+  },
+  "theme.navbar.mobileDropdown.collapseButton.expandAriaLabel": {
+    "message": "Expand the dropdown",
+    "description": "The ARIA label of the button to expand the mobile dropdown navbar item"
+  },
+  "theme.navbar.mobileDropdown.collapseButton.collapseAriaLabel": {
+    "message": "Collapse the dropdown",
+    "description": "The ARIA label of the button to collapse the mobile dropdown navbar item"
+  },
+  "theme.docs.sidebar.expandButtonTitle": {
+    "message": "展开侧边栏",
+    "description": "The ARIA label and title attribute for expand button of doc sidebar"
+  },
+  "theme.docs.sidebar.expandButtonAriaLabel": {
+    "message": "展开侧边栏",
+    "description": "The ARIA label and title attribute for expand button of doc sidebar"
+  },
+  "theme.blog.post.plurals": {
+    "message": "{count} 篇博文",
+    "description": "Pluralized label for \"{count} posts\". Use as much plural forms (separated by \"|\") as your language support (see https://www.unicode.org/cldr/cldr-aux/charts/34/supplemental/language_plural_rules.html)"
+  },
+  "theme.blog.tagTitle": {
+    "message": "{nPosts} 含有标签「{tagName}」",
+    "description": "The title of the page for a blog tag"
+  },
+  "theme.blog.author.pageTitle": {
+    "message": "{authorName} - {nPosts}",
+    "description": "The title of the page for a blog author"
+  },
+  "theme.blog.authorsList.pageTitle": {
+    "message": "作者",
+    "description": "The title of the authors page"
+  },
+  "theme.blog.authorsList.viewAll": {
+    "message": "查看所有作者",
+    "description": "The label of the link targeting the blog authors page"
+  },
+  "theme.blog.author.noPosts": {
+    "message": "该作者尚未撰写任何文章。",
+    "description": "The text for authors with 0 blog post"
+  },
+  "theme.contentVisibility.unlistedBanner.title": {
+    "message": "未列出页",
+    "description": "The unlisted content banner title"
+  },
+  "theme.contentVisibility.unlistedBanner.message": {
+    "message": "此页面未列出。搜索引擎不会对其索引，只有拥有直接链接的用户才能访问。",
+    "description": "The unlisted content banner message"
+  },
+  "theme.contentVisibility.draftBanner.title": {
+    "message": "草稿页",
+    "description": "The draft content banner title"
+  },
+  "theme.contentVisibility.draftBanner.message": {
+    "message": "此页面是草稿，仅在开发环境中可见，不会包含在正式版本中。",
+    "description": "The draft content banner message"
+  },
+  "theme.ErrorPageContent.tryAgain": {
+    "message": "重试",
+    "description": "The label of the button to try again rendering when the React error boundary captures an error"
+  },
+  "theme.common.skipToMainContent": {
+    "message": "跳到主要内容",
+    "description": "The skip to content label used for accessibility, allowing to rapidly navigate to main content with keyboard tab/enter navigation"
+  },
+  "theme.tags.tagsPageTitle": {
+    "message": "标签",
+    "description": "The title of the tag list page"
+  }
+}

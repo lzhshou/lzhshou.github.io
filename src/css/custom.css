@@ -17,44 +17,44 @@
   --ifm-color-primary-lighter: #14ab6f;
   --ifm-color-primary-lightest: #18c78a;
 
-  /* Background Colors - Warm Off-White System */
-  --ifm-background-color: #faf9f7;
-  --ifm-background-surface-color: #ffffff;
-  --ifm-background-secondary: #f5f4f2;
-  --ifm-background-tertiary: #ebe9e6;
+  /* Background Colors - 3-layer hierarchy: page → card → hover */
+  --ifm-background-color: #ffffff;
+  --ifm-background-surface-color: #f5f5f7;
+  --ifm-background-secondary: #ececee;
+  --ifm-background-tertiary: #e2e2e5;
 
-  /* Text Colors - Charcoal System */
-  --ifm-font-color-base: #1a1a1a;
-  --ifm-font-color-secondary: #4a4a4a;
-  --ifm-font-color-tertiary: #6b6b6b;
-  --ifm-font-color-muted: #9a9a9a;
+  /* Text Colors - Apple-style neutral gray */
+  --ifm-font-color-base: #1d1d1f;
+  --ifm-font-color-secondary: #6e6e73;
+  --ifm-font-color-tertiary: #86868b;
+  --ifm-font-color-muted: #a1a1a6;
 
   /* Interactive States */
   --ifm-link-color: #0d7377;
-  --ifm-link-hover-color: #0a5c5f;
+  --ifm-link-hover-color: #108f94;
   --ifm-menu-hover-background: rgba(13, 115, 119, 0.08);
   --ifm-menu-color-background-active: rgba(13, 115, 119, 0.12);
 
-  /* Borders - Subtle warm gray */
-  --ifm-border-color: rgba(0, 0, 0, 0.08);
-  --ifm-border-color-strong: rgba(0, 0, 0, 0.12);
+  /* Borders - Apple-style subtle gray */
+  --ifm-border-color: rgba(0, 0, 0, 0.06);
+  --ifm-border-color-strong: rgba(0, 0, 0, 0.1);
   --ifm-border-color-subtle: rgba(0, 0, 0, 0.04);
 
   /* Code Blocks */
-  --ifm-code-background: #f0eeeb;
-  --ifm-code-color: #1a1a1a;
+  --ifm-code-background: #f5f5f7;
+  --ifm-code-color: #1d1d1f;
   --docusaurus-highlighted-code-line-bg: rgba(13, 115, 119, 0.1);
 
   /* Component-specific - Unified background system */
-  --ifm-navbar-background-color: rgba(250, 249, 247, 0.95);
-  --ifm-sidebar-background-color: #faf9f7;
-  --ifm-footer-background-color: #f5f4f2;
+  --ifm-navbar-background-color: rgba(255, 255, 255, 0.92);
+  --ifm-sidebar-background-color: #f5f5f7;
+  --ifm-footer-background-color: #f0f0f2;
 
   /* Card backgrounds */
-  --ifm-card-background-color: #ffffff;
-  --ifm-card-background-hover: #faf9f7;
+  --ifm-card-background-color: #f5f5f7;
+  --ifm-card-background-hover: #ececee;
 
-  /* Shadows */
+  /* Shadows - Clean neutral */
   --ifm-shadow-sm: 0 1px 2px rgba(0, 0, 0, 0.04);
   --ifm-shadow-md: 0 4px 12px rgba(0, 0, 0, 0.06);
   --ifm-shadow-lg: 0 8px 24px rgba(0, 0, 0, 0.08);
@@ -65,9 +65,9 @@
   --ifm-heading-font-family: -apple-system, BlinkMacSystemFont, 'SF Pro Display', sans-serif;
   --ifm-heading-font-weight: 600;
   --ifm-heading-line-height: 1.2;
-  --ifm-h1-font-size: 2.5rem;
-  --ifm-h2-font-size: 2rem;
-  --ifm-h3-font-size: 1.5rem;
+  --ifm-h1-font-size: 2rem;
+  --ifm-h2-font-size: 1.5rem;
+  --ifm-h3-font-size: 1.25rem;
 
   /* Spacing */
   --ifm-leading-desktop: 1.8;
@@ -82,7 +82,7 @@
    ============================================================================ */
 
 [data-theme='dark'] {
-  /* Primary Accent - Same teal, slightly brighter for dark */
+  /* Primary Accent - Bright Teal for dark */
   --ifm-color-primary: #14a3a8;
   --ifm-color-primary-dark: #0d7377;
   --ifm-color-primary-darker: #0a5c5f;
@@ -91,17 +91,17 @@
   --ifm-color-primary-lighter: #20e1e8;
   --ifm-color-primary-lightest: #4ef0f5;
 
-  /* Background Colors - Deep Navy-Black System */
-  --ifm-background-color: #0f1115;
-  --ifm-background-surface-color: #16181d;
-  --ifm-background-secondary: #1c1f26;
-  --ifm-background-tertiary: #23262e;
+  /* Background Colors - 3-layer hierarchy: page → card → hover */
+  --ifm-background-color: #0a0a0c;
+  --ifm-background-surface-color: #161618;
+  --ifm-background-secondary: #222224;
+  --ifm-background-tertiary: #2e2e30;
 
-  /* Text Colors - Softened for dark readability */
-  --ifm-font-color-base: #e8e6e3;
-  --ifm-font-color-secondary: #b8b5b0;
-  --ifm-font-color-tertiary: #8a8780;
-  --ifm-font-color-muted: #5c5954;
+  /* Text Colors - Apple-style soft white */
+  --ifm-font-color-base: #f5f5f7;
+  --ifm-font-color-secondary: #a1a1a6;
+  --ifm-font-color-tertiary: #86868b;
+  --ifm-font-color-muted: #6e6e73;
 
   /* Interactive States */
   --ifm-link-color: #14a3a8;
@@ -115,18 +115,18 @@
   --ifm-border-color-subtle: rgba(255, 255, 255, 0.04);
 
   /* Code Blocks */
-  --ifm-code-background: #1c1f26;
-  --ifm-code-color: #e8e6e3;
+  --ifm-code-background: #2a2a2c;
+  --ifm-code-color: #f5f5f7;
   --docusaurus-highlighted-code-line-bg: rgba(20, 163, 168, 0.15);
 
   /* Component-specific - Unified background system */
-  --ifm-navbar-background-color: rgba(15, 17, 21, 0.95);
-  --ifm-sidebar-background-color: #0f1115;
-  --ifm-footer-background-color: #16181d;
+  --ifm-navbar-background-color: rgba(10, 10, 12, 0.92);
+  --ifm-sidebar-background-color: #0a0a0c;
+  --ifm-footer-background-color: #0e0e10;
 
   /* Card backgrounds */
-  --ifm-card-background-color: #16181d;
-  --ifm-card-background-hover: #1c1f26;
+  --ifm-card-background-color: #161618;
+  --ifm-card-background-hover: #222224;
 
   /* Shadows - More subtle in dark mode */
   --ifm-shadow-sm: 0 1px 2px rgba(0, 0, 0, 0.2);
@@ -152,12 +152,12 @@ body {
 
 /* Selection */
 ::selection {
-  background: rgba(13, 115, 119, 0.25);
+  background: rgba(13, 115, 119, 0.2);
   color: inherit;
 }
 
 [data-theme='dark'] ::selection {
-  background: rgba(20, 163, 168, 0.3);
+  background: rgba(20, 163, 168, 0.25);
 }
 
 /* ============================================================================
@@ -170,6 +170,7 @@ body {
   -webkit-backdrop-filter: blur(20px) saturate(180%);
   border-bottom: 1px solid var(--ifm-border-color);
   box-shadow: var(--ifm-shadow-sm);
+  z-index: 300;
 }
 
 .navbar__brand {
@@ -362,6 +363,34 @@ body {
   color: var(--ifm-font-color-base);
 }
 
+/* Blog and generic markdown heading sizes */
+.markdown h1 {
+  font-size: 1.75rem;
+  font-weight: 700;
+  letter-spacing: -0.02em;
+  margin-bottom: 0.875rem;
+  color: var(--ifm-font-color-base);
+}
+
+.markdown h2 {
+  font-size: 1.375rem;
+  font-weight: 600;
+  letter-spacing: -0.01em;
+  margin-top: 1.75rem;
+  margin-bottom: 0.625rem;
+  padding-bottom: 0.375rem;
+  border-bottom: 1px solid var(--ifm-border-color);
+  color: var(--ifm-font-color-base);
+}
+
+.markdown h3 {
+  font-size: 1.125rem;
+  font-weight: 600;
+  margin-top: 1.25rem;
+  margin-bottom: 0.5rem;
+  color: var(--ifm-font-color-base);
+}
+
 .theme-doc-markdown p {
   margin-bottom: 1rem;
   color: var(--ifm-font-color-secondary);
@@ -546,7 +575,7 @@ table tr:hover td {
    ============================================================================ */
 
 .pagination-nav__link {
-  background: var(--ifm-background-surface-color);
+  background: var(--ifm-card-background-color);
   border: 1px solid var(--ifm-border-color);
   border-radius: 12px;
   padding: 1rem;
@@ -554,10 +583,10 @@ table tr:hover td {
 }
 
 .pagination-nav__link:hover {
-  background: var(--ifm-background-secondary);
+  background: var(--ifm-card-background-hover);
   border-color: var(--ifm-border-color-strong);
   transform: translateY(-2px);
-  box-shadow: var(--ifm-shadow-md);
+  box-shadow: var(--ifm-shadow-sm);
 }
 
 .pagination-nav__label {
@@ -823,4 +852,85 @@ table tr:hover td {
 .footer__item a[href*="/about"]::before,
 .footer__link-item[href*="/about"]::before {
   display: none !important;
+}
+
+/* Ensure navbar sidebar backdrop does not block clicks when closed */
+.navbar-sidebar__backdrop {
+  opacity: 0 !important;
+  visibility: hidden !important;
+  pointer-events: none !important;
+}
+
+.navbar-sidebar--show .navbar-sidebar__backdrop {
+  opacity: 1 !important;
+  visibility: visible !important;
+  pointer-events: auto !important;
+}
+
+/* ============================================================================
+   Blog Styles - Font size harmonization
+   ============================================================================ */
+
+/* Blog list page titles */
+.blog-list-page h1,
+.blog-list-page .hero__title {
+  font-size: 1.75rem;
+}
+
+.blog-list-page article h2 a {
+  font-size: 1.25rem;
+}
+
+.blog-list-page article .markdown {
+  font-size: 0.9375rem;
+  line-height: 1.7;
+}
+
+/* Blog post page */
+.blog-post-page h1 {
+  font-size: 1.75rem;
+}
+
+.blog-post-page .markdown {
+  font-size: 1rem;
+  line-height: 1.8;
+}
+
+/* Blog metadata (date, reading time, tags) */
+.blog-post-page .margin-vert--md,
+.blog-list-page .margin-vert--md {
+  font-size: 0.875rem;
+}
+
+/* Pagination */
+.pagination-nav__link {
+  font-size: 0.9375rem;
+}
+
+/* Author bio */
+.avatar__name {
+  font-size: 1rem;
+}
+
+.avatar__subtitle {
+  font-size: 0.8125rem;
+}
+
+/* ============================================================================
+   Theme Toggle - Ensure clickable
+   ============================================================================ */
+
+.navbar__items--right {
+  z-index: 301;
+}
+
+.navbar__items--right .navbar__item {
+  z-index: 302;
+}
+
+/* Ensure color mode toggle is always clickable */
+.colorModeToggle_DEke,
+[class*="colorModeToggle"] {
+  z-index: 303;
+  position: relative;
 }

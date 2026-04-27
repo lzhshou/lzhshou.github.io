@@ -10,6 +10,7 @@ _mywebpage_complete() {
 
     local cmds="build deploy server update uninstall"
     local server_subcmds="start stop status restart"
+    local build_opts="-c --clean -s --serve --help"
 
     case "$COMP_CWORD" in
         1)
@@ -17,6 +18,9 @@ _mywebpage_complete() {
             ;;
         2)
             case "$prev" in
+                build)
+                    COMPREPLY=( $(compgen -W "$build_opts" -- "$cur") )
+                    ;;
                 server)
                     COMPREPLY=( $(compgen -W "$server_subcmds" -- "$cur") )
                     ;;
@@ -26,6 +30,12 @@ _mywebpage_complete() {
             ;;
         3)
             case "$prev2" in
+                build)
+                    case "$prev" in
+                        -s|--serve)
+                            ;;
+                    esac
+                    ;;
                 server)
                     case "$prev" in
                         start|restart)

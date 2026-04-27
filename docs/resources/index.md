@@ -71,8 +71,8 @@ sidebar: false
 ## 开源项目
 
 ### 我们参与的项目
-- **[项目名称]**: 项目描述和GitHub链接
-- **[项目名称]**: 项目描述和GitHub链接
+- **[NetDEM](https://github.com/apaam/NetDEM)**: 通用离散元计算软件
+- **[CFD-DEM Coupler](https://github.com/apaam/CFD-DEM)**: 流固耦合计算程序
 
 ### 推荐项目
 - **deal.II**: C++有限元库

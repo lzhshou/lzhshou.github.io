@@ -1,0 +1,34 @@
+{
+  "title": {
+    "message": "APAAM",
+    "description": "The title in the navbar"
+  },
+  "logo.alt": {
+    "message": "APAAM Lab",
+    "description": "The alt text of navbar logo"
+  },
+  "item.label.nav.people": {
+    "message": "People",
+    "description": "Navbar item with label nav.people"
+  },
+  "item.label.nav.research": {
+    "message": "Research",
+    "description": "Navbar item with label nav.research"
+  },
+  "item.label.nav.publications": {
+    "message": "Publications",
+    "description": "Navbar item with label nav.publications"
+  },
+  "item.label.nav.teaching": {
+    "message": "Teaching",
+    "description": "Navbar item with label nav.teaching"
+  },
+  "item.label.nav.blog": {
+    "message": "Blog",
+    "description": "Navbar item with label nav.blog"
+  },
+  "item.label.nav.about": {
+    "message": "About",
+    "description": "Navbar item with label nav.about"
+  }
+}

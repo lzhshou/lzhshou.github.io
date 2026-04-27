@@ -1,16 +1,16 @@
 /* ============================================================================
-   APAAM Lab Website - Clean Academic Style
+   APAAM Lab Website - Apple-inspired Academic Style
    ============================================================================ */
 
 :root {
-  --color-bg: #faf9f7;
-  --color-bg-elevated: #ffffff;
-  --color-text: #1a1a1a;
-  --color-text-secondary: #555555;
-  --color-text-tertiary: #888888;
-  --color-border: #e5e5e5;
-  --color-accent: #2c5282;
-  --color-accent-light: #4299e1;
+  --color-bg: #f0f0f2;
+  --color-bg-elevated: #f5f5f7;
+  --color-text: #1d1d1f;
+  --color-text-secondary: #6e6e73;
+  --color-text-tertiary: #86868b;
+  --color-border: rgba(0, 0, 0, 0.05);
+  --color-accent: #0d7377;
+  --color-accent-light: #108f94;
 
   --font-body: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
   --font-mono: 'SF Mono', Monaco, monospace;
@@ -45,17 +45,52 @@
 }
 
 /* ============================================================================
-   Hero Section
+   Hero Section - Full-width background image
    ============================================================================ */
 
 .header {
-  padding: 5rem 0 3rem;
-  background: var(--color-bg-elevated);
-  border-bottom: 1px solid var(--color-border);
+  position: relative;
+  padding: 7rem 0 5rem;
   text-align: center;
+  overflow: hidden;
+}
+
+.heroBg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: url('/img/hero/bg.jpeg') center/cover no-repeat;
+  z-index: 0;
+}
+
+.heroBg::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.4);
+  pointer-events: none;
+}
+
+.heroBg {
+  pointer-events: none;
 }
 
 .heroContent {
+  position: relative;
+  z-index: 1;
+  max-width: 800px;
+  margin: 0 auto;
+  pointer-events: auto;
+}
+
+.heroContent {
+  position: relative;
+  z-index: 1;
   max-width: 800px;
   margin: 0 auto;
 }
@@ -64,7 +99,7 @@
   font-family: var(--font-mono);
   font-size: 0.875rem;
   font-weight: 500;
-  color: var(--color-accent);
+  color: rgba(255, 255, 255, 0.75);
   letter-spacing: 0.2em;
   margin: 0 0 1rem;
   text-transform: uppercase;
@@ -74,20 +109,20 @@
   font-size: clamp(1.75rem, 5vw, 2.5rem);
   font-weight: 600;
   line-height: 1.3;
-  color: var(--color-text);
+  color: #ffffff;
   margin: 0 0 0.75rem;
 }
 
 .labNameEn {
   font-size: 1rem;
   font-weight: 400;
-  color: var(--color-text-tertiary);
+  color: rgba(255, 255, 255, 0.7);
   margin: 0 0 1rem;
 }
 
 .labAffiliation {
   font-size: 1rem;
-  color: var(--color-text-secondary);
+  color: rgba(255, 255, 255, 0.8);
   margin: 0;
 }
 
@@ -133,11 +168,38 @@
 }
 
 .areaCard {
-  background: var(--color-bg-elevated);
+  background: transparent;
   border: 1px solid var(--color-border);
-  border-radius: 8px;
-  padding: 1.5rem;
-  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  border-radius: 12px;
+  overflow: hidden;
+  transition: transform 0.2s ease, box-shadow 0.2s ease, border-color 0.2s ease;
+}
+
+.areaImage {
+  width: 100%;
+  height: 160px;
+  overflow: hidden;
+  background: #0a1628;
+}
+
+.areaImage img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.4s ease;
+}
+
+.areaCard:hover .areaImage img {
+  transform: scale(1.05);
+}
+
+.areaCard .areaTitle,
+.areaCard .areaDesc {
+  padding: 0 1.25rem;
+}
+
+.areaCard .areaTitle {
+  padding-top: 1.25rem;
 }
 
 .areaCard:hover {
@@ -188,7 +250,7 @@
   align-items: center;
   gap: 0.75rem;
   padding: 1.5rem 1rem;
-  background: var(--color-bg);
+  background: transparent;
   border: 1px solid var(--color-border);
   border-radius: 8px;
   text-decoration: none;
@@ -196,13 +258,13 @@
 }
 
 .linkCard:hover {
-  background: var(--color-accent);
+  background: var(--ifm-menu-hover-background);
   border-color: var(--color-accent);
   text-decoration: none;
 }
 
 .linkCard:hover .linkText {
-  color: #ffffff;
+  color: var(--color-accent);
 }
 
 .linkIcon {
@@ -227,7 +289,7 @@
 }
 
 .contactCard {
-  background: var(--color-bg-elevated);
+  background: transparent;
   border: 1px solid var(--color-border);
   border-radius: 8px;
   padding: 2rem;
@@ -262,13 +324,13 @@
    ============================================================================ */
 
 [data-theme='dark'] {
-  --color-bg: #0f1115;
-  --color-bg-elevated: #141414;
+  --color-bg: #0c0c0e;
+  --color-bg-elevated: #141416;
   --color-text: #f5f5f7;
   --color-text-secondary: #a1a1a6;
-  --color-text-tertiary: #6e6e73;
-  --color-border: #2c2c2e;
-  --color-accent: #4299e1;
+  --color-text-tertiary: #86868b;
+  --color-border: rgba(255, 255, 255, 0.08);
+  --color-accent: #14a3a8;
 }
 
 [data-theme='dark'] .main {
@@ -276,13 +338,9 @@
   color: var(--color-text);
 }
 
-[data-theme='dark'] .header,
 [data-theme='dark'] .introSection,
-[data-theme='dark'] .linksSection,
-[data-theme='dark'] .contactCard,
-[data-theme='dark'] .areaCard {
+[data-theme='dark'] .linksSection {
   background: var(--color-bg-elevated);
-  border-color: var(--color-border);
 }
 
 [data-theme='dark'] .areasSection,
@@ -290,15 +348,14 @@
   background: var(--color-bg);
 }
 
-[data-theme='dark'] .linkCard {
-  background: var(--color-bg-elevated);
-}
-
 [data-theme='dark'] .linkCard:hover {
-  background: var(--color-accent);
+  background: var(--ifm-menu-hover-background);
 }
 
-/* Modern SVG Icons */
+/* ============================================================================
+   Modern SVG Icons
+   ============================================================================ */
+
 .linkIconSvg {
   width: 24px;
   height: 24px;
@@ -309,6 +366,7 @@
 
 .linkCard:hover .linkIconSvg {
   transform: scale(1.1);
+  color: var(--color-accent);
 }
 
 .contactIconSvg {

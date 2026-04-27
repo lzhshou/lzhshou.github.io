@@ -16,14 +16,15 @@ LOG_FILE="${STATE_DIR}/serve.log"
 DEFAULT_PORT=3000
 
 usage() {
-  echo "Usage: mywebpage {build|deploy [args...]|server <subcmd>|update|uninstall}" >&2
-  echo "  server start [port]   background serve (default port ${DEFAULT_PORT})" >&2
-  echo "  server stop           stop background server" >&2
-  echo "  server status         show port and state" >&2
-  echo "  server restart [port] stop then start" >&2
-  echo "  deploy                npm run deploy; sets GIT_USER via gh or git origin" >&2
-  echo "  update                reinstall mywebpage from repository" >&2
-  echo "  uninstall             remove mywebpage from system" >&2
+  echo "Usage: mywebpage {build [opts]|deploy [args...]|server <subcmd>|update|uninstall}" >&2
+  echo "  build [-c|--clean] [-s|--serve] [port]   build site; -c clears cache first, -s serves after build" >&2
+  echo "  deploy [args...]                         npm run deploy; sets GIT_USER via gh or git origin" >&2
+  echo "  server start [port]                      background serve (default port ${DEFAULT_PORT})" >&2
+  echo "  server stop                              stop background server" >&2
+  echo "  server status                            show port and state" >&2
+  echo "  server restart [port]                    stop then start" >&2
+  echo "  update                                   reinstall mywebpage from repository" >&2
+  echo "  uninstall                                remove mywebpage from system" >&2
   exit 1
 }
 
@@ -46,7 +47,66 @@ pids_on_port() {
 }
 
 cmd_build() {
-  (cd "$ROOT" && npm run build)
+  local clean=no serve=no port=""
+  while [[ $# -gt 0 ]]; do
+    case "$1" in
+      -c|--clean) clean=yes; shift ;;
+      -s|--serve) serve=yes; shift ;;
+      -h|--help)
+        echo "Usage: mywebpage build [-c|--clean] [-s|--serve] [port]" >&2
+        echo "  -c, --clean    clear Docusaurus cache before build" >&2
+        echo "  -s, --serve    serve the built site after successful build" >&2
+        echo "  port           port number for serve (default ${DEFAULT_PORT}, only with -s)" >&2
+        exit 0
+        ;;
+      -*)
+        echo "mywebpage build: unknown option: $1" >&2
+        echo "Run 'mywebpage build --help' for usage." >&2
+        exit 1
+        ;;
+      *)
+        if [[ -z "$port" ]]; then
+          port="$1"
+        else
+          echo "mywebpage build: unexpected argument: $1" >&2
+          exit 1
+        fi
+        shift
+        ;;
+    esac
+  done
+
+  cd "$ROOT"
+
+  if [[ "$clean" == "yes" ]]; then
+    echo "mywebpage: clearing cache..." >&2
+    npx docusaurus clear 2>/dev/null || true
+  fi
+
+  echo "mywebpage: building..." >&2
+  local build_out build_exit
+  build_out="$(mktemp)"
+  npm run build 2>&1 | tee "$build_out"; build_exit=${PIPESTATUS[0]}
+
+  if [[ "$build_exit" -ne 0 ]]; then
+    rm -f "$build_out"
+    echo "mywebpage: build failed" >&2
+    exit "$build_exit"
+  fi
+
+  if grep -q 'found broken links' "$build_out" 2>/dev/null; then
+    echo "mywebpage: build succeeded (with broken links — check output above)" >&2
+  else
+    echo "mywebpage: build succeeded" >&2
+  fi
+
+  rm -f "$build_out"
+
+  if [[ "$serve" == "yes" ]]; then
+    [[ -z "$port" ]] && port="$DEFAULT_PORT"
+    echo "mywebpage: serving on port $port..." >&2
+    npx docusaurus serve --port "$port" --no-open
+  fi
 }
 
 cmd_deploy() {
@@ -209,7 +269,7 @@ cmd_uninstall() {
 }
 
 case "${1:-}" in
-  build) cmd_build ;;
+  build) shift; cmd_build "$@" ;;
   deploy) cmd_deploy "$@" ;;
   server) shift; cmd_server "$@" ;;
   update) cmd_update ;;

@@ -1,12 +1,7 @@
----
-sidebar: false
----
 
+# Publications
 
-
-# 学术发表
-
-## 期刊论文
+## Journal Papers
 
 ### 2026
 
@@ -44,7 +39,7 @@ sidebar: false
 
 ### 2022
 
-1. 吴峰, 黄林冲, & **赖正首**. (2024). 基于球面沃罗诺伊的颗粒表面离散与重构方法. *工程力学*, 41(9), 245-256. [DOI](https://doi.org/10.6052/j.issn.1000-4750.2022.07.0614) | [PDF](/pdf/first-or-correspondence/wu2022-spherical-voronoi-reconstruction-zh.pdf)
+1. Wu, F., Huang, L., & **Lai, Z.** (2024). Spherical Voronoi-based particle surface discretization and reconstruction method. *Engineering Mechanics*, 41(9), 245-256. [DOI](https://doi.org/10.6052/j.issn.1000-4750.2022.07.0614) | [PDF](/pdf/first-or-correspondence/wu2022-spherical-voronoi-reconstruction-zh.pdf)
 
 2. Zhao, S., **Lai, Z.**, & Zhao, J. (2022). Leveraging ray tracing cores for particle‐based simulations on GPUs. *International Journal for Numerical Methods in Engineering*, 124(3), 696-713. [DOI](https://doi.org/10.1002/nme.7139) | [PDF](/pdf/first-or-correspondence/zhao2022-leveraging-ray-tracing-cores-for-particle-based-simulations-on.pdf)
 
@@ -58,17 +53,17 @@ sidebar: false
 
 2. Gleaton, J., **Lai, Z.**, Xiao, R., Zhang, K., Chen, Q., & Zheng, Y. (2021). Optimization of mechanical strength of biocemented Martian regolith simulant soil columns. *Construction and Building Materials*, 315, 125741. [DOI](https://doi.org/10.1016/j.conbuildmat.2021.125741) | [PDF](/pdf/coauthored/gleaton2021-optimization-of-mechanical-strength-of-biocemented-martian.pdf)
 
-2. **Lai, Z.**, Zhao, S., Zhao, J., & Huang, L. (2021). Revisiting the GJK and shape erosion method for contact resolution in DEM. *Powder Technology*, 394, 363-371. [DOI](https://doi.org/10.1016/j.powtec.2021.08.068) | [PDF](/pdf/first-or-correspondence/lai2021-revisiting-the-gjk-and-shape-erosion-method-for-contact.pdf)
+3. **Lai, Z.**, Zhao, S., Zhao, J., & Huang, L. (2021). Revisiting the GJK and shape erosion method for contact resolution in DEM. *Powder Technology*, 394, 363-371. [DOI](https://doi.org/10.1016/j.powtec.2021.08.068) | [PDF](/pdf/first-or-correspondence/lai2021-revisiting-the-gjk-and-shape-erosion-method-for-contact.pdf)
 
-3. **Lai, Z.**, Chen, Q., & Huang, L. (2021). Machine‐learning‐enabled discrete element method: Contact detection and resolution of irregular‐shaped particles. *International Journal for Numerical and Analytical Methods in Geomechanics*, 46(1), 113-140. [DOI](https://doi.org/10.1002/nag.3293) | [PDF](/pdf/first-or-correspondence/lai2021-machine-learning-enabled-discrete-element-method-contact.pdf)
+4. **Lai, Z.**, Chen, Q., & Huang, L. (2021). Machine‐learning‐enabled discrete element method: Contact detection and resolution of irregular‐shaped particles. *International Journal for Numerical and Analytical Methods in Geomechanics*, 46(1), 113-140. [DOI](https://doi.org/10.1002/nag.3293) | [PDF](/pdf/first-or-correspondence/lai2021-machine-learning-enabled-discrete-element-method-contact.pdf)
 
-4. **Lai, Z.**, Chen, Q., & Huang, L. (2021). Evaluating the hydromechanical responses of seabed–pipelines with rotated anisotropic heterogeneous seabed properties. *Ocean Engineering*, 234, 109226. [DOI](https://doi.org/10.1016/j.oceaneng.2021.109226) | [PDF](/pdf/first-or-correspondence/lai2021-evaluating-the-hydromechanical-responses-of-seabed-pipelines.pdf)
+5. **Lai, Z.**, Chen, Q., & Huang, L. (2021). Evaluating the hydromechanical responses of seabed–pipelines with rotated anisotropic heterogeneous seabed properties. *Ocean Engineering*, 234, 109226. [DOI](https://doi.org/10.1016/j.oceaneng.2021.109226) | [PDF](/pdf/first-or-correspondence/lai2021-evaluating-the-hydromechanical-responses-of-seabed-pipelines.pdf)
 
-5. Huang, S., Huang, L., & **Lai, Z.** (2021). An extension of the Fourier series-based particle model to the GJK-based contact detection and resolution framework for DEM. *Computational Particle Mechanics*, 9, 381-391. [DOI](https://doi.org/10.1007/s40571-021-00446-6) | [PDF](/pdf/first-or-correspondence/huang2021-an-extension-of-the-fourier-series-based-particle-model-to-the.pdf)
+6. Huang, S., Huang, L., & **Lai, Z.** (2021). An extension of the Fourier series-based particle model to the GJK-based contact detection and resolution framework for DEM. *Computational Particle Mechanics*, 9, 381-391. [DOI](https://doi.org/10.1007/s40571-021-00446-6) | [PDF](/pdf/first-or-correspondence/huang2021-an-extension-of-the-fourier-series-based-particle-model-to-the.pdf)
 
-6. **Lai, Z.** & Huang, L. (2021). A polybezier-based particle model for the DEM modeling of granular media. *Computers and Geotechnics*, 134, 104052. [DOI](https://doi.org/10.1016/j.compgeo.2021.104052) | [PDF](/pdf/first-or-correspondence/lai2021-a-polybezier-based-particle-model-for-the-dem-modeling-of.pdf)
+7. **Lai, Z.** & Huang, L. (2021). A polybezier-based particle model for the DEM modeling of granular media. *Computers and Geotechnics*, 134, 104052. [DOI](https://doi.org/10.1016/j.compgeo.2021.104052) | [PDF](/pdf/first-or-correspondence/lai2021-a-polybezier-based-particle-model-for-the-dem-modeling-of.pdf)
 
-7. **Lai, Z.**, Chen, Q., & Huang, L. (2021). A semianalytical Hertzian frictional contact model in 2D. *Applied Mathematical Modelling*, 92, 546-564. [DOI](https://doi.org/10.1016/j.apm.2020.11.016) | [PDF](/pdf/first-or-correspondence/lai2021-a-semianalytical-hertzian-frictional-contact-model-in-2d.pdf)
+8. **Lai, Z.**, Chen, Q., & Huang, L. (2021). A semianalytical Hertzian frictional contact model in 2D. *Applied Mathematical Modelling*, 92, 546-564. [DOI](https://doi.org/10.1016/j.apm.2020.11.016) | [PDF](/pdf/first-or-correspondence/lai2021-a-semianalytical-hertzian-frictional-contact-model-in-2d.pdf)
 
 ### 2020
 
@@ -78,7 +73,7 @@ sidebar: false
 
 3. Huang, L., Huang, S., & **Lai, Z.**<sup>#</sup> (2020). On an energy-based criterion for defining slope failure considering spatially varying soil properties. *Engineering Geology*, 264, 105323. [DOI](https://doi.org/10.1016/j.enggeo.2019.105323) | [PDF](/pdf/first-or-correspondence/huang2020-on-an-energy-based-criterion-for-defining-slope-failure.pdf)
 
-4. 黄林冲, 叶文, **赖正首**. (2020). 考虑形态及含水率的颗粒材料尺寸效应室内三轴试验研究. *铁道科学与工程学报*, 17(9), 2262-2270. [DOI](https://doi.org/10.19713/j.cnki.43-1423/u.T20191042) | [PDF](/pdf/coauthored/huang2020-size-effect-morphology-moisture-zh.pdf)
+4. Huang, L., Ye, W., & **Lai, Z.** (2020). Laboratory triaxial test study on size effect of granular materials considering morphology and moisture content. *Journal of Railway Science and Engineering*, 17(9), 2262-2270. [DOI](https://doi.org/10.19713/j.cnki.43-1423/u.T20191042) | [PDF](/pdf/coauthored/huang2020-size-effect-morphology-moisture-zh.pdf)
 
 5. Liang, Y., Zhang, J., **Lai, Z.**, Huang, Q., & Huang, L. (2020). Temporal and spatial distribution of the grout pressure and its effects on lining segments during synchronous grouting in shield tunnelling. *European Journal of Environmental and Civil Engineering*, 24(1), 79-96. [DOI](https://doi.org/10.1080/19648189.2017.1364299) | [PDF](/pdf/coauthored/liang2020-temporal-and-spatial-distribution-of-the-grout-pressure-and.pdf)
 
