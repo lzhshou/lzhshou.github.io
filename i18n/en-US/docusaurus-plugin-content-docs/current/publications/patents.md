@@ -1,3 +1,7 @@
+---
+sidebar_position: 4
+---
+
 # Patents
 
 1. Lai, Z., Zhao, J., Huang, L., et al. A CFD-DEM processing method and system for arbitrary-shaped particles based on improved immersed boundary and signed distance field. China, CN202411091106.7, 2024.
