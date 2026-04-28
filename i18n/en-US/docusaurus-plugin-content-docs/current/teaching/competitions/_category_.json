@@ -1,3 +1,7 @@
 {
-  "label": "Competition Guidance"
+  "label": "Competition Guidance",
+  "link": {
+    "type": "doc",
+    "id": "teaching/competitions/index"
+  }
 }

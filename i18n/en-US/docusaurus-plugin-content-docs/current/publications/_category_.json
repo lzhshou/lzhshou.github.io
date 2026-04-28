@@ -1,3 +1,7 @@
 {
-  "label": "Research Output"
+  "label": "Research Output",
+  "link": {
+    "type": "doc",
+    "id": "publications/index"
+  }
 }

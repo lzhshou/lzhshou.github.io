@@ -1,3 +1,7 @@
 {
-  "label": "Courses"
+  "label": "Courses",
+  "link": {
+    "type": "doc",
+    "id": "teaching/courses/index"
+  }
 }

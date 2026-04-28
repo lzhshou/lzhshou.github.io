@@ -1,3 +1,7 @@
 {
-  "label": "Innovation Projects"
+  "label": "Innovation Projects",
+  "link": {
+    "type": "doc",
+    "id": "teaching/innovation/index"
+  }
 }
