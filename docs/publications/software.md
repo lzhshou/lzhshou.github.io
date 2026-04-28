@@ -1,3 +1,7 @@
+---
+sidebar_position: 3
+---
+
 # 软件著作权
 
 1. **NetDEM 离散元软件 V1.0**（登记号：2022SRXXXXXX），2022。
