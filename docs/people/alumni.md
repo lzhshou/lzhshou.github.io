@@ -1,6 +1,5 @@
 ---
 sidebar_position: 3
-sidebar: false
 ---
 
 # 已毕业学生

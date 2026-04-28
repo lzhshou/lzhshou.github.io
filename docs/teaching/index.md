@@ -1,5 +1,4 @@
 ---
-sidebar: false
 ---
 
 
@@ -8,14 +7,18 @@ sidebar: false
 
 ## 授课课程
 
-- [工程制图与CAD](./engineering-drawing)
-- [线性代数](./linear-algebra)
-- [高等计算力学](./advanced-computational-mechanics)
-- [离散介质数值方法](./discrete-numerical-methods)
+- [工程制图与CAD](./courses/engineering-drawing)
+- [线性代数](./courses/linear-algebra)
+- [高等计算力学](./courses/advanced-computational-mechanics)
+- [离散介质数值方法](./courses/discrete-numerical-methods)
 
 ## 大创项目
 
 查看指导学生主持的[大学生创新创业训练计划项目](./innovation)。
+
+## 竞赛指导
+
+查看指导学生参加[学科竞赛](./competitions)的记录与成果。
 
 ---
 

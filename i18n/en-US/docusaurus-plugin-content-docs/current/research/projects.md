@@ -32,15 +32,3 @@
 | National Natural Science Foundation of China (NSFC) | Young Scientists Fund | Macro-micro Mechanical Experiments and Multiscale DEM Modeling of Calcareous Sand Based on CT Images and Machine Learning | 2020-2022 | PI | 250,000 RMB |
 | China Postdoctoral Science Foundation | General Program | DEM Research on Irregular Particles Based on Fourier Series | 2020-2021 | PI | 80,000 RMB |
 
----
-
-## Software Copyrights and Patents
-
-### Software Copyrights
-- **NetDEM**: General-purpose discrete element computing software
-- **CFD-DEM Coupler**: Fluid-structure coupling computing program
-
-### Granted Patents
-1. **Lai, Z.**, Zhao, J., Huang, L., et al. A CFD-DEM Processing Method and System for Arbitrary-shaped Particles Based on Improved Immersed Boundary and Signed Distance Field. China, CN202411091106.7. 2024.
-
-2. **Lai, Z.**, Huang, L., Huang, S., et al. An Irregular Particle Shape Simulation Method, Device, and Equipment. China, 202011418366.2. 2023.

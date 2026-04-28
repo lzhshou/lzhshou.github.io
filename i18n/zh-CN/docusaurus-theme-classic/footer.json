@@ -16,7 +16,7 @@
     "description": "The label of footer link with label=nav.research linking to /docs/research"
   },
   "link.item.label.nav.publications": {
-    "message": "论文",
+    "message": "成果",
     "description": "The label of footer link with label=nav.publications linking to /docs/publications"
   },
   "link.item.label.nav.people": {

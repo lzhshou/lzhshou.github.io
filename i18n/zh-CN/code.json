@@ -539,5 +539,17 @@
   "theme.tags.tagsPageTitle": {
     "message": "标签",
     "description": "The title of the tag list page"
+  },
+  "sidebar.teachingSidebar.category.竞赛指导": {
+    "message": "竞赛指导",
+    "description": "Sidebar category label for competitions"
+  },
+  "sidebar.teachingSidebar.category.授课课程": {
+    "message": "授课课程",
+    "description": "Sidebar category label for courses"
+  },
+  "sidebar.teachingSidebar.category.大创项目": {
+    "message": "大创项目",
+    "description": "Sidebar category label for innovation projects"
   }
 }

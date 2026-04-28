@@ -2,14 +2,18 @@
 
 ## Courses
 
-- [Engineering Drawing & CAD](./engineering-drawing)
-- [Linear Algebra](./linear-algebra)
-- [Advanced Computational Mechanics](./advanced-computational-mechanics)
-- [Discrete Numerical Methods](./discrete-numerical-methods)
+- [Engineering Drawing & CAD](./courses/engineering-drawing)
+- [Linear Algebra](./courses/linear-algebra)
+- [Advanced Computational Mechanics](./courses/advanced-computational-mechanics)
+- [Discrete Numerical Methods](./courses/discrete-numerical-methods)
 
 ## Innovation Projects
 
 View supervised [Undergraduate Innovation & Entrepreneurship Training Programs](./innovation).
+
+## Competition Guidance
+
+View records of [student competition guidance](./competitions).
 
 ---
 

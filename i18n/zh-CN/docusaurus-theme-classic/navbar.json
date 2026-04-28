@@ -16,7 +16,7 @@
     "description": "Navbar item with label nav.research"
   },
   "item.label.nav.publications": {
-    "message": "论文",
+    "message": "成果",
     "description": "Navbar item with label nav.publications"
   },
   "item.label.nav.teaching": {

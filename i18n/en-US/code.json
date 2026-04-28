@@ -543,5 +543,17 @@
   "time.present": {
     "message": "Present",
     "description": "Present time"
+  },
+  "sidebar.teachingSidebar.category.竞赛指导": {
+    "message": "Competition Guidance",
+    "description": "Sidebar category label for competitions"
+  },
+  "sidebar.teachingSidebar.category.授课课程": {
+    "message": "Courses",
+    "description": "Sidebar category label for courses"
+  },
+  "sidebar.teachingSidebar.category.大创项目": {
+    "message": "Innovation Projects",
+    "description": "Sidebar category label for innovation projects"
   }
 }

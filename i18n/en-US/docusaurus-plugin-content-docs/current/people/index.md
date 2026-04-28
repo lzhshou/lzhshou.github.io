@@ -1,6 +1,5 @@
 ---
 sidebar_position: 1
-sidebar: false
 ---
 
 # Team Members
