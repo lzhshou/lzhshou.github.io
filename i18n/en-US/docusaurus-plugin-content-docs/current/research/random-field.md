@@ -12,6 +12,10 @@ Addressing the industry pain points of "difficult parameter variation quantifica
 
 ---
 
+![Random Field Modeling and Geotechnical Reliability](/img/research/random-field.png)
+
+<p align="center"><em>Conceptual schematic of random field modeling and geotechnical reliability (ClaudeBot generated)</em></p>
+
 ## Core Research Contents
 
 ### 1. Investigation Optimization Based on Spatial Variability Characteristics

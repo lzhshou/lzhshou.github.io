@@ -20,12 +20,14 @@ The student team "Jiu Tan" from our research group won the Excellence Award in t
 Their work "Comparative Study of Static and Modal Analysis of Offshore Wind Turbine Structures Using SAM and Abaqus" established a finite element model of an offshore wind turbine including tower, nacelle, hub, and simplified blades. Static and modal analyses were conducted using both SAM and Abaqus for comparison.
 
 ![Wind Turbine Model](/img/blog/image2.png)
-*Offshore wind turbine geometry model*
+
+<center><em>Offshore wind turbine geometry model</em></center>
 
 Results showed high consistency between the two software across 9 typical working conditions. In static analysis, the relative error of tower top displacement ranged from 2.1% to 3.5%, and the relative error of maximum equivalent stress ranged from 1.8% to 3.2%. In modal analysis, the relative error of natural frequencies for all modes was less than 1.5%. These findings validate the engineering applicability of the domestic CAE software SAM for wind turbine structural analysis.
 
 ![Analysis Results Comparison](/img/blog/image3.png)
-*Stress and displacement contour comparison under typical working conditions*
+
+<center><em>Stress and displacement contour comparison under typical working conditions</em></center>
 
 **Competition Background:**
 

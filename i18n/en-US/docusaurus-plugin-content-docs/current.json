@@ -4,15 +4,15 @@
     "description": "The label for version current"
   },
   "sidebar.teachingSidebar.category.授课课程": {
-    "message": "授课课程",
+    "message": "Courses",
     "description": "The label for category '授课课程' in sidebar 'teachingSidebar'"
   },
   "sidebar.teachingSidebar.category.大创项目": {
-    "message": "大创项目",
+    "message": "Innovation Projects",
     "description": "The label for category '大创项目' in sidebar 'teachingSidebar'"
   },
   "sidebar.teachingSidebar.category.竞赛指导": {
-    "message": "竞赛指导",
+    "message": "Competition Guidance",
     "description": "The label for category '竞赛指导' in sidebar 'teachingSidebar'"
   }
 }

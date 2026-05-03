@@ -5,7 +5,6 @@
 ### Guangdong Natural Science Foundation General Program
 - **Project Title**: Multiphase Flow and Coupled Numerical Methods for Hydrate Solid Fluidization
 - **Period**: 2026.01 — Present
-- **Funding**: 100,000 RMB
 - **Role**: Principal Investigator (PI)
 - **Research Contents**:
   - Hydrate phase change dynamics and particle fragmentation modeling
@@ -15,7 +14,6 @@
 ### Guangdong Major Basic Research Program
 - **Project Title**: Multi-field and Multi-scale Dynamic Coupling Disaster Mechanisms and Mitigation for Offshore Wind Platforms in Extreme Marine Environments
 - **Period**: 2025.09 — Present
-- **Funding**: 5,000,000 RMB
 - **Role**: Co-Principal Investigator (Co-PI)
 - **Research Contents**:
   - Multiscale analysis of offshore wind foundation-seabed coupling systems
@@ -25,10 +23,10 @@
 
 ## Completed Projects
 
-| Funding Agency | Type | Project Title | Period | Role | Funding |
-|:---|:---|:---|:---|:---|:---|
-| China Postdoctoral Council/Hong Kong Scholars Association | Xiangjiang Scholar Program | Multiscale Simulation of Granular Media | 2021-2023 | PI | 660,000 RMB |
-| National Natural Science Foundation of China (NSFC) | International (Regional) Cooperation and Exchange Program | Multiscale Random Field Modeling and Coupled Optimization Methods for Coral Reef Materials | 2021-2022 | Co-PI | 100,000 RMB |
-| National Natural Science Foundation of China (NSFC) | Young Scientists Fund | Macro-micro Mechanical Experiments and Multiscale DEM Modeling of Calcareous Sand Based on CT Images and Machine Learning | 2020-2022 | PI | 250,000 RMB |
-| China Postdoctoral Science Foundation | General Program | DEM Research on Irregular Particles Based on Fourier Series | 2020-2021 | PI | 80,000 RMB |
+| Funding Agency | Type | Project Title | Period | Role |
+|:---|:---|:---|:---|:---|
+| China Postdoctoral Council/Hong Kong Scholars Association | Xiangjiang Scholar Program | Multiscale Simulation of Granular Media | 2021-2023 | PI |
+| National Natural Science Foundation of China (NSFC) | International (Regional) Cooperation and Exchange Program | Multiscale Random Field Modeling and Coupled Optimization Methods for Coral Reef Materials | 2021-2022 | Co-PI |
+| National Natural Science Foundation of China (NSFC) | Young Scientists Fund | Macro-micro Mechanical Experiments and Multiscale DEM Modeling of Calcareous Sand Based on CT Images and Machine Learning | 2020-2022 | PI |
+| China Postdoctoral Science Foundation | General Program | DEM Research on Irregular Particles Based on Fourier Series | 2020-2021 | PI |
 

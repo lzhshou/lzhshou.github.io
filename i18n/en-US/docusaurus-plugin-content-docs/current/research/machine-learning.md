@@ -10,6 +10,10 @@ Integrating **artificial intelligence** with **experimental geomechanics**, we a
 
 ---
 
+![Intelligent Characterization and Data-Driven Modeling of Granular Materials](/img/research/machine-learning.png)
+
+<p align="center"><em>Conceptual schematic of intelligent characterization and data-driven modeling of granular materials (ClaudeBot generated)</em></p>
+
 ## Core Research Contents
 
 ### 1. Deep Learning Image Reconstruction and Morphology Analysis

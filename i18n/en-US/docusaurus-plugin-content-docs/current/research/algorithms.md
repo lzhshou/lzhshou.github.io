@@ -10,6 +10,10 @@ Addressing the core bottleneck of "difficult morphology characterization, low co
 
 ---
 
+![Irregular Particle DEM Methods and Intelligent Computing](/img/research/algorithms.png)
+
+<p align="center"><em>Conceptual schematic of irregular particle DEM methods and intelligent computing (ClaudeBot generated)</em></p>
+
 ## Core Research Contents
 
 ### 1. Full-Process Digital Technology for Particle Morphology
@@ -22,10 +26,6 @@ We have constructed a full-process digital technology system of "morphology acqu
 
 **Application Results**: Successfully applied to extreme environment particle characterization such as Martian regolith simulant and deep-sea coral sand.
 
-<div style={{textAlign: 'center', margin: '20px 0'}}>
-  <img src="/img/research/projects/fig2-digital-pipeline.jpeg" alt="Particle Morphology Digital Pipeline" style={{maxWidth: '90%', height: 'auto'}} />
-  <p><em>Full-process digital technology system for particle "morphology acquisition - morphology reconstruction - virtual generation"</em></p>
-</div>
 
 ### 2. SDF-Based Unified Contact Theory
 
@@ -35,10 +35,6 @@ Traditional DEM particle models and computational methods face challenges of sin
 - **Contact Potential Theory Framework**: Established energy-conserving contact solver, overcoming complex contact energy dissipation challenges and ensuring computational stability of DEM simulation
 - **Coarse-Fine Particle Contact Algorithm**: Fine particles adopt point-sphere approximation while coarse particles maintain complete SDF geometric description, significantly reducing computational complexity of polydisperse systems
 
-<div style={{textAlign: 'center', margin: '20px 0'}}>
-  <img src="/img/research/projects/fig3-sdf-framework.jpeg" alt="SDF Contact Theory Framework" style={{maxWidth: '90%', height: 'auto'}} />
-  <p><em>Innovation in contact theory framework based on signed distance field</em></p>
-</div>
 
 ### 3. Machine Learning-Enabled Contact Solution Acceleration
 
@@ -48,19 +44,11 @@ Traditional contact detection algorithms have computational complexity that grow
 - **Large-Scale Computational Efficiency Improvement**: Million-particle system computational efficiency improved by **25%**
 - **Error Control Strategy**: Revealed error propagation patterns in static/dynamic scenarios, proposed contact state-energy dissipation coupled correction strategy
 
-<div style={{textAlign: 'center', margin: '20px 0'}}>
-  <img src="/img/research/projects/fig4-ml-acceleration.jpeg" alt="ML Acceleration" style={{maxWidth: '90%', height: 'auto'}} />
-  <p><em>Machine learning-enabled contact detection acceleration technology</em></p>
-</div>
 
 ### 4. Software Platform Development
 
 Developed **NetDEM**, a general-purpose discrete element computing software with fully independent intellectual property rights, supporting OpenMP and MPI hybrid parallel computing, adapted for deployment on national supercomputing platforms (Tianhe), with parallel efficiency reaching 80%.
 
-<div style={{textAlign: 'center', margin: '20px 0'}}>
-  <img src="/img/research/projects/fig5-netdem-software.jpeg" alt="NetDEM Software Platform" style={{maxWidth: '90%', height: 'auto'}} />
-  <p><em>Functional schematic of independently developed NetDEM discrete element and fluid-structure coupling computing software</em></p>
-</div>
 
 ---
 

@@ -14,7 +14,16 @@
     "message": "中山大学 土木工程学院"
   },
   "homepage.intro": {
-    "message": "APAAM实验室致力于计算岩土力学与多尺度数值模拟研究，开发先进的计算方法与软件工具，应用于过程仿真分析及基础设施防灾减灾研究。"
+    "message": "APAAM实验室致力于计算岩土力学与多尺度数值模拟研究，开发先进的计算方法与软件工具，应用于复杂多物理过程的数值建模、不确定性量化及数据驱动计算研究。"
+  },
+  "homepage.scopeHeading": {
+    "message": "实验室简介"
+  },
+  "homepage.researchAreasSubtitle": {
+    "message": "计算岩土、离散元与多物理耦合——算法、软件与工程应用。"
+  },
+  "homepage.pathsHeading": {
+    "message": "浏览站点"
   },
   "homepage.position": {
     "message": "副教授、硕士生导师",
@@ -70,28 +79,28 @@
     "message": "珠海市香洲区唐家湾中山大学珠海校区海琴1号"
   },
   "research.area1": {
-    "message": "计算岩土力学"
+    "message": "颗粒材料智能表征"
   },
   "research.area1.desc": {
-    "message": "SDF框架、傅里叶级数颗粒模型、机器学习加速、GPU并行计算"
+    "message": "深度学习图像重建、虚拟颗粒生成、数据驱动本构"
   },
   "research.area2": {
-    "message": "多尺度模拟"
+    "message": "异形颗粒离散元"
   },
   "research.area2.desc": {
-    "message": "CFD-DEM耦合、多相流、孔隙介质流动、流固耦合"
+    "message": "SDF统一接触理论、全流程数字化、机器学习加速"
   },
   "research.area3": {
-    "message": "机器学习"
+    "message": "多尺度流固耦合"
   },
   "research.area3.desc": {
-    "message": "生成式AI、形状表征、本构建模、计算加速"
+    "message": "混合解析CFD-DEM、相变-破碎耦合、多相流失稳"
   },
   "research.area4": {
-    "message": "颗粒材料"
+    "message": "随机场与可靠度"
   },
   "research.area4.desc": {
-    "message": "CT图像重建、形态表征、生物胶结、多尺度建模"
+    "message": "智能勘察优化、旋转各向异性、能量演化失稳判据"
   },
   "edu.phd": {
     "message": "博士，土木工程",

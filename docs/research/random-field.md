@@ -12,6 +12,10 @@
 
 ---
 
+![随机场建模与岩土工程可靠度示意图](/img/research/random-field.png)
+
+<p align="center"><em>随机场建模与岩土工程可靠度概念示意图（ClaudeBot生成）</em></p>
+
 ## 核心研究内容
 
 ### 1. 基于空间变异特征的勘察优化
@@ -25,10 +29,6 @@
 
 **应用范围**：该方法可推广应用于场地液化潜力、压实度、污染物浓度等岩土参数的场地表征、勘察与优化。
 
-<div style={{textAlign: 'center', margin: '20px 0'}}>
-  <img src="/img/research/projects/fig6-investigation-opt.jpeg" alt="勘察优化方法" style={{maxWidth: '90%', height: 'auto'}} />
-  <p><em>基于空间变异特征的勘察优化理论</em></p>
-</div>
 
 ### 2. 旋转各向异性随机场建模
 
@@ -39,10 +39,6 @@
 - **边坡灾变能量演化**：以边坡工程为研究对象，研究边坡灾变过程中的能量演化规律，基于能量演化提出一种新的**非均质岩土边坡失稳判据**
 - **海床-管线系统分析**：以海床-海底管线为研究对象，分析波浪动荷载作用下海床的液化潜力及管线的力学行为，揭示斜向近**45°的旋转各向异性**对海床-海底管线体系的较不利倾角影响规律
 
-<div style={{textAlign: 'center', margin: '20px 0'}}>
-  <img src="/img/research/projects/fig7-anisotropic-analysis.jpeg" alt="旋转各向异性分析" style={{maxWidth: '90%', height: 'auto'}} />
-  <p><em>旋转各向异性耦合的工程可靠度分析</em></p>
-</div>
 
 ### 3. 滨海软弱地质风险管控工程应用
 
@@ -55,10 +51,6 @@
 
 **工程应用**：该方法已在**方久尼特大桥**、**深圳妈湾工程**及**南沙南珠中城际**等项目中应用，为滨海跨海基础设施提供地质风险识别与参数优化方案，有效规避了潜在失稳风险。
 
-<div style={{textAlign: 'center', margin: '20px 0'}}>
-  <img src="/img/research/projects/fig8-nanzhuzhong-project.jpeg" alt="南珠中项目应用" style={{maxWidth: '90%', height: 'auto'}} />
-  <p><em>南珠中城际轨道项目滨海软弱地质风险管控工程应用</em></p>
-</div>
 
 ---
 

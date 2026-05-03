@@ -16,6 +16,10 @@
 
 随着GPU光线追踪技术的成熟，游戏级渲染质量已可在科学可视化领域应用。本项目旨在开发一套基于光线追踪的科学计算可视化工具，降低可视化门槛，提升渲染真实感，为科研工作者提供更直观、更美观的成果展示手段。
 
+![光线追踪科学计算可视化渲染示意图](/img/innovation/2025-scientific-visualization.png)
+
+<p align="center"><em>GPU光线追踪科学计算可视化概念示意图（ClaudeBot生成）</em></p>
+
 ## 研究内容
 
 **光线追踪渲染器开发**
@@ -59,6 +63,11 @@
 - 完成基础GPU光线追踪渲染器开发
 - 实现科学数据到渲染场景的高效转换
 - 积累C++高性能图形软件开发经验
+
+**项目展示**
+
+- <a href="/files/innovation/2025-scientific-visualization-report.pdf" target="_blank">结题汇报PPT</a>
+- <a href="/files/innovation/2025-scientific-visualization-poster.pdf" target="_blank">项目海报</a>
 
 ---
 

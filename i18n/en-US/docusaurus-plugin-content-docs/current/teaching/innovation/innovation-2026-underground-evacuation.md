@@ -16,6 +16,10 @@ With accelerating urbanization, large underground spaces such as subway transfer
 
 Traditional evacuation simulation software is mostly based on 2D planar grids, which struggle to handle complex 3D scenarios and lack physical realism. This project responds to the national strategic needs for urban resilience and intelligent decision-making in the "15th Five-Year Plan," aiming to develop a physics engine-based 3D evacuation simulation platform to provide scientific support for underground space safety design and emergency management.
 
+![3D simulation of emergency evacuation in underground space disasters](/img/innovation/2026-underground-evacuation.png)
+
+<p align="center"><em>Conceptual schematic of three-layer coupled evacuation simulation platform for underground spaces (ClaudeBot generated)</em></p>
+
 ## Research Content
 
 This project constructs a three-layer coupled architecture of "physical environment - information propagation - crowd behavior":

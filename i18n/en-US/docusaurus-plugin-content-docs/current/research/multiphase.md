@@ -14,6 +14,10 @@ Fluid-structure coupling systems are ubiquitous in natural and engineering envir
 
 ---
 
+![Multiscale Fluid-Structure Coupling and Multiphase Flow Simulation](/img/research/multiphase.png)
+
+<p align="center"><em>Conceptual schematic of multiscale fluid-structure coupling and multiphase flow simulation (ClaudeBot generated)</em></p>
+
 ## Core Research Contents
 
 ### 1. Hybrid Resolved-Unresolved CFD-DEM Framework
@@ -31,10 +35,6 @@ We innovatively propose an **adaptive three-scale coupling strategy** that autom
 - SDF-based high-precision solid fraction calculation
 - Conservation force feedback ensures momentum conservation
 
-<div style={{textAlign: 'center', margin: '20px 0'}}>
-  <img src="/img/research/cfd-dem-framework.png" alt="CFD-DEM Coupling Framework" style={{maxWidth: '90%', height: 'auto'}} />
-  <p><em>Adaptive CFD-DEM coupling framework: from resolved to unresolved multiscale simulation</em></p>
-</div>
 
 ### 2. Phase Change-Fracture Coupling Modeling
 

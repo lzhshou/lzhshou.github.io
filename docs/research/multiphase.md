@@ -14,6 +14,10 @@
 
 ---
 
+![多尺度流固耦合与多相流模拟示意图](/img/research/multiphase.png)
+
+<p align="center"><em>多尺度流固耦合与多相流模拟概念示意图（ClaudeBot生成）</em></p>
+
 ## 核心研究内容
 
 ### 1. 混合解析 CFD-DEM 框架
@@ -31,10 +35,6 @@
 - 基于 SDF 的高精度固相分数计算方法
 - 守恒力反馈确保动量守恒
 
-<div style={{textAlign: 'center', margin: '20px 0'}}>
-  <img src="/img/research/cfd-dem-framework.png" alt="CFD-DEM耦合框架" style={{maxWidth: '90%', height: 'auto'}} />
-  <p><em>自适应CFD-DEM耦合框架：从全解析到非解析的多尺度模拟</em></p>
-</div>
 
 ### 2. 相变-破碎耦合建模
 

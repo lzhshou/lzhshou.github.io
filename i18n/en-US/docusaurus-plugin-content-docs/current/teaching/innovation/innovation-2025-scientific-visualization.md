@@ -16,6 +16,10 @@ Scientific computing visualization is an important bridge connecting numerical s
 
 With the maturation of GPU ray tracing technology, game-level rendering quality can now be applied in scientific visualization. This project aims to develop a ray tracing-based scientific computing visualization tool to lower the barrier to visualization and enhance rendering realism, providing researchers with more intuitive and aesthetically pleasing presentation tools.
 
+![Ray-traced scientific computing visualization rendering](/img/innovation/2025-scientific-visualization.png)
+
+<p align="center"><em>Conceptual schematic of GPU ray-traced scientific computing visualization (ClaudeBot generated)</em></p>
+
 ## Research Content
 
 **Ray Tracing Renderer Development**
@@ -47,12 +51,16 @@ With the maturation of GPU ray tracing technology, game-level rendering quality 
 2. **AI-driven workflows**: Exploring LLM-assisted rendering workflow design
 3. **GPU acceleration**: Leveraging modern GPU RT Cores for real-time interactive ray tracing
 
-## Expected Outcomes
+## Project Outcomes
 
-- Open-source ray tracing scientific visualization software
-- High-quality rendering support for common scientific data formats
-- AI-assisted rendering prototype
-- Reusable rendering algorithm modules
+- Developed a foundational GPU ray tracing renderer
+- Achieved efficient conversion from scientific data to rendering scenes
+- Accumulated experience in C++ high-performance graphics software development
+
+**Project Showcase**
+
+- <a href="/files/innovation/2025-scientific-visualization-report.pdf" target="_blank">Final Report (PPT)</a>
+- <a href="/files/innovation/2025-scientific-visualization-poster.pdf" target="_blank">Project Poster</a>
 
 ---
 

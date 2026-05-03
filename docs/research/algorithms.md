@@ -10,6 +10,10 @@
 
 ---
 
+![异形颗粒离散元方法与智能计算示意图](/img/research/algorithms.png)
+
+<p align="center"><em>异形颗粒离散元方法与智能计算概念示意图（ClaudeBot生成）</em></p>
+
 ## 核心研究内容
 
 ### 1. 颗粒形态全流程数字化技术
@@ -22,10 +26,6 @@
 
 **应用成果**：成功应用于火星模拟壤、深海珊瑚砂等极端环境颗粒表征。
 
-<div style={{textAlign: 'center', margin: '20px 0'}}>
-  <img src="/img/research/projects/fig2-digital-pipeline.jpeg" alt="颗粒形态全流程数字化" style={{maxWidth: '90%', height: 'auto'}} />
-  <p><em>颗粒"形态获取-形态重构-虚拟生成"全流程数字化技术体系</em></p>
-</div>
 
 ### 2. 基于有向距离场（SDF）的统一接触理论
 
@@ -35,10 +35,6 @@
 - **接触势理论框架**：建立能量守恒接触求解器，攻克复杂接触能量耗散难题，保证离散元模拟的计算稳定性
 - **粗细颗粒接触算法**：细颗粒采用点-球近似，粗颗粒保持完整SDF几何描述，显著降低多分散系统计算复杂度
 
-<div style={{textAlign: 'center', margin: '20px 0'}}>
-  <img src="/img/research/projects/fig3-sdf-framework.jpeg" alt="SDF接触理论框架" style={{maxWidth: '90%', height: 'auto'}} />
-  <p><em>基于有向距离场的接触理论框架创新</em></p>
-</div>
 
 ### 3. 机器学习赋能的接触求解加速
 
@@ -48,19 +44,11 @@
 - **大规模计算效率提升**：百万级颗粒体系计算效率提升**25%**
 - **误差控制策略**：揭示算法在静/动态场景下的误差传递规律，提出接触状态-能量耗散耦合修正策略
 
-<div style={{textAlign: 'center', margin: '20px 0'}}>
-  <img src="/img/research/projects/fig4-ml-acceleration.jpeg" alt="机器学习加速" style={{maxWidth: '90%', height: 'auto'}} />
-  <p><em>机器学习赋能的接触检测加速技术</em></p>
-</div>
 
 ### 4. 软件平台研发
 
 开发了具有完全自主知识产权的通用型离散元计算软件 **NetDEM**，支持OpenMP和MPI混合并行计算，适配国家超算平台（天河）部署，并行效率达80%。
 
-<div style={{textAlign: 'center', margin: '20px 0'}}>
-  <img src="/img/research/projects/fig5-netdem-software.jpeg" alt="NetDEM软件平台" style={{maxWidth: '90%', height: 'auto'}} />
-  <p><em>自主开发的NetDEM离散元及流固耦合计算软件功能示意</em></p>
-</div>
 
 ---
 

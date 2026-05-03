@@ -1,5 +1,8 @@
 {
   "label": "授课课程",
+  "position": 1,
+  "collapsed": true,
+  "collapsible": true,
   "link": {
     "type": "doc",
     "id": "teaching/courses/index"

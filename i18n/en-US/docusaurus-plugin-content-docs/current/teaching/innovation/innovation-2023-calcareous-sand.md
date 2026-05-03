@@ -7,7 +7,7 @@
 
 - **Level**: University/Provincial Level
 - **Principal Investigator**: Liu Mingjing
-- **Advisors**: Huang Linchong, Ma Jianjun, Lai Zhengshou
+- **Advisors**: Lai Zhengshou, Huang Linchong
 - **Duration**: Jan 2023 - Dec 2023
 
 ## Background and Significance
@@ -15,6 +15,10 @@
 Calcareous sand is a widely distributed marine sediment in the South China Sea with unique biogenic structures and mechanical properties. In island reef engineering construction, the movement patterns of calcareous sand under wave and current actions are critical for assessing engineering stability. As the fundamental force in particle-fluid interaction, accurately measuring and predicting the drag force of calcareous sand particles is essential for understanding their hydrodynamic behavior.
 
 This project innovatively couples the open-source CFD software OpenFOAM with the research group's self-developed NetDEM discrete element program to establish a CFD-DEM numerical simulation platform, combined with laboratory physical experiments to systematically study the drag force characteristics of calcareous sand particles in flow fields.
+
+![CFD-DEM coupled simulation of calcareous sand particle settling](/img/innovation/2023-calcareous-sand.png)
+
+<p align="center"><em>Conceptual schematic of CFD-DEM coupled settling simulation of calcareous sand particles (ClaudeBot generated)</em></p>
 
 ## Research Content
 

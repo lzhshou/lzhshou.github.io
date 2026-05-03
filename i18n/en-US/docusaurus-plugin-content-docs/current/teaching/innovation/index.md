@@ -38,7 +38,7 @@ Supervising national/provincial/university-level innovation training projects fo
 
 - **Level**: University/Provincial Level
 - **Team Members**: Zhang Haoqin, Liu Mingjing
-- **Advisors**: Huang Linchong, Lai Zhengshou
+- **Advisors**: Lai Zhengshou, Huang Linchong
 - **Description**: Research on drag force models for coral sand particles in water flow based on CFD-DEM fluid-structure coupling theory. Numerical simulation and experimental comparison of regular and coral sand particle sedimentation, analyzing the correlation between particle geometric characteristic parameters and settling behavior.
 
 ---
@@ -49,7 +49,7 @@ Supervising national/provincial/university-level innovation training projects fo
 
 - **Level**: University/Provincial Level
 - **Principal Investigator**: Liu Mingjing
-- **Advisors**: Huang Linchong, Ma Jianjun
+- **Advisors**: Lai Zhengshou, Huang Linchong
 - **Description**: Integration of OpenFOAM and NetDEM to form a CFD-DEM coupling system. Design and implementation of indoor physical experiments and numerical simulations of drag force on granular materials in flow fields, validating the correctness and effectiveness of CFD-DEM.
 - **Outcomes**:
   - 2 software copyrights approved

@@ -10,6 +10,10 @@
 
 ---
 
+![颗粒材料智能表征与数据驱动建模示意图](/img/research/machine-learning.png)
+
+<p align="center"><em>颗粒材料智能表征与数据驱动建模概念示意图（ClaudeBot生成）</em></p>
+
 ## 核心研究内容
 
 ### 1. 深度学习图像重建与形态解析
@@ -28,10 +32,6 @@
 - **扩散模型驱动**：研发基于扩散模型的虚拟多孔颗粒材料生成框架，实现高真实感颗粒形态的智能生成
 - **形态相似度**：生成虚拟颗粒与实测样本形态相似度达**90%**，突破物理实验样本数量限制
 
-<div style={{textAlign: 'center', margin: '20px 0'}}>
-  <img src="/img/research/virtual-particles.png" alt="虚拟颗粒生成" style={{maxWidth: '85%', height: 'auto'}} />
-  <p><em>基于机器学习的虚拟颗粒生成与形态谱系演化</em></p>
-</div>
 
 ### 3. 数据驱动本构建模
 

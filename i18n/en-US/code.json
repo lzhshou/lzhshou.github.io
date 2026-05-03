@@ -14,34 +14,43 @@
     "message": "School of Civil Engineering, Sun Yat-sen University"
   },
   "homepage.intro": {
-    "message": "The APAAM Lab is dedicated to computational geomechanics and multiscale numerical simulation, developing advanced computational methods and software tools for process simulation analysis and infrastructure disaster prevention and mitigation."
+    "message": "The APAAM Lab is dedicated to computational geomechanics and multiscale numerical simulation, developing advanced computational methods and software tools for numerical modeling, uncertainty quantification, and data-driven computation of complex multiphysical processes."
+  },
+  "homepage.scopeHeading": {
+    "message": "About the lab"
+  },
+  "homepage.researchAreasSubtitle": {
+    "message": "Computational geomechanics, DEM, and multiphysics coupling—methods, software, and applications."
+  },
+  "homepage.pathsHeading": {
+    "message": "Explore the site"
   },
   "homepage.researchAreas": {
     "message": "Research Areas"
   },
   "research.area1": {
-    "message": "Discrete Element Method"
+    "message": "Intelligent Characterization"
   },
   "research.area1.desc": {
-    "message": "SDF framework, Fourier-series particle models, ML acceleration, GPU parallel computing"
+    "message": "Deep learning image reconstruction, virtual particle generation, data-driven constitutive modeling"
   },
   "research.area2": {
-    "message": "Multiscale Simulation"
+    "message": "Irregular Particle DEM"
   },
   "research.area2.desc": {
-    "message": "CFD-DEM coupling, multiphase flow, porous media flow, fluid-structure interaction"
+    "message": "SDF unified contact theory, full-process digitization, machine learning acceleration"
   },
   "research.area3": {
-    "message": "Machine Learning"
+    "message": "Multiscale Fluid Coupling"
   },
   "research.area3.desc": {
-    "message": "Generative AI, shape characterization, constitutive modeling, computational acceleration"
+    "message": "Hybrid resolved CFD-DEM, phase-change fracture coupling, multiphase flow instability"
   },
   "research.area4": {
-    "message": "Granular Materials"
+    "message": "Random Field & Reliability"
   },
   "research.area4.desc": {
-    "message": "CT image reconstruction, morphological characterization, bio-cementation, multiscale modeling"
+    "message": "Intelligent investigation optimization, rotated anisotropy, energy-evolution failure criterion"
   },
   "homepage.link.research": {
     "message": "Research"
