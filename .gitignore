@@ -8,6 +8,12 @@
 .docusaurus
 .cache-loader
 
+# Python
+__pycache__/
+
+# Generated PDFs (mywebpage pdf build)
+static/pdf/
+
 # Misc
 .DS_Store
 logs/
