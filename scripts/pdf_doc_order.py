@@ -24,6 +24,10 @@ def get_project_root() -> Path:
     return Path(__file__).resolve().parent.parent
 
 
+# English i18n docs root relative to project root
+EN_DOCS_REL = "i18n/en-US/docusaurus-plugin-content-docs/current"
+
+
 def _extract_bracket_array(source: str, key: str) -> str | None:
     needle = f"{key}:"
     idx = source.find(needle)
@@ -57,8 +61,12 @@ def doc_id_to_markdown_path(docs_dir: Path, doc_id: str) -> Path:
     return docs_dir / f"{doc_id}.md"
 
 
-def ordered_paths_for_combined_docs_pdf(project_root: Path) -> list[Path]:
-    docs_dir = project_root / "docs"
+def ordered_paths_for_combined_docs_pdf(
+    project_root: Path,
+    docs_dir: Path | None = None,
+) -> list[Path]:
+    if docs_dir is None:
+        docs_dir = project_root / "docs"
     sidebars_ts = project_root / "sidebars.ts"
     out: list[Path] = []
     seen: set[str] = set()
@@ -79,6 +87,12 @@ def ordered_paths_for_combined_docs_pdf(project_root: Path) -> list[Path]:
             seen.add(doc_id)
             out.append(path)
     return out
+
+
+def ordered_paths_for_combined_docs_pdf_en(project_root: Path) -> list[Path]:
+    """Ordered English docs from i18n/en-US/."""
+    docs_dir = project_root / EN_DOCS_REL
+    return ordered_paths_for_combined_docs_pdf(project_root, docs_dir)
 
 
 def _read_frontmatter_raw(md: Path) -> str | None:

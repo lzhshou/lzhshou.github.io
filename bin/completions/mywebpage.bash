@@ -8,9 +8,11 @@ _mywebpage_complete() {
     prev="${COMP_WORDS[COMP_CWORD-1]}"
     prev2="${COMP_WORDS[COMP_CWORD-2]}"
 
-    local cmds="build deploy server update uninstall"
+    local cmds="build deploy pdf server update uninstall"
     local server_subcmds="start stop status restart"
+    local pdf_subcmds="build open"
     local build_opts="-c --clean -s --serve --help"
+    local pdf_opts="-o --output -t --title -s --subtitle -d --date --help"
 
     case "$COMP_CWORD" in
         1)
@@ -23,6 +25,9 @@ _mywebpage_complete() {
                     ;;
                 server)
                     COMPREPLY=( $(compgen -W "$server_subcmds" -- "$cur") )
+                    ;;
+                pdf)
+                    COMPREPLY=( $(compgen -W "$pdf_subcmds" -- "$cur") )
                     ;;
                 deploy)
                     ;;
@@ -41,6 +46,9 @@ _mywebpage_complete() {
                         start|restart)
                             ;;
                     esac
+                    ;;
+                pdf)
+                    COMPREPLY=( $(compgen -W "$pdf_opts" -- "$cur") )
                     ;;
             esac
             ;;

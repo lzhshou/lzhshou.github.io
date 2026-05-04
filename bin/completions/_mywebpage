@@ -15,6 +15,7 @@ _mywebpage() {
       cmds=(
         'build:Build static site (opts: -c --clean -s --serve)'
         'deploy:Publish via docusaurus deploy (extra args after --)'
+        'pdf:Export docs to PDF (build or open)'
         'server:Manage background dev server'
         'update:Reinstall mywebpage from repository'
         'uninstall:Remove mywebpage from system'
@@ -44,6 +45,14 @@ _mywebpage() {
           )
           _describe -t commands 'mywebpage server subcommand' subcmds
           ;;
+        pdf)
+          local -a subcmds
+          subcmds=(
+            'build:Export docs to PDF'
+            'open:Export docs to PDF and open'
+          )
+          _describe -t commands 'mywebpage pdf subcommand' subcmds
+          ;;
       esac
       ;;
     args)
@@ -57,6 +66,21 @@ _mywebpage() {
           case "$line[2]" in
             start|restart) _message -e 'port' 'optional TCP port (default 3000)' ;;
           esac
+          ;;
+        pdf)
+          local -a popts
+          popts=(
+            '-o:Output PDF path (default: static/pdf/apaam-lab-docs.pdf)'
+            '--output:Output PDF path (default: static/pdf/apaam-lab-docs.pdf)'
+            '-t:Cover page title'
+            '--title:Cover page title'
+            '-s:Cover page subtitle'
+            '--subtitle:Cover page subtitle'
+            '-d:Cover page date'
+            '--date:Cover page date'
+            '--help:Show pdf command help'
+          )
+          _describe -t options 'pdf option' popts
           ;;
       esac
       ;;

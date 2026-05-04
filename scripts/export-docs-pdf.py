@@ -4,7 +4,7 @@ Export mywebpage docs to a single PDF.
 
 Usage:
     cd mywebpage && python scripts/export-docs-pdf.py
-    cd mywebpage && python scripts/export-docs-pdf.py -o static/pdf/apaam-lab-docs.pdf
+    cd mywebpage && python scripts/export-docs-pdf.py -o static/pdf/apaam-lab-docs-zh.pdf
 
 Requirements:
     - ~/workspace/templates/md-to-pdf/
@@ -150,12 +150,76 @@ def build_pdf(
         tmp_md.unlink(missing_ok=True)
 
 
+def resolve_lang_dir(project_root: Path, lang: str) -> Path:
+    if lang == "zh":
+        return project_root / "docs"
+    elif lang == "en":
+        return project_root / pdf_doc_order.EN_DOCS_REL
+    else:
+        raise ValueError(f"Unsupported lang: {lang}")
+
+
+def build_pdf_for_lang(
+    project_root: Path,
+    lang: str,
+    output: Path,
+    title: str | None,
+    subtitle: str | None,
+    date: str | None,
+) -> str | None:
+    docs_dir = resolve_lang_dir(project_root, lang)
+    if not docs_dir.exists():
+        print(f"Docs directory not found: {docs_dir}", file=sys.stderr)
+        return None
+
+    if lang == "en":
+        files = pdf_doc_order.ordered_paths_for_combined_docs_pdf_en(project_root)
+    else:
+        files = pdf_doc_order.ordered_paths_for_combined_docs_pdf(project_root)
+
+    if not files:
+        print(f"No markdown files found for {lang}.", file=sys.stderr)
+        return None
+
+    resolved_title = title
+    if resolved_title is None:
+        first_content = files[0].read_text(encoding="utf-8")
+        resolved_title = parse_frontmatter_title(first_content)
+    if resolved_title is None:
+        resolved_title = "APAAM Lab Documentation"
+
+    resolved_date = date
+    if resolved_date is None:
+        from datetime import date as dt
+        resolved_date = dt.today().strftime("%Y-%m-%d")
+
+    print(f"[{lang}] Collecting {len(files)} markdown files...")
+    merged = merge_markdown(files, project_root)
+    output_path = project_root / output
+    build_pdf(merged, output_path, resolved_title, subtitle, resolved_date)
+    return str(output_path)
+
+
+DEFAULT_OUTPUT = "static/pdf/apaam-lab-docs-zh.pdf"
+
+
+def en_output_path(output: str) -> str:
+    """Replace `-zh` suffix with `-en`, or append `-en` if no `-zh` suffix."""
+    p = Path(output)
+    stem = p.stem
+    if stem.endswith("-zh"):
+        stem = stem[:-3] + "-en"
+    else:
+        stem = stem + "-en"
+    return str(p.parent / f"{stem}{p.suffix}")
+
+
 def main() -> None:
     parser = argparse.ArgumentParser(description="Export mywebpage docs to PDF")
     parser.add_argument(
         "--output", "-o",
-        default="static/pdf/apaam-lab-docs.pdf",
-        help="Output PDF path (default: static/pdf/apaam-lab-docs.pdf)",
+        default=DEFAULT_OUTPUT,
+        help=f"Output PDF path (default: {DEFAULT_OUTPUT})",
     )
     parser.add_argument(
         "--title", "-t",
@@ -172,37 +236,39 @@ def main() -> None:
         default=None,
         help="Cover page date (default: today)",
     )
+    parser.add_argument(
+        "--lang", "-l",
+        default="zh",
+        choices=["zh", "en", "both"],
+        help="Language: zh (Chinese), en (English), both (default: zh)",
+    )
     args = parser.parse_args()
 
     project_root = get_project_root()
-    docs_dir = project_root / "docs"
 
-    if not docs_dir.exists():
-        print(f"Docs directory not found: {docs_dir}", file=sys.stderr)
-        sys.exit(1)
-
-    files = pdf_doc_order.ordered_paths_for_combined_docs_pdf(project_root)
-    if not files:
-        print("No markdown files found.", file=sys.stderr)
-        sys.exit(1)
-
-    title = args.title
-    if title is None:
-        first_content = files[0].read_text(encoding="utf-8")
-        title = parse_frontmatter_title(first_content)
-    if title is None:
-        title = "APAAM Lab Documentation"
-
-    date = args.date
-    if date is None:
-        from datetime import date as dt
-        date = dt.today().strftime("%Y-%m-%d")
-
-    print(f"Collecting {len(files)} markdown files...")
-    merged = merge_markdown(files, project_root)
-
-    output_path = project_root / args.output
-    build_pdf(merged, output_path, title, args.subtitle, date)
+    if args.lang == "both":
+        zh_output = args.output
+        en_output = en_output_path(args.output)
+        build_pdf_for_lang(
+            project_root, "zh", Path(zh_output), args.title, args.subtitle, args.date
+        )
+        build_pdf_for_lang(
+            project_root, "en", Path(en_output), args.title, args.subtitle, args.date
+        )
+    elif args.lang == "en":
+        output = en_output_path(args.output)
+        build_pdf_for_lang(
+            project_root, "en", Path(output), args.title, args.subtitle, args.date
+        )
+    else:
+        build_pdf_for_lang(
+            project_root,
+            "zh",
+            Path(args.output),
+            args.title,
+            args.subtitle,
+            args.date,
+        )
 
 
 if __name__ == "__main__":

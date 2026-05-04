@@ -16,15 +16,30 @@ LOG_FILE="${STATE_DIR}/serve.log"
 DEFAULT_PORT=3000
 
 usage() {
-  echo "Usage: mywebpage {build [opts]|deploy [args...]|server <subcmd>|update|uninstall}" >&2
+  echo "Usage: mywebpage {build [opts]|deploy [args...]|pdf <subcmd>|server <subcmd>|update|uninstall}" >&2
   echo "  build [-c|--clean] [-s|--serve] [port]   build site; -c clears cache first, -s serves after build" >&2
   echo "  deploy [args...]                         npm run deploy; sets GIT_USER via gh or git origin" >&2
+  echo "  pdf build [opts]                         export docs to PDF" >&2
+  echo "  pdf open [opts]                          open PDF (must build first)" >&2
   echo "  server start [port]                      background serve (default port ${DEFAULT_PORT})" >&2
   echo "  server stop                              stop background server" >&2
   echo "  server status                            show port and state" >&2
   echo "  server restart [port]                    stop then start" >&2
   echo "  update                                   reinstall mywebpage from repository" >&2
   echo "  uninstall                                remove mywebpage from system" >&2
+  exit 1
+}
+
+pdf_usage() {
+  echo "Usage: mywebpage pdf {build [opts]|open [opts]}" >&2
+  echo "  build [-o file] [-t title] [-s subtitle] [-l zh|en|both]   export docs to PDF" >&2
+  echo "  open  [-o file] [-l zh|en]             open PDF (must build first)" >&2
+  echo "  Options:" >&2
+  echo "    -o, --output FILE     output PDF path (default: static/pdf/apaam-lab-docs-zh.pdf)" >&2
+  echo "    -t, --title TITLE     cover page title (build only)" >&2
+  echo "    -s, --subtitle TEXT   cover page subtitle (build only)" >&2
+  echo "    -d, --date DATE       cover page date (build only)" >&2
+  echo "    -l, --lang LANG       language: zh, en, both (default: zh)" >&2
   exit 1
 }
 
@@ -268,9 +283,87 @@ cmd_uninstall() {
   fi
 }
 
+PDF_SCRIPT="${ROOT}/scripts/export-docs-pdf.py"
+DEFAULT_PDF="static/pdf/apaam-lab-docs-zh.pdf"
+
+# Parse common pdf options into global vars, shift consumed args.
+_pdf_parse_opts() {
+  while [[ $# -gt 0 ]]; do
+    case "$1" in
+      -o|--output) [[ $# -ge 2 ]] && { _pdf_out="$2"; shift 2; } || pdf_usage ;;
+      -t|--title)  [[ $# -ge 2 ]] && { _pdf_title="$2"; shift 2; } || pdf_usage ;;
+      -s|--subtitle) [[ $# -ge 2 ]] && { _pdf_sub="$2"; shift 2; } || pdf_usage ;;
+      -d|--date)   [[ $# -ge 2 ]] && { _pdf_date="$2"; shift 2; } || pdf_usage ;;
+      -l|--lang)   [[ $# -ge 2 ]] && { _pdf_lang="$2"; shift 2; } || pdf_usage ;;
+      --help|-h) pdf_usage ;;
+      *) echo "mywebpage pdf: unknown option: $1" >&2; pdf_usage ;;
+    esac
+  done
+}
+
+_pdf_resolve_path() {
+  local path="${_pdf_out:-$DEFAULT_PDF}" lang="${_pdf_lang:-zh}"
+  if [[ "$lang" == "en" || "$lang" == "both" ]]; then
+    if [[ "$lang" == "en" ]]; then
+      local base="${path%.*}" ext="${path##*.}"
+      # Replace -zh suffix with -en
+      if [[ "$base" == *-zh ]]; then
+        path="${base%-zh}-en.${ext}"
+      else
+        path="${base}-en.${ext}"
+      fi
+    fi
+  fi
+  echo "$ROOT/$path"
+}
+
+cmd_pdf_build() {
+  local py_opts=()
+  [[ -n "${_pdf_out:-}" ]] && py_opts+=("--output" "$_pdf_out")
+  [[ -n "${_pdf_title:-}" ]] && py_opts+=("--title" "$_pdf_title")
+  [[ -n "${_pdf_sub:-}" ]] && py_opts+=("--subtitle" "$_pdf_sub")
+  [[ -n "${_pdf_date:-}" ]] && py_opts+=("--date" "$_pdf_date")
+  py_opts+=("--lang" "${_pdf_lang:-zh}")
+  cd "$ROOT"
+  python3 "$PDF_SCRIPT" "${py_opts[@]}"
+}
+
+cmd_pdf_open() {
+  local pdf_path
+  pdf_path="$(_pdf_resolve_path)"
+  if [[ ! -f "$pdf_path" ]]; then
+    echo "mywebpage: PDF not found: $pdf_path" >&2
+    echo "Run 'mywebpage pdf build' first." >&2
+    exit 1
+  fi
+  open "$pdf_path"
+
+  # Also open en PDF if --lang both
+  if [[ "${_pdf_lang:-zh}" == "both" ]]; then
+    local base="${pdf_path%.*}" ext="${pdf_path##*.}"
+    local en_pdf="${base%-zh}-en.${ext}"
+    [[ -f "$en_pdf" ]] && open "$en_pdf"
+  fi
+}
+
+cmd_pdf() {
+  local sub="${1:-}"
+  shift 2>/dev/null || true
+  _pdf_out="" _pdf_title="" _pdf_sub="" _pdf_date="" _pdf_lang="zh"
+  _pdf_parse_opts "$@"
+
+  case "$sub" in
+    build) cmd_pdf_build ;;
+    open) cmd_pdf_open ;;
+    -h | --help | help) pdf_usage ;;
+    *) pdf_usage ;;
+  esac
+}
+
 case "${1:-}" in
   build) shift; cmd_build "$@" ;;
   deploy) cmd_deploy "$@" ;;
+  pdf) shift; cmd_pdf "$@" ;;
   server) shift; cmd_server "$@" ;;
   update) cmd_update ;;
   uninstall) cmd_uninstall ;;
