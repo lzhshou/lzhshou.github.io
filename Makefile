@@ -8,7 +8,7 @@ INSTALL_PROGRAM = $(INSTALL) -m 755
 INSTALL_DATA = $(INSTALL) -m 644
 RM = rm -f
 
-.PHONY: all build install uninstall
+.PHONY: all build install pdf uninstall
 
 all:
 	@echo "Run 'make build' to build the site"
@@ -33,6 +33,9 @@ install:
 	@echo "Make sure $(BINDIR) is in your PATH."
 	@echo "For zsh: add 'fpath=($(ZSH_COMPLETIONSDIR) \$$fpath)' before compinit"
 	@echo "For bash: add 'source $(BASH_COMPLETIONSDIR)/mywebpage' to ~/.bashrc"
+
+pdf:
+	python3 scripts/export-docs-pdf.py
 
 uninstall:
 	@echo "Removing binaries from $(BINDIR)..."

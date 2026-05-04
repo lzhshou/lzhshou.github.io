@@ -10,7 +10,7 @@
 set -euo pipefail
 
 ROOT="${MYWEBPAGE_ROOT:-/Users/lzhshou/Documents/myWork/sysu/04-学术积累/mywebpage}"
-STATE_DIR="${ROOT}/.mywebpage"
+STATE_DIR="${ROOT}/logs"
 PORT_FILE="${STATE_DIR}/serve.port"
 LOG_FILE="${STATE_DIR}/serve.log"
 DEFAULT_PORT=3000
