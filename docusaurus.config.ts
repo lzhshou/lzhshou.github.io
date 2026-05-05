@@ -3,6 +3,7 @@ import type {Config} from '@docusaurus/types';
 import type * as Preset from '@docusaurus/preset-classic';
 import remarkMath from 'remark-math';
 import rehypeKatex from 'rehype-katex';
+import remarkImageAttributes from './src/remark/image-attributes';
 
 // This runs in Node.js - Don't use client-side code here (browser APIs, JSX...)
 
@@ -31,6 +32,7 @@ const config: Config = {
 
   onBrokenLinks: 'warn',
   markdown: {
+    format: 'detect',
     hooks: {
       onBrokenMarkdownLinks: 'warn',
     },
@@ -68,7 +70,7 @@ const config: Config = {
           // Remove this to remove the "edit this page" links.
           editUrl:
             'https://github.com/apaam/apaam.github.io/edit/main/',
-          remarkPlugins: [remarkMath],
+          remarkPlugins: [remarkMath, remarkImageAttributes],
           rehypePlugins: [rehypeKatex],
         },
         blog: {
@@ -86,7 +88,7 @@ const config: Config = {
           onInlineTags: 'warn',
           onInlineAuthors: 'warn',
           onUntruncatedBlogPosts: 'warn',
-          remarkPlugins: [remarkMath],
+          remarkPlugins: [remarkMath, remarkImageAttributes],
           rehypePlugins: [rehypeKatex],
         },
         theme: {
