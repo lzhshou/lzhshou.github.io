@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkapaam_lab_website=self.webpackChunkapaam_lab_website||[]).push([["3220"],{1912(a){a.exports=JSON.parse('{"blogBasePath":"/en/blog","blogTitle":"Blog","authorsListPath":"/en/blog/authors"}')}}]);

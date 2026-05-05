@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkapaam_lab_website=self.webpackChunkapaam_lab_website||[]).push([[472],{5513:e=>{e.exports=JSON.parse('{"title":"Recent posts","items":[{"title":"\u5b9e\u9a8c\u5ba4\u7f51\u7ad9\u6b63\u5f0f\u4e0a\u7ebf","permalink":"/en/blog/website-launch","unlisted":false,"date":"2024-01-01T00:00:00.000Z"}]}')}}]);

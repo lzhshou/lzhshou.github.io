@@ -1,23 +1,237 @@
 <?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xsl" href="atom.xsl"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>https://lzhshou.github.io/en/blog</id>
+    <id>https://lzhshou.github.io/en/blog/</id>
     <title>Zhengshou Lai Blog</title>
-    <updated>2024-01-01T00:00:00.000Z</updated>
+    <updated>2026-04-22T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
-    <link rel="alternate" href="https://lzhshou.github.io/en/blog"/>
+    <link rel="alternate" href="https://lzhshou.github.io/en/blog/"/>
     <subtitle>Zhengshou Lai Blog</subtitle>
     <icon>https://lzhshou.github.io/en/img/logo.svg</icon>
     <entry>
-        <title type="html"><![CDATA[实验室网站正式上线]]></title>
-        <id>https://lzhshou.github.io/en/blog/website-launch</id>
-        <link href="https://lzhshou.github.io/en/blog/website-launch"/>
-        <updated>2024-01-01T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[APAAM 实验室网站正式上线！]]></summary>
-        <content type="html"><![CDATA[<p>APAAM 实验室网站正式上线！</p>
-<p>本网站将用于展示实验室的研究方向、学术成果、团队成员以及招生信息。</p>
-<p>更多内容即将更新，敬请期待。</p>]]></content>
+        <title type="html"><![CDATA[Our Students Won First Prize in the 7th Structural Design Competition]]></title>
+        <id>https://lzhshou.github.io/en/blog/structural-design-competition-first-prize/</id>
+        <link href="https://lzhshou.github.io/en/blog/structural-design-competition-first-prize/"/>
+        <updated>2026-04-22T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[The results of the 7th Structural Design Competition of the School of Civil Engineering have been announced. The student team "凡事不要太绝队" guided by our group won the First Prize.]]></summary>
+        <content type="html"><![CDATA[<p>The results of the 7th Structural Design Competition of the School of Civil Engineering have been announced. The student team "凡事不要太绝队" guided by our group won the First Prize.</p>
+<p>{/* truncate */}</p>
+<p><strong>Team Information:</strong></p>
+<ul>
+<li class="">Team Name: 凡事不要太绝队</li>
+<li class="">Project: 就是209号</li>
+<li class="">Captain: He Junyan</li>
+<li class="">Members: He Junyan, Jiang Yihan, Gong Daxuan</li>
+<li class="">Supervisor: Zhengshou Lai</li>
+<li class="">Affiliation: School of Civil Engineering, Sun Yat-sen University</li>
+</ul>
+<figure class="md-figure"><img decoding="async" loading="lazy" alt="Award Certificate" src="https://lzhshou.github.io/en/assets/images/2026-structural-design-first-prize-020f6dcf13e63e7c10713878f7229a13.jpg" width="1080" height="1560" class="img_ev3q"><figcaption>Award Certificate</figcaption></figure>
+<center><em>Award Certificate</em></center>
+<p><strong>Competition Information:</strong></p>
+<ul>
+<li class="">Competition: 7th Structural Design Competition, School of Civil Engineering, Sun Yat-sen University</li>
+<li class="">Award: First Prize</li>
+<li class="">Date: April 2026</li>
+</ul>
+<hr>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="competition-theme">Competition Theme<a href="https://lzhshou.github.io/en/blog/structural-design-competition-first-prize/#competition-theme" class="hash-link" aria-label="Direct link to Competition Theme" title="Direct link to Competition Theme" translate="no">​</a></h2>
+<p>The theme of this year's competition was <strong>"Structural Design and Fabrication of a Lele Cart Model"</strong>. Inspired by the traditional Lele cart from the northern grasslands of China, participating teams were required to design and fabricate a model cart that could complete a cargo transportation task on a complex track — including slopes, curves, speed bumps, and single-span bridges — under the traction of a powered mini-car. The model material was limited to bamboo (bamboo strips and rods), and the cargo consisted of glass-bead-filled fabric bags (500g each). Teams had to independently choose the number of bags (20–40), balancing transportation time, task completion rate, and cost efficiency, presenting a comprehensive challenge to the model's dynamic load-bearing capacity, stability, and material economy.</p>
+<figure class="md-figure"><img decoding="async" loading="lazy" alt="Model Weighing (121.4g)" src="https://lzhshou.github.io/en/assets/images/2026-structural-design-weighing-d3c07a2efddb82782b9db3cd7f10275e.jpg" width="1441" height="1080" class="img_ev3q"><figcaption>Model Weighing (121.4g)</figcaption></figure>
+<center><em>Model Weighing — 121.4g</em></center>
+<figure class="md-figure"><img decoding="async" loading="lazy" alt="Model Load Testing" src="https://lzhshou.github.io/en/assets/images/2026-structural-design-loading-14b27835d09fe955b596a1ce46578505.jpg" width="1441" height="1080" class="img_ev3q"><figcaption>Model Load Testing</figcaption></figure>
+<center><em>Model Load Testing</em></center>
+<p>The project <strong>"就是209号"</strong> by "凡事不要太绝队" featured a truss-frame chassis weighing only 121.4g. Through lightweight design while maintaining load-bearing capacity, the model performed excellently in the loading test and ultimately won the First Prize.</p>]]></content>
         <author>
-            <name>赖正首</name>
+            <name>Zhengshou Lai</name>
+            <uri>https://github.com/lzhshou</uri>
+        </author>
+        <category label="News" term="News"/>
+        <category label="Competition" term="Competition"/>
+        <category label="Award" term="Award"/>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Science Outreach and Recruitment at Jiaoling High School]]></title>
+        <id>https://lzhshou.github.io/en/blog/jiaoling-high-school-outreach/</id>
+        <link href="https://lzhshou.github.io/en/blog/jiaoling-high-school-outreach/"/>
+        <updated>2026-04-17T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[The research group visited Jiaoling High School for their anniversary celebration, delivering science lectures and recruitment presentations.]]></summary>
+        <content type="html"><![CDATA[<p>The research group visited Jiaoling High School for their anniversary celebration, delivering science lectures and recruitment presentations.</p>
+<p>{/* truncate */}</p>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="background">Background<a href="https://lzhshou.github.io/en/blog/jiaoling-high-school-outreach/#background" class="hash-link" aria-label="Direct link to Background" title="Direct link to Background" translate="no">​</a></h2>
+<p>Jiaoling High School is one of the key feeder schools for Sun Yat-sen University. Invited by the school, our team conducted science lectures and recruitment promotions, introducing high school students to the frontier developments in civil engineering and the distinctive features of Sun Yat-sen University.</p>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="activities">Activities<a href="https://lzhshou.github.io/en/blog/jiaoling-high-school-outreach/#activities" class="hash-link" aria-label="Direct link to Activities" title="Direct link to Activities" translate="no">​</a></h2>
+<ol>
+<li class="">
+<p><strong>Science Outreach</strong>: Face-to-face communication with students, introducing the new directions of civil engineering, including smart construction, digital twins, AI for Science, and other cutting-edge fields.</p>
+</li>
+<li class="">
+<p><strong>Recruitment Presentation</strong>: Introducing the academic directions, faculty, research platforms, and admission policies of the School of Civil Engineering at Sun Yat-sen University, answering students' questions about major selection and future development.</p>
+</li>
+<li class="">
+<p><strong>Establishing Connections</strong>: Leaving various contact information and establishing communication channels for follow-up with prospective students.</p>
+</li>
+<li class="">
+<p><strong>School Exchange</strong>: Meeting with the school principal to receive appreciation for our recruitment efforts and taking commemorative photos. During the event, we also met former SYSU Party Secretary Li Ping (an alumnus of Jiaoling), who encouraged and praised our school's outreach work.</p>
+</li>
+</ol>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="significance">Significance<a href="https://lzhshou.github.io/en/blog/jiaoling-high-school-outreach/#significance" class="hash-link" aria-label="Direct link to Significance" title="Direct link to Significance" translate="no">​</a></h2>
+<p>By going into high schools and reaching out to students, we help more outstanding students understand the charm and prospects of civil engineering, contributing to attracting quality students and expanding the university's influence.</p>]]></content>
+        <author>
+            <name>Zhengshou Lai</name>
+            <uri>https://github.com/lzhshou</uri>
+        </author>
+        <category label="News" term="News"/>
+        <category label="Outreach" term="Outreach"/>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Research Group Students Win Excellence Award in SAM Domestic CAE Software Competition]]></title>
+        <id>https://lzhshou.github.io/en/blog/sam-cae-competition-excellence-award/</id>
+        <link href="https://lzhshou.github.io/en/blog/sam-cae-competition-excellence-award/"/>
+        <updated>2026-04-08T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[The student team "Jiu Tan" from our research group won the Excellence Award in the first SAM Domestic Structural Analysis Software Application Competition.]]></summary>
+        <content type="html"><![CDATA[<p>The student team "Jiu Tan" from our research group won the Excellence Award in the first SAM Domestic Structural Analysis Software Application Competition.</p>
+<p>{/* truncate */}</p>
+<p><strong>Team Information:</strong></p>
+<ul>
+<li class="">Team Name: Jiu Tan (玖探队)</li>
+<li class="">Members: Lu Yuzhou, Liu Mingjing, Chen Jianying</li>
+<li class="">Advisor: Lai Zhengshou</li>
+<li class="">Institution: School of Civil Engineering, Sun Yat-sen University</li>
+</ul>
+<p><strong>Research Content:</strong>
+Their work "Comparative Study of Static and Modal Analysis of Offshore Wind Turbine Structures Using SAM and Abaqus" established a finite element model of an offshore wind turbine including tower, nacelle, hub, and simplified blades. Static and modal analyses were conducted using both SAM and Abaqus for comparison.</p>
+<figure class="md-figure"><img decoding="async" loading="lazy" alt="Wind Turbine Model" src="https://lzhshou.github.io/en/assets/images/image2-51681f2a0e75724d8ee7d295d469bdea.png" width="640" height="459" class="img_ev3q"><figcaption>Wind Turbine Model</figcaption></figure>
+<center><em>Offshore wind turbine geometry model</em></center>
+<p>Results showed high consistency between the two software across 9 typical working conditions. In static analysis, the relative error of tower top displacement ranged from 2.1% to 3.5%, and the relative error of maximum equivalent stress ranged from 1.8% to 3.2%. In modal analysis, the relative error of natural frequencies for all modes was less than 1.5%. These findings validate the engineering applicability of the domestic CAE software SAM for wind turbine structural analysis.</p>
+<figure class="md-figure"><img decoding="async" loading="lazy" alt="Analysis Results Comparison" src="https://lzhshou.github.io/en/assets/images/image3-23af09f1a44797503f94dd9e44e7aa00.png" width="1270" height="653" class="img_ev3q"><figcaption>Analysis Results Comparison</figcaption></figure>
+<center><em>Stress and displacement contour comparison under typical working conditions</em></center>
+<p><strong>Competition Background:</strong></p>
+<ul>
+<li class=""><strong>Competition Name</strong>: First SAM Domestic Structural Analysis Software Application Competition (also known as "Aulento Cup" Domestic Industrial CAE Software Innovation Competition)</li>
+<li class=""><strong>Organizer</strong>: China Shipbuilding Aulento (Beijing) Technology Co., Ltd.</li>
+<li class=""><strong>Date</strong>: March 2026</li>
+<li class=""><strong>Format</strong>: Online submission and review</li>
+<li class=""><strong>Participants</strong>: Universities, research institutes, and enterprises nationwide</li>
+<li class=""><strong>Scale</strong>: 103 teams registered</li>
+<li class=""><strong>Awards</strong>: 1 First Prize, 2 Second Prizes, 3 Third Prizes, 14 Excellence Awards</li>
+</ul>
+<p><strong>Objectives</strong>:
+Promote independent development of domestic industrial software, validate SAM software's accuracy and applicability in complex engineering problems, cultivate domestic CAE software application talents, and facilitate wider adoption of domestic structural analysis software in engineering practice.</p>
+<p>More info: <a href="https://mp.weixin.qq.com/s/-N7mvnNCKw6yHN9pOfN8DQ" target="_blank" rel="noopener noreferrer" class="">Finalists Announced | First "Aulento Cup" Domestic Industrial CAE Software Innovation Competition</a></p>]]></content>
+        <author>
+            <name>Zhengshou Lai</name>
+            <uri>https://github.com/lzhshou</uri>
+        </author>
+        <category label="News" term="News"/>
+        <category label="Competition" term="Competition"/>
+        <category label="Award" term="Award"/>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[APAAM lab website is live]]></title>
+        <id>https://lzhshou.github.io/en/blog/website-launch/</id>
+        <link href="https://lzhshou.github.io/en/blog/website-launch/"/>
+        <updated>2026-04-01T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[The APAAM lab website is now online.]]></summary>
+        <content type="html"><![CDATA[<p>The APAAM lab website is now online.</p>
+<p>This site showcases our research directions, publications, team members, and student recruitment information.</p>
+<p>{/* truncate */}</p>
+<p>More content coming soon.</p>]]></content>
+        <author>
+            <name>Zhengshou Lai</name>
+            <uri>https://github.com/lzhshou</uri>
+        </author>
+        <category label="News" term="News"/>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Our Students Won Second Prize in the 1st Digital Pool Competition]]></title>
+        <id>https://lzhshou.github.io/en/blog/digital-pool-competition-second-prize/</id>
+        <link href="https://lzhshou.github.io/en/blog/digital-pool-competition-second-prize/"/>
+        <updated>2025-09-01T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[The student team guided by our group won the Second Prize (Numerical Group) in the 1st "Hailutong Cup" Digital Pool Competition and Pioneer Intelligent Computing Special Session, Sun Yat-sen University Internal Competition.]]></summary>
+        <content type="html"><![CDATA[<p>The student team guided by our group won the Second Prize (Numerical Group) in the 1st "Hailutong Cup" Digital Pool Competition and Pioneer Intelligent Computing Special Session, Sun Yat-sen University Internal Competition.</p>
+<p>{/* truncate */}</p>
+<p><strong>Team Information:</strong></p>
+<ul>
+<li class="">Members: Liu Mingjing, Zhang Haoqin, Zhang Biao</li>
+<li class="">Supervisor: Zhengshou Lai</li>
+<li class="">Affiliation: School of Civil Engineering, Sun Yat-sen University</li>
+</ul>
+<figure class="md-figure"><img decoding="async" loading="lazy" alt="Award Certificate" src="https://lzhshou.github.io/en/assets/images/2025-digital-pool-second-prize-4e29874669c0eb8796ac861e4ad2a14d.jpg" width="1754" height="1241" class="img_ev3q"><figcaption>Award Certificate</figcaption></figure>
+<center><em>Award Certificate</em></center>
+<p><strong>Competition Information:</strong></p>
+<ul>
+<li class="">Competition: 1st "Hailutong Cup" Digital Pool Competition and Pioneer Intelligent Computing Special Session, Sun Yat-sen University Internal Competition</li>
+<li class="">Award: Second Prize (Numerical Group)</li>
+<li class="">Date: September 2025</li>
+</ul>
+<hr>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="research-content">Research Content<a href="https://lzhshou.github.io/en/blog/digital-pool-competition-second-prize/#research-content" class="hash-link" aria-label="Direct link to Research Content" title="Direct link to Research Content" translate="no">​</a></h2>
+<p>The team conducted a numerical simulation study of ship-free-surface-particle multiphase flow using the <strong>KCS (KRISO Container Ship) standard hull model</strong> as the research object, based on the coupling of the Immersed Boundary Method (IBM) and the Discrete Element Method (DEM).</p>
+<p>Using the Phynexis solver (interIBdem), the team simulated the motion response of the KCS hull model in a two-phase flow environment (water-air, surface tension coefficient 0.07 N/m), and introduced discrete particles through the DEM method to study the interaction between the ship and the particulate medium during navigation.</p>
+<video width="100%" controls="" poster="/img/blog/2025-digital-pool-simulation.jpg">
+  <source src="/videos/2025-digital-pool-simulation.mp4" type="video/mp4">
+</video>
+<center><em>KCS Hull CFD-DEM Coupled Simulation Results (Free Surface and Pressure Field Distribution)</em></center>]]></content>
+        <author>
+            <name>Zhengshou Lai</name>
+            <uri>https://github.com/lzhshou</uri>
+        </author>
+        <category label="News" term="News"/>
+        <category label="Competition" term="Competition"/>
+        <category label="Award" term="Award"/>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Our Students Won Second Prize in the 14th APMCM Mathematical Contest in Modeling]]></title>
+        <id>https://lzhshou.github.io/en/blog/apmcm-modeling-competition-second-prize/</id>
+        <link href="https://lzhshou.github.io/en/blog/apmcm-modeling-competition-second-prize/"/>
+        <updated>2024-10-01T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[The student team guided by our group won the Second Prize (Undergraduate Group) in the 14th APMCM Asia and Pacific Mathematical Contest in Modeling.]]></summary>
+        <content type="html"><![CDATA[<p>The student team guided by our group won the Second Prize (Undergraduate Group) in the 14th APMCM Asia and Pacific Mathematical Contest in Modeling.</p>
+<p>{/* truncate */}</p>
+<p><strong>Team Information:</strong></p>
+<ul>
+<li class="">Members: Zheng Zefeng, Mo Ziwei, Liang Weilin</li>
+<li class="">Supervisor: Zhengshou Lai</li>
+<li class="">Affiliation: School of Civil Engineering, Sun Yat-sen University</li>
+</ul>
+<figure class="md-figure"><img decoding="async" loading="lazy" alt="Award Certificate" src="https://lzhshou.github.io/en/assets/images/2024-apmcm-second-prize-2e9d8b16b5480cfc59cc58c91f60dcc3.jpg" width="2267" height="1600" class="img_ev3q"><figcaption>Award Certificate</figcaption></figure>
+<center><em>Award Certificate</em></center>
+<p><strong>Competition Information:</strong></p>
+<ul>
+<li class="">Competition: 14th APMCM Asia and Pacific Mathematical Contest in Modeling</li>
+<li class="">Award: Second Prize (Undergraduate Group)</li>
+<li class="">Date: October 2024</li>
+</ul>
+<hr>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="competition-theme">Competition Theme<a href="https://lzhshou.github.io/en/blog/apmcm-modeling-competition-second-prize/#competition-theme" class="hash-link" aria-label="Direct link to Competition Theme" title="Direct link to Competition Theme" translate="no">​</a></h2>
+<p>The team selected <strong>Problem D: Exploring Frontiers in Quantum-Accelerated AI</strong>. The problem focused on the intersection of quantum computing and artificial intelligence, requiring participants to transform classical machine learning problems into QUBO (Quadratic Unconstrained Binary Optimization) models and solve them using the simulated annealing algorithm provided by the SDK.</p>
+<p>The team addressed three sub-problems:</p>
+<ol>
+<li class=""><strong>Cloud Computing Resource Demand Prediction</strong> — Based on 9 months of historical data, an AR (Autoregressive) time series model was built to predict October demand, which was then transformed into a QUBO model for solving;</li>
+<li class=""><strong>Iris Dataset Classification</strong> — The optimization problem of the SVM (Support Vector Machine) classifier was mapped into QUBO form to achieve quantum-accelerated classification;</li>
+<li class=""><strong>MNIST Handwritten Digit Recognition</strong> — A CNN (Convolutional Neural Network) model was constructed, with an attempt to transform its training process into a QUBO optimization problem.</li>
+</ol>
+<p>The study demonstrated that the QUBO model achieved good solving performance on the first two tasks, validating the potential of quantum computing in AI optimization problems.</p>]]></content>
+        <author>
+            <name>Zhengshou Lai</name>
+            <uri>https://github.com/lzhshou</uri>
+        </author>
+        <category label="News" term="News"/>
+        <category label="Competition" term="Competition"/>
+        <category label="Award" term="Award"/>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Joined School of Civil Engineering, Sun Yat-sen University]]></title>
+        <id>https://lzhshou.github.io/en/blog/join-sysu-civil-engineering/</id>
+        <link href="https://lzhshou.github.io/en/blog/join-sysu-civil-engineering/"/>
+        <updated>2023-03-01T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Dr. Zhengshou Lai joined the School of Civil Engineering, Sun Yat-sen University as an Associate Professor.]]></summary>
+        <content type="html"><![CDATA[<p>Dr. Zhengshou Lai joined the School of Civil Engineering, Sun Yat-sen University as an Associate Professor.</p>
+<p>{/* truncate */}</p>
+<p>Dr. Zhengshou Lai officially joined the School of Civil Engineering, Sun Yat-sen University as an Associate Professor in March 2023. Prior to this, he received his Ph.D. in Civil Engineering from Clemson University, USA in 2018, conducted postdoctoral research at the School of Intelligent Engineering, Sun Yat-sen University from 2019 to 2021, and pursued joint postdoctoral research at the Hong Kong University of Science and Technology and Sun Yat-sen University under the Hong Kong Scholars Program from 2021 to 2023.</p>
+<p>At the School of Civil Engineering, Dr. Lai continues his research in computational mechanics and multiscale simulation of granular materials, with research interests including discrete element methods, fluid-solid coupling multiscale simulation, and machine learning and data science. He is also a dual-appointed faculty member at the Research Center for Applied Mathematics, Hong Kong Advanced Research Institute.</p>
+<p>Students interested in computational mechanics are welcome to apply to join our group!</p>]]></content>
+        <author>
+            <name>Zhengshou Lai</name>
             <uri>https://github.com/lzhshou</uri>
         </author>
         <category label="News" term="News"/>

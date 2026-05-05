@@ -1,25 +1,239 @@
 <?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xsl" href="atom.xsl"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>https://lzhshou.github.io/blog</id>
+    <id>https://lzhshou.github.io/blog/</id>
     <title>Zhengshou Lai Blog</title>
-    <updated>2024-01-01T00:00:00.000Z</updated>
+    <updated>2026-04-22T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
-    <link rel="alternate" href="https://lzhshou.github.io/blog"/>
+    <link rel="alternate" href="https://lzhshou.github.io/blog/"/>
     <subtitle>Zhengshou Lai Blog</subtitle>
     <icon>https://lzhshou.github.io/img/logo.svg</icon>
     <entry>
+        <title type="html"><![CDATA[课题组学生获土木工程学院第七届结构设计竞赛一等奖]]></title>
+        <id>https://lzhshou.github.io/blog/structural-design-competition-first-prize/</id>
+        <link href="https://lzhshou.github.io/blog/structural-design-competition-first-prize/"/>
+        <updated>2026-04-22T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[土木工程学院第七届结构设计竞赛结果公布，课题组指导的学生团队"凡事不要太绝队"获得一等奖。]]></summary>
+        <content type="html"><![CDATA[<p>土木工程学院第七届结构设计竞赛结果公布，课题组指导的学生团队"凡事不要太绝队"获得一等奖。</p>
+<p>{/* truncate */}</p>
+<p><strong>团队信息：</strong></p>
+<ul>
+<li class="">团队名称：凡事不要太绝队</li>
+<li class="">作品名称：就是209号</li>
+<li class="">队长：何俊彦</li>
+<li class="">队员：何俊彦、蒋奕涵、龚达宣</li>
+<li class="">指导教师：赖正首</li>
+<li class="">单位：中山大学土木工程学院</li>
+</ul>
+<figure class="md-figure"><img decoding="async" loading="lazy" alt="获奖证书" src="https://lzhshou.github.io/assets/images/2026-structural-design-first-prize-020f6dcf13e63e7c10713878f7229a13.jpg" width="1080" height="1560" class="img_ev3q"><figcaption>获奖证书</figcaption></figure>
+<center><em>获奖证书</em></center>
+<p><strong>竞赛信息：</strong></p>
+<ul>
+<li class="">竞赛名称：中山大学土木工程学院第七届结构设计竞赛</li>
+<li class="">获奖等级：一等奖</li>
+<li class="">时间：2026年4月</li>
+</ul>
+<hr>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="赛题介绍">赛题介绍<a href="https://lzhshou.github.io/blog/structural-design-competition-first-prize/#%E8%B5%9B%E9%A2%98%E4%BB%8B%E7%BB%8D" class="hash-link" aria-label="赛题介绍的直接链接" title="赛题介绍的直接链接" translate="no">​</a></h2>
+<p>本届竞赛的题目为《<strong>勒勒车模型结构设计与制作</strong>》。赛题以北疆草原上的勒勒车为灵感来源，要求参赛团队设计并制作一辆模型车，在动力小车牵引下完成包括坡道、弯道、减速带和单桥在内的复杂赛道上的货物运输任务。模型材料为竹材（竹皮与竹杆），载货为玻璃颗粒布袋，参赛队需自行选择载货数量，综合考量运输时间、任务完成度与运输成本，对模型的动态承载能力、稳定性与用料经济性提出了全面挑战。</p>
+<figure class="md-figure"><img decoding="async" loading="lazy" alt="作品模型（称重：121.4g）" src="https://lzhshou.github.io/assets/images/2026-structural-design-weighing-d3c07a2efddb82782b9db3cd7f10275e.jpg" width="1441" height="1080" class="img_ev3q"><figcaption>作品模型（称重：121.4g）</figcaption></figure>
+<center><em>作品模型 — 称重（121.4g）</em></center>
+<figure class="md-figure"><img decoding="async" loading="lazy" alt="作品加载测试" src="https://lzhshou.github.io/assets/images/2026-structural-design-loading-14b27835d09fe955b596a1ce46578505.jpg" width="1441" height="1080" class="img_ev3q"><figcaption>作品加载测试</figcaption></figure>
+<center><em>作品加载测试</em></center>
+<p>"凡事不要太绝队"的作品**"就是209号"**模型自重仅121.4g，采用桁架式车架结构，在保证承载能力的同时实现了轻量化设计，最终在加载测试中表现优异，成功夺得一等奖。</p>]]></content>
+        <author>
+            <name>赖正首</name>
+            <uri>https://github.com/lzhshou</uri>
+        </author>
+        <category label="动态" term="动态"/>
+        <category label="竞赛" term="竞赛"/>
+        <category label="获奖" term="获奖"/>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[赴蕉岭中学开展校庆科普与招生宣传]]></title>
+        <id>https://lzhshou.github.io/blog/jiaoling-high-school-outreach/</id>
+        <link href="https://lzhshou.github.io/blog/jiaoling-high-school-outreach/"/>
+        <updated>2026-04-17T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[4月17日至19日，课题组赴蕉岭中学参加校庆活动，开展科普讲座与招生宣传。]]></summary>
+        <content type="html"><![CDATA[<p>4月17日至19日，课题组赴蕉岭中学参加校庆活动，开展科普讲座与招生宣传。</p>
+<p>{/* truncate */}</p>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="活动背景">活动背景<a href="https://lzhshou.github.io/blog/jiaoling-high-school-outreach/#%E6%B4%BB%E5%8A%A8%E8%83%8C%E6%99%AF" class="hash-link" aria-label="活动背景的直接链接" title="活动背景的直接链接" translate="no">​</a></h2>
+<p>蕉岭中学是中山大学优质生源基地之一。值此校庆之际，受校方邀请，课题组前往开展科普讲座与招生宣传工作，向高中生介绍土木工程学科的前沿发展与中山大学的办学特色。</p>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="主要工作">主要工作<a href="https://lzhshou.github.io/blog/jiaoling-high-school-outreach/#%E4%B8%BB%E8%A6%81%E5%B7%A5%E4%BD%9C" class="hash-link" aria-label="主要工作的直接链接" title="主要工作的直接链接" translate="no">​</a></h2>
+<ol>
+<li class="">
+<p><strong>学科科普</strong>：与学生面对面交流，介绍新一代土木工程的发展方向，包括智能建造、数字孪生、AI for Science 等前沿领域。</p>
+</li>
+<li class="">
+<p><strong>招生宣讲</strong>：介绍中山大学土木工程学院的学科方向、师资力量、科研平台及招生政策，解答学生关心的专业选择与未来发展问题。</p>
+</li>
+<li class="">
+<p><strong>建立联系</strong>：留下学校各类联系方式，建立信息沟通渠道，便于后续跟踪有意向报考的学生。</p>
+</li>
+<li class="">
+<p><strong>校际交流</strong>：与蕉岭中学书记会面，获得校方对招宣工作的感谢，并合影留念。活动期间还遇到中山大学前书记李萍老师（蕉岭校友），获得其对学院招宣工作的鼓励和赞赏。</p>
+</li>
+</ol>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="活动意义">活动意义<a href="https://lzhshou.github.io/blog/jiaoling-high-school-outreach/#%E6%B4%BB%E5%8A%A8%E6%84%8F%E4%B9%89" class="hash-link" aria-label="活动意义的直接链接" title="活动意义的直接链接" translate="no">​</a></h2>
+<p>通过走进中学、走近学生，让更多优秀学子了解土木工程学科的魅力与前景，为吸引优质生源、扩大学校影响力贡献力量。</p>]]></content>
+        <author>
+            <name>赖正首</name>
+            <uri>https://github.com/lzhshou</uri>
+        </author>
+        <category label="动态" term="动态"/>
+        <category label="科普与招生" term="科普与招生"/>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[课题组学生获SAM国产CAE软件应用竞赛优秀奖]]></title>
+        <id>https://lzhshou.github.io/blog/sam-cae-competition-excellence-award/</id>
+        <link href="https://lzhshou.github.io/blog/sam-cae-competition-excellence-award/"/>
+        <updated>2026-04-08T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[课题组学生团队"玖探队"获第一届SAM国产结构分析软件应用竞赛优秀奖。]]></summary>
+        <content type="html"><![CDATA[<p>课题组学生团队"玖探队"获第一届SAM国产结构分析软件应用竞赛优秀奖。</p>
+<p>{/* truncate */}</p>
+<p><strong>团队信息：</strong></p>
+<ul>
+<li class="">团队名称：玖探队</li>
+<li class="">队员：卢昱州、刘明靖、陈建营</li>
+<li class="">指导老师：赖正首</li>
+<li class="">单位：中山大学土木工程学院</li>
+</ul>
+<p><strong>研究内容：</strong>
+作品《基于SAM与Abaqus的海上风机结构静力与模态分析对比研究》以海上风机为对象，建立包含塔筒、机舱、轮毂及简化叶片的有限元模型，采用SAM与Abaqus进行静力与模态分析对比。</p>
+<figure class="md-figure"><img decoding="async" loading="lazy" alt="风机几何模型" src="https://lzhshou.github.io/assets/images/image2-51681f2a0e75724d8ee7d295d469bdea.png" width="640" height="459" class="img_ev3q"><figcaption>风机几何模型</figcaption></figure>
+<center><em>海上风机整体几何模型</em></center>
+<p>结果表明SAM与Abaqus在9种典型工况下整体一致性较高。静力分析中塔顶位移相对误差为2.1%~3.5%，最大等效应力相对误差为1.8%~3.2%；模态分析中各阶固有频率相对误差均小于1.5%，验证了国产CAE软件SAM在风电结构分析中的工程适用性。</p>
+<figure class="md-figure"><img decoding="async" loading="lazy" alt="分析结果对比" src="https://lzhshou.github.io/assets/images/image3-23af09f1a44797503f94dd9e44e7aa00.png" width="1270" height="653" class="img_ev3q"><figcaption>分析结果对比</figcaption></figure>
+<center><em>典型工况应力与位移云图对比</em></center>
+<p><strong>竞赛背景：</strong></p>
+<ul>
+<li class=""><strong>竞赛名称</strong>：第一届SAM国产结构分析软件应用竞赛（又称"奥蓝托杯"国产工业CAE软件创新应用大赛）</li>
+<li class=""><strong>主办方</strong>：中船奥蓝托（北京）科技有限公司</li>
+<li class=""><strong>时间</strong>：2026年3月</li>
+<li class=""><strong>竞赛形式</strong>：线上提交作品，组委会评审</li>
+<li class=""><strong>参赛对象</strong>：全国高校、科研院所及企业单位</li>
+<li class=""><strong>参赛规模</strong>：103支队伍报名参赛</li>
+<li class=""><strong>获奖设置</strong>：一等奖1项、二等奖2项、三等奖3项、优秀奖14项</li>
+</ul>
+<p><strong>竞赛目的</strong>：
+推进国产工业软件自主可控，验证SAM软件在复杂工程问题中的计算精度和适用性，培养国产CAE软件应用人才，推动国产结构分析软件在工程实践中的广泛应用。</p>
+<p>更多信息：<a href="https://mp.weixin.qq.com/s/-N7mvnNCKw6yHN9pOfN8DQ" target="_blank" rel="noopener noreferrer" class="">决赛见 | 第一届"奥蓝托杯"国产工业CAE软件创新应用大赛决赛入围名单揭晓</a></p>]]></content>
+        <author>
+            <name>赖正首</name>
+            <uri>https://github.com/lzhshou</uri>
+        </author>
+        <category label="动态" term="动态"/>
+        <category label="竞赛" term="竞赛"/>
+        <category label="获奖" term="获奖"/>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[实验室网站正式上线]]></title>
-        <id>https://lzhshou.github.io/blog/website-launch</id>
-        <link href="https://lzhshou.github.io/blog/website-launch"/>
-        <updated>2024-01-01T00:00:00.000Z</updated>
+        <id>https://lzhshou.github.io/blog/website-launch/</id>
+        <link href="https://lzhshou.github.io/blog/website-launch/"/>
+        <updated>2026-04-01T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[APAAM 实验室网站正式上线！]]></summary>
         <content type="html"><![CDATA[<p>APAAM 实验室网站正式上线！</p>
 <p>本网站将用于展示实验室的研究方向、学术成果、团队成员以及招生信息。</p>
+<p>{/* truncate */}</p>
 <p>更多内容即将更新，敬请期待。</p>]]></content>
         <author>
             <name>赖正首</name>
             <uri>https://github.com/lzhshou</uri>
         </author>
-        <category label="News" term="News"/>
+        <category label="动态" term="动态"/>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[课题组学生获首届数智水池大赛二等奖]]></title>
+        <id>https://lzhshou.github.io/blog/digital-pool-competition-second-prize/</id>
+        <link href="https://lzhshou.github.io/blog/digital-pool-competition-second-prize/"/>
+        <updated>2025-09-01T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[课题组指导的学生团队在首届"海路通杯"数智水池大赛暨先导智算专项中山大学校内赛中获得二等奖（数值组）。]]></summary>
+        <content type="html"><![CDATA[<p>课题组指导的学生团队在首届"海路通杯"数智水池大赛暨先导智算专项中山大学校内赛中获得二等奖（数值组）。</p>
+<p>{/* truncate */}</p>
+<p><strong>团队信息：</strong></p>
+<ul>
+<li class="">参赛队员：刘明靖、张皓钦、张骉</li>
+<li class="">指导教师：赖正首</li>
+<li class="">单位：中山大学土木工程学院</li>
+</ul>
+<figure class="md-figure"><img decoding="async" loading="lazy" alt="获奖证书" src="https://lzhshou.github.io/assets/images/2025-digital-pool-second-prize-4e29874669c0eb8796ac861e4ad2a14d.jpg" width="1754" height="1241" class="img_ev3q"><figcaption>获奖证书</figcaption></figure>
+<center><em>获奖证书</em></center>
+<p><strong>竞赛信息：</strong></p>
+<ul>
+<li class="">竞赛名称：首届"海路通杯"数智水池大赛暨先导智算专项中山大学校内赛</li>
+<li class="">获奖等级：二等奖（数值组）</li>
+<li class="">时间：2025年9月</li>
+</ul>
+<hr>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="研究内容">研究内容<a href="https://lzhshou.github.io/blog/digital-pool-competition-second-prize/#%E7%A0%94%E7%A9%B6%E5%86%85%E5%AE%B9" class="hash-link" aria-label="研究内容的直接链接" title="研究内容的直接链接" translate="no">​</a></h2>
+<p>团队以 <strong>KCS（韩国集装箱船）标准船模</strong> 为研究对象，开展了基于浸没边界法（IBM）与离散元法（DEM）耦合的船舶-自由液面-颗粒多相流数值模拟研究。</p>
+<p>使用 Phynexis 求解器（interIBdem），模拟KCS船模在两相流（水-空气，表面张力系数0.07 N/m）环境下的运动响应，并通过DEM方法引入离散颗粒，研究船舶航行过程中与颗粒介质的相互作用。</p>
+<video width="100%" controls="" poster="/img/blog/2025-digital-pool-simulation.jpg">
+  <source src="/videos/2025-digital-pool-simulation.mp4" type="video/mp4">
+</video>
+<center><em>KCS船模 CFD-DEM 耦合仿真结果（自由液面与压力场分布）</em></center>]]></content>
+        <author>
+            <name>赖正首</name>
+            <uri>https://github.com/lzhshou</uri>
+        </author>
+        <category label="动态" term="动态"/>
+        <category label="竞赛" term="竞赛"/>
+        <category label="获奖" term="获奖"/>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[课题组学生获第十四届APMCM数学建模竞赛二等奖]]></title>
+        <id>https://lzhshou.github.io/blog/apmcm-modeling-competition-second-prize/</id>
+        <link href="https://lzhshou.github.io/blog/apmcm-modeling-competition-second-prize/"/>
+        <updated>2024-10-01T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[课题组指导的学生团队在第十四届APMCM亚太地区大学生数学建模竞赛中获得二等奖（本科组）。]]></summary>
+        <content type="html"><![CDATA[<p>课题组指导的学生团队在第十四届APMCM亚太地区大学生数学建模竞赛中获得二等奖（本科组）。</p>
+<p>{/* truncate */}</p>
+<p><strong>团队信息：</strong></p>
+<ul>
+<li class="">参赛队员：郑泽锋、Mo Ziwei、Liang Weilin</li>
+<li class="">指导教师：赖正首</li>
+<li class="">单位：中山大学土木工程学院</li>
+</ul>
+<figure class="md-figure"><img decoding="async" loading="lazy" alt="获奖证书" src="https://lzhshou.github.io/assets/images/2024-apmcm-second-prize-2e9d8b16b5480cfc59cc58c91f60dcc3.jpg" width="2267" height="1600" class="img_ev3q"><figcaption>获奖证书</figcaption></figure>
+<center><em>获奖证书</em></center>
+<p><strong>竞赛信息：</strong></p>
+<ul>
+<li class="">竞赛名称：第十四届APMCM亚太地区大学生数学建模竞赛</li>
+<li class="">获奖等级：二等奖（本科组）</li>
+<li class="">时间：2024年10月</li>
+</ul>
+<hr>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="赛题介绍">赛题介绍<a href="https://lzhshou.github.io/blog/apmcm-modeling-competition-second-prize/#%E8%B5%9B%E9%A2%98%E4%BB%8B%E7%BB%8D" class="hash-link" aria-label="赛题介绍的直接链接" title="赛题介绍的直接链接" translate="no">​</a></h2>
+<p>本次竞赛团队选择了 <strong>Problem D: Exploring Frontiers in Quantum-Accelerated AI</strong>（探索量子加速AI前沿）。赛题聚焦量子计算与人工智能的交叉领域，要求参赛者将经典机器学习问题转化为QUBO（二次无约束二元优化）模型，并使用开源SDK的模拟退火算法进行求解。</p>
+<p>团队围绕三个子问题展开研究：</p>
+<ol>
+<li class=""><strong>云计算资源需求预测</strong> — 基于9个月历史数据，建立AR（自回归）时间序列模型预测十月需求，并将其转化为QUBO模型求解；</li>
+<li class=""><strong>鸢尾花数据集分类</strong> — 将SVM（支持向量机）分类器的优化问题映射为QUBO形式，实现量子加速分类；</li>
+<li class=""><strong>MNIST手写数字识别</strong> — 构建CNN（卷积神经网络）模型，并尝试将其训练过程转化为QUBO优化问题。</li>
+</ol>
+<p>研究表明，QUBO模型在前两个任务中取得了良好的求解效果，验证了量子计算在AI优化问题中的潜力。</p>]]></content>
+        <author>
+            <name>赖正首</name>
+            <uri>https://github.com/lzhshou</uri>
+        </author>
+        <category label="动态" term="动态"/>
+        <category label="竞赛" term="竞赛"/>
+        <category label="获奖" term="获奖"/>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[加入中山大学土木工程学院]]></title>
+        <id>https://lzhshou.github.io/blog/join-sysu-civil-engineering/</id>
+        <link href="https://lzhshou.github.io/blog/join-sysu-civil-engineering/"/>
+        <updated>2023-03-01T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[赖正首博士加入中山大学土木工程学院，任副教授。]]></summary>
+        <content type="html"><![CDATA[<p>赖正首博士加入中山大学土木工程学院，任副教授。</p>
+<p>{/* truncate */}</p>
+<p>赖正首博士于2023年3月正式加入中山大学土木工程学院，任副教授。此前，他于2018年在美国克莱姆森大学获土木工程博士学位，2019至2021年在中山大学智能工程学院从事博士后研究，2021至2023年在香港科技大学-中山大学联合培养下从事博士后研究（香江学者计划）。</p>
+<p>加入土木工程学院后，赖博士继续专注于计算力学与颗粒材料多尺度模拟研究，研究方向包括离散元方法、流固耦合多尺度模拟、机器学习与数据科学等。他同时为香港高等研究院应用数学研究中心双聘教师。</p>
+<p>欢迎对计算力学感兴趣的同学申请加入课题组！</p>]]></content>
+        <author>
+            <name>赖正首</name>
+            <uri>https://github.com/lzhshou</uri>
+        </author>
+        <category label="动态" term="动态"/>
     </entry>
 </feed>
