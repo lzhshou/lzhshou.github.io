@@ -8,7 +8,7 @@ date: 2026-04-17
 
 The research group visited Jiaoling High School for their anniversary celebration, delivering science lectures and recruitment presentations.
 
-{/* truncate */}
+<!-- truncate -->
 
 ## Background
 

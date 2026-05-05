@@ -8,7 +8,7 @@ date: 2026-04-22
 
 The results of the 7th Structural Design Competition of the School of Civil Engineering have been announced. The student team "凡事不要太绝队" guided by our group won the First Prize.
 
-{/* truncate */}
+<!-- truncate -->
 
 **Team Information:**
 - Team Name: 凡事不要太绝队

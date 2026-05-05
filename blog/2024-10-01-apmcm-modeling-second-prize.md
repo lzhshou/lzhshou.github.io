@@ -8,7 +8,7 @@ date: 2024-10-01
 
 课题组指导的学生团队在第十四届APMCM亚太地区大学生数学建模竞赛中获得二等奖（本科组）。
 
-{/* truncate */}
+<!-- truncate -->
 
 **团队信息：**
 - 参赛队员：郑泽锋、Mo Ziwei、Liang Weilin

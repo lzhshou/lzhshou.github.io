@@ -10,6 +10,6 @@ The APAAM lab website is now online.
 
 This site showcases our research directions, publications, team members, and student recruitment information.
 
-{/* truncate */}
+<!-- truncate -->
 
 More content coming soon.

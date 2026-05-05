@@ -8,7 +8,7 @@ date: 2025-09-01
 
 The student team guided by our group won the Second Prize (Numerical Group) in the 1st "Hailutong Cup" Digital Pool Competition and Pioneer Intelligent Computing Special Session, Sun Yat-sen University Internal Competition.
 
-{/* truncate */}
+<!-- truncate -->
 
 **Team Information:**
 - Members: Liu Mingjing, Zhang Haoqin, Zhang Biao

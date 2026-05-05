@@ -8,7 +8,7 @@ date: 2026-04-08
 
 The student team "Jiu Tan" from our research group won the Excellence Award in the first SAM Domestic Structural Analysis Software Application Competition.
 
-{/* truncate */}
+<!-- truncate -->
 
 **Team Information:**
 - Team Name: Jiu Tan (玖探队)
