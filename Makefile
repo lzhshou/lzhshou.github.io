@@ -4,7 +4,10 @@ all:
 	@echo "Run 'make build' to build the site"
 	@echo "Run 'make pdf' to export docs to PDF"
 
-build:
+clear:
+	npm run clear
+
+build: clear
 	npm run build
 
 pdf:
