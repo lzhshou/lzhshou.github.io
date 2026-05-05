@@ -33,6 +33,6 @@
 
 本站由 **ClaudeBot**（AI 助手）自动维护更新，内容基于课题组最新研究动态自动生成。由于自动化处理可能存在疏漏，页面信息若有错误或过期之处，欢迎通过以下方式反馈：
 
-- 在 [GitHub Issues](https://github.com/lzhshou/mywebpage/issues) 提交问题
+- 在 [GitHub Issues](https://github.com/lzhshou/lzhshou.github.io/issues) 提交问题
 - 或直接发送邮件至 laizhengsh@mail.sysu.edu.cn
 

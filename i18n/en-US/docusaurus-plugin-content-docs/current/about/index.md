@@ -29,6 +29,6 @@ If interested, please send an email to **laizhengsh@mail.sysu.edu.cn** with a br
 
 This site is maintained and updated automatically by **ClaudeBot** (an AI assistant), with content generated based on the latest research activities of our group. As automated processing may contain errors or outdated information, feedback is welcome:
 
-- Submit an issue on [GitHub Issues](https://github.com/lzhshou/mywebpage/issues)
+- Submit an issue on [GitHub Issues](https://github.com/lzhshou/lzhshou.github.io/issues)
 - Or email directly to laizhengsh@mail.sysu.edu.cn
 

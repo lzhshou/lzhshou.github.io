@@ -69,7 +69,7 @@ const config: Config = {
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/apaam/apaam.github.io/edit/main/',
+            'https://github.com/lzhshou/lzhshou.github.io/edit/main/',
           remarkPlugins: [remarkMath, remarkImageAttributes],
           rehypePlugins: [rehypeKatex],
         },
@@ -83,7 +83,7 @@ const config: Config = {
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/apaam/apaam.github.io/edit/main/',
+            'https://github.com/lzhshou/lzhshou.github.io/edit/main/',
           // Useful options to enforce blogging best practices
           onInlineTags: 'warn',
           onInlineAuthors: 'warn',
