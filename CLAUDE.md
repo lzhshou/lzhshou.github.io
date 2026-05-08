@@ -18,7 +18,7 @@ myacademia/                    mywebpage/
 
 - **生产站点**: https://lzhshou.github.io
 - **默认语言**: 中文 (`zh`)，辅语言: 英文 (`en`)
-- **部署目标**: GitHub Pages (`gh-pages` 分支)
+- **部署目标**: GitHub Pages (GitHub Actions)
 
 ## 技术栈
 
@@ -35,10 +35,6 @@ myacademia/                    mywebpage/
 ## 目录结构
 
 ```
-bin/                          # 自定义 CLI 及 shell 补全
-├── mywebpage                 # 主脚本：build/deploy/server/update/uninstall
-└── completions/              # _mywebpage (zsh), mywebpage.bash (bash)
-
 blog/                         # 博客文章（Markdown）
 ├── authors.yml               # 作者配置
 ├── tags.yml                  # 标签配置
@@ -95,9 +91,6 @@ npm run build
 # 仅启动预览（需已有 build）
 npm run serve
 
-# 部署到 GitHub Pages
-npm run deploy
-
 # 热更新开发（单语言）
 npx docusaurus start --locale zh
 npx docusaurus start --locale en
@@ -117,7 +110,6 @@ make install                  # 安装 CLI 到 ~/.local/bin
 mywebpage build               # 构建
 mywebpage build -c            # 清缓存后构建
 mywebpage build -s 3000       # 构建后启动服务
-mywebpage deploy              # 部署
 mywebpage server start        # 后台启动服务
 mywebpage server stop         # 停止后台服务
 mywebpage server status       # 查看状态
@@ -161,11 +153,11 @@ make uninstall                # 卸载 CLI
 - 组件覆盖：`src/theme/`（使用 Docusaurus Swizzle）
 - 自定义页面：`src/pages/`（如首页 `index.tsx`）
 
-## 部署注意事项
+## 部署
 
-- GitHub Pages 部署分支为 `gh-pages`
-- `npm run deploy` 需要 `GIT_USER` 环境变量（CLI 会自动尝试从 `gh` 或 git origin 推断）
-- 构建时会检查 broken links，配置为 `warn` 级别不会阻断构建
+- push 到 `main` 分支后，GitHub Actions 自动构建并部署
+- GitHub Pages 配置：Settings > Pages > Source 选择 "GitHub Actions"
+- 构建时 broken links 检查级别为 `warn`，不会阻断构建
 
 ## 开发约定
 

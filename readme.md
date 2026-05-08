@@ -44,47 +44,7 @@ npx docusaurus start --locale zh
 npx docusaurus start --locale en
 ```
 
-## CLI 工具
-
-项目提供自定义 CLI `mywebpage`，支持构建、部署、后台服务管理等操作。
-
-### 安装 CLI
-```bash
-make install
-```
-
-安装后需确保 `~/.local/bin` 在 PATH 中，并配置 shell 补全：
-
-**zsh**（在 `compinit` 之前）：
-```zsh
-fpath=("$HOME/.local/bin/completions" $fpath)
-autoload -Uz compinit && compinit
-```
-
-**bash**（添加到 `~/.bashrc`）：
-```bash
-source "$HOME/.local/bin/completions/mywebpage"
-```
-
-### CLI 命令
-
-```bash
-mywebpage build [-c|--clean] [-s|--serve] [port]   # 构建；--clean 清缓存，--serve 构建后启动服务
-mywebpage deploy [args...]                         # 部署到 GitHub Pages
-mywebpage server start [port]                      # 后台启动预览服务（默认 3000）
-mywebpage server stop                              # 停止后台服务
-mywebpage server status                            # 查看服务状态
-mywebpage server restart [port]                    # 重启后台服务
-mywebpage update                                   # 重新安装 CLI
-mywebpage uninstall                                # 卸载 CLI
-```
-
-### 卸载 CLI
-```bash
-make uninstall
-```
-
-## 构建和部署
+## 构建
 
 ```bash
 # 仅构建（不启动服务）
@@ -92,18 +52,12 @@ npm run build
 
 # 在已有 build 输出时，仅启动预览服务
 npm run serve
-
-# 部署到 GitHub Pages
-npm run deploy
 ```
 
 ## 目录结构
 
 ```
 .
-├── bin/                          # CLI 工具及 shell 补全脚本
-│   ├── mywebpage                 # 主 CLI 脚本
-│   └── completions/              # zsh / bash 自动补全
 ├── blog/                         # 博客文章
 ├── docs/                         # 中文文档内容
 │   ├── about/                    # 关于页面
@@ -164,7 +118,8 @@ npm run deploy
 
 ## 部署
 
-网站部署到 GitHub Pages：
+push 到 `main` 分支后由 GitHub Actions 自动构建并部署到 GitHub Pages。
+
 - 主站点：https://lzhshou.github.io
 
 ## 联系我们
