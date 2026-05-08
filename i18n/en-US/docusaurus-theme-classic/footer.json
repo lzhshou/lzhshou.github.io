@@ -47,6 +47,10 @@
     "message": "SYSU",
     "description": "The label of footer link with label=SYSU linking to https://civil.sysu.edu.cn/teacher/1740"
   },
+  "link.item.label.Phynexis": {
+    "message": "Phynexis",
+    "description": "The label of footer link with label=Phynexis linking to https://apaam.github.io/webpage/"
+  },
   "link.item.label.footer.email": {
     "message": "laizhengsh@mail.sysu.edu.cn",
     "description": "The label of footer link with label=footer.email linking to mailto:laizhengsh@mail.sysu.edu.cn"

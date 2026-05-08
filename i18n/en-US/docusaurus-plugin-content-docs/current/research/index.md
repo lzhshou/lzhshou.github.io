@@ -12,6 +12,10 @@ Our research group focuses on **Computational Geomechanics**, investigating mult
 - [**Multiscale Fluid-Structure Coupling and Multiphase Flow Simulation**](multiphase) — Hybrid resolved-unresolved CFD-DEM framework, phase change-fracture coupling, multiphase flow instability
 - [**Random Field Modeling and Geotechnical Reliability**](random-field) — Intelligent investigation optimization, rotated anisotropy, energy evolution failure criterion
 
+## Software Platform
+
+Built on the NetDEM core engine, our group develops the [**Phynexis**](https://apaam.github.io/webpage/) particle simulation platform — a unified system for discrete elements, CFD–DEM coupling, and solid mechanics, scaling from laptops to HPC clusters with a Python interface for everyday research and engineering workflows.
+
 ---
 
 *Click the left navigation or links above to view detailed research directions.*
