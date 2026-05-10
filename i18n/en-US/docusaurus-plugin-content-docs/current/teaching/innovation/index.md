@@ -3,7 +3,7 @@
 
 # Undergraduate Innovation & Entrepreneurship Training
 
-Supervising national/provincial/university-level innovation training projects for undergraduate students.
+Supervising national/university-level innovation training projects for undergraduate students.
 
 ## Ongoing Projects
 
@@ -25,7 +25,7 @@ Supervising national/provincial/university-level innovation training projects fo
 
 #### [Scientific Computing Visualization and Photorealistic Rendering Based on Graphics Engine](./innovation-2025-scientific-visualization)
 
-- **Level**: University/Provincial Level
+- **Level**: University Level
 - **Team Members**: Zheng Zefeng, Gong Daxuan, Zhang Luoyun, Zhong Zhuoneng, Zhu Xinsheng
 - **Advisor**: Lai Zhengshou
 - **Description**: Addressing the high barrier of entry and low rendering quality of existing scientific visualization software by developing a ray tracing-based renderer with GPU acceleration to lower the threshold for scientific computing visualization.
@@ -36,7 +36,7 @@ Supervising national/provincial/university-level innovation training projects fo
 
 #### [Drag Force Model and Numerical Simulation of Coral Sand in Water Flow](./innovation-2024-coral-sand-drag)
 
-- **Level**: University/Provincial Level
+- **Level**: University Level
 - **Team Members**: Zhang Haoqin, Liu Mingjing
 - **Advisors**: Lai Zhengshou, Huang Linchong
 - **Description**: Research on drag force models for coral sand particles in water flow based on CFD-DEM fluid-structure coupling theory. Numerical simulation and experimental comparison of regular and coral sand particle sedimentation, analyzing the correlation between particle geometric characteristic parameters and settling behavior.
@@ -47,7 +47,7 @@ Supervising national/provincial/university-level innovation training projects fo
 
 #### [Numerical and Experimental Study on Drag Force of Calcareous Sand in South China Sea](./innovation-2023-calcareous-sand)
 
-- **Level**: University/Provincial Level
+- **Level**: University Level
 - **Principal Investigator**: Liu Mingjing
 - **Advisors**: Lai Zhengshou, Huang Linchong
 - **Description**: Integration of OpenFOAM and NetDEM to form a CFD-DEM coupling system. Design and implementation of indoor physical experiments and numerical simulations of drag force on granular materials in flow fields, validating the correctness and effectiveness of CFD-DEM.

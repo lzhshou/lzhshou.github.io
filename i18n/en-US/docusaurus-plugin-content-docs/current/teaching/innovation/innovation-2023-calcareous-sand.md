@@ -5,7 +5,7 @@
 
 ## Project Overview
 
-- **Level**: University/Provincial Level
+- **Level**: University Level
 - **Principal Investigator**: Liu Mingjing
 - **Advisors**: Lai Zhengshou, Huang Linchong
 - **Duration**: Jan 2023 - Dec 2023
