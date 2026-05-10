@@ -66,8 +66,8 @@
 
 **项目展示**
 
-- <a href="/files/innovation/2025-scientific-visualization-report.pdf" target="_blank">结题汇报PPT</a>
-- <a href="/files/innovation/2025-scientific-visualization-poster.pdf" target="_blank">项目海报</a>
+- <a href="pathname:///files/innovation/2025-scientific-visualization-report.pdf" target="_blank">结题汇报PPT</a>
+- <a href="pathname:///files/innovation/2025-scientific-visualization-poster.pdf" target="_blank">项目海报</a>
 
 ---
 

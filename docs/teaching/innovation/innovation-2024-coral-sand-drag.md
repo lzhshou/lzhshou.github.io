@@ -64,7 +64,7 @@
 
 **项目展示**
 
-- <a href="/files/innovation/2024-coral-sand-drag-report.pdf" target="_blank">结题汇报PPT</a>
+- <a href="pathname:///files/innovation/2024-coral-sand-drag-report.pdf" target="_blank">结题汇报PPT</a>
 
 ---
 

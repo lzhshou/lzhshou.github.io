@@ -59,8 +59,8 @@ With the maturation of GPU ray tracing technology, game-level rendering quality 
 
 **Project Showcase**
 
-- <a href="/files/innovation/2025-scientific-visualization-report.pdf" target="_blank">Final Report (PPT)</a>
-- <a href="/files/innovation/2025-scientific-visualization-poster.pdf" target="_blank">Project Poster</a>
+- <a href="pathname:///files/innovation/2025-scientific-visualization-report.pdf" target="_blank">Final Report (PPT)</a>
+- <a href="pathname:///files/innovation/2025-scientific-visualization-poster.pdf" target="_blank">Project Poster</a>
 
 ---
 

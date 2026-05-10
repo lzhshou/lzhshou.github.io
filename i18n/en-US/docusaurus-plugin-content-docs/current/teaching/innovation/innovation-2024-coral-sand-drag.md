@@ -58,7 +58,7 @@ Coral sand particles have irregular shapes and developed internal pores. Traditi
 
 **Project Showcase**
 
-- <a href="/files/innovation/2024-coral-sand-drag-report.pdf" target="_blank">Final Report (PPT)</a>
+- <a href="pathname:///files/innovation/2024-coral-sand-drag-report.pdf" target="_blank">Final Report (PPT)</a>
 
 ---
 
