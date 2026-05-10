@@ -12,7 +12,7 @@ sidebar_position: 1
 
 **Biography**
 
-Associate Professor and Ph.D. Supervisor at the School of Civil Engineering, Sun Yat-sen University, and Dual-appointed Faculty at the Research Center for Applied Mathematics, Sun Yat-sen University Hong Kong Institute. His research focuses on computational mechanics, multiscale modeling of granular materials, multiphase flow simulation, and machine learning applications in civil engineering.
+Associate Professor and M.S. Supervisor at the School of Civil Engineering, Sun Yat-sen University, Xiangjiang Scholar, and Dual-appointed Faculty at the Research Center for Applied Mathematics, Sun Yat-sen University Hong Kong Institute. His research focuses on computational mechanics, multiscale modeling of granular materials, multiphase flow simulation, and machine learning applications in civil engineering.
 
 **Education**
 
