@@ -26,6 +26,8 @@ sidebar_position: 1
 - 2021.02–2023.02  香港科技大学土木与环境工程学院  博士后（香江学者计划）
 - 2019.02–2021.02  中山大学智能工程学院  博士后
 
+**简历**: [中文版 CV](pathname:///files/cv/cv-zh.pdf) | [English CV](pathname:///files/cv/cv-en.pdf)
+
 ---
 
 ## 在读学生

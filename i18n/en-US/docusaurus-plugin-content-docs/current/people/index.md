@@ -26,6 +26,8 @@ Associate Professor and Ph.D. Supervisor at the School of Civil Engineering, Sun
 - 2021.02–2023.02  Department of Civil and Environmental Engineering, Hong Kong University of Science and Technology, Postdoctoral Fellow (Xiangjiang Scholar Program)
 - 2019.02–2021.02  School of Intelligent Systems Engineering, Sun Yat-sen University, Postdoctoral Fellow
 
+**CV**: [中文版 CV](pathname:///files/cv/cv-zh.pdf) | [English CV](pathname:///files/cv/cv-en.pdf)
+
 ---
 
 ## Current Students
