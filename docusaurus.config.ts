@@ -115,7 +115,7 @@ const config: Config = {
     navbar: {
       title: 'APAAM',
       logo: {
-        alt: 'APAAM Lab',
+        alt: 'APAAM Group',
         src: 'img/logo.svg',
       },
       items: [

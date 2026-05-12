@@ -1,8 +1,8 @@
-# APAAM Lab Website — Claude 项目指南
+# APAAM Group Website — Claude 项目指南
 
 ## 项目概述
 
-APAAM Lab 官方网站，基于 Docusaurus v3.8.1 构建，React 19 + TypeScript。同时作为 Zhengshou Lai（中山大学土木工程学院副教授）的个人学术主页。
+APAAM Group 官方网站，基于 Docusaurus v3.8.1 构建，React 19 + TypeScript。同时作为 Zhengshou Lai（中山大学土木工程学院副教授）的个人学术主页。
 
 **数据来源**：所有内容来自 `myacademia/`。mywebpage 是只读展示层，不维护独立数据。
 

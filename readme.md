@@ -1,6 +1,6 @@
-# APAAM Lab Website
+# APAAM Group Website
 
-这是 APAAM Lab（应用过程分析与模拟实验室）的官方网站，同时展示 Zhengshou Lai（中山大学土木工程学院副教授）的个人学术主页。网站使用 [Docusaurus](https://docusaurus.io/) 构建，支持多语言（中文/英文）和现代化的用户体验。
+这是 APAAM Group（应用过程分析与模拟课题组）的官方网站，同时展示 Zhengshou Lai（中山大学土木工程学院副教授）的个人学术主页。网站使用 [Docusaurus](https://docusaurus.io/) 构建，支持多语言（中文/英文）和现代化的用户体验。
 
 ## 技术栈
 

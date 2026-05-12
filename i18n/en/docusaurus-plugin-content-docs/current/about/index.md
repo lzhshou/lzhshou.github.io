@@ -1,9 +1,9 @@
 
 # About
 
-## Laboratory Overview
+## Group Overview
 
-The **Applied Process Analysis and Modeling Laboratory (APAAM)** is located at Sun Yat-sen University, dedicated to computational geomechanics and multiscale numerical simulation research. Our research spans multiple disciplines including computational mechanics, geotechnical engineering, and materials science.
+The **Applied Process Analysis and Modeling Group (APAAM)** is located at Sun Yat-sen University, dedicated to computational geomechanics and multiscale numerical simulation research. Our research spans multiple disciplines including computational mechanics, geotechnical engineering, and materials science.
 
 **Research Areas**:
 - Computational methods: FEM, DEM, MPM, etc.

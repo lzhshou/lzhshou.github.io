@@ -1,23 +1,23 @@
 {
   "homepage.title": {
-    "message": "APAAM Lab | Applied Process Analysis and Modeling",
+    "message": "APAAM Group | Applied Process Analysis and Modeling",
     "description": "The homepage title"
   },
   "homepage.description": {
-    "message": "Applied Process Analysis and Modeling Laboratory at Sun Yat-sen University",
+    "message": "Applied Process Analysis and Modeling Group at Sun Yat-sen University",
     "description": "The homepage description"
   },
   "homepage.labName": {
-    "message": "Applied Process Analysis and Modeling Laboratory"
+    "message": "Applied Process Analysis and Modeling Group"
   },
   "homepage.affiliation": {
     "message": "School of Civil Engineering, Sun Yat-sen University"
   },
   "homepage.intro": {
-    "message": "The APAAM Lab is dedicated to computational geomechanics and multiscale numerical simulation, developing advanced computational methods and software tools for numerical modeling, uncertainty quantification, and data-driven computation of complex multiphysical processes."
+    "message": "The APAAM Group is dedicated to computational geomechanics and multiscale numerical simulation, developing advanced computational methods and software tools for numerical modeling, uncertainty quantification, and data-driven computation of complex multiphysical processes."
   },
   "homepage.scopeHeading": {
-    "message": "About the lab"
+    "message": "About the group"
   },
   "homepage.researchAreasSubtitle": {
     "message": "Computational geomechanics, DEM, and multiphysics coupling—methods, software, and applications."
@@ -430,7 +430,7 @@
     "description": "Feature 3 title"
   },
   "homepage.news.item1": {
-    "message": "Lab website officially launched",
+    "message": "Group website officially launched",
     "description": "News item 1"
   },
   "homepage.news.item2": {

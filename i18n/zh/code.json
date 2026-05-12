@@ -8,16 +8,16 @@
     "description": "The homepage description"
   },
   "homepage.labName": {
-    "message": "应用过程分析与模拟实验室"
+    "message": "应用过程分析与模拟课题组"
   },
   "homepage.affiliation": {
     "message": "中山大学 土木工程学院"
   },
   "homepage.intro": {
-    "message": "APAAM实验室致力于计算岩土力学与多尺度数值模拟研究，开发先进的计算方法与软件工具，应用于复杂多物理过程的数值建模、不确定性量化及数据驱动计算研究。"
+    "message": "APAAM课题组致力于计算岩土力学与多尺度数值模拟研究，开发先进的计算方法与软件工具，应用于复杂多物理过程的数值建模、不确定性量化及数据驱动计算研究。"
   },
   "homepage.scopeHeading": {
-    "message": "实验室简介"
+    "message": "课题组简介"
   },
   "homepage.researchAreasSubtitle": {
     "message": "计算岩土、离散元与多物理耦合——算法、软件与工程应用。"
@@ -219,7 +219,7 @@
     "description": "News section title"
   },
   "homepage.news.item1": {
-    "message": "实验室网站正式上线",
+    "message": "课题组网站正式上线",
     "description": "News item 1"
   },
   "homepage.news.item2": {

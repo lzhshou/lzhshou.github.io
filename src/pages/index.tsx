@@ -10,12 +10,12 @@ export default function Home(): ReactNode {
     <Layout
       title={translate({
         id: 'homepage.title',
-        message: 'APAAM Lab | Applied Process Analysis and Modeling',
+        message: 'APAAM Group | Applied Process Analysis and Modeling',
         description: 'The homepage title'
       })}
       description={translate({
         id: 'homepage.description',
-        message: 'Applied Process Analysis and Modeling Laboratory at Sun Yat-sen University',
+        message: 'Applied Process Analysis and Modeling Group at Sun Yat-sen University',
         description: 'The homepage description'
       })}
     >
@@ -27,11 +27,11 @@ export default function Home(): ReactNode {
               <p className={styles.heroEyebrow}>APAAM</p>
               <h1 className={styles.heroTitle}>
                 <Translate id="homepage.labName">
-                  应用过程分析与模拟实验室
+                  应用过程分析与模拟课题组
                 </Translate>
               </h1>
               <p className={styles.heroLead}>
-                Applied Process Analysis and Modeling Laboratory
+                Applied Process Analysis and Modeling Group
               </p>
               <p className={styles.heroAffiliation}>
                 <Translate id="homepage.affiliation">
@@ -45,11 +45,11 @@ export default function Home(): ReactNode {
         <section className={styles.scope} aria-labelledby="scope-heading">
           <div className={styles.container}>
             <h2 id="scope-heading" className={styles.sectionTitle}>
-              <Translate id="homepage.scopeHeading">实验室简介</Translate>
+              <Translate id="homepage.scopeHeading">课题组简介</Translate>
             </h2>
             <p className={styles.sectionLead}>
               <Translate id="homepage.intro">
-                APAAM实验室致力于计算岩土力学与多尺度数值模拟研究，开发先进的计算方法与软件工具，应用于复杂多物理过程的数值建模、不确定性量化及数据驱动计算研究。
+                APAAM课题组致力于计算岩土力学与多尺度数值模拟研究，开发先进的计算方法与软件工具，应用于复杂多物理过程的数值建模、不确定性量化及数据驱动计算研究。
               </Translate>
             </p>
           </div>

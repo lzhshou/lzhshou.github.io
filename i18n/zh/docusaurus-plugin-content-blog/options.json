@@ -4,7 +4,7 @@
     "description": "The title for the blog used in SEO"
   },
   "description": {
-    "message": "APAAM 实验室动态与公告。",
+    "message": "APAAM 课题组动态与公告。",
     "description": "The description for the blog used in SEO"
   },
   "sidebar.title": {

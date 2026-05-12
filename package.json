@@ -1,8 +1,8 @@
 {
-  "name": "apaam-lab-website",
+  "name": "apaam-group-website",
   "version": "1.0.0",
   "private": true,
-  "description": "APAAM Lab official website built with Docusaurus",
+  "description": "APAAM Group official website built with Docusaurus",
   "scripts": {
     "docusaurus": "docusaurus",
     "start": "docusaurus build && docusaurus serve --port 3010",
