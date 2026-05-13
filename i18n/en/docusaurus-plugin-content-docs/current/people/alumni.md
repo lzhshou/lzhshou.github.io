@@ -4,6 +4,8 @@ sidebar_position: 3
 
 # Alumni
 
+Thank you for the work and dedication each of you contributed during your time with the group. Those years marked an important stage in your own academic development, and the work you did remains part of the group's shared body of research. Wishing you every success in the next stage of your journey — we hope you will stay in touch and continue to follow the group's growth.
+
 ---
 
 ## Graduate Students
