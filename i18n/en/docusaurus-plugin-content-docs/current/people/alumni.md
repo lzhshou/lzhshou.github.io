@@ -14,7 +14,9 @@ Thank you for the work and dedication each of you contributed during your time w
 
 ### Ph.D. Graduates
 
-- None
+- **Shuai Huang** (2023)
+  - Thesis: Discrete Element Methods for Coral Sand Considering Real Particle Morphology
+  - Current position: (To be added)
 
 ### Master's Graduates
 
