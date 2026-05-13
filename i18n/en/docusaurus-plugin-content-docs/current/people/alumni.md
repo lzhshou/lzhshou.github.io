@@ -16,7 +16,7 @@ Thank you for the work and dedication each of you contributed during your time w
 
 - **Shuai Huang** (2023)
   - Thesis: Discrete Element Methods for Coral Sand Considering Real Particle Morphology
-  - Current position: (To be added)
+  - Current position: Postdoctoral researcher, the Hong Kong Polytechnic University
 
 ### Master's Graduates
 
@@ -26,7 +26,7 @@ Thank you for the work and dedication each of you contributed during your time w
 
 - **Shuai Huang** (2019)
   - Thesis: Energy-based Slope Stability Analysis Considering Spatially Variable Soils and Its Application on High Slopes at Metro Vehicle Depot Vicinity
-  - Current position: (To be added)
+  - Current position: Pursued Ph.D. in the group
 
 - **Feng Wu** (2020)
   - Thesis: Experimental and DEM Study on Particle Breakage of Island Reef Coral Sand Considering Real Microstructure
@@ -34,7 +34,7 @@ Thank you for the work and dedication each of you contributed during your time w
 
 - **Beiye Liang** (2020)
   - Thesis: Experimental Study on Microbial Cementation of Calcareous Sand in Artificial Seawater Environment on South China Sea Islands
-  - Current position: (To be added)
+  - Current position: CITIC Securities
 
 ---
 
@@ -58,7 +58,7 @@ Thank you for the work and dedication each of you contributed during your time w
 
 - **Xiaojian Chen** (2021)
   - Thesis: Study on Particle Morphology and Mechanical Characterization of Coral Sand in the South China Sea
-  - Current position: (To be added)
+  - Current position: ZWSoft
 
 - **Zhenyuan Li** (2022)
   - Thesis: Simulation and Verification of Granular Mechanical Behavior and Angle of Repose Tests
@@ -66,7 +66,7 @@ Thank you for the work and dedication each of you contributed during your time w
 
 - **Haofeng Lin** (2022)
   - Thesis: Simulation and Experimental Verification of Granular Mechanical Behavior Based on Self-developed DEM Program NetDEM
-  - Current position: (To be added)
+  - Current position: Graduate studies at School of Materials, Sun Yat-sen University
 
 ---
 
