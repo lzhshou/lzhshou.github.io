@@ -10,13 +10,11 @@ sidebar_position: 2
 
 1. **Lai, Z.** (2025). Design and Development of DEM Software for Engineering Applications. 1st National Conference on Particle Computing, Lanzhou, China. [Invited]
 
-2. **Lai, Z.** (2025). Coral Sand DEM Modeling. ICMMES 2025, Wuhan, China.
+2. **Lai, Z.** (2025). Study on the Effect of Particle Morphology on Drag Coefficient. Chinese Congress of Theoretical and Applied Mechanics, Changsha, China.
 
-3. **Lai, Z.** (2025). Study on the Effect of Particle Morphology on Drag Coefficient. Chinese Congress of Theoretical and Applied Mechanics, Changsha, China.
+3. **Lai, Z.** (2025). Geotechnical Constitutive Modeling and Numerical Methods. Geotechnical Constitutive and Numerical Forum, Guangzhou, China.
 
-4. **Lai, Z.** (2025). Geotechnical Constitutive Modeling and Numerical Methods. Geotechnical Constitutive and Numerical Forum, Guangzhou, China.
-
-5. **Lai, Z.** (2025). Deformable Solid Mechanics Analysis Framework. Xiong'an Rock Mechanics Conference, Xiong'an, China.
+4. **Lai, Z.** (2025). Deformable Solid Mechanics Analysis Framework. Xiong'an Rock Mechanics Conference, Xiong'an, China.
 
 ### 2024
 
