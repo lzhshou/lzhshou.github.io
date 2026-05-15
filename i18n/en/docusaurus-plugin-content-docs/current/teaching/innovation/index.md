@@ -3,7 +3,7 @@
 
 # Undergraduate Innovation & Entrepreneurship Training
 
-Supervising national/university-level innovation training projects for undergraduate students.
+Supervising national/provincial/university-level innovation training projects for undergraduate students.
 
 ## Ongoing Projects
 

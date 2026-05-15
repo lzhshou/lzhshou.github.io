@@ -47,10 +47,10 @@ const sidebars: SidebarsConfig = {
       link: { type: 'doc', id: 'teaching/innovation/index' },
       collapsed: true,
       items: [
-        'teaching/innovation/innovation-2023-calcareous-sand',
-        'teaching/innovation/innovation-2024-coral-sand-drag',
-        'teaching/innovation/innovation-2025-scientific-visualization',
         'teaching/innovation/innovation-2026-underground-evacuation',
+        'teaching/innovation/innovation-2025-scientific-visualization',
+        'teaching/innovation/innovation-2024-coral-sand-drag',
+        'teaching/innovation/innovation-2023-calcareous-sand',
       ],
     },
     {
@@ -59,10 +59,10 @@ const sidebars: SidebarsConfig = {
       link: { type: 'doc', id: 'teaching/competitions/index' },
       collapsed: true,
       items: [
-        'teaching/competitions/apmcm',
-        'teaching/competitions/digital-pool',
-        'teaching/competitions/sam-cae',
         'teaching/competitions/structural-design',
+        'teaching/competitions/sam-cae',
+        'teaching/competitions/digital-pool',
+        'teaching/competitions/apmcm',
       ],
     },
   ],

@@ -20,7 +20,3 @@ This graduate-level course covers frontier theories and methods in computational
 ## Course Content
 
 (TBD - detailed syllabus)
-
-## Assessment
-
-(TBD)

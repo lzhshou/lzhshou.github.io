@@ -8,11 +8,11 @@ sidebar_position: 2
 
 ## Ph.D. Students
 
-- **Chenghao Li** (2022–Present, co-advised)
+- **Jianying Chen** (2024–Present, co-advised)
   - M.S.: Sun Yat-sen University
   - Research: (To be added)
 
-- **Jianying Chen** (2024–Present, co-advised)
+- **Chenghao Li** (2022–Present, co-advised)
   - M.S.: Sun Yat-sen University
   - Research: (To be added)
 
@@ -20,12 +20,8 @@ sidebar_position: 2
 
 ## Master's Students
 
-- **Haoyong Ye** (2023–Present)
+- **Mingjing Liu** (2025–Present)
   - B.S.: Sun Yat-sen University
-  - Research: (To be added)
-
-- **Ziqi Guo** (2023–Present, co-advised)
-  - B.S.: Zhejiang Sci-Tech University
   - Research: (To be added)
 
 - **Kexiao Lin** (2024–Present)
@@ -36,18 +32,22 @@ sidebar_position: 2
   - B.S.: South China Agricultural University
   - Research: (To be added)
 
-- **Mingjing Liu** (2025–Present)
+- **Haoyong Ye** (2023–Present)
   - B.S.: Sun Yat-sen University
+  - Research: (To be added)
+
+- **Ziqi Guo** (2023–Present, co-advised)
+  - B.S.: Zhejiang Sci-Tech University
   - Research: (To be added)
 
 ---
 
 ## Undergraduate Students
 
-- **Haoqin Zhang** (Class of 2022)
+- **Yuzhou Lu** (Class of 2023)
   - Thesis topic: (To be added)
 
-- **Yuzhou Lu** (Class of 2023)
+- **Haoqin Zhang** (Class of 2022)
   - Thesis topic: (To be added)
 
 ---

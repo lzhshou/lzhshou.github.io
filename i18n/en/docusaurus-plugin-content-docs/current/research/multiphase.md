@@ -1,6 +1,6 @@
 # Multiscale Fluid-Structure Coupling and Multiphase Flow Simulation
 
-**Scientific Question**: In deep-sea natural gas hydrate extraction, how to characterize the cross-scale strong coupling process and flow instability mechanisms of gas-liquid-solid three-phase flow?
+**Scientific and Technological Question**: For gas-liquid-solid three-phase systems involving phase change and fragmentation, how to develop cross-scale coupling algorithms to uniformly characterize particle-fluid interactions and flow instability mechanisms?
 
 ---
 

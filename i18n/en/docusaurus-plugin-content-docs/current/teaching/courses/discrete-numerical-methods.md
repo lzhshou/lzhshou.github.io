@@ -20,7 +20,3 @@ This course covers numerical simulation methods for discrete media (such as gran
 ## Course Content
 
 (TBD - detailed syllabus)
-
-## Assessment
-
-(TBD)

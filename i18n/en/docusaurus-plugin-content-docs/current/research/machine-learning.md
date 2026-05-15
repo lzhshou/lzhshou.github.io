@@ -1,6 +1,6 @@
 # Intelligent Characterization and Data-Driven Modeling of Granular Materials
 
-**Scientific Question**: How to utilize machine learning and advanced experimental techniques to achieve precise characterization of microstructures and intelligent prediction of macroscopic mechanical behavior of granular materials?
+**Scientific and Technological Question**: How to utilize machine learning and advanced experimental techniques to achieve precise characterization of microstructures and intelligent prediction of macroscopic mechanical behavior of granular materials?
 
 ---
 
@@ -20,7 +20,7 @@ Integrating **artificial intelligence** with **experimental geomechanics**, we a
 
 **Technical Breakthroughs**:
 - **CNN-based 3D Image Segmentation**: Extracting particle morphology and pore structure from X-ray CT scans using convolutional neural networks and 3D image segmentation algorithms
-- **Sub-voxel Level Analysis**: Pioneer "machine learning image enhancement → level set segmentation" collaborative morphology reconstruction technology, conquering sub-voxel level particle morphology analysis challenges
+- **Sub-voxel Level Analysis**: Develop "machine learning image enhancement → level set segmentation" collaborative morphology reconstruction methodology, conquering sub-voxel level particle morphology analysis challenges
 - **Extreme Environment Particle Characterization**: Successfully applied to special granular material morphology digitalization including **Martian regolith simulant** and **deep-sea coral sand**
 
 **Application Outcomes**: Established a full-process digital technology system for particle "morphology acquisition — morphology reconstruction — virtual generation".
@@ -30,7 +30,7 @@ Integrating **artificial intelligence** with **experimental geomechanics**, we a
 **Technical Methods**:
 - **Spherical Harmonic Coefficient-Random Field Method**: Establishing particle virtual generation methods combining spherical harmonic coefficients with random fields, revealing particle morphology spectrum evolution patterns
 - **Diffusion Model-Driven Approach**: Developing virtual porous granular material generation frameworks based on diffusion models, achieving intelligent generation of high-fidelity particle morphologies
-- **Morphology Similarity**: Generated virtual particles achieve **90%** morphology similarity with measured samples, breaking through limitations of physical experimental sample quantities
+- **Morphology Similarity**: Generated virtual particles exhibit high morphology similarity with measured samples, breaking through limitations of physical experimental sample quantities
 
 ### 3. Data-Driven Constitutive Modeling
 
@@ -54,7 +54,7 @@ Integrating **artificial intelligence** with **experimental geomechanics**, we a
 
 ## Research Significance
 
-Provides new paradigms for intelligent characterization and performance prediction of granular materials, expanding applications of machine learning in computational mechanics, achieving paradigm shift from "empirical trial-and-error" to "data-driven" research.
+Expanding applications of machine learning in computational mechanics, advancing granular material research from "empirical trial-and-error" toward quantitative data-driven prediction.
 
 ---
 

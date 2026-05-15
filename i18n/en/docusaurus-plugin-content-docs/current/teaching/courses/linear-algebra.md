@@ -20,7 +20,3 @@ Linear Algebra is an essential mathematical foundation course for science and en
 ## Course Content
 
 (TBD - detailed syllabus)
-
-## Assessment
-
-(TBD)

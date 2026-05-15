@@ -25,7 +25,3 @@ This course covers fundamental theories and methods of engineering drawing and c
 ## Course Content
 
 (TBD - detailed syllabus)
-
-## Assessment
-
-(TBD)

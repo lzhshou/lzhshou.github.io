@@ -1,6 +1,6 @@
 # Irregular Particle DEM Methods and Intelligent Computing
 
-**Scientific Question**: How to establish a universal discrete element method that effectively characterizes real irregular particle morphology while balancing accuracy, stability, and efficiency?
+**Scientific and Technological Question**: How to establish a universal discrete element method that effectively characterizes real irregular particle morphology while balancing accuracy, stability, and efficiency?
 
 ---
 
@@ -20,9 +20,9 @@ Addressing the core bottleneck of "difficult morphology characterization, low co
 
 We have constructed a full-process digital technology system of "morphology acquisition — morphology reconstruction — virtual generation":
 
-- **CT Image Machine Learning Reconstruction**: Pioneered the collaborative morphology reconstruction technology of "X-CT scanning → machine learning image enhancement → level set segmentation", overcoming sub-voxel-level particle morphology analysis challenges
+- **CT Image Machine Learning Reconstruction**: Developed the collaborative morphology reconstruction methodology of "X-CT scanning → machine learning image enhancement → level set segmentation", overcoming sub-voxel-level particle morphology analysis challenges
 - **Spherical Voronoi Reconstruction Algorithm**: Based on spherical Voronoi tessellation combined with spherical harmonic functions, innovatively designed dual-mode surface sampling strategies (centroid distance/curvature adaptive)
-- **Virtual Particle Intelligent Generation**: Established spherical harmonic coefficient-random field particle virtual generation method, achieving 90% morphology similarity between generated virtual particles and measured samples
+- **Virtual Particle Intelligent Generation**: Established spherical harmonic coefficient-random field particle virtual generation method, achieving high morphology similarity between generated virtual particles and measured samples
 
 **Application Results**: Successfully applied to extreme environment particle characterization such as Martian regolith simulant and deep-sea coral sand.
 
@@ -40,14 +40,14 @@ Traditional DEM particle models and computational methods face challenges of sin
 
 Traditional contact detection algorithms have computational complexity that grows exponentially with particle number, severely constraining engineering-scale simulation. This research achieves breakthroughs through machine learning methods:
 
-- **Contact State Prediction Network (NetDEM)**: Constructed geometry descriptor-driven contact state prediction network, achieving **20%** reduction in contact detection time
-- **Large-Scale Computational Efficiency Improvement**: Million-particle system computational efficiency improved by **25%**
+- **Contact State Prediction Network (NetDEM)**: Constructed geometry descriptor-driven contact state prediction network, achieving significant reduction in contact detection time
+- **Large-Scale Computational Efficiency Improvement**: Million-particle system computational efficiency significantly improved
 - **Error Control Strategy**: Revealed error propagation patterns in static/dynamic scenarios, proposed contact state-energy dissipation coupled correction strategy
 
 
 ### 4. Software Platform Development
 
-Developed **NetDEM**, a general-purpose discrete element computing software with fully independent intellectual property rights, supporting OpenMP and MPI hybrid parallel computing, adapted for deployment on national supercomputing platforms (Tianhe), with parallel efficiency reaching 80%.
+Developed **NetDEM**, a general-purpose discrete element computing software with fully independent intellectual property rights, supporting OpenMP and MPI hybrid parallel computing, adapted for deployment on national supercomputing platforms (Tianhe), with high parallel efficiency.
 
 
 ---

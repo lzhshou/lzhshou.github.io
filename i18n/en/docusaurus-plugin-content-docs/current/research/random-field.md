@@ -1,6 +1,6 @@
 # Random Field Modeling and Geotechnical Reliability
 
-**Scientific Question**: How to adequately consider spatial variability of granular materials, accurately characterize and model their physical and mechanical properties, and elucidate their influence on various engineering problems?
+**Scientific and Technological Question**: How to adequately consider spatial variability of granular materials, accurately characterize and model their physical and mechanical properties, and elucidate their influence on various engineering problems?
 
 ---
 
@@ -20,18 +20,18 @@ Addressing the industry pain points of "difficult parameter variation quantifica
 
 ### 1. Investigation Optimization Based on Spatial Variability Characteristics
 
-**Scientific Question**: Traditional investigation schemes struggle to balance exploration cost and parameter characterization accuracy, with poor adaptability to complex site morphology.
+**Scientific and Technological Question**: Traditional investigation schemes struggle to balance exploration cost and parameter characterization accuracy, with poor adaptability to complex site morphology.
 
 **Innovation Breakthroughs**:
 - **Random Field Theory Evaluation Method**: Establishes investigation scheme reliability evaluation methods based on random field theory, achieving probabilistic fusion of heterogeneous investigation data including geology, boreholes, and CPT
 - **Bayesian-Markov Chain Monte Carlo Joint Inversion**: Constructs site characterization parameter determination framework, breaking through limitations of traditional methods
-- **Centroidal Voronoi Optimization Algorithm**: Innovatively proposes Centroidal Voronoi Tessellation (CVT)-driven exploration point optimization algorithm, achieving **20% reliability improvement** under equivalent investigation cost compared to traditional grid layout schemes
+- **Centroidal Voronoi Optimization Algorithm**: Innovatively proposes Centroidal Voronoi Tessellation (CVT)-driven exploration point optimization algorithm, achieving **significant reliability improvement** under equivalent investigation cost compared to traditional grid layout schemes
 
 **Application Scope**: This method can be extended to site characterization, investigation, and optimization of geotechnical parameters such as site liquefaction potential, compaction degree, and pollutant concentration.
 
 ### 2. Rotated Anisotropic Random Field Modeling
 
-**Scientific Question**: Engineering disaster mechanisms under coupling effects of spatial variability and formation anisotropy are unclear, and existing codes have not yet considered parameter spatial distribution characteristics.
+**Scientific and Technological Question**: Engineering disaster mechanisms under coupling effects of spatial variability and formation anisotropy are unclear, and existing codes have not yet considered parameter spatial distribution characteristics.
 
 **Innovation Breakthroughs**:
 - **Non-stationary Random Field Framework**: Proposes random field modeling methods considering spatial non-stationary characteristics and rotated anisotropy
@@ -40,7 +40,7 @@ Addressing the industry pain points of "difficult parameter variation quantifica
 
 ### 3. Coastal Soft Ground Risk Management Engineering Applications
 
-**Scientific Question**: Coastal mixed soft foundations exhibit both significant spatial variability and rotated anisotropy, with traditional investigation layout and risk assessment accuracy limited.
+**Scientific and Technological Question**: Coastal mixed soft foundations exhibit both significant spatial variability and rotated anisotropy, with traditional investigation layout and risk assessment accuracy limited.
 
 **Innovation Breakthroughs**:
 - Systematically integrates centroidal Voronoi diagram-driven investigation optimization theory with rotated anisotropy-coupled reliability analysis methods
