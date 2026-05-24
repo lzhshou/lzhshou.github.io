@@ -22,8 +22,6 @@ Jiaoling High School is one of the key feeder schools for Sun Yat-sen University
 
 3. **Establishing Connections**: Leaving various contact information and establishing communication channels for follow-up with prospective students.
 
-4. **School Exchange**: Meeting with the school principal to receive appreciation for our recruitment efforts and taking commemorative photos. During the event, we also met former SYSU Party Secretary Li Ping (an alumnus of Jiaoling), who encouraged and praised our school's outreach work.
-
 ## Significance
 
 By going into high schools and reaching out to students, we help more outstanding students understand the charm and prospects of civil engineering, contributing to attracting quality students and expanding the university's influence.
