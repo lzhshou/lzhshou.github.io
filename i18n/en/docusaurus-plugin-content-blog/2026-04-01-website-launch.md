@@ -8,7 +8,7 @@ date: 2026-04-01
 
 The APAAM group website is now online.
 
-This site showcases our research directions, publications, team members, and student recruitment information.
+This site showcases our research directions, publications, group members, and student recruitment information.
 
 <!-- truncate -->
 

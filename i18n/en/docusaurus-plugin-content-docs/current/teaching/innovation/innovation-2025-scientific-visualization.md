@@ -6,7 +6,7 @@
 ## Project Overview
 
 - **Level**: University Level
-- **Team Members**: Zheng Zefeng, Gong Daxuan, Zhang Luoyun, Zhong Zhuoneng, Zhu Xinsheng
+- **Project Members**: Zheng Zefeng, Gong Daxuan, Zhang Luoyun, Zhong Zhuoneng, Zhu Xinsheng
 - **Advisor**: Lai Zhengshou
 - **Duration**: Jan 2025 - Dec 2025
 

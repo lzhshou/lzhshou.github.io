@@ -26,7 +26,7 @@ Supervising national/provincial/university-level innovation training projects fo
 #### [Scientific Computing Visualization and Photorealistic Rendering Based on Graphics Engine](./innovation-2025-scientific-visualization)
 
 - **Level**: University Level
-- **Team Members**: Zheng Zefeng, Gong Daxuan, Zhang Luoyun, Zhong Zhuoneng, Zhu Xinsheng
+- **Project Members**: Zheng Zefeng, Gong Daxuan, Zhang Luoyun, Zhong Zhuoneng, Zhu Xinsheng
 - **Advisor**: Lai Zhengshou
 - **Description**: Addressing the high barrier of entry and low rendering quality of existing scientific visualization software by developing a ray tracing-based renderer with GPU acceleration to lower the threshold for scientific computing visualization.
 
@@ -37,7 +37,7 @@ Supervising national/provincial/university-level innovation training projects fo
 #### [Drag Force Model and Numerical Simulation of Coral Sand in Water Flow](./innovation-2024-coral-sand-drag)
 
 - **Level**: University Level
-- **Team Members**: Zhang Haoqin, Liu Mingjing
+- **Project Members**: Zhang Haoqin, Liu Mingjing
 - **Advisors**: Lai Zhengshou, Huang Linchong
 - **Description**: Research on drag force models for coral sand particles in water flow based on CFD-DEM fluid-structure coupling theory. Numerical simulation and experimental comparison of regular and coral sand particle sedimentation, analyzing the correlation between particle geometric characteristic parameters and settling behavior.
 

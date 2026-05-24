@@ -163,7 +163,7 @@ export default function Home(): ReactNode {
                   </svg>
                 </span>
                 <span className={styles.pathLabel}>
-                  <Translate id="homepage.link.people">团队成员</Translate>
+                  <Translate id="homepage.link.people">课题组成员</Translate>
                 </span>
               </Link>
               <Link to="/docs/teaching" className={styles.pathTile}>

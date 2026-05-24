@@ -52,4 +52,4 @@ sidebar_position: 2
 
 ---
 
-[Back to Team Members](./)
+[Back to Group Members](./)

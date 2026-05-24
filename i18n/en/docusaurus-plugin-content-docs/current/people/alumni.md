@@ -70,4 +70,4 @@ Thank you for the work and dedication each of you contributed during your time w
 
 ---
 
-[Back to Team Members](./)
+[Back to Group Members](./)

@@ -6,7 +6,7 @@
 ## Project Overview
 
 - **Level**: University Level
-- **Team Members**: Zhang Haoqin, Liu Mingjing
+- **Project Members**: Zhang Haoqin, Liu Mingjing
 - **Advisors**: Lai Zhengshou, Huang Linchong
 - **Duration**: Jan 2024 - Dec 2024
 
