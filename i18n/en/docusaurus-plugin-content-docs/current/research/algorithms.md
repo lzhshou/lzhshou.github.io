@@ -70,9 +70,9 @@ Provides core technical support for microscopic mechanism research of complex me
 
 4. **Lai, Z.**, Zhao, S., Zhao, J., & Huang, L. (2022). Signed distance field framework for unified DEM modeling of granular media with arbitrary particle shapes. *Computational Mechanics*, 70(4), 763-783. [DOI](https://doi.org/10.1007/s00466-022-02220-8) | [PDF](pathname:///pdf/first-or-correspondence/lai2022-signed-distance-field-framework-for-unified-dem-modeling-of.pdf)
 
-5. **Lai, Z.**, Chen, Q., & Huang, L. (2021). Revisiting the GJK and shape erosion method for contact resolution in DEM. *Powder Technology*, 394, 363-371. [DOI](https://doi.org/10.1016/j.powtec.2021.08.068) | [PDF](pathname:///pdf/first-or-correspondence/lai2021-revisiting-the-gjk-and-shape-erosion-method-for-contact.pdf)
+5. **Lai, Z.**, Zhao, S., Zhao, J., & Huang, L. (2021). Revisiting the GJK and shape erosion method for contact resolution in DEM. *Powder Technology*, 394, 363-371. [DOI](https://doi.org/10.1016/j.powtec.2021.08.068) | [PDF](pathname:///pdf/first-or-correspondence/lai2021-revisiting-the-gjk-and-shape-erosion-method-for-contact.pdf)
 
-6. Zhao, S., **Lai, Z.**, & Zhao, J. (2022). Leveraging ray tracing cores for particle-based simulations on GPUs. *International Journal for Numerical Methods in Engineering*, 123(4), 696-713. [DOI](https://doi.org/10.1002/nme.7139) | [PDF](pathname:///pdf/first-or-correspondence/zhao2022-leveraging-ray-tracing-cores-for-particle-based-simulations-on.pdf)
+6. Zhao, S., **Lai, Z.**, & Zhao, J. (2022). Leveraging ray tracing cores for particle-based simulations on GPUs. *International Journal for Numerical Methods in Engineering*, 124(3), 696-713. [DOI](https://doi.org/10.1002/nme.7139) | [PDF](pathname:///pdf/first-or-correspondence/zhao2022-leveraging-ray-tracing-cores-for-particle-based-simulations-on.pdf)
 
 ### Machine Learning and Intelligent Computing
 
@@ -90,7 +90,7 @@ Provides core technical support for microscopic mechanism research of complex me
 
 3. Wu, F., Huang, L., & **Lai, Z.** (2024). Spherical Voronoi-based particle surface discretization and reconstruction method. *Engineering Mechanics*, 41(9), 245-256. [DOI](https://doi.org/10.6052/j.issn.1000-4750.2022.07.0614) | [PDF](pathname:///pdf/first-or-correspondence/wu2022-spherical-voronoi-reconstruction-zh.pdf)
 
-4. **Lai, Z.**, Chen, Q., & Huang, L. (2019). Reconstructing granular particles from X-ray computed tomography using the TWS machine learning tool and the level set method. *Acta Geotechnica*, 14(1), 1-18. [DOI](https://doi.org/10.1007/s11440-018-0759-x) | [PDF](pathname:///pdf/first-or-correspondence/lai2019-reconstructing-granular-particles-from-x-ray-computed-tomography.pdf)
+4. **Lai, Z.** & Chen, Q. (2019). Reconstructing granular particles from X-ray computed tomography using the TWS machine learning tool and the level set method. *Acta Geotechnica*, 14(1), 1-18. [DOI](https://doi.org/10.1007/s11440-018-0759-x) | [PDF](pathname:///pdf/first-or-correspondence/lai2019-reconstructing-granular-particles-from-x-ray-computed-tomography.pdf)
 
 5. **Lai, Z.** & Huang, L. (2021). A polybezier-based particle model for the DEM modeling of granular media. *Computers and Geotechnics*, 134, 104052. [DOI](https://doi.org/10.1016/j.compgeo.2021.104052) | [PDF](pathname:///pdf/first-or-correspondence/lai2021-a-polybezier-based-particle-model-for-the-dem-modeling-of.pdf)
 

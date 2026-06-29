@@ -70,9 +70,9 @@
 
 4. **Lai, Z.**, Zhao, S., Zhao, J., & Huang, L. (2022). Signed distance field framework for unified DEM modeling of granular media with arbitrary particle shapes. *Computational Mechanics*, 70(4), 763-783. [DOI](https://doi.org/10.1007/s00466-022-02220-8) | [PDF](pathname:///pdf/first-or-correspondence/lai2022-signed-distance-field-framework-for-unified-dem-modeling-of.pdf)
 
-5. **Lai, Z.**, Chen, Q., & Huang, L. (2021). Revisiting the GJK and shape erosion method for contact resolution in DEM. *Powder Technology*, 394, 363-371. [DOI](https://doi.org/10.1016/j.powtec.2021.08.068) | [PDF](pathname:///pdf/first-or-correspondence/lai2021-revisiting-the-gjk-and-shape-erosion-method-for-contact.pdf)
+5. **Lai, Z.**, Zhao, S., Zhao, J., & Huang, L. (2021). Revisiting the GJK and shape erosion method for contact resolution in DEM. *Powder Technology*, 394, 363-371. [DOI](https://doi.org/10.1016/j.powtec.2021.08.068) | [PDF](pathname:///pdf/first-or-correspondence/lai2021-revisiting-the-gjk-and-shape-erosion-method-for-contact.pdf)
 
-6. Zhao, S., **Lai, Z.**, & Zhao, J. (2022). Leveraging ray tracing cores for particle-based simulations on GPUs. *International Journal for Numerical Methods in Engineering*, 123(4), 696-713. [DOI](https://doi.org/10.1002/nme.7139) | [PDF](pathname:///pdf/first-or-correspondence/zhao2022-leveraging-ray-tracing-cores-for-particle-based-simulations-on.pdf)
+6. Zhao, S., **Lai, Z.**, & Zhao, J. (2022). Leveraging ray tracing cores for particle-based simulations on GPUs. *International Journal for Numerical Methods in Engineering*, 124(3), 696-713. [DOI](https://doi.org/10.1002/nme.7139) | [PDF](pathname:///pdf/first-or-correspondence/zhao2022-leveraging-ray-tracing-cores-for-particle-based-simulations-on.pdf)
 
 ### 机器学习与智能计算
 
@@ -90,9 +90,9 @@
 
 12. 吴峰, 黄林冲, **赖正首** (2024). 基于球面沃罗诺伊的颗粒表面离散与重构方法. *工程力学*, 41(9), 245-256. [DOI](https://doi.org/10.6052/j.issn.1000-4750.2022.07.0614) | [PDF](pathname:///pdf/first-or-correspondence/wu2022-spherical-voronoi-reconstruction-zh.pdf)
 
-13. **Lai, Z.**, Chen, Q., & Huang, L. (2020). Reconstructing granular particles from X-ray computed tomography using the TWS machine learning tool and the level set method. *Acta Geotechnica*, 14(1), 1-18. [DOI](https://doi.org/10.1007/s11440-018-0759-x) | [PDF](pathname:///pdf/first-or-correspondence/lai2019-reconstructing-granular-particles-from-x-ray-computed-tomography.pdf)
+13. **Lai, Z.** & Chen, Q. (2019). Reconstructing granular particles from X-ray computed tomography using the TWS machine learning tool and the level set method. *Acta Geotechnica*, 14(1), 1-18. [DOI](https://doi.org/10.1007/s11440-018-0759-x) | [PDF](pathname:///pdf/first-or-correspondence/lai2019-reconstructing-granular-particles-from-x-ray-computed-tomography.pdf)
 
-14. **Lai, Z.**, Chen, Q., & Huang, L. (2021). A polybézier-based particle model for the DEM modeling of granular media. *Computers and Geotechnics*, 134, 104052. [DOI](https://doi.org/10.1016/j.compgeo.2021.104052) | [PDF](pathname:///pdf/first-or-correspondence/lai2021-a-polybezier-based-particle-model-for-the-dem-modeling-of.pdf)
+14. **Lai, Z.** & Huang, L. (2021). A polybézier-based particle model for the DEM modeling of granular media. *Computers and Geotechnics*, 134, 104052. [DOI](https://doi.org/10.1016/j.compgeo.2021.104052) | [PDF](pathname:///pdf/first-or-correspondence/lai2021-a-polybezier-based-particle-model-for-the-dem-modeling-of.pdf)
 
 15. Huang, S., Huang, L., & **Lai, Z.** (2021). An extension of the Fourier series-based particle model to the GJK-based contact detection and resolution framework for DEM. *Computational Particle Mechanics*, 9(2), 381-391. [DOI](https://doi.org/10.1007/s40571-021-00446-6) | [PDF](pathname:///pdf/first-or-correspondence/huang2021-an-extension-of-the-fourier-series-based-particle-model-to-the.pdf)
 
@@ -100,6 +100,6 @@
 
 ### 特殊颗粒材料应用
 
-17. **Lai, Z.**, Chen, Q., & Huang, L. (2017). Characterization and discrete element simulation of grading and shape-dependent behavior of JSC-1A Martian regolith simulant. *Granular Matter*, 19(4), 69. [DOI](https://doi.org/10.1007/s10035-017-0754-1) | [PDF](pathname:///pdf/first-or-correspondence/lai2017-characterization-and-discrete-element-simulation-of-grading-and.pdf)
+17. **Lai, Z.** & Chen, Q. (2017). Characterization and discrete element simulation of grading and shape-dependent behavior of JSC-1A Martian regolith simulant. *Granular Matter*, 19(4), 69. [DOI](https://doi.org/10.1007/s10035-017-0754-1) | [PDF](pathname:///pdf/first-or-correspondence/lai2017-characterization-and-discrete-element-simulation-of-grading-and.pdf)
 
 18. Xiao, R., Liang, B., Wu, F., Huang, L., & **Lai, Z.** (2022). Biocementation of coral sand under seawater environment and an improved three-stage biogrouting approach. *Construction and Building Materials*, 362, 129758. [DOI](https://doi.org/10.1016/j.conbuildmat.2022.129758) | [PDF](pathname:///pdf/first-or-correspondence/xiao2022-biocementation-of-coral-sand-under-seawater-environment-and-an.pdf)

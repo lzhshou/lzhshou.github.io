@@ -60,7 +60,7 @@ sidebar_position: 1
 
 5. **Lai, Z.**, Chen, Q., & Huang, L. (2021). Evaluating the hydromechanical responses of seabed–pipelines with rotated anisotropic heterogeneous seabed properties. *Ocean Engineering*, 234, 109226. [DOI](https://doi.org/10.1016/j.oceaneng.2021.109226) | [PDF](pathname:///pdf/first-or-correspondence/lai2021-evaluating-the-hydromechanical-responses-of-seabed-pipelines.pdf)
 
-6. Huang, S., Huang, L., & **Lai, Z.** (2021). An extension of the Fourier series-based particle model to the GJK-based contact detection and resolution framework for DEM. *Computational Particle Mechanics*, 9, 381-391. [DOI](https://doi.org/10.1007/s40571-021-00446-6) | [PDF](pathname:///pdf/first-or-correspondence/huang2021-an-extension-of-the-fourier-series-based-particle-model-to-the.pdf)
+6. Huang, S., Huang, L., & **Lai, Z.** (2021). An extension of the Fourier series-based particle model to the GJK-based contact detection and resolution framework for DEM. *Computational Particle Mechanics*, 9(2), 381-391. [DOI](https://doi.org/10.1007/s40571-021-00446-6) | [PDF](pathname:///pdf/first-or-correspondence/huang2021-an-extension-of-the-fourier-series-based-particle-model-to-the.pdf)
 
 7. **Lai, Z.** & Huang, L. (2021). A polybezier-based particle model for the DEM modeling of granular media. *Computers and Geotechnics*, 134, 104052. [DOI](https://doi.org/10.1016/j.compgeo.2021.104052) | [PDF](pathname:///pdf/first-or-correspondence/lai2021-a-polybezier-based-particle-model-for-the-dem-modeling-of.pdf)
 
