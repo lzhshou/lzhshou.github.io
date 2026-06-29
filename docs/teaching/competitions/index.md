@@ -27,7 +27,7 @@
 
 ### 2025
 
-- [首届"海路通杯"数智水池大赛二等奖](/blog/digital-pool-competition-second-prize)
+- [首届“海路通杯”数智水池大赛二等奖](/blog/digital-pool-competition-second-prize)
 
 ### 2024
 

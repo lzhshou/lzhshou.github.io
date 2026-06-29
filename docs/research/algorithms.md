@@ -6,7 +6,7 @@
 
 ## 研究背景
 
-针对异形颗粒材料离散元模拟中"**形态表征难—计算效率低—工程适用弱**"的核心瓶颈，本方向聚焦离散元方法的基础算法革新，通过"数字化表征—接触理论重构—智能加速"的技术突破，建立异形颗粒的高精度高效计算体系。
+针对异形颗粒材料离散元模拟中“**形态表征难—计算效率低—工程适用弱**”的核心瓶颈，本方向聚焦离散元方法的基础算法革新，通过“数字化表征—接触理论重构—智能加速”的技术突破，建立异形颗粒的高精度高效计算体系。
 
 ---
 
@@ -18,9 +18,9 @@
 
 ### 1. 颗粒形态全流程数字化技术
 
-构建了"**形态获取—形态重构—虚拟生成**"的颗粒形态全流程数字化技术体系：
+构建了“**形态获取—形态重构—虚拟生成**”的颗粒形态全流程数字化技术体系：
 
-- **CT图像机器学习重构**：建立"X-CT扫描→机器学习图像增强→水平集分割"协同形态重构方法，攻克亚体素级颗粒形态解析难题
+- **CT图像机器学习重构**：建立“X-CT扫描→机器学习图像增强→水平集分割”协同形态重构方法，攻克亚体素级颗粒形态解析难题
 - **球面沃罗诺伊重构算法**：基于球面沃罗诺伊剖分与球谐函数融合，创新设计双模式表面采样策略（质心距离/曲率自适应）
 - **虚拟颗粒智能生成**：建立球谐系数-随机场颗粒虚拟生成方法，生成虚拟颗粒与实测样本形态高度相似
 
@@ -47,7 +47,7 @@
 
 ### 4. 软件平台研发
 
-开发了具有完全自主知识产权的通用型离散元计算软件 **NetDEM**，支持OpenMP和MPI混合并行计算，适配国家超算平台（天河）部署，并行效率较高。
+开发了具有完全自主知识产权的通用型离散元计算软件 **NetDEM**，支持OpenMP和MPI混合并行计算，适配国家超算平台（天河）部署。
 
 
 ---
@@ -88,7 +88,7 @@
 
 11. Huang, S., Huang, L., **Lai, Z.**#, & Zhao, J. (2023). Morphology characterization and discrete element modeling of coral sand with intraparticle voids. *Engineering Geology*, 315, 107023. [DOI](https://doi.org/10.1016/j.enggeo.2023.107023) | [PDF](pathname:///pdf/first-or-correspondence/huang2023-morphology-characterization-and-discrete-element-modeling-of.pdf)
 
-12. 吴峰, 黄林冲, **赖正首** (2022). 基于球面沃罗诺伊的颗粒表面离散与重构方法. *工程力学*, 41(9), 245-256. [DOI](https://doi.org/10.6052/j.issn.1000-4750.2022.07.0614) | [PDF](pathname:///pdf/first-or-correspondence/wu2022-spherical-voronoi-reconstruction-zh.pdf)
+12. 吴峰, 黄林冲, **赖正首** (2024). 基于球面沃罗诺伊的颗粒表面离散与重构方法. *工程力学*, 41(9), 245-256. [DOI](https://doi.org/10.6052/j.issn.1000-4750.2022.07.0614) | [PDF](pathname:///pdf/first-or-correspondence/wu2022-spherical-voronoi-reconstruction-zh.pdf)
 
 13. **Lai, Z.**, Chen, Q., & Huang, L. (2020). Reconstructing granular particles from X-ray computed tomography using the TWS machine learning tool and the level set method. *Acta Geotechnica*, 14(1), 1-18. [DOI](https://doi.org/10.1007/s11440-018-0759-x) | [PDF](pathname:///pdf/first-or-correspondence/lai2019-reconstructing-granular-particles-from-x-ray-computed-tomography.pdf)
 

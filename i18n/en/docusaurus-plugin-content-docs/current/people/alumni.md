@@ -10,35 +10,45 @@ Thank you for the work and dedication each of you contributed during your time w
 
 ## Graduate Students
 
-(All co-advised)
-
 ### Ph.D. Graduates
 
-- **Shuai Huang** (2023)
+- **Shuai Huang** (2023, co-advised)
   - Thesis: Discrete Element Methods for Coral Sand Considering Real Particle Morphology
   - Current position: Postdoctoral researcher, the Hong Kong Polytechnic University
 
 ### Master's Graduates
 
-- **Beiye Liang** (2020)
+- **Haoyong Ye** (2026)
+  - Thesis: Study on the Mesoscopic Mechanism of Gravel-Pack Sand Control Based on CFD-DEM
+  - Current position: (To be added)
+
+- **Ziqi Guo** (2026, co-advised)
+  - Thesis: Research on the Dynamic Characteristics and an Elastoplastic Constitutive Model of Marine-Continental Transitional Soft Clay in the Pearl River Delta under Cyclic Loading
+  - Current position: (To be added)
+
+- **Beiye Liang** (2020, co-advised)
   - Thesis: Experimental Study on Microbial Cementation of Calcareous Sand in Artificial Seawater Environment on South China Sea Islands
   - Current position: CITIC Securities
 
-- **Feng Wu** (2020)
+- **Feng Wu** (2020, co-advised)
   - Thesis: Experimental and DEM Study on Particle Breakage of Island Reef Coral Sand Considering Real Microstructure
   - Current position: (To be added)
 
-- **Shuai Huang** (2019)
+- **Shuai Huang** (2019, co-advised)
   - Thesis: Energy-based Slope Stability Analysis Considering Spatially Variable Soils and Its Application on High Slopes at Metro Vehicle Depot Vicinity
   - Current position: Pursued Ph.D. in the group
 
-- **Wen Ye** (2019)
+- **Wen Ye** (2019, co-advised)
   - Thesis: Effect of Particle Shape and Size on Granular Materials
   - Current position: (To be added)
 
 ---
 
 ## Undergraduate Students
+
+- **Haoqin Zhang** (2026, co-advised)
+  - Thesis: Study on the Mechanical Characteristics of Flow Around a Flexible Fiber under Different Fixed-Position Constraints (jointly supervised with Prof. Yu Guo, School of Aeronautics and Astronautics, Zhejiang University, as part of Prof. Guo's research project; SYSU Outstanding Undergraduate Thesis, university level)
+  - Current position: Recommended for graduate study, School of Aeronautics and Astronautics, Zhejiang University
 
 - **Haofeng Lin** (2022)
   - Thesis: Simulation and Experimental Verification of Granular Mechanical Behavior Based on Self-developed DEM Program NetDEM

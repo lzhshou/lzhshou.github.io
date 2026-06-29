@@ -47,7 +47,7 @@ Traditional contact detection algorithms have computational complexity that grow
 
 ### 4. Software Platform Development
 
-Developed **NetDEM**, a general-purpose discrete element computing software with fully independent intellectual property rights, supporting OpenMP and MPI hybrid parallel computing, adapted for deployment on national supercomputing platforms (Tianhe), with high parallel efficiency.
+Developed **NetDEM**, a general-purpose discrete element computing software with fully independent intellectual property rights, supporting OpenMP and MPI hybrid parallel computing, adapted for deployment on national supercomputing platforms (Tianhe).
 
 
 ---

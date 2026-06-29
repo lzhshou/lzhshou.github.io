@@ -32,22 +32,11 @@ sidebar_position: 2
   - B.S.: South China Agricultural University
   - Research: (To be added)
 
-- **Haoyong Ye** (2023–Present)
-  - B.S.: Sun Yat-sen University
-  - Research: (To be added)
-
-- **Ziqi Guo** (2023–Present, co-advised)
-  - B.S.: Zhejiang Sci-Tech University
-  - Research: (To be added)
-
 ---
 
 ## Undergraduate Students
 
 - **Yuzhou Lu** (Class of 2023)
-  - Thesis topic: (To be added)
-
-- **Haoqin Zhang** (Class of 2022)
   - Thesis topic: (To be added)
 
 ---

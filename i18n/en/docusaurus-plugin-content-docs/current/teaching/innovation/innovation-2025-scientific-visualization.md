@@ -51,6 +51,13 @@ With the maturation of GPU ray tracing technology, game-level rendering quality 
 2. **AI-driven workflows**: Exploring LLM-assisted rendering workflow design
 3. **GPU acceleration**: Leveraging modern GPU RT Cores for real-time interactive ray tracing
 
+## Expected Outcomes
+
+- Develop an open-source ray tracing scientific visualization software
+- Support high-quality rendering of common scientific data formats
+- Provide a prototype of AI-assisted rendering features
+- Form reusable rendering algorithm modules
+
 ## Project Outcomes
 
 - Developed a foundational GPU ray tracing renderer

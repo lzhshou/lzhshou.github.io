@@ -26,6 +26,8 @@ sidebar_position: 1
 
 5. Kootahi, K., Leung, A. K., Jiang, Z., Liu, J., Qi, R., Lourenço, S. D. N., **Lai, Z.**, & Gao, Z. (2024). Evaluation of the Methods of Particle Morphology Characterization: CT Scanning, Digital Imaging and Light Microscopy. *Computers and Geotechnics*, 174, 106648. [DOI](https://doi.org/10.1016/j.compgeo.2024.106648) | [PDF](pathname:///pdf/coauthored/kootahi2024-evaluation-of-the-methods-of-particle-morphology.pdf)
 
+6. 吴峰, 黄林冲, & **赖正首**. (2024). 基于球面沃罗诺伊的颗粒表面离散与重构方法. *工程力学*, 41(9), 245-256. [DOI](https://doi.org/10.6052/j.issn.1000-4750.2022.07.0614) | [PDF](pathname:///pdf/first-or-correspondence/wu2022-spherical-voronoi-reconstruction-zh.pdf)
+
 ### 2023
 
 1. **Lai, Z.**, Zhao, J., Zhao, S., & Huang, L. (2023). Signed distance field enhanced fully resolved CFD-DEM for simulation of granular flows involving multiphase fluids and irregularly shaped particles. *Computer Methods in Applied Mechanics and Engineering*, 414, 116195. [DOI](https://doi.org/10.1016/j.cma.2023.116195) | [PDF](pathname:///pdf/first-or-correspondence/lai2023-signed-distance-field-enhanced-fully-resolved-cfd-dem-for.pdf)
@@ -40,13 +42,11 @@ sidebar_position: 1
 
 ### 2022
 
-1. 吴峰, 黄林冲, & **赖正首**. (2024). 基于球面沃罗诺伊的颗粒表面离散与重构方法. *工程力学*, 41(9), 245-256. [DOI](https://doi.org/10.6052/j.issn.1000-4750.2022.07.0614) | [PDF](pathname:///pdf/first-or-correspondence/wu2022-spherical-voronoi-reconstruction-zh.pdf)
+1. Zhao, S., **Lai, Z.**, & Zhao, J. (2022). Leveraging ray tracing cores for particle‐based simulations on GPUs. *International Journal for Numerical Methods in Engineering*, 124(3), 696-713. [DOI](https://doi.org/10.1002/nme.7139) | [PDF](pathname:///pdf/first-or-correspondence/zhao2022-leveraging-ray-tracing-cores-for-particle-based-simulations-on.pdf)
 
-2. Zhao, S., **Lai, Z.**, & Zhao, J. (2022). Leveraging ray tracing cores for particle‐based simulations on GPUs. *International Journal for Numerical Methods in Engineering*, 124(3), 696-713. [DOI](https://doi.org/10.1002/nme.7139) | [PDF](pathname:///pdf/first-or-correspondence/zhao2022-leveraging-ray-tracing-cores-for-particle-based-simulations-on.pdf)
+2. Xiao, R., Liang, B., Wu, F., Huang, L., & **Lai, Z.** (2022). Biocementation of coral sand under seawater environment and an improved three-stage biogrouting approach. *Construction and Building Materials*, 362, 129758. [DOI](https://doi.org/10.1016/j.conbuildmat.2022.129758) | [PDF](pathname:///pdf/first-or-correspondence/xiao2022-biocementation-of-coral-sand-under-seawater-environment-and-an.pdf)
 
-3. Xiao, R., Liang, B., Wu, F., Huang, L., & **Lai, Z.** (2022). Biocementation of coral sand under seawater environment and an improved three-stage biogrouting approach. *Construction and Building Materials*, 362, 129758. [DOI](https://doi.org/10.1016/j.conbuildmat.2022.129758) | [PDF](pathname:///pdf/first-or-correspondence/xiao2022-biocementation-of-coral-sand-under-seawater-environment-and-an.pdf)
-
-4. **Lai, Z.**, Zhao, S., Zhao, J., & Huang, L. (2022). Signed distance field framework for unified DEM modeling of granular media with arbitrary particle shapes. *Computational Mechanics*, 70(4), 763-783. [DOI](https://doi.org/10.1007/s00466-022-02220-8) | [PDF](pathname:///pdf/first-or-correspondence/lai2022-signed-distance-field-framework-for-unified-dem-modeling-of.pdf)
+3. **Lai, Z.**, Zhao, S., Zhao, J., & Huang, L. (2022). Signed distance field framework for unified DEM modeling of granular media with arbitrary particle shapes. *Computational Mechanics*, 70(4), 763-783. [DOI](https://doi.org/10.1007/s00466-022-02220-8) | [PDF](pathname:///pdf/first-or-correspondence/lai2022-signed-distance-field-framework-for-unified-dem-modeling-of.pdf)
 
 ### 2021
 
@@ -54,17 +54,17 @@ sidebar_position: 1
 
 2. Gleaton, J., **Lai, Z.**, Xiao, R., Zhang, K., Chen, Q., & Zheng, Y. (2021). Optimization of mechanical strength of biocemented Martian regolith simulant soil columns. *Construction and Building Materials*, 315, 125741. [DOI](https://doi.org/10.1016/j.conbuildmat.2021.125741) | [PDF](pathname:///pdf/coauthored/gleaton2021-optimization-of-mechanical-strength-of-biocemented-martian.pdf)
 
-2. **Lai, Z.**, Zhao, S., Zhao, J., & Huang, L. (2021). Revisiting the GJK and shape erosion method for contact resolution in DEM. *Powder Technology*, 394, 363-371. [DOI](https://doi.org/10.1016/j.powtec.2021.08.068) | [PDF](pathname:///pdf/first-or-correspondence/lai2021-revisiting-the-gjk-and-shape-erosion-method-for-contact.pdf)
+3. **Lai, Z.**, Zhao, S., Zhao, J., & Huang, L. (2021). Revisiting the GJK and shape erosion method for contact resolution in DEM. *Powder Technology*, 394, 363-371. [DOI](https://doi.org/10.1016/j.powtec.2021.08.068) | [PDF](pathname:///pdf/first-or-correspondence/lai2021-revisiting-the-gjk-and-shape-erosion-method-for-contact.pdf)
 
-3. **Lai, Z.**, Chen, Q., & Huang, L. (2021). Machine‐learning‐enabled discrete element method: Contact detection and resolution of irregular‐shaped particles. *International Journal for Numerical and Analytical Methods in Geomechanics*, 46(1), 113-140. [DOI](https://doi.org/10.1002/nag.3293) | [PDF](pathname:///pdf/first-or-correspondence/lai2021-machine-learning-enabled-discrete-element-method-contact.pdf)
+4. **Lai, Z.**, Chen, Q., & Huang, L. (2021). Machine‐learning‐enabled discrete element method: Contact detection and resolution of irregular‐shaped particles. *International Journal for Numerical and Analytical Methods in Geomechanics*, 46(1), 113-140. [DOI](https://doi.org/10.1002/nag.3293) | [PDF](pathname:///pdf/first-or-correspondence/lai2021-machine-learning-enabled-discrete-element-method-contact.pdf)
 
-4. **Lai, Z.**, Chen, Q., & Huang, L. (2021). Evaluating the hydromechanical responses of seabed–pipelines with rotated anisotropic heterogeneous seabed properties. *Ocean Engineering*, 234, 109226. [DOI](https://doi.org/10.1016/j.oceaneng.2021.109226) | [PDF](pathname:///pdf/first-or-correspondence/lai2021-evaluating-the-hydromechanical-responses-of-seabed-pipelines.pdf)
+5. **Lai, Z.**, Chen, Q., & Huang, L. (2021). Evaluating the hydromechanical responses of seabed–pipelines with rotated anisotropic heterogeneous seabed properties. *Ocean Engineering*, 234, 109226. [DOI](https://doi.org/10.1016/j.oceaneng.2021.109226) | [PDF](pathname:///pdf/first-or-correspondence/lai2021-evaluating-the-hydromechanical-responses-of-seabed-pipelines.pdf)
 
-5. Huang, S., Huang, L., & **Lai, Z.** (2021). An extension of the Fourier series-based particle model to the GJK-based contact detection and resolution framework for DEM. *Computational Particle Mechanics*, 9, 381-391. [DOI](https://doi.org/10.1007/s40571-021-00446-6) | [PDF](pathname:///pdf/first-or-correspondence/huang2021-an-extension-of-the-fourier-series-based-particle-model-to-the.pdf)
+6. Huang, S., Huang, L., & **Lai, Z.** (2021). An extension of the Fourier series-based particle model to the GJK-based contact detection and resolution framework for DEM. *Computational Particle Mechanics*, 9, 381-391. [DOI](https://doi.org/10.1007/s40571-021-00446-6) | [PDF](pathname:///pdf/first-or-correspondence/huang2021-an-extension-of-the-fourier-series-based-particle-model-to-the.pdf)
 
-6. **Lai, Z.** & Huang, L. (2021). A polybezier-based particle model for the DEM modeling of granular media. *Computers and Geotechnics*, 134, 104052. [DOI](https://doi.org/10.1016/j.compgeo.2021.104052) | [PDF](pathname:///pdf/first-or-correspondence/lai2021-a-polybezier-based-particle-model-for-the-dem-modeling-of.pdf)
+7. **Lai, Z.** & Huang, L. (2021). A polybezier-based particle model for the DEM modeling of granular media. *Computers and Geotechnics*, 134, 104052. [DOI](https://doi.org/10.1016/j.compgeo.2021.104052) | [PDF](pathname:///pdf/first-or-correspondence/lai2021-a-polybezier-based-particle-model-for-the-dem-modeling-of.pdf)
 
-7. **Lai, Z.**, Chen, Q., & Huang, L. (2021). A semianalytical Hertzian frictional contact model in 2D. *Applied Mathematical Modelling*, 92, 546-564. [DOI](https://doi.org/10.1016/j.apm.2020.11.016) | [PDF](pathname:///pdf/first-or-correspondence/lai2021-a-semianalytical-hertzian-frictional-contact-model-in-2d.pdf)
+8. **Lai, Z.**, Chen, Q., & Huang, L. (2021). A semianalytical Hertzian frictional contact model in 2D. *Applied Mathematical Modelling*, 92, 546-564. [DOI](https://doi.org/10.1016/j.apm.2020.11.016) | [PDF](pathname:///pdf/first-or-correspondence/lai2021-a-semianalytical-hertzian-frictional-contact-model-in-2d.pdf)
 
 ### 2020
 
@@ -82,18 +82,18 @@ sidebar_position: 1
 
 1. Gleaton, J., **Lai, Z.**, Xiao, R., Chen, Q., & Zheng, Y. (2019). Microalga-induced biocementation of martian regolith simulant: Effects of biogrouting methods and calcium sources. *Construction and Building Materials*, 229, 116885. [DOI](https://doi.org/10.1016/j.conbuildmat.2019.116885) | [PDF](pathname:///pdf/coauthored/gleaton2019-microalga-induced-biocementation-of-martian-regolith.pdf)
 
-2. Xia, Y., **Lai, Z.**, Westover, T., Klinger, J., Huang, H., & Chen, Q. (2019). Discrete element modeling of deformable pinewood chips in cyclic loading test. *Powder Technology*, 345, 1--14. [DOI](https://doi.org/10.1016/j.powtec.2018.12.072) | [PDF](pathname:///pdf/coauthored/xia2019-discrete-element-modeling-of-deformable-pinewood-chips-in-cyclic.pdf)
+2. Xia, Y., **Lai, Z.**, Westover, T., Klinger, J., Huang, H., & Chen, Q. (2019). Discrete element modeling of deformable pinewood chips in cyclic loading test. *Powder Technology*, 345, 1-14. [DOI](https://doi.org/10.1016/j.powtec.2018.12.072) | [PDF](pathname:///pdf/coauthored/xia2019-discrete-element-modeling-of-deformable-pinewood-chips-in-cyclic.pdf)
 
-3. **Lai, Z.** & Chen, Q. (2019). Reconstructing granular particles from X-ray computed tomography using the TWS machine learning tool and the level set method. *Acta Geotechnica*, 14(1), 1--18. [DOI](https://doi.org/10.1007/s11440-018-0759-x) | [PDF](pathname:///pdf/first-or-correspondence/lai2019-reconstructing-granular-particles-from-x-ray-computed-tomography.pdf)
+3. **Lai, Z.** & Chen, Q. (2019). Reconstructing granular particles from X-ray computed tomography using the TWS machine learning tool and the level set method. *Acta Geotechnica*, 14(1), 1-18. [DOI](https://doi.org/10.1007/s11440-018-0759-x) | [PDF](pathname:///pdf/first-or-correspondence/lai2019-reconstructing-granular-particles-from-x-ray-computed-tomography.pdf)
 
-4. **Lai, Z.**, Chen, Q., Wang, C., & Zhou, X. (2019). Modeling dynamic responses of heterogeneous seabed with embedded pipeline through multiresolution random field and coupled hydromechanical simulations. *Ocean Engineering*, 173, 556--570. [DOI](https://doi.org/10.1016/j.oceaneng.2019.01.015) | [PDF](pathname:///pdf/first-or-correspondence/lai2019-modeling-dynamic-responses-of-heterogeneous-seabed-with-embedded.pdf)
+4. **Lai, Z.**, Chen, Q., Wang, C., & Zhou, X. (2019). Modeling dynamic responses of heterogeneous seabed with embedded pipeline through multiresolution random field and coupled hydromechanical simulations. *Ocean Engineering*, 173, 556-570. [DOI](https://doi.org/10.1016/j.oceaneng.2019.01.015) | [PDF](pathname:///pdf/first-or-correspondence/lai2019-modeling-dynamic-responses-of-heterogeneous-seabed-with-embedded.pdf)
 
 ### 2017
 
 1. **Lai, Z.** & Chen, Q. (2017). Characterization and discrete element simulation of grading and shape-dependent behavior of JSC-1A Martian regolith simulant. *Granular Matter*, 19(4), 69. [DOI](https://doi.org/10.1007/s10035-017-0754-1) | [PDF](pathname:///pdf/first-or-correspondence/lai2017-characterization-and-discrete-element-simulation-of-grading-and.pdf)
 
-2. **Lai, Z.** & Chen, Q. (2017). Particle swarm optimization for numerical bifurcation analysis in computational inelasticity. *International Journal for Numerical and Analytical Methods in Geomechanics*, 41(3), 442--468. [DOI](https://doi.org/10.1002/nag.2657) | [PDF](pathname:///pdf/first-or-correspondence/lai2017-particle-swarm-optimization-for-numerical-bifurcation-analysis.pdf)
+2. **Lai, Z.** & Chen, Q. (2017). Particle swarm optimization for numerical bifurcation analysis in computational inelasticity. *International Journal for Numerical and Analytical Methods in Geomechanics*, 41(3), 442-468. [DOI](https://doi.org/10.1002/nag.2657) | [PDF](pathname:///pdf/first-or-correspondence/lai2017-particle-swarm-optimization-for-numerical-bifurcation-analysis.pdf)
 
 ### 2016
 
-1. Mota, A., Chen, Q., Foulk, J.W., Ostien, J.T., & **Lai, Z.** (2016). A Cartesian parametrization for the numerical analysis of material instability. *International Journal for Numerical Methods in Engineering*, 108(2), 156--180. [DOI](https://doi.org/10.1002/nme.5228) | [PDF](pathname:///pdf/coauthored/mota2016-a-cartesian-parametrization-for-the-numerical-analysis-of.pdf)
+1. Mota, A., Chen, Q., Foulk, J.W., Ostien, J.T., & **Lai, Z.** (2016). A Cartesian parametrization for the numerical analysis of material instability. *International Journal for Numerical Methods in Engineering*, 108(2), 156-180. [DOI](https://doi.org/10.1002/nme.5228) | [PDF](pathname:///pdf/coauthored/mota2016-a-cartesian-parametrization-for-the-numerical-analysis-of.pdf)
