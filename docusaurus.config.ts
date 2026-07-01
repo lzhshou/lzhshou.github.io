@@ -153,12 +153,6 @@ const config: Config = {
           type: 'localeDropdown',
           position: 'right',
         },
-        {
-          href: 'https://github.com/apaam',
-          position: 'right',
-          className: 'header-github-link',
-          'aria-label': 'GitHub',
-        },
       ],
     },
     footer: {

@@ -13,6 +13,12 @@
   "homepage.affiliation": {
     "message": "School of Civil Engineering, Sun Yat-sen University"
   },
+  "homepage.cta.research": {
+    "message": "Research Details"
+  },
+  "homepage.cta.about": {
+    "message": "About Us"
+  },
   "homepage.intro": {
     "message": "The APAAM Group is dedicated to computational geomechanics and multiscale numerical simulation, developing advanced computational methods and software tools for numerical modeling, uncertainty quantification, and data-driven computation of complex multiphysical processes."
   },

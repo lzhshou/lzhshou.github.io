@@ -38,6 +38,14 @@ export default function Home(): ReactNode {
                   中山大学 土木工程学院
                 </Translate>
               </p>
+              <div className={styles.heroActions}>
+                <Link className={styles.btnPrimary} to="/docs/research">
+                  <Translate id="homepage.cta.research">研究详情</Translate>
+                </Link>
+                <Link className={styles.btnGhost} to="/docs/about">
+                  <Translate id="homepage.cta.about">关于我们</Translate>
+                </Link>
+              </div>
             </div>
           </div>
         </header>

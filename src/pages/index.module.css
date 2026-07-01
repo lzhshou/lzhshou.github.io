@@ -1,15 +1,19 @@
-/* Phynexis landing — light editorial layout, teal accent (aligned with site theme) */
+/* Nido-style landing — light, contained, rounded cards */
 
 :root {
-  --landing-bg: #f0f0f2;
-  --landing-bg-alt: #f5f5f7;
+  --landing-bg: #ffffff;
+  --landing-panel: #f5f5f7;
   --landing-text: #1d1d1f;
   --landing-muted: #6e6e73;
   --landing-faint: #86868b;
   --landing-border: rgba(0, 0, 0, 0.06);
+  --landing-border-strong: rgba(0, 0, 0, 0.1);
   --landing-accent: #0d7377;
   --landing-accent-hover: #108f94;
-  --landing-max: 1080px;
+  --landing-ink: #1d1d1f;
+  --landing-radius-xl: 16px;
+  --landing-radius-lg: 12px;
+  --landing-shadow: 0 8px 24px rgba(0, 0, 0, 0.06);
 }
 
 .main {
@@ -22,15 +26,10 @@
 }
 
 .container {
-  max-width: var(--landing-max);
+  width: 100%;
+  max-width: 100%;
   margin: 0 auto;
-  padding: 0 1.5rem;
-}
-
-@media (min-width: 768px) {
-  .container {
-    padding: 0 2rem;
-  }
+  padding: 0 var(--site-padding-x, 2rem);
 }
 
 .srOnly {
@@ -45,19 +44,27 @@
   border: 0;
 }
 
-/* ----- Hero ----- */
+/* ----- Hero: contained rounded panel ----- */
 
 .hero {
   position: relative;
-  padding: 6.5rem 0 4.5rem;
+  padding: 5rem 2rem;
   text-align: center;
-  overflow: hidden;
+}
+
+.hero .container {
+  padding: 0;
 }
 
 .heroBg {
   position: absolute;
-  inset: 0;
+  top: 0;
+  left: 2rem;
+  right: 2rem;
+  bottom: 0;
   background: url('/img/hero/bg.jpeg') center/cover no-repeat;
+  border-radius: var(--landing-radius-xl);
+  overflow: hidden;
   z-index: 0;
   pointer-events: none;
 }
@@ -93,16 +100,16 @@
 }
 
 .heroTitle {
-  font-size: clamp(1.65rem, 4.2vw, 2.35rem);
+  font-size: clamp(1.85rem, 4.5vw, 2.6rem);
   font-weight: 650;
-  line-height: 1.22;
+  line-height: 1.18;
   color: #fff;
   margin: 0 0 1rem;
   text-shadow: 0 2px 14px rgba(0, 0, 0, 0.45);
 }
 
 .heroLead {
-  font-size: 1.0625rem;
+  font-size: 1.125rem;
   line-height: 1.65;
   color: rgba(255, 255, 255, 0.92);
   margin: 0 0 1rem;
@@ -117,41 +124,99 @@
   text-shadow: 0 1px 10px rgba(0, 0, 0, 0.35);
 }
 
-/* ----- Scope ----- */
+.heroActions {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 0.75rem;
+  margin-top: 1.75rem;
+}
 
-.scope {
-  padding: 3rem 0 3.25rem;
-  background: var(--landing-bg-alt);
-  border-bottom: 1px solid var(--landing-border);
+.btnPrimary,
+.btnGhost {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 2.75rem;
+  padding: 0 1.5rem;
+  border-radius: 999px;
+  font-size: 0.9375rem;
+  font-weight: 600;
+  text-decoration: none;
+  transition: all 0.2s ease;
+}
+
+.btnPrimary {
+  background: #1d1d1f;
+  color: #fff;
+  border: 1px solid #1d1d1f;
+}
+
+.btnPrimary:hover {
+  background: #000;
+  color: #fff;
+  text-decoration: none;
+  transform: translateY(-1px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.12);
+}
+
+.btnGhost {
+  background: rgba(255, 255, 255, 0.12);
+  color: #fff;
+  border: 1px solid rgba(255, 255, 255, 0.35);
+  backdrop-filter: blur(8px);
+}
+
+.btnGhost:hover {
+  background: rgba(255, 255, 255, 0.22);
+  color: #fff;
+  text-decoration: none;
+  transform: translateY(-1px);
+}
+
+/* ----- Sections ----- */
+
+.scope,
+.pillars,
+.paths,
+.outro {
+  padding: 4rem 0;
+  background: var(--landing-bg);
+}
+
+.scope,
+.paths,
+.outro {
+  position: relative;
+}
+
+.scope::before,
+.paths::before,
+.outro::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 2rem;
+  right: 2rem;
+  border-top: 1px solid var(--landing-border);
+  pointer-events: none;
 }
 
 .sectionTitle {
-  font-size: 1.35rem;
+  font-size: 1.45rem;
   font-weight: 650;
   text-align: center;
-  margin: 0 0 1rem;
+  margin: 0 0 0.75rem;
   color: var(--landing-text);
 }
 
 .sectionLead {
-  max-width: 38rem;
-  margin: 0 auto;
+  max-width: 42rem;
+  margin: 0 auto 0.5rem;
   text-align: center;
   font-size: 1.0625rem;
   line-height: 1.75;
   color: var(--landing-muted);
-}
-
-.scopeEm {
-  color: var(--landing-text);
-  font-weight: 600;
-}
-
-/* ----- Pillars ----- */
-
-.pillars {
-  padding: 3.75rem 0 4rem;
-  background: var(--landing-bg);
 }
 
 .sectionSubtitle {
@@ -164,12 +229,19 @@
   margin-right: auto;
 }
 
+.scopeEm {
+  color: var(--landing-text);
+  font-weight: 600;
+}
+
+/* ----- Pillars (cards) ----- */
+
 .pillarGrid {
   list-style: none;
-  margin: 0;
+  margin: 2rem 0 0;
   padding: 0;
   display: grid;
-  gap: 1rem;
+  gap: 1.25rem;
   grid-template-columns: 1fr;
 }
 
@@ -192,10 +264,11 @@
   padding: 0;
   overflow: hidden;
   border: 1px solid var(--landing-border);
-  border-radius: 14px;
-  background: rgba(255, 255, 255, 0.35);
+  border-radius: var(--landing-radius-lg);
+  background: var(--landing-panel);
   text-decoration: none;
   color: inherit;
+  box-shadow: var(--landing-shadow);
   transition:
     border-color 0.2s ease,
     box-shadow 0.2s ease,
@@ -203,10 +276,10 @@
 }
 
 .pillarCard:hover {
-  border-color: rgba(13, 115, 119, 0.28);
-  box-shadow: 0 8px 28px rgba(0, 0, 0, 0.06);
-  transform: translateY(-2px);
   text-decoration: none;
+  border-color: rgba(13, 115, 119, 0.28);
+  box-shadow: 0 12px 32px rgba(0, 0, 0, 0.08);
+  transform: translateY(-3px);
 }
 
 .pillarImage {
@@ -256,16 +329,11 @@
 
 /* ----- Paths ----- */
 
-.paths {
-  padding: 3.75rem 0 4rem;
-  background: var(--landing-bg-alt);
-  border-top: 1px solid var(--landing-border);
-}
-
 .pathFeatured {
   display: grid;
   gap: 1rem;
   grid-template-columns: 1fr;
+  margin-top: 2rem;
 }
 
 @media (min-width: 720px) {
@@ -286,11 +354,12 @@
   align-items: flex-start;
   gap: 0.35rem;
   padding: 1.35rem 1.25rem;
-  border-radius: 14px;
+  border-radius: var(--landing-radius-lg);
   border: 1px solid var(--landing-border);
-  background: var(--landing-bg);
+  background: var(--landing-panel);
   text-decoration: none;
   color: inherit;
+  box-shadow: var(--landing-shadow);
   transition:
     border-color 0.2s ease,
     box-shadow 0.2s ease,
@@ -300,8 +369,8 @@
 .pathTile:hover {
   text-decoration: none;
   border-color: rgba(13, 115, 119, 0.35);
-  box-shadow: 0 10px 32px rgba(0, 0, 0, 0.07);
-  transform: translateY(-2px);
+  box-shadow: 0 12px 32px rgba(0, 0, 0, 0.08);
+  transform: translateY(-3px);
 }
 
 .pathIconWrap {
@@ -375,25 +444,21 @@
 
 /* ----- Outro ----- */
 
-.outro {
-  padding: 3.25rem 0 4.5rem;
-  background: var(--landing-bg);
-}
-
 .outroCard {
-  max-width: 32rem;
-  margin: 0 auto;
+  max-width: 42rem;
+  margin: 2rem auto 0;
   text-align: center;
-  padding: 2rem 1.5rem;
+  padding: 2.5rem 2rem;
   border: 1px solid var(--landing-border);
-  border-radius: 14px;
-  background: rgba(255, 255, 255, 0.25);
+  border-radius: var(--landing-radius-lg);
+  background: var(--landing-panel);
+  box-shadow: var(--landing-shadow);
 }
 
 .outroTitle {
-  font-size: 1.125rem;
+  font-size: 1.25rem;
   font-weight: 650;
-  margin: 0 0 0.75rem;
+  margin: 0 0 1rem;
 }
 
 .outroText {
@@ -409,9 +474,9 @@
   justify-content: center;
   flex-wrap: wrap;
   gap: 0.35rem;
-  margin: 0 0 1rem;
+  margin: 0 0 0.75rem;
   font-family: 'SF Mono', Monaco, ui-monospace, monospace;
-  font-size: 0.875rem;
+  font-size: 0.9375rem;
 }
 
 .outroMail a {
@@ -442,23 +507,25 @@
 
 [data-theme='dark'] {
   --landing-bg: #0c0c0e;
-  --landing-bg-alt: #141416;
+  --landing-panel: #161618;
   --landing-text: #f5f5f7;
   --landing-muted: #a1a1a6;
   --landing-faint: #86868b;
   --landing-border: rgba(255, 255, 255, 0.09);
+  --landing-border-strong: rgba(255, 255, 255, 0.12);
   --landing-accent: #14a3a8;
   --landing-accent-hover: #2db8bd;
+  --landing-shadow: 0 8px 24px rgba(0, 0, 0, 0.3);
 }
 
-[data-theme='dark'] .pillarCard {
-  background: rgba(255, 255, 255, 0.03);
+[data-theme='dark'] .scope::before,
+[data-theme='dark'] .paths::before,
+[data-theme='dark'] .outro::before {
+  border-top-color: transparent;
 }
 
-[data-theme='dark'] .pathTile {
-  background: var(--landing-bg);
-}
-
+[data-theme='dark'] .pillarCard,
+[data-theme='dark'] .pathTile,
 [data-theme='dark'] .outroCard {
-  background: rgba(255, 255, 255, 0.03);
+  background: var(--landing-panel);
 }
