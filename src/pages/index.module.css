@@ -48,6 +48,7 @@
 
 .hero {
   position: relative;
+  margin-top: 1rem;
   padding: 5rem 2rem;
   text-align: center;
 }
@@ -177,7 +178,6 @@
 /* ----- Sections ----- */
 
 .scope,
-.pillars,
 .paths,
 .outro {
   padding: 4rem 0;
@@ -190,7 +190,6 @@
   position: relative;
 }
 
-.scope::before,
 .paths::before,
 .outro::before {
   content: '';

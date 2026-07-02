@@ -975,6 +975,11 @@ html {
   z-index: 302;
 }
 
+/* Blog archive hero spacing */
+.plugin-blog .hero--primary {
+  margin-top: 1rem;
+}
+
 /* Ensure color mode toggle is always clickable */
 .colorModeToggle_DEke,
 [class*="colorModeToggle"] {
