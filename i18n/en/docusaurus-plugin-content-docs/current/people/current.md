@@ -12,13 +12,13 @@ sidebar_position: 2
   - M.S.: Sun Yat-sen University
   - Research: (To be added)
 
-- **Chenghao Li** (2022–Present, co-advised)
-  - M.S.: Sun Yat-sen University
-  - Research: (To be added)
-
 ---
 
 ## Master's Students
+
+- **Saierjide** (2026–Present)
+  - B.S.: (To be added)
+  - Research: (To be added)
 
 - **Mingjing Liu** (2025–Present)
   - B.S.: Sun Yat-sen University

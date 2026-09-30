@@ -16,7 +16,7 @@ Applied to numerical modeling, uncertainty quantification, and data-driven compu
 
 ## Recruitment and Collaboration
 
-We are actively recruiting Master's students in Geotechnical Engineering and Engineering Mechanics, and welcome PhD students or visiting scholars for joint research. Research topics include FEM/DEM/MPM numerical methods, multiscale simulation, and machine learning applications in geotechnical engineering.
+We are actively recruiting Ph.D. and Master's students in Geotechnical Engineering and Engineering Mechanics. Research topics include FEM/DEM/MPM numerical methods, multiscale simulation, and machine learning applications in geotechnical engineering.
 
 - Students with interest in computational mechanics, programming, or numerical simulation are preferred
 - Undergraduate students are also welcome to contact us for research training or thesis projects

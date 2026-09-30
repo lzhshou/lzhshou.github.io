@@ -12,6 +12,10 @@ Thank you for the work and dedication each of you contributed during your time w
 
 ### Ph.D. Graduates
 
+- **Chenghao Li** (2026, co-advised)
+  - Thesis: Fluid-Solid Coupling Methods Accounting for Real Particle Morphology and Their Application to Filter-Cake Formation Simulation of Shield Slurry
+  - Current position: (To be added)
+
 - **Shuai Huang** (2023, co-advised)
   - Thesis: Discrete Element Methods for Coral Sand Considering Real Particle Morphology
   - Current position: Postdoctoral researcher, the Hong Kong Polytechnic University
