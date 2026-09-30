@@ -22,15 +22,15 @@ sidebar_position: 2
 
 - **Mingjing Liu** (2025–Present)
   - B.S.: Sun Yat-sen University
-  - Research: (To be added)
+  - Research: Numerical methods for gas–liquid–solid three-phase flows
 
 - **Kexiao Lin** (2024–Present)
   - B.S.: Guangdong University of Technology
-  - Research: (To be added)
+  - Research: Intelligent identification and early warning of slippery pavement conditions
 
 - **Ye Liu** (2024–Present, co-advised)
   - B.S.: South China Agricultural University
-  - Research: (To be added)
+  - Research: Applications of large models in tunnel engineering
 
 ---
 

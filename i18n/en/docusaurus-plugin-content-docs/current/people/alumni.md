@@ -14,11 +14,11 @@ Thank you for the work and dedication each of you contributed during your time w
 
 - **Chenghao Li** (2026, co-advised)
   - Thesis: Fluid-Solid Coupling Methods Accounting for Real Particle Morphology and Their Application to Filter-Cake Formation Simulation of Shield Slurry
-  - Current position: Laboratory Technician at the College's National Key Laboratory
+  - Current position: Laboratory Technician, State Key Laboratory of Tunnel Engineering
 
 - **Shuai Huang** (2023, co-advised)
   - Thesis: Discrete Element Methods for Coral Sand Considering Real Particle Morphology
-  - Current position: Postdoctoral researcher, the Hong Kong Polytechnic University
+  - Current position: Associate Researcher, State Key Laboratory of Tunnel Engineering (formerly Postdoctoral Fellow at the Hong Kong Polytechnic University)
 
 ### Master's Graduates
 
@@ -28,7 +28,7 @@ Thank you for the work and dedication each of you contributed during your time w
 
 - **Ziqi Guo** (2026, co-advised)
   - Thesis: Research on the Dynamic Characteristics and an Elastoplastic Constitutive Model of Marine-Continental Transitional Soft Clay in the Pearl River Delta under Cyclic Loading
-  - Current position: (To be added)
+  - Current position: Selected Graduate (xuandiaosheng) in the civil service
 
 - **Beiye Liang** (2020, co-advised)
   - Thesis: Experimental Study on Microbial Cementation of Calcareous Sand in Artificial Seawater Environment on South China Sea Islands
@@ -36,7 +36,7 @@ Thank you for the work and dedication each of you contributed during your time w
 
 - **Feng Wu** (2020, co-advised)
   - Thesis: Experimental and DEM Study on Particle Breakage of Island Reef Coral Sand Considering Real Microstructure
-  - Current position: (To be added)
+  - Current position: CAE software company
 
 - **Shuai Huang** (2019, co-advised)
   - Thesis: Energy-based Slope Stability Analysis Considering Spatially Variable Soils and Its Application on High Slopes at Metro Vehicle Depot Vicinity
@@ -44,7 +44,7 @@ Thank you for the work and dedication each of you contributed during your time w
 
 - **Wen Ye** (2019, co-advised)
   - Thesis: Effect of Particle Shape and Size on Granular Materials
-  - Current position: (To be added)
+  - Current position: China Railway Sixth Survey and Design Institute (CR6)
 
 ---
 
