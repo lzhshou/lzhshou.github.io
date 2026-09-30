@@ -17,8 +17,8 @@ sidebar_position: 2
 ## Master's Students
 
 - **Saierjide** (2026–Present)
-  - B.S.: (To be added)
-  - Research: (To be added)
+  - B.S.: Sun Yat-sen University
+  - Research: Marine Geotechnical Engineering
 
 - **Mingjing Liu** (2025–Present)
   - B.S.: Sun Yat-sen University
