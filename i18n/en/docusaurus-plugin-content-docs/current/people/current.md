@@ -10,7 +10,7 @@ sidebar_position: 2
 
 - **Jianying Chen** (2024–Present, co-advised)
   - M.S.: Sun Yat-sen University
-  - Research: (To be added)
+  - Research: Experimental and numerical simulation of marine pile foundation scour
 
 ---
 
