@@ -24,7 +24,6 @@ Thank you for the work and dedication each of you contributed during your time w
 
 - **Haoyong Ye** (2026)
   - Thesis: Study on the Mesoscopic Mechanism of Gravel-Pack Sand Control Based on CFD-DEM
-  - Current position: (To be added)
 
 - **Ziqi Guo** (2026, co-advised)
   - Thesis: Research on the Dynamic Characteristics and an Elastoplastic Constitutive Model of Marine-Continental Transitional Soft Clay in the Pearl River Delta under Cyclic Loading
@@ -60,7 +59,6 @@ Thank you for the work and dedication each of you contributed during your time w
 
 - **Zhenyuan Li** (2022)
   - Thesis: Simulation and Verification of Granular Mechanical Behavior and Angle of Repose Tests
-  - Current position: (To be added)
 
 - **Xiaojian Chen** (2021)
   - Thesis: Study on Particle Morphology and Mechanical Characterization of Coral Sand in the South China Sea
@@ -68,19 +66,15 @@ Thank you for the work and dedication each of you contributed during your time w
 
 - **Huiran Zhang** (2021)
   - Thesis: Research on Bio-cementation Technology of Coral Sand in the South China Sea Based on Marine Environment
-  - Current position: (To be added)
 
 - **Zhanxiang Pan** (2020)
   - Thesis: Reliability Analysis of Slope Engineering Based on Geotechnical Parameter Random Fields
-  - Current position: (To be added)
 
 - **Yujia Zhang** (2020)
   - Thesis: Stability Analysis of Submarine Slopes in the South China Sea Considering Wave Dynamic Loading
-  - Current position: (To be added)
 
 - **Minghui Ke** (2019)
   - Thesis: Study on the Effect of Particle Size on Strength and Deformation Characteristics of Sandy Soil
-  - Current position: (To be added)
 
 ---
 

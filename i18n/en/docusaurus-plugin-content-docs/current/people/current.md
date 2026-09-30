@@ -37,7 +37,6 @@ sidebar_position: 2
 ## Undergraduate Students
 
 - **Yuzhou Lu** (Class of 2023)
-  - Thesis topic: (To be added)
 
 ---
 
