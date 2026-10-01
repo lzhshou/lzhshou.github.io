@@ -25,6 +25,6 @@
 
 ---
 
-### [离散介质数值方法](./discrete-numerical-methods)
+### [离散介质计算方法](./discrete-media-methods)
 
 离散元方法（DEM）、颗粒材料力学、多相耦合算法。

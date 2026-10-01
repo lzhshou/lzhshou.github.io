@@ -22,6 +22,6 @@ Nonlinear finite elements, multiscale modeling, high-performance computing, and 
 
 ---
 
-### [Discrete Numerical Methods](./discrete-numerical-methods)
+### [Computational Methods for Discrete Media](./discrete-media-methods)
 
 Discrete Element Method (DEM), granular material mechanics, and multiphase coupling algorithms.

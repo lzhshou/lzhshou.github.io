@@ -10,7 +10,7 @@
 - [工程制图与CAD](./courses/engineering-drawing)
 - [线性代数](./courses/linear-algebra)
 - [高等计算力学](./courses/advanced-computational-mechanics)
-- [离散介质数值方法](./courses/discrete-numerical-methods)
+- [离散介质计算方法](./courses/discrete-media-methods)
 
 ## 大创项目
 

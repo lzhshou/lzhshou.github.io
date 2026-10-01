@@ -38,7 +38,7 @@ const sidebars: SidebarsConfig = {
         'teaching/courses/engineering-drawing',
         'teaching/courses/linear-algebra',
         'teaching/courses/advanced-computational-mechanics',
-        'teaching/courses/discrete-numerical-methods',
+        'teaching/courses/discrete-media-methods',
       ],
     },
     {

@@ -5,7 +5,7 @@
 - [Engineering Drawing & CAD](./courses/engineering-drawing)
 - [Linear Algebra](./courses/linear-algebra)
 - [Advanced Computational Mechanics](./courses/advanced-computational-mechanics)
-- [Discrete Numerical Methods](./courses/discrete-numerical-methods)
+- [Computational Methods for Discrete Media](./courses/discrete-media-methods)
 
 ## Innovation Projects
 
