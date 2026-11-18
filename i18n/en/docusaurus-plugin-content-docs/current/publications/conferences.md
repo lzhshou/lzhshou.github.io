@@ -6,6 +6,22 @@ sidebar_position: 2
 
 ## Presentations
 
+### 2026
+
+1. **Lai, Z.** (2026). Neural network-driven shape representation and computational particle mechanics via signed distance fields. UKACM 2026, Liverpool, UK.
+
+2. **Lai, Z.** (2026). Embedded Finite Element SDF-DEM Simulation of Deformable Particles. 8th National Conference on Computational Mechanics of Granular Materials, Beijing, China.
+
+3. **Lai, Z.** (2026). Computational Particle Mechanics via Neural Networks and Signed Distance Fields. AI-Rock 2026 (2nd Conference on Artificial Intelligence in Rock Mechanics and Engineering), Wuhan, China.
+
+4. **Lai, Z.** (2026). Hybrid Resolved CFD-DEM Considering Irregular Particle Morphology and Environmental Geotechnical Applications. 8th Young Scholars Forum on Environmental Geomechanics and Engineering, Taiyuan, China.
+
+5. **Lai, Z.** (2026). Diffusion Model-Based Generation of Virtual Porous Granular Media. 9th Island-Reef Geotechnical Engineering Symposium, Xiamen, China.
+
+6. **Lai, Z.** (2026). Advances in DEM for Irregularly Shaped Particles and Software Development. Science Popularization Forum of the Rock Mechanics Society, Sun Yat-sen University, Guangzhou, China. [Public Lecture]
+
+7. **Lai, Z.** (2026). Geotechnical Constitutive and Numerical Forum. Sun Yat-sen University, Guangzhou, China. [Academic Exchange]
+
 ### 2025
 
 1. **Lai, Z.** (2025). Design and Development of DEM Software for Engineering Applications. 1st National Conference on Particle Computing, Lanzhou, China. [Invited]
@@ -15,6 +31,8 @@ sidebar_position: 2
 3. **Lai, Z.** (2025). Geotechnical Constitutive Modeling and Numerical Methods. Geotechnical Constitutive and Numerical Forum, Guangzhou, China.
 
 4. **Lai, Z.** (2025). Deformable Solid Mechanics Analysis Framework. Xiong'an Rock Mechanics Conference, Xiong'an, China.
+
+Also served as a session chair at IACMAG 2025 (Hong Kong).
 
 ### 2024
 

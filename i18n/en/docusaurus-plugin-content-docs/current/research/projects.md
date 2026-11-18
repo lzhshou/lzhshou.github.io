@@ -19,6 +19,19 @@
   - Multiscale analysis of offshore wind foundation-seabed coupling systems
   - Disaster mechanisms under extreme environmental loads
 
+### Guangdong-Hong Kong Joint Innovation Funding Scheme
+- **Project Title**: Damage Evolution and Failure Prediction of Submarine Cables under Coupled Marine Dynamic and Geological Loading
+- **Period**: 2026 — Present
+- **Role**: Lead Institution (Mainland)
+
+### Open Research Fund of the State Key Laboratory of Mountain Civil Engineering Safety and Resilience
+- **Project Title**: Peridynamics-DEM Coupled Simulation of Dynamic Fracturing in Mountain Rock Masses and Disaster Response Mechanisms
+- **Period**: 2026.01 — 2027.12
+- **Role**: Principal Investigator (PI)
+- **Research Contents**:
+  - High-fidelity peridynamics-discrete element (PD-DEM) coupled simulation
+  - Crack evolution and disaster response of jointed rock masses under strong dynamic loading
+
 ---
 
 ## Completed Projects
