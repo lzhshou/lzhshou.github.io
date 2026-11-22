@@ -6,8 +6,10 @@
   --landing-text: #1d1d1f;
   --landing-muted: #6e6e73;
   --landing-faint: #86868b;
-  --landing-border: rgba(0, 0, 0, 0.06);
-  --landing-border-strong: rgba(0, 0, 0, 0.1);
+  --landing-border: rgba(0, 0, 0, 0.04);
+  --landing-border-strong: rgba(0, 0, 0, 0.08);
+  --landing-border-card: rgba(0, 0, 0, 0.06);
+  --landing-border-card-hover: rgba(13, 115, 119, 0.22);
   --landing-accent: #0d7377;
   --landing-accent-hover: #108f94;
   --landing-ink: #1d1d1f;
@@ -262,23 +264,20 @@
   margin: 0;
   padding: 0;
   overflow: hidden;
-  border: 1px solid var(--landing-border);
+  border: 1px solid var(--landing-border-card);
   border-radius: var(--landing-radius-lg);
   background: var(--landing-panel);
   text-decoration: none;
   color: inherit;
-  box-shadow: var(--landing-shadow);
   transition:
     border-color 0.2s ease,
-    box-shadow 0.2s ease,
-    transform 0.2s ease;
+    background-color 0.2s ease;
 }
 
 .pillarCard:hover {
   text-decoration: none;
-  border-color: rgba(13, 115, 119, 0.28);
-  box-shadow: 0 12px 32px rgba(0, 0, 0, 0.08);
-  transform: translateY(-3px);
+  border-color: var(--landing-border-card-hover);
+  background: var(--landing-bg);
 }
 
 .pillarImage {
@@ -354,22 +353,19 @@
   gap: 0.35rem;
   padding: 1.35rem 1.25rem;
   border-radius: var(--landing-radius-lg);
-  border: 1px solid var(--landing-border);
+  border: 1px solid var(--landing-border-card);
   background: var(--landing-panel);
   text-decoration: none;
   color: inherit;
-  box-shadow: var(--landing-shadow);
   transition:
     border-color 0.2s ease,
-    box-shadow 0.2s ease,
-    transform 0.2s ease;
+    background-color 0.2s ease;
 }
 
 .pathTile:hover {
   text-decoration: none;
-  border-color: rgba(13, 115, 119, 0.35);
-  box-shadow: 0 12px 32px rgba(0, 0, 0, 0.08);
-  transform: translateY(-3px);
+  border-color: var(--landing-border-card-hover);
+  background: var(--landing-bg);
 }
 
 .pathIconWrap {
@@ -448,10 +444,9 @@
   margin: 2rem auto 0;
   text-align: center;
   padding: 2.5rem 2rem;
-  border: 1px solid var(--landing-border);
+  border: 1px solid var(--landing-border-card);
   border-radius: var(--landing-radius-lg);
   background: var(--landing-panel);
-  box-shadow: var(--landing-shadow);
 }
 
 .outroTitle {
